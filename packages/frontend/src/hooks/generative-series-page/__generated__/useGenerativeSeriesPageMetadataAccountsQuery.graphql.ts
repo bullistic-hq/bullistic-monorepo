@@ -1,5 +1,5 @@
 /**
- * @generated SignedSource<<09cefd1ee48fc82680281dff9e5c908a>>
+ * @generated SignedSource<<4acd634686980d200547d7498fe4a48d>>
  * @lightSyntaxTransform
  * @nogrep
  */
@@ -46,7 +46,7 @@ export type useGenerativeSeriesPageMetadataAccountsQuery$variables = {
   input: MetadataAccountsForExploreInput;
 };
 export type useGenerativeSeriesPageMetadataAccountsQuery$data = {
-  readonly " $fragmentSpreads": FragmentRefs<"CampaignTooniesSwapContent_Query" | "GenerativeSeriesPageContent_Query">;
+  readonly " $fragmentSpreads": FragmentRefs<"GenerativeSeriesPageContent_Query">;
 };
 export type useGenerativeSeriesPageMetadataAccountsQuery = {
   response: useGenerativeSeriesPageMetadataAccountsQuery$data;
@@ -176,9 +176,6 @@ v7 = [
     ],
     "storageKey": null
   }
-],
-v8 = [
-  "input"
 ];
 return {
   "fragment": {
@@ -191,11 +188,6 @@ return {
         "args": null,
         "kind": "FragmentSpread",
         "name": "GenerativeSeriesPageContent_Query"
-      },
-      {
-        "args": null,
-        "kind": "FragmentSpread",
-        "name": "CampaignTooniesSwapContent_Query"
       }
     ],
     "type": "query_root",
@@ -605,18 +597,11 @@ return {
           {
             "alias": null,
             "args": (v1/*: any*/),
-            "filters": (v8/*: any*/),
+            "filters": [
+              "input"
+            ],
             "handle": "connection",
             "key": "GenerativeSeriesPageContent_Query_metadataAccounts",
-            "kind": "LinkedHandle",
-            "name": "metadataAccounts"
-          },
-          {
-            "alias": null,
-            "args": (v1/*: any*/),
-            "filters": (v8/*: any*/),
-            "handle": "connection",
-            "key": "CampaignTooniesSwapContent_Query_metadataAccounts",
             "kind": "LinkedHandle",
             "name": "metadataAccounts"
           }
@@ -626,16 +611,16 @@ return {
     ]
   },
   "params": {
-    "cacheID": "e8c68646e5514e27730c9d57e7b85f6f",
+    "cacheID": "2667d1bb5ca203021250b51cde09b769",
     "id": null,
     "metadata": {},
     "name": "useGenerativeSeriesPageMetadataAccountsQuery",
     "operationKind": "query",
-    "text": "query useGenerativeSeriesPageMetadataAccountsQuery(\n  $after: String\n  $first: Int!\n  $input: MetadataAccountsForExploreInput!\n) {\n  ...GenerativeSeriesPageContent_Query\n  ...CampaignTooniesSwapContent_Query\n}\n\nfragment ArtistPillButtonForUserExpress_UserExpress on UserExpress {\n  username\n  ProfilePhoto {\n    photoUrl\n    id\n  }\n}\n\nfragment CampaignTooniesSwapContent_MetadataAccount on MetadataAccount {\n  mint\n  nft {\n    Owner {\n      id\n    }\n    id\n  }\n  ...ListingCardForMetadata_MetadataAccount\n}\n\nfragment CampaignTooniesSwapContent_Query on query_root {\n  metadataAccountsForExplore {\n    metadataAccounts(after: $after, first: $first, input: $input) {\n      edges {\n        node {\n          ...CampaignTooniesSwapContent_MetadataAccount\n          id\n          __typename\n        }\n        cursor\n      }\n      pageInfo {\n        endCursor\n        hasNextPage\n      }\n    }\n  }\n}\n\nfragment GenerativeSeriesPageContent_Query on query_root {\n  metadataAccountsForExplore {\n    metadataAccounts(after: $after, first: $first, input: $input) {\n      edges {\n        node {\n          id\n          ...ListingCardForMetadata_MetadataAccount\n          __typename\n        }\n        cursor\n      }\n      pageInfo {\n        endCursor\n        hasNextPage\n      }\n    }\n  }\n}\n\nfragment ListingCardForMetadata_MetadataAccount on MetadataAccount {\n  assetHeight\n  assetWidth\n  contentType\n  primarySaleHappened\n  videoPlaybackId\n  videoPreviewPlaybackId\n  data {\n    name\n    creators {\n      address\n      share\n      status\n      user {\n        ProfilePhoto {\n          photoUrl\n          id\n        }\n        id\n      }\n    }\n  }\n  offchainData {\n    listingCardImage: image\n  }\n  nft {\n    creatorId\n    isImported\n    status\n    Creator {\n      ...ArtistPillButtonForUserExpress_UserExpress\n      id\n    }\n    ...useDoesNftHaveDisclosure_NftExpress\n    id\n  }\n  ...useNftLinkForMetadataAccount_MetadataAccount\n  ...useNftKind_MetadataAccount\n  ...ListingCardNftKindPill_MetadataAccount\n  ...NftPageContext_MetadataAccount\n  ...NftOtherInfo_MetadataAccount\n}\n\nfragment ListingCardNftKindPill_MetadataAccount on MetadataAccount {\n  nft {\n    edition\n    status\n    id\n  }\n  ...useEditionSupply_MetadataAccount\n  ...useNftKind_MetadataAccount\n}\n\nfragment NftOtherInfo_MetadataAccount on MetadataAccount {\n  nft {\n    auctionEndTime\n    isOffPlatform\n    maxSupply\n    numberOfStandardEditionsMinted\n    priceV2 {\n      ...PriceWithSymbol_Price\n    }\n    priceLastSoldV2 {\n      ...PriceWithSymbol_Price\n    }\n    scheduledAuctionTime\n    status\n    id\n  }\n  numberOfBidsForCurrentAuction\n}\n\nfragment NftPageContext_MetadataAccount on MetadataAccount {\n  nft {\n    auctionEndTime\n    auctionHoldingPeriodEndTime\n    id\n  }\n}\n\nfragment PriceWithSymbolText_Price on Price {\n  ...useFormattedNftPrice_Price\n  ...useNftPriceSymbol_Price\n}\n\nfragment PriceWithSymbol_Price on Price {\n  ...PriceWithSymbolText_Price\n}\n\nfragment useDoesNftHaveDisclosure_NftExpress on NftExpress {\n  disclosures {\n    type\n  }\n}\n\nfragment useEditionSupply_MetadataAccount on MetadataAccount {\n  nft {\n    maxSupply\n    maxSupplyOfMasterEdition\n    numberOfStandardEditionsMinted\n    id\n  }\n  ...useNftKind_MetadataAccount\n}\n\nfragment useFormattedNftPrice_Price on Price {\n  amount\n  currencyInfo {\n    decimals\n    id\n  }\n}\n\nfragment useNftKind_MetadataAccount on MetadataAccount {\n  nft {\n    isMasterEdition\n    isPnft\n    maxSupplyOnchain\n    maxSupplyOfMasterEdition\n    CandyMachine {\n      __typename\n      id\n    }\n    id\n  }\n}\n\nfragment useNftLinkForMetadataAccount_MetadataAccount on MetadataAccount {\n  assetHeight\n  assetWidth\n  mint\n  nft {\n    masterEditionMint\n    Creator {\n      username\n      id\n    }\n    Owner {\n      username\n      id\n    }\n    id\n  }\n}\n\nfragment useNftPriceSymbol_Price on Price {\n  currencyInfo {\n    symbol\n    shortSymbol\n    id\n  }\n}\n"
+    "text": "query useGenerativeSeriesPageMetadataAccountsQuery(\n  $after: String\n  $first: Int!\n  $input: MetadataAccountsForExploreInput!\n) {\n  ...GenerativeSeriesPageContent_Query\n}\n\nfragment ArtistPillButtonForUserExpress_UserExpress on UserExpress {\n  username\n  ProfilePhoto {\n    photoUrl\n    id\n  }\n}\n\nfragment GenerativeSeriesPageContent_Query on query_root {\n  metadataAccountsForExplore {\n    metadataAccounts(after: $after, first: $first, input: $input) {\n      edges {\n        node {\n          id\n          ...ListingCardForMetadata_MetadataAccount\n          __typename\n        }\n        cursor\n      }\n      pageInfo {\n        endCursor\n        hasNextPage\n      }\n    }\n  }\n}\n\nfragment ListingCardForMetadata_MetadataAccount on MetadataAccount {\n  assetHeight\n  assetWidth\n  contentType\n  primarySaleHappened\n  videoPlaybackId\n  videoPreviewPlaybackId\n  data {\n    name\n    creators {\n      address\n      share\n      status\n      user {\n        ProfilePhoto {\n          photoUrl\n          id\n        }\n        id\n      }\n    }\n  }\n  offchainData {\n    listingCardImage: image\n  }\n  nft {\n    creatorId\n    isImported\n    status\n    Creator {\n      ...ArtistPillButtonForUserExpress_UserExpress\n      id\n    }\n    ...useDoesNftHaveDisclosure_NftExpress\n    id\n  }\n  ...useNftLinkForMetadataAccount_MetadataAccount\n  ...useNftKind_MetadataAccount\n  ...ListingCardNftKindPill_MetadataAccount\n  ...NftPageContext_MetadataAccount\n  ...NftOtherInfo_MetadataAccount\n}\n\nfragment ListingCardNftKindPill_MetadataAccount on MetadataAccount {\n  nft {\n    edition\n    status\n    id\n  }\n  ...useEditionSupply_MetadataAccount\n  ...useNftKind_MetadataAccount\n}\n\nfragment NftOtherInfo_MetadataAccount on MetadataAccount {\n  nft {\n    auctionEndTime\n    isOffPlatform\n    maxSupply\n    numberOfStandardEditionsMinted\n    priceV2 {\n      ...PriceWithSymbol_Price\n    }\n    priceLastSoldV2 {\n      ...PriceWithSymbol_Price\n    }\n    scheduledAuctionTime\n    status\n    id\n  }\n  numberOfBidsForCurrentAuction\n}\n\nfragment NftPageContext_MetadataAccount on MetadataAccount {\n  nft {\n    auctionEndTime\n    auctionHoldingPeriodEndTime\n    id\n  }\n}\n\nfragment PriceWithSymbolText_Price on Price {\n  ...useFormattedNftPrice_Price\n  ...useNftPriceSymbol_Price\n}\n\nfragment PriceWithSymbol_Price on Price {\n  ...PriceWithSymbolText_Price\n}\n\nfragment useDoesNftHaveDisclosure_NftExpress on NftExpress {\n  disclosures {\n    type\n  }\n}\n\nfragment useEditionSupply_MetadataAccount on MetadataAccount {\n  nft {\n    maxSupply\n    maxSupplyOfMasterEdition\n    numberOfStandardEditionsMinted\n    id\n  }\n  ...useNftKind_MetadataAccount\n}\n\nfragment useFormattedNftPrice_Price on Price {\n  amount\n  currencyInfo {\n    decimals\n    id\n  }\n}\n\nfragment useNftKind_MetadataAccount on MetadataAccount {\n  nft {\n    isMasterEdition\n    isPnft\n    maxSupplyOnchain\n    maxSupplyOfMasterEdition\n    CandyMachine {\n      __typename\n      id\n    }\n    id\n  }\n}\n\nfragment useNftLinkForMetadataAccount_MetadataAccount on MetadataAccount {\n  assetHeight\n  assetWidth\n  mint\n  nft {\n    masterEditionMint\n    Creator {\n      username\n      id\n    }\n    Owner {\n      username\n      id\n    }\n    id\n  }\n}\n\nfragment useNftPriceSymbol_Price on Price {\n  currencyInfo {\n    symbol\n    shortSymbol\n    id\n  }\n}\n"
   }
 };
 })();
 
-(node as any).hash = "dd20e2d722d45c48606d362328b0a73a";
+(node as any).hash = "9782b97d43d938e7c3855cd0e369064c";
 
 export default node;

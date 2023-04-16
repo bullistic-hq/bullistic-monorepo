@@ -2,10 +2,10 @@ import { createSignMetadataInstruction } from "@metaplex-foundation/mpl-token-me
 import { Connection, PublicKey } from "@solana/web3.js";
 import sendTransactionWithWallet from "utils/solana/misc/sendTransactionWithWallet";
 import commitRawTxMutation from "utils/relay/commitRawTxMutation";
-import CommitRawTxType from "formfn-shared/dist/types/enums/CommitRawTxType";
+import CommitRawTxType from "bullistic-shared/dist/types/enums/CommitRawTxType";
 import AnchorWallet from "types/AnchorWallet";
 import findTokenMetadata from "utils/solana/pdas/findTokenMetadata";
-import ixToTx from "formfn-shared/dist/utils/solana/ix/ixToTx";
+import ixToTx from "bullistic-shared/dist/utils/solana/ix/ixToTx";
 
 export default async function signMetadata(
   connection: Connection,

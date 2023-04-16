@@ -5,7 +5,7 @@ import Body1 from "components/text/Body1";
 import ColorClass from "types/enums/ColorClass";
 import graphql from "babel-plugin-relay/macro";
 import { useFragment, useMutation } from "react-relay";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import ErrorMessageMsg from "types/enums/ErrorMessageMsg";
 import { useState } from "react";
 import ErrorMessage from "components/text/ErrorMessage";

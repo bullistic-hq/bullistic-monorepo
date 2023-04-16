@@ -5,7 +5,7 @@ import logError from "src/utils/analytics/logError";
 import getPrisma from "src/utils/prisma/getPrisma";
 import { NftTransactionTypeExpress_Enum } from "src/__generated__/generated";
 import dayjs from "src/utils/dates/dayjsex";
-import toObject from "formfn-shared/dist/utils/toObject";
+import toObject from "bullistic-shared/dist/utils/toObject";
 import createNotificationForSeller from "src/rest/hasura/notifs/createNotificationForSeller";
 import createNotificationForBuyer from "src/rest/hasura/notifs/createNotificationForBuyer";
 import createNotificationsForBidders from "src/rest/hasura/notifs/createNotificationsForBidders";

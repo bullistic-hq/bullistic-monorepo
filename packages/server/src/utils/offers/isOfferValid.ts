@@ -1,6 +1,6 @@
 import { NftTransaction } from "@prisma/client";
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
-import dayjs from "formfn-shared/dist/utils/dates/dayjsex";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
+import dayjs from "bullistic-shared/dist/utils/dates/dayjsex";
 import { NftTransactionExpress } from "src/__generated__/generated";
 
 export default function isOfferValid(

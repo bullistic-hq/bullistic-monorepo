@@ -14,7 +14,7 @@ import { EditTagsModalMutation } from "components/modal/__generated__/EditTagsMo
 import logIfNotProd from "utils/logIfNotProd";
 import isValidTag from "utils/validation/isValidTag";
 import TAGS_LABEL from "constants/TagsLabel";
-import removeDuplicatesWithSet from "formfn-shared/dist/utils/array/removeDuplicatesWithSet";
+import removeDuplicatesWithSet from "bullistic-shared/dist/utils/array/removeDuplicatesWithSet";
 import notifyUnexpectedError from "components/toast/notifyUnexpectedError";
 
 const mutation = graphql`

@@ -1,8 +1,8 @@
 import styles from "css/posts/PostBody.module.css";
 import ReactMarkdownLazy from "components/markdown/ReactMarkdownLazy";
 import Body1 from "components/text/Body1";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import isEmptyString from "formfn-shared/dist/utils/string/isEmptyString";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import isEmptyString from "bullistic-shared/dist/utils/string/isEmptyString";
 import ColorClass from "types/enums/ColorClass";
 
 type Props = {

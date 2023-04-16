@@ -1,4 +1,4 @@
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { UserExpress } from "src/__generated__/generated";
 import getPrisma from "src/utils/prisma/getPrisma";
 import convertUser from "src/utils/convert/convertUser";

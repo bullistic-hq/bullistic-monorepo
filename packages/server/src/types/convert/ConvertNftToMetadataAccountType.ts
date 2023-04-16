@@ -10,7 +10,7 @@ import {
   Unlockable,
   Video,
 } from "@prisma/client";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import ConvertCandyMachineType from "src/types/convert/ConvertCandyMachineType";
 import ConvertSeriesType from "src/types/convert/ConvertSeriesType";
 import ConvertUnlockableWinnerType from "src/types/convert/ConvertUnlockableWinnerType";

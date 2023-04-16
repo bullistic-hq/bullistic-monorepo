@@ -1,4 +1,4 @@
-import PublicKeyOrString from "formfn-shared/dist/types/PublicKeyOrString";
+import PublicKeyOrString from "bullistic-shared/dist/types/PublicKeyOrString";
 import getMintFromMasterEdition from "src/utils/solana/accounts/getMintFromMasterEdition";
 import AccountLoader from "src/utils/solana/rpc/AccountLoader";
 

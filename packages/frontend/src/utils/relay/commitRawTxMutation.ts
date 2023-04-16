@@ -5,8 +5,8 @@ import {
   commitRawTxMutation as commitRawTxMutationType,
   commitRawTxMutation$data,
 } from "utils/relay/__generated__/commitRawTxMutation.graphql";
-import CommitRawTxType from "formfn-shared/dist/types/enums/CommitRawTxType";
-import jsonStringify from "formfn-shared/dist/utils/jsonStringify";
+import CommitRawTxType from "bullistic-shared/dist/types/enums/CommitRawTxType";
+import jsonStringify from "bullistic-shared/dist/utils/jsonStringify";
 import logError from "utils/analytics/logError";
 import AnalyticsEvent from "types/enums/AnalyticsEvent";
 

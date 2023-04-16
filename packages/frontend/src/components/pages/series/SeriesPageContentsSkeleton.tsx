@@ -12,7 +12,7 @@ import SeriesTabs from "components/pages/series/SeriesTabs";
 import SeriesTabType from "types/enums/SeriesTabType";
 import NftGridFullWidthLoading from "components/grids/nft/NftGridFullWidthLoading";
 import ArtistPillLoadingSkeleton from "components/auction/ArtistPillLoadingSkeleton";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
 import Header1 from "components/text/Header1";
 import ColorValue from "types/enums/ColorValue";
 

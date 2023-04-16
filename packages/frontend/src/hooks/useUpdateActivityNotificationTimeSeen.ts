@@ -9,7 +9,7 @@ import { useMutation } from "react-relay";
 import logError from "utils/analytics/logError";
 import AnalyticsEvent from "types/enums/AnalyticsEvent";
 import { RecordSourceSelectorProxy } from "relay-runtime";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import useViewerId from "hooks/useViewerId";
 
 /**

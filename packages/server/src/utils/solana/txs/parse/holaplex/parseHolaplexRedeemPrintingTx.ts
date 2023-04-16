@@ -5,17 +5,17 @@ import {
   PartiallyDecodedInstruction,
   PublicKey,
 } from "@solana/web3.js";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import {
   NftTransactionSourceExpress_Enum,
   NftTransactionTypeExpress_Enum,
 } from "src/__generated__/generated";
 import dayjs from "src/utils/dates/dayjsex";
-import PublicKeyOrString from "formfn-shared/dist/types/PublicKeyOrString";
+import PublicKeyOrString from "bullistic-shared/dist/types/PublicKeyOrString";
 import base58ToHex from "src/utils/base58ToHex";
-import { METAPLEX_PROGRAM_ID } from "formfn-shared/dist/constants/SolanaConstants";
+import { METAPLEX_PROGRAM_ID } from "bullistic-shared/dist/constants/SolanaConstants";
 import NftTransactionOnchain from "src/types/NftTransactionOnchain";
-import arePublicKeysEqual from "formfn-shared/dist/utils/compare/arePublicKeysEqual";
+import arePublicKeysEqual from "bullistic-shared/dist/utils/compare/arePublicKeysEqual";
 
 const AUCTION_ADDRESS_INDEX = 7;
 const MINT_INDEX = 21;

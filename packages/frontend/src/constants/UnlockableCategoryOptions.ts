@@ -1,4 +1,4 @@
-import arrayOfUnionType from "formfn-shared/dist/utils/array/arrayOfUnionType";
+import arrayOfUnionType from "bullistic-shared/dist/utils/array/arrayOfUnionType";
 import { UnlockableCategoryOption } from "types/UnlockableCategoryOption";
 import { UnlockableCategoryType } from "types/UnlockableCategoryType";
 import getSelectLabelFromUnlockableCategory from "utils/unlockables/getSelectLabelFromUnlockableCategory";

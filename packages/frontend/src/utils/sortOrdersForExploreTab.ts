@@ -1,5 +1,5 @@
 import CAMPAIGN_SORT_ORDERS from "constants/CampaignSortOrders";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import ExploreSortOrder from "types/enums/ExploreSortOrder";
 import ExploreTab from "types/enums/ExploreTab";
 

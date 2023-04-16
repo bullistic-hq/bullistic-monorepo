@@ -13,7 +13,7 @@ import getCampaignBasicInfoCreateOrUpdateData from "src/utils/campaigns/getCampa
 import assertUserSignedRequest from "src/utils/auth/assertUserSignedRequest";
 import updateCampaignTeamMembers from "src/utils/campaigns/updateCampaignTeamMembers";
 import ACTIVE_CAMPAIGN_STATUSES from "src/constants/ActiveCampaignStatuses";
-import getDashCasedString from "formfn-shared/dist/utils/string/getDashCasedString";
+import getDashCasedString from "bullistic-shared/dist/utils/string/getDashCasedString";
 
 async function assertCanUserCreateCampaign(userId: string, title: string) {
   const prisma = getPrisma();

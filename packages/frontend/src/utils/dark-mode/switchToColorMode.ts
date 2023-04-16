@@ -1,6 +1,6 @@
 import COLOR_VARIABLE_TO_DARK_MODE from "constants/dark-mode/ColorVariableToDarkMode";
 import COLOR_VARIABLE_TO_LIGHT_MODE from "constants/dark-mode/ColorVariableToLightMode";
-// import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+// import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import ColorMode from "types/enums/ColorMode";
 import ColorVariableName from "types/enums/ColorVariableName";
 

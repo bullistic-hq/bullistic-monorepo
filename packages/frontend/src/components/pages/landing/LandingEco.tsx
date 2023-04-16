@@ -11,7 +11,7 @@ import joinClasses from "utils/joinClasses";
 import GlobalClass from "types/enums/GlobalClass";
 import Video from "components/videos/Video";
 import getImgixUrl from "utils/getImgixUrl";
-import getAssetCdnUrl from "formfn-shared/dist/utils/getAssetCdnUrl";
+import getAssetCdnUrl from "bullistic-shared/dist/utils/getAssetCdnUrl";
 import MaybeImgix from "components/images/MaybeImgix";
 import Imgix from "react-imgix";
 import shuffleArray from "utils/shuffleArray";
@@ -124,7 +124,7 @@ export default function LandingEco(): JSX.Element {
             colorClass={ColorClass.Primary}
             textAlign="center"
           >
-            Formfunction was created specifically for the Solana ecosystem. One
+            Bullistic was created specifically for the Solana ecosystem. One
             transaction on Solana uses less energy than{" "}
             <TextButton
               buttonThemeOrColorClass={TextButtonTheme.Primary}

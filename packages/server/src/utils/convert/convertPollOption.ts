@@ -1,4 +1,4 @@
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import ConvertPollOptionType from "src/types/convert/ConvertPollOptionType";
 import Typename from "src/types/enums/Typename";
 import { PollOptionExpress } from "src/__generated__/generated";

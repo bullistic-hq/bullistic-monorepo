@@ -1,4 +1,4 @@
-import getSeriesLinkRelative from "formfn-shared/dist/utils/links/getSeriesLinkRelative";
+import getSeriesLinkRelative from "bullistic-shared/dist/utils/links/getSeriesLinkRelative";
 import SeriesType_enum from "types/relay/SeriesType_enum";
 import NftInfoCard from "components/pages/common/nft/NftInfoCard";
 

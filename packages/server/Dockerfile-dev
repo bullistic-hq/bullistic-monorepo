@@ -1,4 +1,4 @@
-FROM node:16 as formfn-api
+FROM node:16 as bullistic-api
 
 WORKDIR /usr/src/app
 

@@ -7,7 +7,7 @@ import useCampaignColorScheme from "hooks/useCampaignColorScheme";
 import useUserContext from "hooks/useUserContext";
 import { Suspense } from "react";
 import { PreloadedQuery, useFragment, usePreloadedQuery } from "react-relay";
-import CampaignTab from "formfn-shared/dist/types/enums/CampaignTab";
+import CampaignTab from "bullistic-shared/dist/types/enums/CampaignTab";
 import HUMAN_READABLE_CAMPAIGN_TAB from "constants/HumanReadableCampaignTab";
 import useCanViewerViewCommunityTab from "hooks/campaign/useCanViewerViewCommunityTab";
 import CampaignTabType from "types/CampaignTabType";

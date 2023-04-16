@@ -12,13 +12,13 @@ import useNftPageContext from "hooks/useNftPageContext";
 import InfoIcon from "components/icons/InfoIcon";
 import ColorValue from "types/enums/ColorValue";
 import Body2 from "components/text/Body2";
-import formatScheduledAuctionTime from "formfn-shared/dist/utils/dates/formatScheduledAuctionTime";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import formatScheduledAuctionTime from "bullistic-shared/dist/utils/dates/formatScheduledAuctionTime";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import RELAY_FUTURE_ADDED_VALUE from "constants/RelayFutureAddedValue";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import useNftKind from "hooks/useNftKind";
-import NftKind from "formfn-shared/dist/types/enums/NftKind";
-import arePublicKeysEqual from "formfn-shared/dist/utils/compare/arePublicKeysEqual";
+import NftKind from "bullistic-shared/dist/types/enums/NftKind";
+import arePublicKeysEqual from "bullistic-shared/dist/utils/compare/arePublicKeysEqual";
 import PriceWithSymbol from "components/price/PriceWithSymbol";
 import Body1 from "components/text/Body1";
 

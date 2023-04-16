@@ -1,6 +1,6 @@
 import { Popover } from "antd";
 import EllipsisShadowButton from "components/buttons/EllipsisShadowButton";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
 import styles from "css/buttons/NftEllipsisShadowButton.module.css";
 import { useState } from "react";
 import graphql from "babel-plugin-relay/macro";

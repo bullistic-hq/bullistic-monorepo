@@ -4,7 +4,7 @@ import styles from "css/loading/BackgroundOverlay.module.css";
 import ColorValue from "types/enums/ColorValue";
 import BackgroundOverlayTheme from "types/enums/BackgroundOverlayTheme";
 import useColorModeContext from "hooks/useColorModeContext";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 
 type Props = {
   children?: JSX.Element | Array<JSX.Element>;

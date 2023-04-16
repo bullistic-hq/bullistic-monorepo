@@ -10,7 +10,7 @@ import { AssetInput } from "hooks/__generated__/useMintNftMutation.graphql";
 import getCampaignPreviewImageStoragePath from "utils/firebase/storage-paths/getCampaignPreviewImageStoragePath";
 import uploadFile from "utils/firebase/uploadFile";
 import getImageDimensions from "utils/getImageDimensions";
-import convertToFullDecimals from "formfn-shared/dist/utils/convertToFullDecimals";
+import convertToFullDecimals from "bullistic-shared/dist/utils/convertToFullDecimals";
 import CurrencyConfig from "types/CurrencyConfig";
 import { UserSearchBarItem } from "hooks/useUserSearchBarUserExpress";
 

@@ -1,15 +1,15 @@
 import { useEffect, useState } from "react";
 
 import styles from "css/dates/TimezoneList.module.css";
-import TimezoneObject from "formfn-shared/dist/types/TimezoneObject";
+import TimezoneObject from "bullistic-shared/dist/types/TimezoneObject";
 import dayjs from "utils/dates/dayjsex";
 import PlainButton from "components/buttons/PlainButton";
 import Body1 from "components/text/Body1";
 import joinClasses from "utils/joinClasses";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import TinyLabel from "components/text/TinyLabel";
-import groupBy from "formfn-shared/dist/utils/array/groupBy";
-import TIMEZONES from "formfn-shared/dist/constants/Timezones";
+import groupBy from "bullistic-shared/dist/utils/array/groupBy";
+import TIMEZONES from "bullistic-shared/dist/constants/Timezones";
 import TextInput from "components/input/TextInput";
 import ColorClass from "types/enums/ColorClass";
 

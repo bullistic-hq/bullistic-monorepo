@@ -1,6 +1,6 @@
 import assertUnreachable from "utils/assertUnreachable";
 import invariant from "tiny-invariant";
-import { PriceFunctionType } from "@formfunction-hq/formfunction-auction-house";
+import { PriceFunctionType } from "@bullistic-hq/bullistic-auction-house";
 
 // Narrows a Union type base on N
 // See https://stackoverflow.com/a/50499316/3923882 for more info

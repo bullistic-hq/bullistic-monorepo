@@ -3,15 +3,15 @@ import ReactDOM from "react-dom";
 import * as Sentry from "@sentry/react";
 import { Integrations } from "@sentry/tracing";
 import getEnvironment from "utils/getEnvironment";
-import Environment from "formfn-shared/dist/types/Environment";
+import Environment from "bullistic-shared/dist/types/Environment";
 import getSentryEventSeverity from "utils/analytics/getSentryEventSeverity";
 import getLdBootstrap from "utils/launch-darkly/getLdBootstrap";
 import logIfNotProd from "utils/logIfNotProd";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import App from "App";
 import reportWebVitals from "reportWebVitals";
 import mixpanel from "mixpanel-browser";
-import getMixpanelProjectToken from "formfn-shared/dist/utils/mixpanel/getMixpanelProjectToken";
+import getMixpanelProjectToken from "bullistic-shared/dist/utils/mixpanel/getMixpanelProjectToken";
 import AnalyticsEvent from "types/enums/AnalyticsEvent";
 
 const ldBootstrap = getLdBootstrap();

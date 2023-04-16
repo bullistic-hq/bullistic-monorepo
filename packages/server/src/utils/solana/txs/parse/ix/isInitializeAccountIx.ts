@@ -3,7 +3,7 @@ import {
   ParsedInstruction,
   PartiallyDecodedInstruction,
 } from "@solana/web3.js";
-import arePublicKeysEqual from "formfn-shared/dist/utils/compare/arePublicKeysEqual";
+import arePublicKeysEqual from "bullistic-shared/dist/utils/compare/arePublicKeysEqual";
 
 export default function isInitializeAccountIx(
   ix: ParsedInstruction | PartiallyDecodedInstruction,

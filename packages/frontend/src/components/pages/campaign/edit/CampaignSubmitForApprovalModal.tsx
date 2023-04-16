@@ -1,11 +1,11 @@
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import GenericModal from "components/modal/GenericModal";
 import Body1 from "components/text/Body1";
 import ColorClass from "types/enums/ColorClass";
 import graphql from "babel-plugin-relay/macro";
 import { useMutation } from "react-relay";
 import { useState } from "react";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import GenericConfirmationModal from "components/modal/GenericConfirmationModal";
 import { CampaignSubmitForApprovalModalMutation } from "components/pages/campaign/edit/__generated__/CampaignSubmitForApprovalModalMutation.graphql";
 import CampaignDraftChecklist from "components/pages/campaign/edit/CampaignDraftChecklist";
@@ -13,7 +13,7 @@ import { CampaignDraftChecklist_CampaignV2$key } from "components/pages/campaign
 import CampaignPublishOrSubmitContainer from "components/pages/campaign/edit/CampaignPublishOrSubmitContainer";
 import TextButtonTheme from "types/enums/TextButtonTheme";
 import TextButton from "components/buttons/TextButton";
-import HelpCenterLink from "formfn-shared/dist/types/enums/HelpCenterLink";
+import HelpCenterLink from "bullistic-shared/dist/types/enums/HelpCenterLink";
 
 const mutation = graphql`
   mutation CampaignSubmitForApprovalModalMutation(

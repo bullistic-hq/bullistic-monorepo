@@ -3,7 +3,7 @@ import {
   ParsedTransactionWithMeta,
   PartiallyDecodedInstruction,
 } from "@solana/web3.js";
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import getAllInnerIxsWithIndices from "src/utils/solana/getAllInnerIxsWithIndices";
 
 /**

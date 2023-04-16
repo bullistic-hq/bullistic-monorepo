@@ -15,10 +15,10 @@ import LoadingSpinner from "components/loading/LoadingSpinner";
 import ColorValue from "types/enums/ColorValue";
 import FlexBox from "components/layout/FlexBox";
 import ColorClass from "types/enums/ColorClass";
-import flat from "formfn-shared/dist/utils/array/flat";
+import flat from "bullistic-shared/dist/utils/array/flat";
 import ArtName from "components/text/ArtName";
-import pluralize from "formfn-shared/dist/utils/pluralize";
-import removeDuplicatesWithSet from "formfn-shared/dist/utils/array/removeDuplicatesWithSet";
+import pluralize from "bullistic-shared/dist/utils/pluralize";
+import removeDuplicatesWithSet from "bullistic-shared/dist/utils/array/removeDuplicatesWithSet";
 import GenericFundingTiersInput from "components/input/GenericFundingTiersInput";
 
 const query = graphql`

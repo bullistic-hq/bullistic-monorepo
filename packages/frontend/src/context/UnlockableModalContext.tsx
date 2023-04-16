@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-constructed-context-values */
 import { Context, createContext, SetStateAction, useState } from "react";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
 import UnlockableModalType from "types/enums/UnlockableModalType";
 
 export type UnlockableModalContextData = {

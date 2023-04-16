@@ -1,5 +1,5 @@
 import { PublicKey } from "@solana/web3.js";
-import { TOKEN_METADATA_PROGRAM_ID } from "formfn-shared/dist/constants/SolanaConstants";
+import { TOKEN_METADATA_PROGRAM_ID } from "bullistic-shared/dist/constants/SolanaConstants";
 
 export default function findTokenMasterEdition(mint: PublicKey) {
   return PublicKey.findProgramAddressSync(

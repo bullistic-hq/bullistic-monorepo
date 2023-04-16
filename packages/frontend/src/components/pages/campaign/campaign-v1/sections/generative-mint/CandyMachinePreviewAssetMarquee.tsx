@@ -6,7 +6,7 @@ import useCandyMachineMintPhase from "hooks/candy-machine/useCandyMachineMintPha
 import Marquee from "react-fast-marquee";
 import { useFragment } from "react-relay";
 import FullViewportWidth from "components/containers/FullViewportWidth";
-import { CandyMachineMintPhase } from "@formfunction-hq/formfunction-candy-machine";
+import { CandyMachineMintPhase } from "@bullistic-hq/bullistic-candy-machine";
 
 const candyMachineInfoFragment = graphql`
   fragment CandyMachinePreviewAssetMarquee_CampaignSectionWithGenerativeMintsCandyMachineInfo on CampaignSectionWithGenerativeMintsCandyMachineInfo {

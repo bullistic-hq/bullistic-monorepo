@@ -1,8 +1,8 @@
 import getPrisma from "src/utils/prisma/getPrisma";
 import NftSourceType from "src/types/graphql-source/NftSourceType";
-import getNftKind from "formfn-shared/dist/utils/nft/getNftKind";
-import NftKind from "formfn-shared/dist/types/enums/NftKind";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import getNftKind from "bullistic-shared/dist/utils/nft/getNftKind";
+import NftKind from "bullistic-shared/dist/types/enums/NftKind";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 
 export default async function isAirdrop(nft: NftSourceType): Promise<boolean> {
   const prisma = getPrisma();

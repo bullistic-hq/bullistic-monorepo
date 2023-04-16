@@ -1,5 +1,5 @@
 // https://explorer.solana.com/tx/3BLz6YDJnVXQJyU7zMhLDkJ2RXtoWofWwiNtVzzw8Jzr9U7fdYxfWMwHggzh3kczPbShcwGXpouoBVuDnU6j2EXy?cluster=devnet
-// For this nft on dev: https://dev.formfunction.xyz/@brioche/BzwmLaB8Pe7y4kionS1hQiJ9HkidwCmjSEhWwVesNBDp?width=296&height=313
+// For this nft on dev: https://dev.bullistic.xyz/@brioche/BzwmLaB8Pe7y4kionS1hQiJ9HkidwCmjSEhWwVesNBDp?width=296&height=313
 const BID_TX_USDC = {
   blockTime: 1661794755,
   meta: {

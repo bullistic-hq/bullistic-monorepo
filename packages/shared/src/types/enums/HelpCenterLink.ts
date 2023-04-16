@@ -1,5 +1,5 @@
 enum HelpCenterLink {
-  CampaignGuidelines = "https://help.formfunction.xyz/en/articles/6925872-campaigns-guidelines",
+  CampaignGuidelines = "https://help.bullistic.xyz/en/articles/6925872-campaigns-guidelines",
 }
 
 export default HelpCenterLink;

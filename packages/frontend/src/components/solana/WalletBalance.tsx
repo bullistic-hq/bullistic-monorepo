@@ -7,7 +7,7 @@ import useSolanaContext from "hooks/useSolanaContext";
 import useWalletBalance from "hooks/useWalletBalance";
 import ColorClass from "types/enums/ColorClass";
 import CurrencyConfig from "types/CurrencyConfig";
-import formatDecimals from "formfn-shared/dist/utils/formatDecimals";
+import formatDecimals from "bullistic-shared/dist/utils/formatDecimals";
 
 export default function WalletBalance({
   currencyConfig,

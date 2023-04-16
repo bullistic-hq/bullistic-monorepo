@@ -1,9 +1,9 @@
 import graphql from "babel-plugin-relay/macro";
 import { useMutation } from "react-relay";
 import GenericAccountSetupModal from "components/modal/GenericAccountSetupModal";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
 import { AcceptInviteAccountSetupModalMutation } from "components/modal/__generated__/AcceptInviteAccountSetupModalMutation.graphql";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import ErrorMessageMsg from "types/enums/ErrorMessageMsg";
 import { notify } from "components/toast/notifications";
 import notifyUnexpectedError from "components/toast/notifyUnexpectedError";

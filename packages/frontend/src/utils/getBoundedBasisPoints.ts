@@ -1,4 +1,4 @@
-import isNumber from "formfn-shared/dist/utils/numbers/isNumber";
+import isNumber from "bullistic-shared/dist/utils/numbers/isNumber";
 
 export default function getBoundedBasisPoints(royalties: string) {
   // Default is 5%

@@ -1,4 +1,4 @@
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import getPrisma from "src/utils/prisma/getPrisma";
 import MyContext from "src/types/MyContext";
 import {

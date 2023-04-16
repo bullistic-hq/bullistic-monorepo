@@ -10,7 +10,7 @@ import { OfferWithNftAndTransaction } from "src/types/OfferWithNftAndTransaction
 import cancelAndRefundOffer from "src/utils/offers/cancelAndRefundOffer";
 import OFFER_WITH_NFT_AND_TRANSACTION_INCLUDE from "src/constants/include/OfferWithNftAndTransactionInclude";
 import maybeBackfillRefundTxidForOffer from "src/utils/offers/maybeBackfillRefundTxidForOffer";
-import jsonStringify from "formfn-shared/dist/utils/jsonStringify";
+import jsonStringify from "bullistic-shared/dist/utils/jsonStringify";
 
 const parallelLimit = pLimit(10);
 

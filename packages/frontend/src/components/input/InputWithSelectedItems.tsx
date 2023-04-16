@@ -4,7 +4,7 @@ import FontClass from "types/enums/FontClass";
 import joinClasses from "utils/joinClasses";
 import ColorClass from "types/enums/ColorClass";
 import PlainButton from "components/buttons/PlainButton";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import KeyboardEventKey from "types/enums/KeyboardEventKey";
 
 type Props = {
@@ -57,7 +57,7 @@ export default function InputWithSelectedItems({
           )}
           ref={(val) => {
             // If callback ref is not used, we get weird errors.
-            // See https://github.com/formfunction-hq/formfn-monorepo/pull/3399 for more info.
+            // See https://github.com/bullistic-hq/bullistic-monorepo/pull/3399 for more info.
             inputRef.current = val;
           }}
           onKeyDown={(e) => {

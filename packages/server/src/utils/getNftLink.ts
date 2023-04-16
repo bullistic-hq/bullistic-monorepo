@@ -1,4 +1,4 @@
-import getNftLinkRelative from "formfn-shared/dist/utils/links/getNftLinkRelative";
+import getNftLinkRelative from "bullistic-shared/dist/utils/links/getNftLinkRelative";
 import getLinkForEnvironment from "src/utils/getLinkForEnvironment";
 
 export default function getNftLink(username: string, mint: string) {

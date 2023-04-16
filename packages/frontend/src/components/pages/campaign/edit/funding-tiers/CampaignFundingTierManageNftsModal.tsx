@@ -5,7 +5,7 @@ import Body1 from "components/text/Body1";
 import ColorClass from "types/enums/ColorClass";
 import graphql from "babel-plugin-relay/macro";
 import { useFragment, useLazyLoadQuery, useMutation } from "react-relay";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { RefObject, Suspense, useRef, useState } from "react";
 import ErrorMessage from "components/text/ErrorMessage";
 import LoadingSpinner from "components/loading/LoadingSpinner";

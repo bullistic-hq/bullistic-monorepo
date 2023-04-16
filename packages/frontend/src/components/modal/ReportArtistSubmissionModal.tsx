@@ -12,7 +12,7 @@ import useUserContext from "hooks/useUserContext";
 import { ReportArtistSubmissionModal_ArtistSubmission$key } from "components/modal/__generated__/ReportArtistSubmissionModal_ArtistSubmission.graphql";
 import { ReportArtistSubmissionModalInsertVoteMutation } from "components/modal/__generated__/ReportArtistSubmissionModalInsertVoteMutation.graphql";
 import CheckboxButtonWithLabel from "components/buttons/CheckboxButtonWithLabel";
-import { range } from "formfn-shared/dist/utils/range";
+import { range } from "bullistic-shared/dist/utils/range";
 import CheckboxButtonWithTextInput from "components/buttons/CheckboxButtonWithTextInput";
 import ArtName from "components/text/ArtName";
 import {
@@ -119,7 +119,7 @@ export default function ReportArtistSubmissionModal({
       <div className={styles.body}>
         <Body1 colorClass={ColorClass.Secondary} textAlign="center">
           You can flag this application as suspicious if you think it may be a
-          case of art theft. The Formfunction team will do a deeper
+          case of art theft. The Bullistic team will do a deeper
           investigation into flagged applications.
         </Body1>
         <ArtName

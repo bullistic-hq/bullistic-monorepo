@@ -4,7 +4,7 @@ import ExploreCampaignCardSkeleton from "components/pages/explore/skeletons/Expl
 import { ProfileCampaignsPaginationQuery } from "components/pages/profile/__generated__/ProfileCampaignsPaginationQuery.graphql";
 import { ProfileCampaigns_Query$key } from "components/pages/profile/__generated__/ProfileCampaigns_Query.graphql";
 import { PROFILE_CAMPAIGNS_PAGE_SIZE } from "constants/PageSizes";
-import { range } from "formfn-shared/dist/utils/range";
+import { range } from "bullistic-shared/dist/utils/range";
 import useCampaignGridFullWidthColumnCount from "hooks/grids/useCampaignGridFullWidthColumnCount";
 import { profilePageCreatedCampaignsQuery } from "hooks/profile-page/useProfilePageCreatedCampaigns";
 import { useProfilePageCreatedCampaignsQuery } from "hooks/profile-page/__generated__/useProfilePageCreatedCampaignsQuery.graphql";

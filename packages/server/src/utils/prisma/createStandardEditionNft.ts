@@ -1,6 +1,6 @@
 import { PublicKey } from "@solana/web3.js";
-import findEditionPda from "formfn-shared/dist/utils/solana/pdas/findEditionPda";
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
+import findEditionPda from "bullistic-shared/dist/utils/solana/pdas/findEditionPda";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
 import CONVERT_NFT_TO_METADATA_INCLUDE from "src/constants/include/ConvertNftToMetadataInclude";
 import getOnPlatformMetadataAccount from "src/utils/prisma/getOnPlatformMetadataAccount";
 import getPrisma from "src/utils/prisma/getPrisma";
@@ -13,9 +13,9 @@ import {
 import invariant from "tiny-invariant";
 import convertNftToMetadataAccount from "src/utils/convert/convertNftToMetadataAccount";
 import ConvertNftToMetadataAccountType from "src/types/convert/ConvertNftToMetadataAccountType";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import { Prisma } from "@prisma/client";
-import findTokenMetadata from "formfn-shared/dist/utils/solana/pdas/findTokenMetadata";
+import findTokenMetadata from "bullistic-shared/dist/utils/solana/pdas/findTokenMetadata";
 import PrismaTransactionClient from "src/types/PrismaTransactionClient";
 
 /**

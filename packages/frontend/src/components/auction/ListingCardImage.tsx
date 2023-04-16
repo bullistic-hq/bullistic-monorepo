@@ -1,4 +1,4 @@
-import { MaybeUndef, Undef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef, Undef } from "bullistic-shared/dist/types/UtilityTypes";
 import styles from "css/auction/ListingCardImage.module.css";
 import { useState } from "react";
 import SquareContainer from "components/containers/SquareContainer";
@@ -13,7 +13,7 @@ import Skeleton from "react-loading-skeleton";
 import MediaTypeOrUnknown from "types/MediaTypeOrUnknown";
 import MediaType from "types/enums/MediaType";
 import ModelViewerLazy from "components/model-viewer/ModelViewerLazy";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import useLazyLoadConfig from "hooks/useLazyLoadConfig";
 import MaybeWrapWithLazyLoad from "components/containers/MaybeWrapWithLazyLoad";
 import joinClasses from "utils/joinClasses";

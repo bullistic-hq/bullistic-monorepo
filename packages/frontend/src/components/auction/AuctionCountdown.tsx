@@ -4,7 +4,7 @@ import Countdown from "react-countdown";
 import AuctionStatus from "types/enums/AuctionStatus";
 import ColorClass from "types/enums/ColorClass";
 import FontClass from "types/enums/FontClass";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
 import joinClasses from "utils/joinClasses";
 
 type Props = {

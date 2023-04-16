@@ -1,5 +1,5 @@
 import NftTransactionWithUsers from "src/types/NftTransactionWithUsers";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import getWinningBidForMostRecentAuction from "src/utils/auction/getWinningBidForMostRecentAuction";
 import hasAuctionEndedForNft from "src/utils/dates/hasAuctionEndedForNft";
 import {

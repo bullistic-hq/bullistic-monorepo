@@ -1,4 +1,4 @@
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import ConvertCampaignType from "src/types/convert/ConvertCampaignType";
 import Typename from "src/types/enums/Typename";
 import getCampaignGoalForCampaign from "src/utils/campaigns/getCampaignGoalForCampaign";

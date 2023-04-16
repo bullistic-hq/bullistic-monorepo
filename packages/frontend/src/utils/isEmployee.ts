@@ -1,4 +1,4 @@
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import getEmployeeWallets from "utils/getEmployeeWallets";
 
 export default function isEmployee(userId: MaybeUndef<string>) {

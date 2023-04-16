@@ -6,7 +6,7 @@ import {
   useState,
 } from "react";
 import graphql from "babel-plugin-relay/macro";
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import { fetchQuery } from "react-relay";
 import RelayEnvironment from "utils/relay/RelayEnvironment";
 import { ExchangeRatesContextQuery } from "context/__generated__/ExchangeRatesContextQuery.graphql";
@@ -14,7 +14,7 @@ import logError from "utils/analytics/logError";
 import AnalyticsEvent from "types/enums/AnalyticsEvent";
 import Currency from "types/relay/Currency";
 import RELAY_FUTURE_ADDED_VALUE from "constants/RelayFutureAddedValue";
-import flattenArrayOfObjectsToObject from "formfn-shared/dist/utils/object/flattenArrayOfObjectsToObject";
+import flattenArrayOfObjectsToObject from "bullistic-shared/dist/utils/object/flattenArrayOfObjectsToObject";
 
 export type ExchangeRatesContextData = {
   priceToSol: (price: number, currency: Currency) => Maybe<string>;

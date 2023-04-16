@@ -1,5 +1,5 @@
 import { Instruction } from "@project-serum/anchor";
-import { AUCTION_HOUSE_IDL } from "@formfunction-hq/formfunction-auction-house";
+import { AUCTION_HOUSE_IDL } from "@bullistic-hq/bullistic-auction-house";
 import { PartiallyDecodedInstruction, PublicKey } from "@solana/web3.js";
 import AUCTION_HOUSE_IDL_WITH_DEPRECATED_INSTRUCTIONS_1 from "constants/old-idls/AuctionHouseIdlWithDeprecatedInstructions1";
 import { Maybe } from "types/UtilityTypes";

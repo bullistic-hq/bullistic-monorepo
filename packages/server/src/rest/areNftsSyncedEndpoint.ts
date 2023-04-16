@@ -4,7 +4,7 @@ import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 import logError from "src/utils/analytics/logError";
 import getPrisma from "src/utils/prisma/getPrisma";
 import isNftSynced from "src/utils/solana/isNftSynced";
-import toObject from "formfn-shared/dist/utils/toObject";
+import toObject from "bullistic-shared/dist/utils/toObject";
 import {
   CurrencyNameExpress_Enum,
   NftStatusExpress_Enum,
@@ -14,9 +14,9 @@ import logEvent from "src/utils/analytics/logEvent";
 import getTimeElapsed from "src/utils/dates/getTimeElapsed";
 import invariant from "tiny-invariant";
 import pLimit from "p-limit";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
-import sleepMs from "formfn-shared/dist/utils/sleepMs";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
+import sleepMs from "bullistic-shared/dist/utils/sleepMs";
 import getAllTransferTxs from "src/utils/solana/txs/getAllTransferTxs";
 import { ParsedInstruction, PublicKey } from "@solana/web3.js";
 import insertMissingTransactions from "src/utils/nft/insertMissingTransactions";
@@ -26,10 +26,10 @@ import LaunchDarklyFlag from "src/types/enums/LaunchDarklyFlag";
 import getMostRecentSetAuthorityTxForMint from "src/utils/solana/getMostRecentSetAuthorityTxForMint";
 import insertNftTransaction from "src/utils/transaction/insertNftTransaction";
 import getPromiseLimit from "src/utils/launch-darkly/getPromiseLimit";
-import { AuctionHouseSdk } from "@formfunction-hq/formfunction-auction-house";
+import { AuctionHouseSdk } from "@bullistic-hq/bullistic-auction-house";
 import getAuctionHouseSdk from "src/utils/solana/getAuctionHouseSdk";
 import getNftTxs from "src/utils/solana/txs/getNftTxs";
-import removeDuplicatesWithComparison from "formfn-shared/dist/utils/array/removeDuplicatesWithComparison";
+import removeDuplicatesWithComparison from "bullistic-shared/dist/utils/array/removeDuplicatesWithComparison";
 import updateNftOwner from "src/utils/nft/updateNftOwner";
 
 async function maybeInsertNewAuthorityAsTransfer(

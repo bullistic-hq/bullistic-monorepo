@@ -7,7 +7,7 @@ import Body1 from "components/text/Body1";
 import Body1Bold from "components/text/Body1Bold";
 import WrapWithTooltip from "components/tooltips/WrapWithTooltip";
 import RELAY_FUTURE_ADDED_VALUE from "constants/RelayFutureAddedValue";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import { useFragment } from "react-relay";
 import ColorClass from "types/enums/ColorClass";
 import ColorValue from "types/enums/ColorValue";

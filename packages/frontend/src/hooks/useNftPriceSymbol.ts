@@ -1,5 +1,5 @@
 import graphql from "babel-plugin-relay/macro";
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import { useNftPriceSymbol_Price$key } from "hooks/__generated__/useNftPriceSymbol_Price.graphql";
 import { useFragment } from "react-relay";
 

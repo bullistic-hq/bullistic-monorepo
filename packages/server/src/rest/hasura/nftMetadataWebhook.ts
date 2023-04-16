@@ -6,9 +6,9 @@ import uploadFirebaseAssetToArweave, {
   UPLOAD_TXID_DOES_NOT_MATCH,
 } from "src/utils/arweave/uploadFirebaseAssetToArweave";
 import invariant from "tiny-invariant";
-import getNftKind from "formfn-shared/dist/utils/nft/getNftKind";
-import NftKind from "formfn-shared/dist/types/enums/NftKind";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import getNftKind from "bullistic-shared/dist/utils/nft/getNftKind";
+import NftKind from "bullistic-shared/dist/types/enums/NftKind";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 
 /**
  * Uploads the NFT asset to Arweave.

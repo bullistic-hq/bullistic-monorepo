@@ -23,7 +23,7 @@ export default function CreateNotWhitelisted(): JSX.Element {
         />
         <Header2 className={styles.title} colorClass={ColorClass.Primary}>
           Become an artist on{" "}
-          <span className={GlobalClass.GradientText}>Formfunction</span>
+          <span className={GlobalClass.GradientText}>Bullistic</span>
         </Header2>
         <Body1 className={styles.description} colorClass={ColorClass.Primary}>
           {COMMUNITY_GOVERNED_DESCRIPTION}

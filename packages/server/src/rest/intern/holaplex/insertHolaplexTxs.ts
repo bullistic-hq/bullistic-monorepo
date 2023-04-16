@@ -2,8 +2,8 @@ import { NextFunction, Request, Response } from "express";
 import getPrisma from "src/utils/prisma/getPrisma";
 import logError from "src/utils/analytics/logError";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
-import removeDuplicatesWithSet from "formfn-shared/dist/utils/array/removeDuplicatesWithSet";
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
+import removeDuplicatesWithSet from "bullistic-shared/dist/utils/array/removeDuplicatesWithSet";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
 import getHolaplexAuctionInfoFromMint from "src/utils/solana/txs/parse/holaplex/getHolaplexAuctionInfoFromMint";
 
 async function inner(req: Request, res: Response) {

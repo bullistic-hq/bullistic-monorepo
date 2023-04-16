@@ -1,6 +1,6 @@
 import graphql from "babel-plugin-relay/macro";
 import { useFragment } from "react-relay";
-import CampaignTab from "formfn-shared/dist/types/enums/CampaignTab";
+import CampaignTab from "bullistic-shared/dist/types/enums/CampaignTab";
 import { CampaignFundingTierPreviewForCampaignFundingTierStandard_CampaignFundingTierStandard$key } from "components/pages/campaign/campaign-v2/funding-tiers/__generated__/CampaignFundingTierPreviewForCampaignFundingTierStandard_CampaignFundingTierStandard.graphql";
 import CampaignFundingTierPreviewForMetadataAccounts from "components/pages/campaign/campaign-generic/funding-tiers/CampaignFundingTierPreviewForMetadataAccounts";
 import { FundingTierNftsContextProvider } from "components/pages/campaign/edit/funding-tiers/FundingTierNftsContext";

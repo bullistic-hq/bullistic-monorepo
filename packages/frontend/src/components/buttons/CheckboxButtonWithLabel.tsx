@@ -21,7 +21,7 @@ type Props = {
 };
 
 /**
- * TODO[@arcticmatt]: consider refactoring. See discussion here https://github.com/formfunction-hq/formfn-monorepo/pull/3185#discussion_r1038374210
+ * TODO[@arcticmatt]: consider refactoring. See discussion here https://github.com/bullistic-hq/bullistic-monorepo/pull/3185#discussion_r1038374210
  * for more details.
  */
 export default function CheckboxButtonWithLabel({

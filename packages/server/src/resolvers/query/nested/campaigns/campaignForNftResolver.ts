@@ -8,7 +8,7 @@ import MyContext from "src/types/MyContext";
 import getPrisma from "src/utils/prisma/getPrisma";
 import CONVERT_CAMPAIGN_INCLUDE from "src/constants/include/ConvertCampaignInclude";
 import convertCampaign from "src/utils/convert/convertCampaign";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import convertCurrency from "src/utils/convert/convertCurrency";
 
 function isCampaignVisibleForNft(status: CampaignStatusExpress_Enum) {

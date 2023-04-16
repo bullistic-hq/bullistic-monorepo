@@ -1,9 +1,9 @@
 import graphql from "babel-plugin-relay/macro";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { useCanViewerViewCommunityTab_CampaignV2$key } from "hooks/campaign/__generated__/useCanViewerViewCommunityTab_CampaignV2.graphql";
 import useUserContext from "hooks/useUserContext";
 import { useFragment } from "react-relay";
-import canUserSeeCampaignGatedCommunity from "formfn-shared/dist/utils/campaigns/canUserSeeCampaignGatedCommunity";
+import canUserSeeCampaignGatedCommunity from "bullistic-shared/dist/utils/campaigns/canUserSeeCampaignGatedCommunity";
 
 const fragment = graphql`
   fragment useCanViewerViewCommunityTab_CampaignV2 on CampaignV2 {

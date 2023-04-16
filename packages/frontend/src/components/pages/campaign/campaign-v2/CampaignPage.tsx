@@ -21,13 +21,13 @@ import CampaignPageDraftModeContent from "components/pages/campaign/campaign-v2/
 import { CampaignPage_CampaignsNamespaceQueryResponse$key } from "components/pages/campaign/campaign-v2/__generated__/CampaignPage_CampaignsNamespaceQueryResponse.graphql";
 import { useCampaignPageCampaignV2Query } from "hooks/campaign-page/v2/__generated__/useCampaignPageCampaignV2Query.graphql";
 import CampaignPageContentSkeleton from "components/pages/campaign/campaign-v2/CampaignPageContentSkeleton";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import WithFixedBanner from "components/containers/WithFixedBanner";
 import CampaignSubmissionReviewActionsBanner from "components/pages/campaign/campaign-v2/CampaignSubmissionReviewActionsBanner";
 import useUserContext from "hooks/useUserContext";
 import ResponsivePageBody from "components/containers/ResponsivePageBody";
 import TextButtonTheme from "types/enums/TextButtonTheme";
-import HelpCenterLink from "formfn-shared/dist/types/enums/HelpCenterLink";
+import HelpCenterLink from "bullistic-shared/dist/types/enums/HelpCenterLink";
 import useCampaignPageCampaignV2Goal from "hooks/campaign-page/v2/useCampaignPageCampaignV2Goal";
 import useCampaignPageFundingTiers from "hooks/campaign-page/v2/useCampaignPageFundingTiers";
 import useCampaignPageCampaignV2Draft from "hooks/campaign-page/v2/useCampaignPageCampaignV2Draft";

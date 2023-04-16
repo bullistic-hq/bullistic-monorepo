@@ -11,7 +11,7 @@ import convertCandyMachine from "src/utils/convert/convertCandyMachine";
 import convertCandyMachineMerkleAllowlistInfo from "src/utils/convert/convertCandyMachineMerkleAllowlistInfo";
 import convertAsset from "src/utils/convert/convertAsset";
 import { Prisma, CandyMachine } from "@prisma/client";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { PublicKey } from "@solana/web3.js";
 import getConnection from "src/utils/solana/getConnection";
 import getViewerId from "src/utils/auth/getViewerId";

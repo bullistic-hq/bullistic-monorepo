@@ -9,7 +9,7 @@ import { useLazyLoadQuery } from "react-relay";
 import ColorClass from "types/enums/ColorClass";
 import Marquee from "react-fast-marquee";
 import LazyLoad from "react-lazyload";
-import { range } from "formfn-shared/dist/utils/range";
+import { range } from "bullistic-shared/dist/utils/range";
 import ExploreCreatorCardLoadingSkeleton from "components/pages/explore/ExploreCreatorCardLoadingSkeleton";
 
 const query = graphql`

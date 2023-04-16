@@ -1,14 +1,14 @@
 import { PublicKey, Transaction } from "@solana/web3.js";
 import { Request } from "express";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 import logError from "src/utils/analytics/logError";
 import logEvent from "src/utils/analytics/logEvent";
 import nacl from "tweetnacl";
 import util from "util";
-import SIGN_AUTH_MESSAGE from "formfn-shared/dist/constants/SignAuthMessage";
-import { MEMO_PROGRAM_ID } from "formfn-shared/dist/constants/SolanaConstants";
-import arePublicKeysEqual from "formfn-shared/dist/utils/compare/arePublicKeysEqual";
+import SIGN_AUTH_MESSAGE from "bullistic-shared/dist/constants/SignAuthMessage";
+import { MEMO_PROGRAM_ID } from "bullistic-shared/dist/constants/SolanaConstants";
+import arePublicKeysEqual from "bullistic-shared/dist/utils/compare/arePublicKeysEqual";
 import LRUCache from "lru-cache";
 
 const CACHE = new LRUCache({

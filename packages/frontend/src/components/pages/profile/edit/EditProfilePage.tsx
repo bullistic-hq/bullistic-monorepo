@@ -8,7 +8,7 @@ import useSolanaContext from "hooks/useSolanaContext";
 import { Suspense, useState } from "react";
 import { useLazyLoadQuery } from "react-relay";
 import ColorValue from "types/enums/ColorValue";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import styles from "css/pages/profile/edit/EditProfilePage.module.css";
 import PageWithHeaderAndFooter from "components/containers/PageWithHeaderAndFooter";
 import DisconnectedPageContainer from "components/containers/DisconnectedPageContainer";

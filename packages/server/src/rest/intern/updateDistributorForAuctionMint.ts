@@ -6,7 +6,7 @@ import updateDistributorWithNewClaimants, {
 import getNoopResponse from "src/utils/getNoopResponse";
 import getPrisma from "src/utils/prisma/getPrisma";
 import { NftTransactionTypeExpress_Enum } from "src/__generated__/generated";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 /**
  * We first look for the AuctionWon transaction. There is a race condition in

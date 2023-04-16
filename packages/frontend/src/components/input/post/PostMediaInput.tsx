@@ -3,7 +3,7 @@ import InputWithLabel from "components/input/InputWithLabel";
 import UploadMediaInput from "components/input/UploadMediaInput";
 import MediaType from "types/enums/MediaType";
 import { Dispatch, SetStateAction } from "react";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 type Props = {
   assetFile: Maybe<File>;

@@ -13,7 +13,7 @@ import Body1 from "components/text/Body1";
 import ButtonWithText from "components/buttons/ButtonWithText";
 import ButtonTheme from "types/enums/ButtonTheme";
 import FontClass from "types/enums/FontClass";
-import getCampaignLinkRelative from "formfn-shared/dist/utils/links/getCampaignLinkRelative";
+import getCampaignLinkRelative from "bullistic-shared/dist/utils/links/getCampaignLinkRelative";
 import ProfileCampaignCardSkeleton from "components/pages/profile/ProfileCampaignCardSkeleton";
 import AspectRatioContainer from "components/containers/AspectRatioContainer";
 import ProfileCampaignCardGoal from "components/pages/profile/ProfileCampaignCardGoal";

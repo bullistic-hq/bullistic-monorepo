@@ -2,7 +2,7 @@ import styles from "css/spotlights/SpotlightAssetWithOverlay.module.css";
 import graphql from "babel-plugin-relay/macro";
 import { useFragment } from "react-relay";
 import SpotlightOverlay from "components/spotlights/SpotlightOverlay";
-import dayjs from "formfn-shared/dist/utils/dates/dayjsex";
+import dayjs from "bullistic-shared/dist/utils/dates/dayjsex";
 import { SpotlightAssetWithOverlay_SpotlightExpress$key } from "components/spotlights/__generated__/SpotlightAssetWithOverlay_SpotlightExpress.graphql";
 import AssetForAssetExpress from "components/assets/AssetForAssetExpress";
 

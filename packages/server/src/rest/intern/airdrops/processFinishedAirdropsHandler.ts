@@ -4,7 +4,7 @@ import pLimit from "p-limit";
 import dayjs from "src/utils/dates/dayjsex";
 import logError from "src/utils/analytics/logError";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
-import toObject from "formfn-shared/dist/utils/toObject";
+import toObject from "bullistic-shared/dist/utils/toObject";
 import loadAuctionHouseSdk from "src/utils/solana/loadAuctionHouseSdk";
 import {
   CurrencyNameExpress_Enum,
@@ -12,13 +12,13 @@ import {
 } from "src/__generated__/generated";
 import { PublicKey, sendAndConfirmTransaction } from "@solana/web3.js";
 import getAuthorityKeypair from "src/utils/keypairs/getAuthorityKeypair";
-import findAta from "formfn-shared/dist/utils/solana/pdas/findAta";
+import findAta from "bullistic-shared/dist/utils/solana/pdas/findAta";
 import getConnection from "src/utils/solana/getConnection";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import findMostRecentCloseEditionDistributorTokenAccountTx from "src/utils/editions/findMostRecentCloseEditionDistributorTokenAccountTx";
 import createAirdropCompletedNotification from "src/utils/notifications/create/createAirdropCompletedNotification";
 import invariant from "tiny-invariant";
-import getErrorPropertiesToLog from "formfn-shared/dist/utils/analytics/getErrorPropertiesToLog";
+import getErrorPropertiesToLog from "bullistic-shared/dist/utils/analytics/getErrorPropertiesToLog";
 
 const limit = pLimit(5);
 

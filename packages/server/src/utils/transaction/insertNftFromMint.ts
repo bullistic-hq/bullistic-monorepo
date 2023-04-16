@@ -1,8 +1,8 @@
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import ConvertNftToMetadataAccountType from "src/types/convert/ConvertNftToMetadataAccountType";
 import getAllParsedTransactionsForAddress from "src/utils/solana/getAllParsedTransactionsForAddress";
-import { getCompareByProperty } from "formfn-shared/dist/utils/getCompareByProperty";
-import SortOrder from "formfn-shared/dist/types/enums/SortOrder";
+import { getCompareByProperty } from "bullistic-shared/dist/utils/getCompareByProperty";
+import SortOrder from "bullistic-shared/dist/types/enums/SortOrder";
 import parseCreateMintTx from "src/utils/solana/txs/parse/parseCreateMintTx";
 import { ParsedTransactionWithMeta, PublicKey } from "@solana/web3.js";
 import insertNftFromMintTransaction from "src/utils/transaction/insertNftFromMintTransaction";

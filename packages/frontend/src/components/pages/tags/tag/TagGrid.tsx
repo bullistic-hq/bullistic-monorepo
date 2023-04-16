@@ -7,8 +7,8 @@ import { TagGrid_Query$key } from "components/pages/tags/tag/__generated__/TagGr
 import useExploreContext from "hooks/useExploreContext";
 import { useLazyLoadQuery, usePaginationFragment } from "react-relay";
 import ExploreMarket from "types/enums/ExploreMarket";
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
-import convertToFullDecimals from "formfn-shared/dist/utils/convertToFullDecimals";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
+import convertToFullDecimals from "bullistic-shared/dist/utils/convertToFullDecimals";
 import maybeNumber from "utils/maybeNumber";
 
 const query = graphql`

@@ -8,17 +8,17 @@ import {
 } from "react";
 import dayjs from "utils/dates/dayjsex";
 import graphql from "babel-plugin-relay/macro";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
 import {
   DEFAULT_AUCTION_DURATION,
   DEFAULT_TIME_EXTENSION_DURATION,
-} from "formfn-shared/dist/constants/AuctionDurationConstants";
+} from "bullistic-shared/dist/constants/AuctionDurationConstants";
 import ListingStep from "types/enums/ListingStep";
 import isValidPrice from "utils/price/isValidPrice";
 import { Duration } from "dayjs/plugin/duration";
 import ElementId from "types/enums/ElementId";
 import { useFragment } from "react-relay";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { Dayjs } from "dayjs";
 import getDayjsFromDateAndTime from "utils/dates/getDayjsFromDateAndTime";
 import { ListingContext_MetadataAccount$key } from "context/__generated__/ListingContext_MetadataAccount.graphql";

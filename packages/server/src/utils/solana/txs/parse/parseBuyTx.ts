@@ -1,20 +1,20 @@
 import { ParsedTransactionWithMeta, PublicKey } from "@solana/web3.js";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import dayjs from "src/utils/dates/dayjsex";
 import getNftCreatorFromMint from "src/utils/prisma/getNftCreatorFromMint";
 import { NftTransactionTypeExpress_Enum } from "src/__generated__/generated";
 import logError from "src/utils/analytics/logError";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 import getTokenAccountOwner from "src/utils/solana/accounts/getTokenAccountOwner";
-import SaleType from "@formfunction-hq/formfunction-auction-house/dist/types/enum/SaleType";
+import SaleType from "@bullistic-hq/bullistic-auction-house/dist/types/enum/SaleType";
 import getSaleTypeFromTradeState from "src/utils/solana/txs/parse/getSaleTypeFromTradeState";
 import NftTransactionOnchain from "src/types/NftTransactionOnchain";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
-import maybeNumber from "formfn-shared/dist/utils/numbers/maybeNumber";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
+import maybeNumber from "bullistic-shared/dist/utils/numbers/maybeNumber";
 import getSaleTypeForTx from "src/utils/solana/txs/parse/getSaleTypeForTx";
 import getCurrencyInfoForAuctionHouse from "src/utils/solana/txs/parse/getCurrencyInfoForAuctionHouse";
 import convertPrice from "src/utils/convert/convertPrice";
-import { DecodedAuctionHouseTransactionResult } from "@formfunction-hq/formfunction-auction-house";
+import { DecodedAuctionHouseTransactionResult } from "@bullistic-hq/bullistic-auction-house";
 
 function getTransactionTypeForSaleType(saleType: SaleType) {
   switch (saleType) {

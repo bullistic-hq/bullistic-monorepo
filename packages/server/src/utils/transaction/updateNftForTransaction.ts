@@ -12,7 +12,7 @@ import {
   Maybe,
   MaybeUndef,
   Undef,
-} from "formfn-shared/dist/types/UtilityTypes";
+} from "bullistic-shared/dist/types/UtilityTypes";
 import CONVERT_NFT_TO_METADATA_INCLUDE from "src/constants/include/ConvertNftToMetadataInclude";
 import { Dayjs } from "dayjs";
 import shouldExtendAuction from "src/utils/dates/shouldExtendAuction";
@@ -25,8 +25,8 @@ import ConvertNftToMetadataAccountType from "src/types/convert/ConvertNftToMetad
 import convertNft from "src/utils/convert/convertNft";
 import invariant from "tiny-invariant";
 import getUserConnectOrCreate from "src/utils/prisma/getUserConnectOrCreate";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
-import shouldClearPnftId from "formfn-shared/dist/utils/pnft/shouldClearPnftId";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
+import shouldClearPnftId from "bullistic-shared/dist/utils/pnft/shouldClearPnftId";
 import PrismaTransactionClient from "src/types/PrismaTransactionClient";
 
 const VALIDATE_BID_BUFFER_DURATION = dayjs.duration({ minutes: 5 });
@@ -420,7 +420,7 @@ export default async function updateNftForTransaction(
           connect: { value: NftStatusExpress_Enum.Owned },
         },
         // Needed when an NFT is purchased via Crossmint, in which case the
-        // purchaser wallet may not already have a Formfunction account.
+        // purchaser wallet may not already have a Bullistic account.
         Owner: getUserConnectOrCreate(input.toUserId),
         PriceLastSoldCurrency: updateCurrencyClause,
         auctionCount: {

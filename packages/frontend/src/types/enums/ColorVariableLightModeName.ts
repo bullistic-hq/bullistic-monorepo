@@ -45,8 +45,6 @@ enum ColorVariableLightModeName {
   PhantomPurple = "--color-phantomPurple-lightMode",
   Pink = "--color-pink-lightMode",
   PinkVerticalGradient = "--color-pinkVerticalGradient-lightMode",
-  PopheadzDarkGray = "--color-popheadzDarkGray-lightMode",
-  PopheadzLightGray = "--color-popheadzLightGray-lightMode",
   Primary = "--color-primary-lightMode",
   ProgressBar = "--color-progressBar-lightMode",
   Purple = "--color-purple-lightMode",

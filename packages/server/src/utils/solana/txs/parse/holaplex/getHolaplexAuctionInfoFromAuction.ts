@@ -1,9 +1,9 @@
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import invariant from "tiny-invariant";
 import HOLAPLEX_TRANSACTION_TYPES from "src/constants/HolaplexTransactionTypes";
 import HolaplexAuctionInfo from "src/types/HolaplexAuctionInfo";
 import NftTransactionOnchain from "src/types/NftTransactionOnchain";
-import PublicKeyOrString from "formfn-shared/dist/types/PublicKeyOrString";
+import PublicKeyOrString from "bullistic-shared/dist/types/PublicKeyOrString";
 import getMasterEditionMintFromStandardEditionMint from "src/utils/solana/accounts/getMasterEditionMintFromStandardEditionMint";
 import AccountLoader from "src/utils/solana/rpc/AccountLoader";
 import getHolaplexTxsForAuction from "src/utils/solana/txs/parse/holaplex/getHolaplexTxsForAuction";

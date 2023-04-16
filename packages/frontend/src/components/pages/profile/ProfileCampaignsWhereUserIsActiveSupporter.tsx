@@ -7,7 +7,7 @@ import ProfileCampaignsEmptyContent from "components/pages/profile/ProfileCampai
 import { ProfileCampaignsWhereUserIsActiveSupporterPaginationQuery } from "components/pages/profile/__generated__/ProfileCampaignsWhereUserIsActiveSupporterPaginationQuery.graphql";
 import { ProfileCampaignsWhereUserIsActiveSupporter_Query$key } from "components/pages/profile/__generated__/ProfileCampaignsWhereUserIsActiveSupporter_Query.graphql";
 import { PROFILE_CAMPAIGNS_PAGE_SIZE } from "constants/PageSizes";
-import { range } from "formfn-shared/dist/utils/range";
+import { range } from "bullistic-shared/dist/utils/range";
 import useCampaignGridFullWidthColumnCount from "hooks/grids/useCampaignGridFullWidthColumnCount";
 import { profilePageCampaignsWhereUserIsActiveSupporterQuery } from "hooks/profile-page/useProfilePageCampaignsWhereUserIsActiveSupporter";
 import { useProfilePageCampaignsWhereUserIsActiveSupporterQuery } from "hooks/profile-page/__generated__/useProfilePageCampaignsWhereUserIsActiveSupporterQuery.graphql";

@@ -2,14 +2,14 @@ import graphql from "babel-plugin-relay/macro";
 import ListingCardPill from "components/auction/ListingCardPill";
 import { ListingCardNftKindPill_MetadataAccount$key } from "components/auction/__generated__/ListingCardNftKindPill_MetadataAccount.graphql";
 import GiftIcon from "components/icons/GiftIcon";
-import NftKind from "formfn-shared/dist/types/enums/NftKind";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import NftKind from "bullistic-shared/dist/types/enums/NftKind";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import useEditionSupply from "hooks/useEditionSupply";
 import useNftKind from "hooks/useNftKind";
 import { useFragment } from "react-relay";
 import ColorValue from "types/enums/ColorValue";
-import pluralize from "formfn-shared/dist/utils/pluralize";
+import pluralize from "bullistic-shared/dist/utils/pluralize";
 import LayersIcon from "components/icons/LayersIcon";
 import shouldShowOpenEditionsCopy from "utils/nft/shouldShowOpenEditionsCopy";
 

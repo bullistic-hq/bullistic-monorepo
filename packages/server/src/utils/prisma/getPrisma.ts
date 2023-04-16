@@ -1,4 +1,4 @@
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { PrismaClient } from "@prisma/client";
 import dayjs from "src/utils/dates/dayjsex";
 import logEvent from "src/utils/analytics/logEvent";

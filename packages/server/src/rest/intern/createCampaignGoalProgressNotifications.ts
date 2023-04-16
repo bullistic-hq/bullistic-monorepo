@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from "express";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { Notification } from "@prisma/client";
 import CONVERT_CAMPAIGN_INCLUDE from "src/constants/include/ConvertCampaignInclude";
 import ConvertCampaignType from "src/types/convert/ConvertCampaignType";
@@ -11,7 +11,7 @@ import {
   NotificationTypeExpress_Enum,
 } from "src/__generated__/generated";
 import pLimit from "p-limit";
-import jsonStringify from "formfn-shared/dist/utils/jsonStringify";
+import jsonStringify from "bullistic-shared/dist/utils/jsonStringify";
 
 const limit = pLimit(5);
 

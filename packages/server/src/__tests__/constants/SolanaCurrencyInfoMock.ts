@@ -1,6 +1,6 @@
 import { Decimal } from "@prisma/client/runtime";
 import { CurrencyNameExpress_Enum } from "src/__generated__/generated";
-import { WRAPPED_SOL_MINT } from "formfn-shared/dist/constants/SolanaConstants";
+import { WRAPPED_SOL_MINT } from "bullistic-shared/dist/constants/SolanaConstants";
 
 const SOLANA_CURRENCY_INFO_MOCK = {
   decimals: 9,

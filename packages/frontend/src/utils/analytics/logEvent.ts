@@ -1,9 +1,9 @@
 import axios from "axios";
 import AnalyticsEvent from "types/enums/AnalyticsEvent";
 import getDefaultLogProperties from "utils/analytics/getDefaultLogProperties";
-import toObject from "formfn-shared/dist/utils/toObject";
+import toObject from "bullistic-shared/dist/utils/toObject";
 import getRestUrl from "utils/env/getRestUrl";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
 import getApiHeaders from "utils/api/getApiHeaders";
 import getLdBootstrap from "utils/launch-darkly/getLdBootstrap";
 

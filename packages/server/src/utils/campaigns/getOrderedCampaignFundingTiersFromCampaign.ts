@@ -1,4 +1,4 @@
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import ConvertCampaignType from "src/types/convert/ConvertCampaignType";
 import convertCampaignFundingTier from "src/utils/convert/convertCampaignFundingTier";
 

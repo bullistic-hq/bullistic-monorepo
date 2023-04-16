@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from "express";
 import getPrisma from "src/utils/prisma/getPrisma";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import invariant from "tiny-invariant";
 
 export default async function populateNftTransactionUsdPriceWebhook(

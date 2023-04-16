@@ -5,9 +5,9 @@ import { EditProfileForm_User$key } from "components/pages/profile/edit/__genera
 import { useFragment, useMutation } from "react-relay";
 import isValidDisplayName, {
   MAX_DISPLAY_NAME_LENGTH,
-} from "formfn-shared/dist/utils/validation/isValidDisplayName";
-import isValidUsername from "formfn-shared/dist/utils/validation/isValidUsername";
-import isValidEmail from "formfn-shared/dist/utils/validation/isValidEmail";
+} from "bullistic-shared/dist/utils/validation/isValidDisplayName";
+import isValidUsername from "bullistic-shared/dist/utils/validation/isValidUsername";
+import isValidEmail from "bullistic-shared/dist/utils/validation/isValidEmail";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import InputWithLabel from "components/input/InputWithLabel";
@@ -38,7 +38,7 @@ import {
   EditProfileFormPhotosMutation,
   Photo_insert_input,
 } from "components/pages/profile/edit/__generated__/EditProfileFormPhotosMutation.graphql";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import uploadProfilePhoto from "utils/firebase/uploadProfilePhoto";
 import { v4 } from "uuid";
 import uploadCoverPhoto from "utils/firebase/uploadCoverPhoto";
@@ -52,7 +52,7 @@ import useCheckSocialNetworkAuthError from "hooks/useCheckSocialNetworkAuthError
 import isUsernameTaken from "utils/isUsernameTaken";
 import ConnectInstagramButton from "components/buttons/ConnectInstagramButton";
 import useFlagsTyped from "hooks/useFlagsTyped";
-import getUserProfileLinkRelative from "formfn-shared/dist/utils/links/getUserProfileLinkRelative";
+import getUserProfileLinkRelative from "bullistic-shared/dist/utils/links/getUserProfileLinkRelative";
 import ConnectDiscordButton from "components/buttons/ConnectDiscordButton";
 import TextButton from "components/buttons/TextButton";
 import TextButtonTheme from "types/enums/TextButtonTheme";

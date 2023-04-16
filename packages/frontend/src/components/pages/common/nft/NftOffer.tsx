@@ -1,7 +1,7 @@
 import styles from "css/pages/common/nft/NftOffer.module.css";
 import graphql from "babel-plugin-relay/macro";
 import { useFragment } from "react-relay";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import {
   NftOffer_NftTransactionExpress$key,
   NftOffer_NftTransactionExpress$data,

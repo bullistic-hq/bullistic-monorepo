@@ -2,7 +2,7 @@ import MyContext from "src/types/MyContext";
 import getPrisma from "src/utils/prisma/getPrisma";
 import getOpenOffersMadeByUserWhereClause from "src/utils/nft/getOpenOffersMadeByUserWhereClause";
 import getPublicKey from "src/utils/headers/getPublicKey";
-import isEmptyObject from "formfn-shared/dist/utils/isEmptyObject";
+import isEmptyObject from "bullistic-shared/dist/utils/isEmptyObject";
 
 async function viewerHasOpenOffersPlacedResolver(
   context: MyContext,

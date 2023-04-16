@@ -1,4 +1,4 @@
-import getUserProfileLinkRelative from "formfn-shared/dist/utils/links/getUserProfileLinkRelative";
+import getUserProfileLinkRelative from "bullistic-shared/dist/utils/links/getUserProfileLinkRelative";
 import TextButton from "components/buttons/TextButton";
 import TextButtonTheme from "types/enums/TextButtonTheme";
 import FontClass from "types/enums/FontClass";

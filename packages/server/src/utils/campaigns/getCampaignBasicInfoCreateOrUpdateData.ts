@@ -1,5 +1,5 @@
 import { Prisma } from "@prisma/client";
-import getDashCasedString from "formfn-shared/dist/utils/string/getDashCasedString";
+import getDashCasedString from "bullistic-shared/dist/utils/string/getDashCasedString";
 import {
   CampaignStatusExpress_Enum,
   CreateCampaignInput,

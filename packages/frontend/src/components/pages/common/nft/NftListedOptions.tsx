@@ -219,7 +219,7 @@ export default function NftListedOptions({
               setIsDeleteModalShown(true);
             }}
           >
-            Remove from Formfunction
+            Remove from Bullistic
           </TextButton>
         )}
     </>

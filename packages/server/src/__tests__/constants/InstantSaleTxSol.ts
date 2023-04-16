@@ -1,5 +1,5 @@
 // https://explorer.solana.com/tx/5UGh5azV7ZD5m59EKjkCB8G2JsokChkEq6G9WHSM8KHTm1nggEA1sHTUEqrVzXNk821h2J5rLP8PNjKvXq2KGpQR?cluster=devnet
-// For this nft on dev: https://dev.formfunction.xyz/@pencilflip/D2bn9fg3qy2uCijjfsWXR95A722YU9aaCg5BkiaK8V1B?width=4000&height=4000
+// For this nft on dev: https://dev.bullistic.xyz/@pencilflip/D2bn9fg3qy2uCijjfsWXR95A722YU9aaCg5BkiaK8V1B?width=4000&height=4000
 const INSTANT_SALE_TX_SOL = {
   blockTime: 1660969959,
   meta: {

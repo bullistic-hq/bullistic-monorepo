@@ -1,6 +1,6 @@
 import { RecordSourceSelectorProxy } from "relay-runtime";
 import deleteOfferTransactionNodes from "utils/relay/deleteOfferTransactionNodes";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 
 export default function deleteOfferTransactionNode<T>(
   store: RecordSourceSelectorProxy<T>,

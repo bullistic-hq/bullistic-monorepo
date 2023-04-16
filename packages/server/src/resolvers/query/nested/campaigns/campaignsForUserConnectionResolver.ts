@@ -1,6 +1,6 @@
 import MyContext from "src/types/MyContext";
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
-import arrayIntersect from "formfn-shared/dist/utils/array/arrayIntersect";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
+import arrayIntersect from "bullistic-shared/dist/utils/array/arrayIntersect";
 import getPrisma from "src/utils/prisma/getPrisma";
 import {
   CampaignsConnection,

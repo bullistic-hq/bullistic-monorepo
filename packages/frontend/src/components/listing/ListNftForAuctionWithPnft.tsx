@@ -13,7 +13,7 @@ import TextButtonTheme from "types/enums/TextButtonTheme";
 import graphql from "babel-plugin-relay/macro";
 import { ListNftForAuctionWithPnft_MetadataAccount$key } from "components/listing/__generated__/ListNftForAuctionWithPnft_MetadataAccount.graphql";
 import useFlagsTyped from "hooks/useFlagsTyped";
-import formatPnftDropDuration from "formfn-shared/dist/utils/dates/formatPnftDropDuration";
+import formatPnftDropDuration from "bullistic-shared/dist/utils/dates/formatPnftDropDuration";
 import ListNftSignTransactionStep from "types/enums/ListNftSignTransactionStep";
 import useNftPageContext from "hooks/useNftPageContext";
 import dayjs from "utils/dates/dayjsex";

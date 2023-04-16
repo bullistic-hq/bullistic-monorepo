@@ -1,14 +1,14 @@
 import graphql from "babel-plugin-relay/macro";
 import { CrossmintButton_MetadataAccount$key } from "components/buttons/__generated__/CrossmintButton_MetadataAccount.graphql";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { useFragment } from "react-relay";
 import { CrossmintPayButton } from "@crossmint/client-sdk-react-ui";
 import { LAMPORTS_PER_SOL } from "@solana/web3.js";
 import styles from "css/buttons/CrossmintButton.module.css";
-import getCreatorsForExecuteSale from "formfn-shared/dist/utils/sale/getCreatorsForExecuteSale";
+import getCreatorsForExecuteSale from "bullistic-shared/dist/utils/sale/getCreatorsForExecuteSale";
 import getEnvironment from "utils/getEnvironment";
-import Environment from "formfn-shared/dist/types/Environment";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import Environment from "bullistic-shared/dist/types/Environment";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 
 function getCrossmintEnvironment() {
   const env = getEnvironment();
@@ -84,7 +84,7 @@ export default function CrossmintButton({
         buyPrice: priceV2!.amount / LAMPORTS_PER_SOL,
         tokenAccount: ownerTokenAccount,
         tokenMint: metadataAccountData.mint,
-        type: "REPLACeME",
+        type: "REPLACEME",
         walletCreators:
           remainingAccounts?.map(({ pubkey }) => pubkey.toString()) ?? [],
         walletSeller: ownerId,

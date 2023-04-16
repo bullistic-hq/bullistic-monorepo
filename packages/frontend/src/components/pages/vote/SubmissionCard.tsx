@@ -14,7 +14,7 @@ import Body2 from "components/text/Body2";
 import Header3 from "components/text/Header3";
 import TinyLabel from "components/text/TinyLabel";
 import styles from "css/pages/vote/SubmissionCard.module.css";
-import isEmptyString from "formfn-shared/dist/utils/string/isEmptyString";
+import isEmptyString from "bullistic-shared/dist/utils/string/isEmptyString";
 import useColorModeContext from "hooks/useColorModeContext";
 import { useFragment } from "react-relay";
 import ColorClass from "types/enums/ColorClass";

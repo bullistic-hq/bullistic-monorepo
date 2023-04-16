@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from "express";
-import encodeDiscordAuthCallbackParams from "formfn-shared/dist/utils/discord/encodeDiscordAuthCallbackParams";
+import encodeDiscordAuthCallbackParams from "bullistic-shared/dist/utils/discord/encodeDiscordAuthCallbackParams";
 import getPrisma from "src/utils/prisma/getPrisma";
 import logError from "src/utils/analytics/logError";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
@@ -10,7 +10,7 @@ import {
   getDiscordUserWithOauthToken,
   getMemberInGuildByUserIdIfExists,
 } from "src/utils/discord/discordApiClient";
-import DiscordAuthCallbackFailureReason from "formfn-shared/dist/types/enums/DiscordAuthCallbackFailureReason";
+import DiscordAuthCallbackFailureReason from "bullistic-shared/dist/types/enums/DiscordAuthCallbackFailureReason";
 import getRedirectUrlFromRequest from "src/utils/social/getRedirectUrlFromRequest";
 import { RedirectLocation_Enum } from "src/__generated__/generated";
 import updateDiscordAuthAndGrantRoles from "src/utils/discord/updateDiscordAuthAndGrantRoles";

@@ -62,7 +62,7 @@ export default function NftHistoryModal({
     <GenericModal isShown={isShown} onHide={onHide} title="NFT History">
       <div className={styles.container}>
         <Body1 colorClass={ColorClass.Secondary} textAlign="center">
-          This history will be shown on the NFT&apos;s page on Formfunction.
+          This history will be shown on the NFT&apos;s page on Bullistic.
         </Body1>
         <Suspense
           fallback={<LoadingSpinner colorValue={ColorValue.BrightPurple} />}

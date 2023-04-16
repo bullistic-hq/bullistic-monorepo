@@ -2,8 +2,8 @@ import styles from "css/spotlights/ActiveSpotlightHero.module.css";
 import ArtistPillButton from "components/buttons/ArtistPillButton";
 import SpotlightHeroBasic from "components/spotlights/SpotlightHeroBasic";
 import SpotlightHeroSquareImage from "components/spotlights/SpotlightHeroSquareImage";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import useFlagsTyped from "hooks/useFlagsTyped";
 import graphql from "babel-plugin-relay/macro";
 import { useFragment } from "react-relay";
@@ -12,7 +12,7 @@ import {
   ActiveSpotlightHero_SpotlightExpress$key,
 } from "components/spotlights/__generated__/ActiveSpotlightHero_SpotlightExpress.graphql";
 import SpotlightOverlay from "components/spotlights/SpotlightOverlay";
-import dayjs from "formfn-shared/dist/utils/dates/dayjsex";
+import dayjs from "bullistic-shared/dist/utils/dates/dayjsex";
 import SpotlightGoToUrlOrShowDetailsModal from "components/spotlights/SpotlightGoToUrlOrShowDetailsModal";
 import SpotlightArtistPills from "components/spotlights/SpotlightArtistPills";
 import AutoLink from "components/misc/AutoLink";

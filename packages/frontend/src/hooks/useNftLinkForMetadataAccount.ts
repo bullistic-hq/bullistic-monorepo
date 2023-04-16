@@ -1,7 +1,7 @@
 import graphql from "babel-plugin-relay/macro";
 import { useNftLinkForMetadataAccount_MetadataAccount$key } from "hooks/__generated__/useNftLinkForMetadataAccount_MetadataAccount.graphql";
 import { useFragment } from "react-relay";
-import getNftLinkRelative from "formfn-shared/dist/utils/links/getNftLinkRelative";
+import getNftLinkRelative from "bullistic-shared/dist/utils/links/getNftLinkRelative";
 
 const fragment = graphql`
   fragment useNftLinkForMetadataAccount_MetadataAccount on MetadataAccount {

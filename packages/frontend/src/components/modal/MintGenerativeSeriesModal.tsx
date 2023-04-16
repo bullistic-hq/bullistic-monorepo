@@ -11,15 +11,15 @@ import NftOtherInfoWithSeparator from "components/auction/NftOtherInfoWithSepara
 import useSolanaContext from "hooks/useSolanaContext";
 import invariant from "tiny-invariant";
 import { Keypair, PublicKey } from "@solana/web3.js";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { MintGenerativeSeriesModalMutation } from "components/modal/__generated__/MintGenerativeSeriesModalMutation.graphql";
 import { notify } from "components/toast/notifications";
 import sendTransactionWithWallet from "utils/solana/misc/sendTransactionWithWallet";
 import commitRawTxMutation from "utils/relay/commitRawTxMutation";
-import CommitRawTxType from "formfn-shared/dist/types/enums/CommitRawTxType";
+import CommitRawTxType from "bullistic-shared/dist/types/enums/CommitRawTxType";
 import ButtonWithText from "components/buttons/ButtonWithText";
 import ButtonTheme from "types/enums/ButtonTheme";
-import getNftLinkRelative from "formfn-shared/dist/utils/links/getNftLinkRelative";
+import getNftLinkRelative from "bullistic-shared/dist/utils/links/getNftLinkRelative";
 import useUserContext from "hooks/useUserContext";
 import FetchGraphqlVariablesDenylist from "types/enums/FetchGraphqlVariablesDenylist";
 import { MintGenerativeSeriesModal_CampaignSectionWithGenerativeMintsCandyMachineInfo$key } from "components/modal/__generated__/MintGenerativeSeriesModal_CampaignSectionWithGenerativeMintsCandyMachineInfo.graphql";
@@ -28,7 +28,7 @@ import useCandyMachineMintPhase from "hooks/candy-machine/useCandyMachineMintPha
 import useCampaignContext from "hooks/useCampaignContext";
 import { CAMPAIGN_PAGE_ACTIVITY_FIRST } from "hooks/campaign-page/v1/useCampaignPageActivity";
 import notifyUnexpectedError from "components/toast/notifyUnexpectedError";
-import { CandyMachineMintPhase } from "@formfunction-hq/formfunction-candy-machine";
+import { CandyMachineMintPhase } from "@bullistic-hq/bullistic-candy-machine";
 import useCandyMachineMintPrice from "hooks/candy-machine/useCandyMachineMintPrice";
 import usePriceCurrencyName from "hooks/candy-machine/usePriceCurrencyNameAndAmount";
 

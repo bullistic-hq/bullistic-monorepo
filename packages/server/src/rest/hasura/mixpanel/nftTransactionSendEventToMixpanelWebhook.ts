@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from "express";
-import toObject from "formfn-shared/dist/utils/toObject";
+import toObject from "bullistic-shared/dist/utils/toObject";
 import MixpanelEvent from "src/types/enums/MixpanelEvent";
 import dayjs from "src/utils/dates/dayjsex";
 import getEnvironment from "src/utils/getEnvironment";

@@ -63,12 +63,6 @@
   color: var(--color-navy);
 }
 
-/* Popheadz Dark Gray */
-.buttonPopheadzDarkGray,
-.buttonPopheadzDarkGrayActive {
-  color: var(--color-popheadzDarkGray);
-}
-
 .buttonPrimary:hover {
   color: var(--color-primary);
 }

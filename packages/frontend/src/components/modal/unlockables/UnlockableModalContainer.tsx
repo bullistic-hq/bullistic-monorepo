@@ -6,7 +6,7 @@ import UnlockableDetailsModal from "components/modal/unlockables/UnlockableDetai
 import GenericModal from "components/modal/GenericModal";
 import useUnlockableModalContext from "hooks/useUnlockableModalContext";
 import UnlockableModalType from "types/enums/UnlockableModalType";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import { UnlockableModalContainer_MetadataAccount$key } from "components/modal/unlockables/__generated__/UnlockableModalContainer_MetadataAccount.graphql";
 import useNftKind from "hooks/useNftKind";
 import getUnlockableWinner from "utils/unlockables/getUnlockableWinner";

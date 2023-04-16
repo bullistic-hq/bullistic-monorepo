@@ -6,7 +6,7 @@ import {
   UnseenActivityNotificationsCountForViewerResponse,
 } from "src/__generated__/generated";
 import ACTIVITY_NOTIFICATION_TYPES from "src/constants/ActivityNotificationTypes";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import getViewerId from "src/utils/auth/getViewerId";
 
 export default async function unseenActivityNotificationsCountForViewerResolver(

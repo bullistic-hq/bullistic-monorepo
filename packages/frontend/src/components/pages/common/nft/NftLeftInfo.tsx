@@ -5,7 +5,7 @@ import { NftLeftInfo_MetadataAccount$key } from "components/pages/common/nft/__g
 import { useFragment } from "react-relay";
 import Body1 from "components/text/Body1";
 import ColorClass from "types/enums/ColorClass";
-import stripTrailingDecimals from "formfn-shared/dist/utils/stripTrailingDecimals";
+import stripTrailingDecimals from "bullistic-shared/dist/utils/stripTrailingDecimals";
 import TextButton from "components/buttons/TextButton";
 import TextButtonTheme from "types/enums/TextButtonTheme";
 import FontClass from "types/enums/FontClass";
@@ -18,7 +18,7 @@ import dayjs from "utils/dates/dayjsex";
 import SeriesInfoCard from "components/pages/series/SeriesInfoCard";
 import NftAttributes from "components/pages/common/nft/NftAttributes";
 import NftLeftInfoEditionInfo from "components/pages/common/nft/NftLeftInfoEditionInfo";
-import formatDecimals from "formfn-shared/dist/utils/formatDecimals";
+import formatDecimals from "bullistic-shared/dist/utils/formatDecimals";
 import DEFAULT_PRICE_INCREMENT_PERCENTAGE from "constants/DefaultPriceIncrementPercentage";
 import useNftPriceSymbol from "hooks/useNftPriceSymbol";
 import getSolscanNftLink from "utils/solana/explorer/getSolscanNftLink";

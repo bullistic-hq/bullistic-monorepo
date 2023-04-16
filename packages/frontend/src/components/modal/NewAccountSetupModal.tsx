@@ -4,7 +4,7 @@ import { useMutation } from "react-relay";
 import { NewAccountSetupModalUserMutation } from "components/modal/__generated__/NewAccountSetupModalUserMutation.graphql";
 import ErrorMessageMsg from "types/enums/ErrorMessageMsg";
 import GenericAccountSetupModal from "components/modal/GenericAccountSetupModal";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import trackMixpanelEvent from "utils/mixpanel/trackMixpanelEvent";
 import MixpanelEvent from "types/enums/MixpanelEvent";
 

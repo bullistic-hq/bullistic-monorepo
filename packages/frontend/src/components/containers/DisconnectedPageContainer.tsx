@@ -4,7 +4,7 @@ import DisconnectedPage from "components/pages/misc/DisconnectedPage";
 import useSolanaContext from "hooks/useSolanaContext";
 import useUserContext from "hooks/useUserContext";
 import ColorValue from "types/enums/ColorValue";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import DisconnectedPageContent from "components/pages/misc/DisconnectedPageContent";
 import isEmployee from "utils/isEmployee";
 

@@ -1,13 +1,13 @@
 import graphql from "babel-plugin-relay/macro";
 import NftLabelAndContent from "components/pages/common/nft/NftLabelAndContent";
 import { useFragment } from "react-relay";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import styles from "css/pages/common/nft/NftAttributes.module.css";
 import { NftAttributes_MetadataAccount$key } from "components/pages/common/nft/__generated__/NftAttributes_MetadataAccount.graphql";
 import Body1 from "components/text/Body1";
 import Body1Medium from "components/text/Body1Medium";
 import ColorClass from "types/enums/ColorClass";
-import formatIntegerWithCommas from "formfn-shared/dist/utils/numbers/formatIntegerWithCommas";
+import formatIntegerWithCommas from "bullistic-shared/dist/utils/numbers/formatIntegerWithCommas";
 
 const fragment = graphql`
   fragment NftAttributes_MetadataAccount on MetadataAccount {

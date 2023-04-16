@@ -1,4 +1,4 @@
-import objectFromEntries from "formfn-shared/dist/utils/object/objectFromEntries";
+import objectFromEntries from "bullistic-shared/dist/utils/object/objectFromEntries";
 import getSortSeriesBySeriesOrderCompareFn from "utils/series/getSortSeriesBySeriesOrderCompareFn";
 
 type SeriesWithMintAndName = {

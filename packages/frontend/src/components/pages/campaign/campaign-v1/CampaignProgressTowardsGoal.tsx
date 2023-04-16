@@ -3,7 +3,7 @@ import { useFragment } from "react-relay";
 import { CampaignProgressTowardsGoal_CampaignExpress$key } from "components/pages/campaign/campaign-v1/__generated__/CampaignProgressTowardsGoal_CampaignExpress.graphql";
 import CampaignProgressForCampaignMonetaryGoal from "components/pages/campaign/campaign-v2/hero/goals/CampaignProgressForCampaignMonetaryGoal";
 import RELAY_FUTURE_UNION_VALUE from "constants/RelayFutureUnionValue";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import CampaignProgressForCampaignSaleCountGoal from "components/pages/campaign/campaign-v2/hero/goals/CampaignProgressForCampaignSaleCountGoal";
 
 const campaignFragment = graphql`

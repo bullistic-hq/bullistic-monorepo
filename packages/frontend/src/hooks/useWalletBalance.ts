@@ -1,7 +1,7 @@
 import useSolanaContext from "hooks/useSolanaContext";
 import { useEffect, useState } from "react";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
-import getBalanceForMint from "formfn-shared/dist/utils/solana/getBalanceForMint";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
+import getBalanceForMint from "bullistic-shared/dist/utils/solana/getBalanceForMint";
 import CurrencyConfig from "types/CurrencyConfig";
 
 export default function useWalletBalance(

@@ -11,8 +11,8 @@ import { CreatePostBaseForCampaignModalMutation } from "components/modal/__gener
 import { notify } from "components/toast/notifications";
 import notifyUnexpectedError from "components/toast/notifyUnexpectedError";
 import styles from "css/modal/CreatePostBaseForCampaignModal.module.css";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import getContentTypeFromFilename from "formfn-shared/dist/utils/getContentTypeFromFilename";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import getContentTypeFromFilename from "bullistic-shared/dist/utils/getContentTypeFromFilename";
 import useRelayConnectionIdsContext from "hooks/useRelayConnectionIdsContext";
 import { useState } from "react";
 import { useFragment, useMutation } from "react-relay";

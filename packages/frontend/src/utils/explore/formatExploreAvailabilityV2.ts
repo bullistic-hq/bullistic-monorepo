@@ -1,5 +1,5 @@
 import ExploreAvailabilityV2 from "types/enums/ExploreAvailabilityV2";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 
 export default function formatExploreAvailabilityV2(
   availability: ExploreAvailabilityV2

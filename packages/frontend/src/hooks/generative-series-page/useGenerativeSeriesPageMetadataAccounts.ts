@@ -1,10 +1,10 @@
 import graphql from "babel-plugin-relay/macro";
 import { GENERATIVE_SERIES_PAGE_NFTS_PAGE_SIZE } from "constants/PageSizes";
-import NftKind from "formfn-shared/dist/types/enums/NftKind";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
-import flat from "formfn-shared/dist/utils/array/flat";
-import convertToFullDecimals from "formfn-shared/dist/utils/convertToFullDecimals";
-import isEmptyString from "formfn-shared/dist/utils/string/isEmptyString";
+import NftKind from "bullistic-shared/dist/types/enums/NftKind";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
+import flat from "bullistic-shared/dist/utils/array/flat";
+import convertToFullDecimals from "bullistic-shared/dist/utils/convertToFullDecimals";
+import isEmptyString from "bullistic-shared/dist/utils/string/isEmptyString";
 import { useGenerativeSeriesPageMetadataAccountsQuery } from "hooks/generative-series-page/__generated__/useGenerativeSeriesPageMetadataAccountsQuery.graphql";
 import useGenerativeSeriesContext from "hooks/useGenerativeSeriesContext";
 import { useEffect, useMemo } from "react";
@@ -21,7 +21,6 @@ export const generativeSeriesMetadataAccountsQuery = graphql`
     $input: MetadataAccountsForExploreInput!
   ) {
     ...GenerativeSeriesPageContent_Query
-    ...CampaignTooniesSwapContent_Query
   }
 `;
 

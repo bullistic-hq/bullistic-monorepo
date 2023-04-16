@@ -15,7 +15,7 @@ import ColorClass from "types/enums/ColorClass";
 import CreateStep from "types/enums/CreateStep";
 import FontClass from "types/enums/FontClass";
 import GlobalClass from "types/enums/GlobalClass";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import useMintNft from "hooks/useMintNft";
 import useCreateNftDetailsContext from "hooks/useCreateNftDetailsContext";
 import MintType from "types/enums/MintType";

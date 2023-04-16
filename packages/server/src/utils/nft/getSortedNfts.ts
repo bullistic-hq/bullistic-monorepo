@@ -1,6 +1,6 @@
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import ConvertNftToMetadataAccountType from "src/types/convert/ConvertNftToMetadataAccountType";
-import isNumber from "formfn-shared/dist/utils/numbers/isNumber";
+import isNumber from "bullistic-shared/dist/utils/numbers/isNumber";
 
 function getSorted(
   order: Maybe<Array<string>>,

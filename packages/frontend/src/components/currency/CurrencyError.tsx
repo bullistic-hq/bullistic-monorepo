@@ -1,4 +1,4 @@
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import Body1 from "components/text/Body1";
 import ColorClass from "types/enums/ColorClass";
 

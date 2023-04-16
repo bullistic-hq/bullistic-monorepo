@@ -9,7 +9,7 @@ import {
   User,
 } from "@prisma/client";
 import { NextFunction, Request, Response } from "express";
-import jsonStringify from "formfn-shared/dist/utils/jsonStringify";
+import jsonStringify from "bullistic-shared/dist/utils/jsonStringify";
 import { Maybe } from "graphql/jsutils/Maybe";
 import invariant from "tiny-invariant";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
@@ -20,7 +20,7 @@ import getPrisma from "src/utils/prisma/getPrisma";
 import { NftTransactionTypeExpress_Enum } from "src/__generated__/generated";
 import NoopResponse from "src/types/enums/NoopResponse";
 import createUnlockableShareInfoNotification from "src/utils/notifications/create/createUnlockableShareInfoNotification";
-import formatDecimals from "formfn-shared/dist/utils/formatDecimals";
+import formatDecimals from "bullistic-shared/dist/utils/formatDecimals";
 
 function isPrimarySaleTransaction(
   req: Request,

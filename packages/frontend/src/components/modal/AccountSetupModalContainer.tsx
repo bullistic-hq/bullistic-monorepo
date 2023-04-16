@@ -3,8 +3,8 @@ import { AccountSetupModalContainerUserQuery } from "components/modal/__generate
 import useSolanaContext from "hooks/useSolanaContext";
 import { Suspense } from "react";
 import { useLazyLoadQuery } from "react-relay";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
 import NewAccountSetupModal from "components/modal/NewAccountSetupModal";
 
 const query = graphql`

@@ -1,4 +1,4 @@
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import ContentTypeForFilters from "types/enums/ContentTypeForFilters";
 
 export default function getContentTypesForContentTypeForFilters(

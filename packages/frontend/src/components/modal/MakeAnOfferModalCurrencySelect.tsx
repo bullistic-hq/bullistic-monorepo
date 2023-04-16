@@ -1,5 +1,5 @@
 import CurrencySelect from "components/select/CurrencySelect";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import useNftPageLoadCampaign from "hooks/nft-page/useNftPageLoadCampaign";
 import { useNftPageCampaignQuery } from "hooks/nft-page/__generated__/useNftPageCampaignQuery.graphql";
 import useNftPageContext from "hooks/useNftPageContext";

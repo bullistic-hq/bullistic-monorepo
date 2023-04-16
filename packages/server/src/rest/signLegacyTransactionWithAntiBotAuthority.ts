@@ -1,6 +1,6 @@
 import { Transaction } from "@solana/web3.js";
 import { NextFunction, Request, Response } from "express";
-import arePublicKeysEqual from "formfn-shared/dist/utils/compare/arePublicKeysEqual";
+import arePublicKeysEqual from "bullistic-shared/dist/utils/compare/arePublicKeysEqual";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 import logError from "src/utils/analytics/logError";
 import getUserFromRequestHeaders from "src/utils/auth/getUserFromRequestHeaders";

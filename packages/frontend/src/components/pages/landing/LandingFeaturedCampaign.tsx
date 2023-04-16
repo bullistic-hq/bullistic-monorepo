@@ -12,9 +12,9 @@ import ArtistPillButtonForUserExpress from "components/buttons/ArtistPillButtonF
 import { Suspense } from "react";
 import Skeleton from "react-loading-skeleton";
 import useFlagsTyped from "hooks/useFlagsTyped";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { Link } from "react-router-dom";
-import getCampaignLinkRelative from "formfn-shared/dist/utils/links/getCampaignLinkRelative";
+import getCampaignLinkRelative from "bullistic-shared/dist/utils/links/getCampaignLinkRelative";
 
 export const query = graphql`
   query LandingFeaturedCampaignQuery($input: CampaignForSlugInput!) {

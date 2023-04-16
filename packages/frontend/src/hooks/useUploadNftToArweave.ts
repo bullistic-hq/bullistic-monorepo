@@ -1,21 +1,21 @@
 import graphql from "babel-plugin-relay/macro";
 import useSolanaContext from "hooks/useSolanaContext";
 import { useMutation } from "react-relay";
-import isNumber from "formfn-shared/dist/utils/numbers/isNumber";
+import isNumber from "bullistic-shared/dist/utils/numbers/isNumber";
 import {
   useUploadNftToArweaveMutation,
   NftMetadataV1Input,
   NftMetadataV1AttributeInput,
   NftMetadataV1CreatorPropertyInput,
 } from "hooks/__generated__/useUploadNftToArweaveMutation.graphql";
-import getArweaveLink from "formfn-shared/dist/utils/getArweaveLink";
+import getArweaveLink from "bullistic-shared/dist/utils/getArweaveLink";
 import {
   Maybe,
   MaybeUndef,
   Undef,
-} from "formfn-shared/dist/types/UtilityTypes";
-import getContentTypeFromFilename from "formfn-shared/dist/utils/getContentTypeFromFilename";
-import getNftMetadataFileProperties from "formfn-shared/dist/utils/solana/metaplex/getNftMetadataFileProperties";
+} from "bullistic-shared/dist/types/UtilityTypes";
+import getContentTypeFromFilename from "bullistic-shared/dist/utils/getContentTypeFromFilename";
+import getNftMetadataFileProperties from "bullistic-shared/dist/utils/solana/metaplex/getNftMetadataFileProperties";
 
 const mutation = graphql`
   mutation useUploadNftToArweaveMutation($input: UploadNftToArweaveInput!) {

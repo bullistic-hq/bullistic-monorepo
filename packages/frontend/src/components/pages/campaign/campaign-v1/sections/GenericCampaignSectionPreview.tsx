@@ -9,7 +9,7 @@ import GlobalClass from "types/enums/GlobalClass";
 import joinClasses from "utils/joinClasses";
 import Body1Medium from "components/text/Body1Medium";
 import scrollElementIntoView from "utils/scroll/scrollElementIntoView";
-import CampaignTab from "formfn-shared/dist/types/enums/CampaignTab";
+import CampaignTab from "bullistic-shared/dist/types/enums/CampaignTab";
 import graphql from "babel-plugin-relay/macro";
 import { GenericCampaignSectionPreview_MetadataAccount$key } from "components/pages/campaign/campaign-v1/sections/__generated__/GenericCampaignSectionPreview_MetadataAccount.graphql";
 import { useFragment } from "react-relay";

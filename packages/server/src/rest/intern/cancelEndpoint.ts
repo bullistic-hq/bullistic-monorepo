@@ -1,7 +1,7 @@
 import { PublicKey, sendAndConfirmTransaction } from "@solana/web3.js";
 import { NextFunction, Request, Response } from "express";
-import findAta from "formfn-shared/dist/utils/solana/pdas/findAta";
-import toObject from "formfn-shared/dist/utils/toObject";
+import findAta from "bullistic-shared/dist/utils/solana/pdas/findAta";
+import toObject from "bullistic-shared/dist/utils/toObject";
 import getAuthorityKeypair from "src/utils/keypairs/getAuthorityKeypair";
 import getPrisma from "src/utils/prisma/getPrisma";
 import getAuctionHouseSdk from "src/utils/solana/getAuctionHouseSdk";

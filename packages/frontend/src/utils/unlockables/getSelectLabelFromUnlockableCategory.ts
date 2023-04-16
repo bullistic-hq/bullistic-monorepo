@@ -1,4 +1,4 @@
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import { UnlockableCategoryType } from "types/UnlockableCategoryType";
 
 export default function getSelectLabelFromUnlockableCategory(

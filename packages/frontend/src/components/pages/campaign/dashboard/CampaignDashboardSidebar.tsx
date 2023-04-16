@@ -11,7 +11,7 @@ import ColorValue from "types/enums/ColorValue";
 import FontClass from "types/enums/FontClass";
 import joinClasses from "utils/joinClasses";
 import styles from "css/pages/campaign/dashboard/CampaignDashboardSidebar.module.css";
-import getCampaignLinkRelative from "formfn-shared/dist/utils/links/getCampaignLinkRelative";
+import getCampaignLinkRelative from "bullistic-shared/dist/utils/links/getCampaignLinkRelative";
 import NavLink from "components/text/NavLink";
 import useBreakpoint from "hooks/useBreakpoint";
 import CustomSelect from "components/select/CustomSelect";
@@ -19,7 +19,7 @@ import EditIcon from "components/icons/EditIcon";
 import graphql from "babel-plugin-relay/macro";
 import { CampaignDashboardSidebar_CampaignV2$key } from "components/pages/campaign/dashboard/__generated__/CampaignDashboardSidebar_CampaignV2.graphql";
 import { useFragment } from "react-relay";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import useCanViewerEditCampaign from "hooks/campaign/useCanViewerEditCampaign";
 
 const fragment = graphql`

@@ -1,6 +1,6 @@
 // https://explorer.solana.com/tx/zrbmaWXQT3CFh7zcqroq3kGMacgqdX6Vxm63VpruVRrZdG57Sscjqxfsez2gsfvKPeB6oD8gugDSyvRBU2MCea4?cluster=devnet
 //
-// For https://dev.formfunction.xyz/@burner/CZcBSySzxYbrwwrjcdDEMi3sVw2N9jKNtKLNV5JXxWMX
+// For https://dev.bullistic.xyz/@burner/CZcBSySzxYbrwwrjcdDEMi3sVw2N9jKNtKLNV5JXxWMX
 const CREATE_EDITION_DISTRIBUTOR_TX = {
   blockTime: 1652587477,
   meta: {

@@ -21,7 +21,7 @@ const TEAM_PICTURES = [
   getImgixUrl("about/team-2.JPG"),
 ];
 const CAREER_URL =
-  "https://formfunction.notion.site/Join-Formfunction-4d162e0369174c6c8a69b0653a7e594b";
+  "https://bullistic.notion.site/Join-Bullistic-4d162e0369174c6c8a69b0653a7e594b";
 
 function JoinCta(): JSX.Element {
   return (
@@ -51,7 +51,7 @@ function JoinCta(): JSX.Element {
         colorClass={ColorClass.Primary}
         textAlign="center"
       >
-        Formfunction was built by creators, for creators: the majority of our
+        Bullistic was built by creators, for creators: the majority of our
         team is made up of artists and creators.
       </Body1>
       <ButtonWithText
@@ -61,7 +61,7 @@ function JoinCta(): JSX.Element {
         type="link_external"
         href={CAREER_URL}
       >
-        Careers at Formfunction
+        Careers at Bullistic
       </ButtonWithText>
     </div>
   );

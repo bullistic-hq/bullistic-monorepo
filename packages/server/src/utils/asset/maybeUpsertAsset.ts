@@ -1,8 +1,8 @@
-import getContentTypeFromFilename from "formfn-shared/dist/utils/getContentTypeFromFilename";
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import getContentTypeFromFilename from "bullistic-shared/dist/utils/getContentTypeFromFilename";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import { Asset, Prisma } from "@prisma/client";
 import { v4 } from "uuid";
-import getAssetPathFromFormfunctionAssetSrc from "src/utils/asset/getAssetPathFromFormfunctionAssetSrc";
+import getAssetPathFromBullisticAssetSrc from "src/utils/asset/getAssetPathFromBullisticAssetSrc";
 import PrismaTransactionClient from "src/types/PrismaTransactionClient";
 
 // TODO: add support for video?
@@ -17,7 +17,7 @@ export default async function maybeUpsertAsset(
   }
 
   // TODO: support arbitrary URLs by using uploadFileFromUrl
-  const assetPath = getAssetPathFromFormfunctionAssetSrc(assetSrc);
+  const assetPath = getAssetPathFromBullisticAssetSrc(assetSrc);
   if (assetSrc != null && assetPath == null) {
     throw new Error(
       "Invalid URI for asset -- the asset must be uploaded to our Firebase storage bucket"

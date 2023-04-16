@@ -15,7 +15,7 @@ import assertCampaignHasAbout from "src/utils/campaigns/validation/assertCampaig
 import assertCampaignHasFundingTier from "src/utils/campaigns/validation/assertCampaignHasFundingTier";
 import assertUserSignedRequest from "src/utils/auth/assertUserSignedRequest";
 import CampaignAction from "src/types/enums/CampaignAction";
-import getCampaignLinkRelative from "formfn-shared/dist/utils/links/getCampaignLinkRelative";
+import getCampaignLinkRelative from "bullistic-shared/dist/utils/links/getCampaignLinkRelative";
 import sendSlackNotification from "src/utils/tooling/sendSlackNotification";
 import SlackWebhook from "src/types/enums/SlackWebhook";
 import isProd from "src/utils/isProd";
@@ -61,7 +61,7 @@ export default async function submitCampaignForApprovalResolver(
       slug,
       title,
     } = campaign;
-    const content = `New campaign, *${title}*, submitted for approval by @${username}! Review the submission at https://formfunction.xyz${getCampaignLinkRelative(
+    const content = `New campaign, *${title}*, submitted for approval by @${username}! Review the submission at https://bullistic.xyz${getCampaignLinkRelative(
       username,
       slug
     )}/admin`;

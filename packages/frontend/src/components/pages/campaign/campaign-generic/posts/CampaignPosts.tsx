@@ -12,7 +12,7 @@ import { CAMPAIGN_POSTS_PAGE_SIZE } from "constants/PageSizes";
 import RELAY_FUTURE_UNION_VALUE from "constants/RelayFutureUnionValue";
 import { RelayConnectionIdsProvider } from "context/RelayConnectionIdsContext";
 import { FlexboxProps } from "flexbox-react";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import { postsForCampaignQuery } from "hooks/campaign/usePostsForCampaign";
 import { usePostsForCampaignQuery } from "hooks/campaign/__generated__/usePostsForCampaignQuery.graphql";
 import useLoadNextOnBottomScroll from "hooks/useLoadNextOnBottomScroll";

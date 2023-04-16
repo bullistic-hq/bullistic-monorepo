@@ -1,4 +1,4 @@
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import BidderAuctionAlmostOverNotificationData from "src/types/notifications/BidderAuctionAlmostOverNotificationData";
 import BidderAuctionExtendedNotificationData from "src/types/notifications/BidderAuctionExtendedNotificationData";
 import BidderAuctionSettledNotificationData from "src/types/notifications/BidderAuctionSettledNotificationData";

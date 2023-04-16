@@ -1,5 +1,5 @@
 import { Asset, Post, Reaction } from "@prisma/client";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import ConvertCommentType from "src/types/convert/ConvertCommentType";
 import ConvertNftToMetadataAccountType from "src/types/convert/ConvertNftToMetadataAccountType";
 import ConvertPollType from "src/types/convert/ConvertPollType";

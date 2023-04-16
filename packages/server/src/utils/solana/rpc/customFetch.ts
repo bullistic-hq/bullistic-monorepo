@@ -1,6 +1,6 @@
 import { Duration } from "dayjs/plugin/duration";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import dayjs from "formfn-shared/dist/utils/dates/dayjsex";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import dayjs from "bullistic-shared/dist/utils/dates/dayjsex";
 import fetch, { RequestInfo, RequestInit, Response } from "node-fetch";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 import logError from "src/utils/analytics/logError";

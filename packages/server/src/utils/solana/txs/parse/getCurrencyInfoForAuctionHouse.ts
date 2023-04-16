@@ -1,6 +1,6 @@
 import { Currency } from "@prisma/client";
 import { PublicKey } from "@solana/web3.js";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import getCurrencyInfoForTreasuryMint from "src/utils/solana/txs/parse/getCurrencyInfoForTreasuryMint";
 import getTreasuryMintAccountFromAuctionHouse from "src/utils/solana/txs/parse/getTreasuryMintAccountFromAuctionHouse";
 

@@ -4,7 +4,7 @@ import GlobeIcon from "components/icons/GlobeIcon";
 import InstagramIcon from "components/icons/InstagramIcon";
 import TwitterIcon from "components/icons/TwitterIcon";
 import styles from "css/buttons/SocialLinkButton.module.css";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import ColorValue from "types/enums/ColorValue";
 
 type SocialType = "discord" | "instagram" | "twitter" | "website";

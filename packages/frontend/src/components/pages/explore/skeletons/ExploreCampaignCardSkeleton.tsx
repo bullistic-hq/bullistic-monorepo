@@ -1,7 +1,7 @@
 import ArtistPillLoadingSkeleton from "components/auction/ArtistPillLoadingSkeleton";
 import SquareContainer from "components/containers/SquareContainer";
 import ExploreCampaignCard from "components/pages/explore/ExploreCampaignCard";
-import { range } from "formfn-shared/dist/utils/range";
+import { range } from "bullistic-shared/dist/utils/range";
 import Skeleton from "react-loading-skeleton";
 
 type Props = {

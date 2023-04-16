@@ -5,7 +5,7 @@ import ListingCardLoadingSkeleton from "components/auction/ListingCardLoadingSke
 import NftGridFullWidth from "components/grids/nft/NftGridFullWidth";
 import { NftPageNextInThisSeriesPaginationQuery } from "components/pages/common/nft/__generated__/NftPageNextInThisSeriesPaginationQuery.graphql";
 import { NftPageNextInThisSeriesSection_Query$key } from "components/pages/common/nft/__generated__/NftPageNextInThisSeriesSection_Query.graphql";
-import { range } from "formfn-shared/dist/utils/range";
+import { range } from "bullistic-shared/dist/utils/range";
 import { Suspense } from "react";
 import {
   PreloadedQuery,
@@ -24,7 +24,7 @@ import Body1 from "components/text/Body1";
 import { Link } from "react-router-dom";
 import { useNftPageNextInThisSeriesQuery } from "hooks/nft-page/__generated__/useNftPageNextInThisSeriesQuery.graphql";
 import { nextInThisSeriesQuery } from "hooks/nft-page/useNftPageNextInThisSeries";
-import getSeriesLinkRelative from "formfn-shared/dist/utils/links/getSeriesLinkRelative";
+import getSeriesLinkRelative from "bullistic-shared/dist/utils/links/getSeriesLinkRelative";
 import useNftGridFullWidthColumnCount from "hooks/grids/useNftGridFullWidthColumnCount";
 
 function Header({

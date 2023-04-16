@@ -1,7 +1,7 @@
 import HeliusTransactionSource from "src/types/enums/helius/HeliusTransactionSource";
 import Typename from "src/types/enums/Typename";
-import PublicKeyOrString from "formfn-shared/dist/types/PublicKeyOrString";
-import isNotNull from "formfn-shared/dist/utils/isNotNull";
+import PublicKeyOrString from "bullistic-shared/dist/types/PublicKeyOrString";
+import isNotNull from "bullistic-shared/dist/utils/isNotNull";
 import getNftTransactionNftInfo from "src/utils/graphql/getNftTransactionNftInfo";
 import getHeliusTransactionFromAndTo from "src/utils/solana/polyweave/getHeliusTransactionFromAndTo";
 import getHeliusTransactionNftTransactionType from "src/utils/solana/polyweave/getHeliusTransactionNftTransactionType";
@@ -12,7 +12,7 @@ import {
 } from "src/__generated__/generated";
 import DEFAULT_AUCTION_COUNT from "src/constants/DefaultAuctionCount";
 import logError from "src/utils/analytics/logError";
-import toObject from "formfn-shared/dist/utils/toObject";
+import toObject from "bullistic-shared/dist/utils/toObject";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 
 export default async function getExchangeArtTransactionsHelius(

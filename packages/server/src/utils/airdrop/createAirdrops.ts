@@ -8,7 +8,7 @@ import logEvent from "src/utils/analytics/logEvent";
 import getPrisma from "src/utils/prisma/getPrisma";
 import { AirdropTypeExpress_Enum } from "src/__generated__/generated";
 import invariant from "tiny-invariant";
-import removeDuplicatesWithSet from "formfn-shared/dist/utils/array/removeDuplicatesWithSet";
+import removeDuplicatesWithSet from "bullistic-shared/dist/utils/array/removeDuplicatesWithSet";
 
 export default async function createAirdrops(
   req: Request,

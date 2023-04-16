@@ -1,11 +1,11 @@
 import PlainButton from "components/buttons/PlainButton";
-import { range } from "formfn-shared/dist/utils/range";
+import { range } from "bullistic-shared/dist/utils/range";
 import styles from "css/buttons/BigToggleButton.module.css";
 import BodyText from "components/text/BodyText";
 import ComponentSize from "types/enums/ComponentSize";
 import joinClasses from "utils/joinClasses";
 import FontClass from "types/enums/FontClass";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import ColorClass from "types/enums/ColorClass";
 
 function getToggleSizeClass(componentSize: ComponentSize | undefined) {

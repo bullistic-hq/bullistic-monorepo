@@ -1,5 +1,5 @@
 import { ParsedTransactionWithMeta, PublicKey } from "@solana/web3.js";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import NftTransactionOnchain from "src/types/NftTransactionOnchain";
 import getNftCreatorFromMint from "src/utils/prisma/getNftCreatorFromMint";
 import dayjs from "src/utils/dates/dayjsex";
@@ -7,14 +7,14 @@ import {
   NftTransactionTypeExpress_Enum,
   PriceFunctionTypeExpress_Enum,
 } from "src/__generated__/generated";
-import maybeNumber from "formfn-shared/dist/utils/numbers/maybeNumber";
+import maybeNumber from "bullistic-shared/dist/utils/numbers/maybeNumber";
 import getCurrencyInfoForTreasuryMint from "src/utils/solana/txs/parse/getCurrencyInfoForTreasuryMint";
 import convertPrice from "src/utils/convert/convertPrice";
-import { WRAPPED_SOL_MINT } from "formfn-shared/dist/constants/SolanaConstants";
+import { WRAPPED_SOL_MINT } from "bullistic-shared/dist/constants/SolanaConstants";
 import {
   DecodedAuctionHouseTransactionResult,
   deserializePriceFunctionType,
-} from "@formfunction-hq/formfunction-auction-house";
+} from "@bullistic-hq/bullistic-auction-house";
 import convertPriceFunctionTypeToGql from "src/utils/convert/convertPriceFunctionTypeToGql";
 
 // TODO[@]: Remove this "New" function when replacing the old functions, which

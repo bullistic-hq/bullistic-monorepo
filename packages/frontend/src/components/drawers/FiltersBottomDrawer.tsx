@@ -16,7 +16,7 @@ import ExploreAvailabilityFilter from "components/pages/explore/filters/ExploreA
 import ExploreTab from "types/enums/ExploreTab";
 import ExploreMarketFilter from "components/pages/explore/filters/ExploreMarketFilter";
 import ExploreExtrasFilter from "components/pages/explore/filters/ExploreExtrasFilter";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import HUMAN_READABLE_CAMPAIGN_SORT_ORDER from "constants/HumanReadableCampaignSortOrder";
 import { CampaignSortOrder } from "context/ExploreContext";
 

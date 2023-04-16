@@ -35,14 +35,14 @@ import {
 } from "context/SeriesSelectedNftsContext";
 import useSolanaContext from "hooks/useSolanaContext";
 import { notify } from "components/toast/notifications";
-import getAccountBalance from "formfn-shared/dist/utils/solana/getAccountBalance";
+import getAccountBalance from "bullistic-shared/dist/utils/solana/getAccountBalance";
 import manageSeriesNftsTxs from "utils/solana/metaplex/manageSeriesNftsTxs";
 import { ManageSeriesPiecesModalUpdateSeriesIdMutation } from "components/modal/__generated__/ManageSeriesPiecesModalUpdateSeriesIdMutation.graphql";
 import { ManageSeriesPiecesModal_Series$key } from "components/modal/__generated__/ManageSeriesPiecesModal_Series.graphql";
 import { PublicKey } from "@solana/web3.js";
 import sendTransactionWithWallet from "utils/solana/misc/sendTransactionWithWallet";
 import commitRawTxMutation from "utils/relay/commitRawTxMutation";
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
 import useUserContext from "hooks/useUserContext";
 import Body1 from "components/text/Body1";
 import ColorClass from "types/enums/ColorClass";
@@ -58,10 +58,10 @@ import WaitingForTransactionModal from "components/modal/WaitingForTransactionMo
 import usePreventRefresh from "hooks/usePreventRefresh";
 import LoadingSpinner from "components/loading/LoadingSpinner";
 import ColorValue from "types/enums/ColorValue";
-import CommitRawTxType from "formfn-shared/dist/types/enums/CommitRawTxType";
+import CommitRawTxType from "bullistic-shared/dist/types/enums/CommitRawTxType";
 import logError from "utils/analytics/logError";
 import AnalyticsEvent from "types/enums/AnalyticsEvent";
-import combineTransactions from "formfn-shared/dist/utils/solana/txs/combineTransactions";
+import combineTransactions from "bullistic-shared/dist/utils/solana/txs/combineTransactions";
 import notifyUnexpectedError from "components/toast/notifyUnexpectedError";
 
 type Props = {
@@ -491,14 +491,14 @@ export default function ManageSeriesPiecesModal({
             <div className={styles.modalHeader}>
               <Body1 textAlign="center" colorClass={ColorClass.Secondary}>
                 Add, remove, and reorder pieces in this series. Because series
-                data on Formfunction is stored on the blockchain and there is a
+                data on Bullistic is stored on the blockchain and there is a
                 transaction size limit, you can only add and remove up to{" "}
                 {TOTAL_OPERATIONS_LIMIT} pieces at a time.{" "}
                 <TextButton
                   display="inline"
                   type="link_external"
                   buttonThemeOrColorClass={TextButtonTheme.PurpleGradient}
-                  href="https://help.formfunction.xyz/en/articles/6038867-how-series-work-on-formfunction"
+                  href="https://help.bullistic.xyz/en/articles/6038867-how-series-work-on-bullistic"
                 >
                   Learn more
                 </TextButton>

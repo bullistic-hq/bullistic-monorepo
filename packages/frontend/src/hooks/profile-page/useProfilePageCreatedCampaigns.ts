@@ -2,7 +2,7 @@ import graphql from "babel-plugin-relay/macro";
 import { useEffect, useMemo } from "react";
 import { loadQuery, useQueryLoader } from "react-relay";
 import RelayEnvironment from "utils/relay/RelayEnvironment";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { useProfilePageCreatedCampaignsQuery } from "hooks/profile-page/__generated__/useProfilePageCreatedCampaignsQuery.graphql";
 import useViewerId from "hooks/useViewerId";
 

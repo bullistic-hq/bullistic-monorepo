@@ -14,7 +14,7 @@ import { Duration } from "dayjs/plugin/duration";
 import AUCTION_END_BUFFER from "src/constants/AuctionEndBuffer";
 import logEvent from "src/utils/analytics/logEvent";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
-import toObject from "formfn-shared/dist/utils/toObject";
+import toObject from "bullistic-shared/dist/utils/toObject";
 import getNftTransactionNftInfo from "src/utils/graphql/getNftTransactionNftInfo";
 
 const ITEM_AVAILABLE_TYPES = [

@@ -9,7 +9,7 @@ import {
 } from "src/__generated__/generated";
 import dayjs from "src/utils/dates/dayjsex";
 import convertNftToMetadataAccount from "src/utils/convert/convertNftToMetadataAccount";
-import removeDuplicatesWithComparison from "formfn-shared/dist/utils/array/removeDuplicatesWithComparison";
+import removeDuplicatesWithComparison from "bullistic-shared/dist/utils/array/removeDuplicatesWithComparison";
 import Typename from "src/types/enums/Typename";
 import NFT_TRANSACTION_ORDER_BY from "src/constants/orderBy/NftTransactionOrderBy";
 

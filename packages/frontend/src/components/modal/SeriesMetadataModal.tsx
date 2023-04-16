@@ -11,7 +11,7 @@ import GenericModal from "components/modal/GenericModal";
 import styles from "css/modal/SeriesMetadataModal.module.css";
 import { SeriesMetadataContext } from "context/SeriesMetadataContext";
 import { useRef, useContext, useEffect, useState } from "react";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { SeriesMetadataModalValidateSlugQuery } from "components/modal/__generated__/SeriesMetadataModalValidateSlugQuery.graphql";
 import useUserContext from "hooks/useUserContext";
 import ErrorMessageMsg from "types/enums/ErrorMessageMsg";
@@ -23,8 +23,8 @@ import usePreventRefresh from "hooks/usePreventRefresh";
 import { notify } from "components/toast/notifications";
 import logError from "utils/analytics/logError";
 import AnalyticsEvent from "types/enums/AnalyticsEvent";
-import isEmptyString from "formfn-shared/dist/utils/string/isEmptyString";
-import getSeriesLinkRelative from "formfn-shared/dist/utils/links/getSeriesLinkRelative";
+import isEmptyString from "bullistic-shared/dist/utils/string/isEmptyString";
+import getSeriesLinkRelative from "bullistic-shared/dist/utils/links/getSeriesLinkRelative";
 import { MAX_DESCRIPTION_LENGTH } from "constants/MaxLengths";
 import ColorClass from "types/enums/ColorClass";
 
@@ -202,7 +202,7 @@ export default function SeriesMetadataModal({
           <Body2
             className={styles.url}
             colorClass={ColorClass.Primary}
-          >{`The URL for this series will be: formfunction.xyz${getSeriesLinkRelative(
+          >{`The URL for this series will be: bullistic.xyz${getSeriesLinkRelative(
             user.username,
             slug
           )}`}</Body2>

@@ -1,7 +1,7 @@
 import graphql from "babel-plugin-relay/macro";
 import { useFragment } from "react-relay";
 import ColorClass from "types/enums/ColorClass";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { PriceWithSymbol_Price$key } from "components/price/__generated__/PriceWithSymbol_Price.graphql";
 import BodyText from "components/text/BodyText";
 import FontClass from "types/enums/FontClass";

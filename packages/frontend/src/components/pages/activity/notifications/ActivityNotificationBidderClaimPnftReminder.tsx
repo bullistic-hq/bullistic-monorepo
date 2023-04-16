@@ -6,7 +6,7 @@ import NftAssetForActivityNotificationNftInfo from "components/images/NftAssetFo
 import NftLinkForActivityNotificationNftInfo from "components/buttons/NftLinkForActivityNotificationNftInfo";
 import SystemNotificationContainer from "components/pages/activity/SystemNotificationContainer";
 import ActivityNotificationLinkActionButton from "components/pages/activity/ActivityNotificationLinkActionButton";
-import pluralize from "formfn-shared/dist/utils/pluralize";
+import pluralize from "bullistic-shared/dist/utils/pluralize";
 
 const fragment = graphql`
   fragment ActivityNotificationBidderClaimPnftReminder_ActivityNotificationBidderClaimPnftReminder on ActivityNotificationBidderClaimPnftReminder {

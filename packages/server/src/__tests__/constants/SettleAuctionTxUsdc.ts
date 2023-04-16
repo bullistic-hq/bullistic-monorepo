@@ -1,5 +1,5 @@
 // https://explorer.solana.com/tx/2WiTCb7xTr7N8yaWtc55f32My4pnVnKoMDRA2xo2kwe1BFsiGDAjD8m8hXDWagHHZwZfZVy89BCns1ityYEpTPqx?cluster=devnet
-// For this nft on dev: https://dev.formfunction.xyz/@burner/EH41cWnzLhhXP5ZThvNWgpy1MMnBfXFSGjFY4A9yHqaD?width=3387&height=3387
+// For this nft on dev: https://dev.bullistic.xyz/@burner/EH41cWnzLhhXP5ZThvNWgpy1MMnBfXFSGjFY4A9yHqaD?width=3387&height=3387
 const SETTLE_AUCTION_TX_USDC = {
   blockTime: 1661999936,
   meta: {

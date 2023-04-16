@@ -1,6 +1,6 @@
 import { Dayjs } from "dayjs";
 import { NextFunction, Request, Response } from "express";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 import logError from "src/utils/analytics/logError";
 import dayjs from "src/utils/dates/dayjsex";
@@ -28,7 +28,7 @@ function isLogLineValid(
 }
 
 // Example log line:
-// 2022/05/23 01:56:04 [error] 77811#77811: *37101993 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 140.0.17.165, server: api2.formfunction.xyz, request: "POST /intern/logEventToLoki HTTP/1.1", upstream: "http://127.0.0.1:4003/intern/logEventToLoki", host: "api2.formfunction.xyz", referrer: "https://formfunction.xyz/"
+// 2022/05/23 01:56:04 [error] 77811#77811: *37101993 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 140.0.17.165, server: api2.bullistic.xyz, request: "POST /intern/logEventToLoki HTTP/1.1", upstream: "http://127.0.0.1:4003/intern/logEventToLoki", host: "api2.bullistic.xyz", referrer: "https://bullistic.xyz/"
 function parseLogLine(logLineRaw: string): Maybe<LogLine> {
   if (logLineRaw.length === 0) {
     return null;
@@ -46,7 +46,7 @@ function parseLogLine(logLineRaw: string): Maybe<LogLine> {
  * Our servers will continually hit this endpoint (via a cron job) by using a command like so:
  *
  *   nginx_errors=$(sudo tail -n 100 /var/log/nginx/error.log | base64) &&
- *     curl -X POST https://api-balance.formfunction.xyz/intern/logNginxErrors --data "$nginx_errors" --header "check: fofu" --header 'Content-Type: text/plain' --header 'x-server-name: apidev'
+ *     curl -X POST https://api-balance.bullistic.xyz/intern/logNginxErrors --data "$nginx_errors" --header "check: bull" --header 'Content-Type: text/plain' --header 'x-server-name: apidev'
  *
  * Then, we will log a Sentry error if there are any recent non-notice lines in the Nginx logs.
  */

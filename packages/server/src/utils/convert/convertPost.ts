@@ -1,10 +1,10 @@
 import { Reaction } from "@prisma/client";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import groupBy from "formfn-shared/dist/utils/array/groupBy";
-import getNftLinkRelative from "formfn-shared/dist/utils/links/getNftLinkRelative";
-import getLinkWithoutProtocol from "formfn-shared/dist/utils/links/getLinkWithoutProtocol";
-import getStringWithoutTrailingCharacter from "formfn-shared/dist/utils/string/getStringWithoutTrailingCharacter";
-import isEmptyString from "formfn-shared/dist/utils/string/isEmptyString";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import groupBy from "bullistic-shared/dist/utils/array/groupBy";
+import getNftLinkRelative from "bullistic-shared/dist/utils/links/getNftLinkRelative";
+import getLinkWithoutProtocol from "bullistic-shared/dist/utils/links/getLinkWithoutProtocol";
+import getStringWithoutTrailingCharacter from "bullistic-shared/dist/utils/string/getStringWithoutTrailingCharacter";
+import isEmptyString from "bullistic-shared/dist/utils/string/isEmptyString";
 import CONVERT_CAMPAIGN_FUNDING_TIER_INCLUDE from "src/constants/include/ConvertCampaignFundingTierInclude";
 import ConvertPostType from "src/types/convert/ConvertPostType";
 import Typename from "src/types/enums/Typename";

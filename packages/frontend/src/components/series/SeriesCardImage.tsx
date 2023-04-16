@@ -5,7 +5,7 @@ import Imgix from "react-imgix";
 import MaybeImgix from "components/images/MaybeImgix";
 import LoadingShimmer from "components/loading/LoadingShimmer";
 import Skeleton from "react-loading-skeleton";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import useLazyLoadConfig from "hooks/useLazyLoadConfig";
 import MaybeWrapWithLazyLoad from "components/containers/MaybeWrapWithLazyLoad";
 

@@ -5,10 +5,10 @@ import { notify } from "components/toast/notifications";
 import logIfNotProd from "utils/logIfNotProd";
 import sendTransactionWithWallet from "utils/solana/misc/sendTransactionWithWallet";
 import commitRawTxMutation from "utils/relay/commitRawTxMutation";
-import CommitRawTxType from "formfn-shared/dist/types/enums/CommitRawTxType";
+import CommitRawTxType from "bullistic-shared/dist/types/enums/CommitRawTxType";
 import findTokenMetadata from "utils/solana/pdas/findTokenMetadata";
-import getUpdateMetadataTx from "formfn-shared/dist/utils/solana/metaplex/getUpdateMetadataTx";
-import MetadataV2UpdateFields from "formfn-shared/dist/types/MetadataV2UpdateFields";
+import getUpdateMetadataTx from "bullistic-shared/dist/utils/solana/metaplex/getUpdateMetadataTx";
+import MetadataV2UpdateFields from "bullistic-shared/dist/types/MetadataV2UpdateFields";
 
 export default async function updateMetadata(
   connection: Connection,

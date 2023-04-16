@@ -1,7 +1,7 @@
 import { MetadataAccountData, NftAttribute } from "src/__generated__/generated";
 import getPrisma from "src/utils/prisma/getPrisma";
-import { getCompareByProperty } from "formfn-shared/dist/utils/getCompareByProperty";
-import SortOrder from "formfn-shared/dist/types/enums/SortOrder";
+import { getCompareByProperty } from "bullistic-shared/dist/utils/getCompareByProperty";
+import SortOrder from "bullistic-shared/dist/types/enums/SortOrder";
 import Typename from "src/types/enums/Typename";
 
 export default async function attributesResolver(

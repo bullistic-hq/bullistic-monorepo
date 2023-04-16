@@ -3,7 +3,7 @@ import CurrencyConfig from "types/CurrencyConfig";
 import graphql from "babel-plugin-relay/macro";
 import { PublicKey } from "@solana/web3.js";
 import { useGetCurrencyConfigForCurrencyExpress_CurrencyExpress$key } from "hooks/__generated__/useGetCurrencyConfigForCurrencyExpress_CurrencyExpress.graphql";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import SOLANA_CURRENCY_CONFIG from "constants/SolanaCurrencyConfig";
 
 const fragment = graphql`

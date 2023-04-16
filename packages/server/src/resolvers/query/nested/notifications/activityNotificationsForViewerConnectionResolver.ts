@@ -1,4 +1,4 @@
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import MyContext from "src/types/MyContext";
 import {
   ActivityNotificationsConnection,
@@ -44,7 +44,7 @@ import convertOwnerPieceSoldAsInstantSaleNotification from "src/utils/notificati
 import convertUnlockableDeclinedToSharedInfoNotification from "src/utils/notifications/convert/convertUnlockableDeclinedToSharedInfoNotification";
 import convertUnlockableInfoSharedNotification from "src/utils/notifications/convert/convertUnlockableInfoSharedNotification";
 import convertUnlockableShareInfoNotification from "src/utils/notifications/convert/convertUnlockableShareInfoNotification";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import { Prisma } from "@prisma/client";
 import ACTIVITY_NOTIFICATION_TYPES from "src/constants/ActivityNotificationTypes";
 import invariant from "tiny-invariant";

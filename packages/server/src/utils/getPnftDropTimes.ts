@@ -1,5 +1,5 @@
-import PnftDropTimesFlag from "formfn-shared/dist/types/PnftDropTimesFlag";
-import dayjs from "formfn-shared/dist/utils/dates/dayjsex";
+import PnftDropTimesFlag from "bullistic-shared/dist/types/PnftDropTimesFlag";
+import dayjs from "bullistic-shared/dist/utils/dates/dayjsex";
 import LaunchDarklyFlag from "src/types/enums/LaunchDarklyFlag";
 import getLdFlag from "src/utils/launch-darkly/getLdFlag";
 

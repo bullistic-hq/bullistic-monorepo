@@ -8,7 +8,7 @@ import joinClasses from "utils/joinClasses";
 import ColorClass from "types/enums/ColorClass";
 import FontClass from "types/enums/FontClass";
 import CampaignStatusExpress_enum from "types/relay/CampaignStatusExpress_enum";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import RELAY_FUTURE_ADDED_VALUE from "constants/RelayFutureAddedValue";
 
 type CtaContentProps = {

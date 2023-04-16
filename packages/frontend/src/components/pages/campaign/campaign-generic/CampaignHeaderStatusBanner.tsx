@@ -4,17 +4,17 @@ import ColorClass from "types/enums/ColorClass";
 import TextButton from "components/buttons/TextButton";
 import TextButtonTheme from "types/enums/TextButtonTheme";
 import RELAY_FUTURE_ADDED_VALUE from "constants/RelayFutureAddedValue";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import CampaignStatusExpress_enum from "types/relay/CampaignStatusExpress_enum";
 import CampaignHeaderBanner from "components/pages/campaign/campaign-generic/CampaignHeaderBanner";
 import graphql from "babel-plugin-relay/macro";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { CampaignHeaderStatusBanner_CampaignV2$key } from "components/pages/campaign/campaign-generic/__generated__/CampaignHeaderStatusBanner_CampaignV2.graphql";
 import { useFragment } from "react-relay";
 import FontClass from "types/enums/FontClass";
 import ChevronLeftIcon from "components/icons/ChevronLeftIcon";
 import ColorValue from "types/enums/ColorValue";
-import getCampaignLinkRelative from "formfn-shared/dist/utils/links/getCampaignLinkRelative";
+import getCampaignLinkRelative from "bullistic-shared/dist/utils/links/getCampaignLinkRelative";
 import isDashboardVisible from "utils/campaigns/permissions/isDashboardVisible";
 
 const fragment = graphql`

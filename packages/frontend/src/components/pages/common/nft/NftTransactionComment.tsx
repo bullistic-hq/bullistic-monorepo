@@ -1,8 +1,8 @@
 import styles from "css/pages/common/nft/NftTransactionComment.module.css";
 import Body1 from "components/text/Body1";
-import isEmptyString from "formfn-shared/dist/utils/string/isEmptyString";
+import isEmptyString from "bullistic-shared/dist/utils/string/isEmptyString";
 import ColorClass from "types/enums/ColorClass";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 export type Props = {
   comment: Maybe<string>;

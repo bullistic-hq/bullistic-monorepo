@@ -2,22 +2,22 @@ import graphql from "babel-plugin-relay/macro";
 import { useMutation } from "react-relay";
 import { useContext, useState } from "react";
 import ErrorMessageMsg from "types/enums/ErrorMessageMsg";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { v4 } from "uuid";
 import logIfNotProd from "utils/logIfNotProd";
 import getCdnUrlForProfileOrCoverPhoto from "utils/getCdnUrlForProfileOrCoverPhoto";
 import uploadSeriesPreviewImage from "utils/firebase/uploadSeriesPreviewImage";
 import uploadSeriesCoverImage from "utils/firebase/uploadSeriesCoverImage";
 import useSolanaContext from "hooks/useSolanaContext";
-import { MIN_MINT_BALANCE_LAMPORTS } from "formfn-shared/dist/constants/SolanaConstants";
+import { MIN_MINT_BALANCE_LAMPORTS } from "bullistic-shared/dist/constants/SolanaConstants";
 import { notify } from "components/toast/notifications";
-import getAccountBalance from "formfn-shared/dist/utils/solana/getAccountBalance";
-import formatLamports from "formfn-shared/dist/utils/formatLamports";
-import getSeriesLinkRelative from "formfn-shared/dist/utils/links/getSeriesLinkRelative";
+import getAccountBalance from "bullistic-shared/dist/utils/solana/getAccountBalance";
+import formatLamports from "bullistic-shared/dist/utils/formatLamports";
+import getSeriesLinkRelative from "bullistic-shared/dist/utils/links/getSeriesLinkRelative";
 import useUploadNftToArweave, {
   OnUploadNftToArweaveCompletedInput,
 } from "hooks/useUploadNftToArweave";
-import getArweaveLink from "formfn-shared/dist/utils/getArweaveLink";
+import getArweaveLink from "bullistic-shared/dist/utils/getArweaveLink";
 import { CreateSeriesModalMutation } from "components/modal/__generated__/CreateSeriesModalMutation.graphql";
 import {
   CreateSeriesModalPhotosMutation,

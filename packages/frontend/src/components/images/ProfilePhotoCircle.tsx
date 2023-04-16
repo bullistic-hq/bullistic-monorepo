@@ -1,11 +1,11 @@
 import ColorValue from "types/enums/ColorValue";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import styles from "css/images/ProfilePhotoCircle.module.css";
 import Imgix from "react-imgix";
 import joinClasses from "utils/joinClasses";
 import MaybeImgix from "components/images/MaybeImgix";
 import { Link } from "react-router-dom";
-import getUserProfileLinkRelative from "formfn-shared/dist/utils/links/getUserProfileLinkRelative";
+import getUserProfileLinkRelative from "bullistic-shared/dist/utils/links/getUserProfileLinkRelative";
 import ProfileIcon from "components/icons/ProfileIcon";
 
 type Props = {

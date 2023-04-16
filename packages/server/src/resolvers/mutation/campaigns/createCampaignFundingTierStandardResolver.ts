@@ -11,7 +11,7 @@ import convertCampaign from "src/utils/convert/convertCampaign";
 import assertCanUpdateCampaign from "src/utils/campaigns/assertCanUpdateCampaign";
 import assertUserSignedRequest from "src/utils/auth/assertUserSignedRequest";
 import CampaignAction from "src/types/enums/CampaignAction";
-import isEmptyString from "formfn-shared/dist/utils/string/isEmptyString";
+import isEmptyString from "bullistic-shared/dist/utils/string/isEmptyString";
 
 function assertInputIsValid({
   benefits,

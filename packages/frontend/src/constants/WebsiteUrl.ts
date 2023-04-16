@@ -1,3 +1,3 @@
-const WEBSITE_URL = "https://formfunction.xyz/";
+const WEBSITE_URL = "https://bullistic.xyz/";
 
 export default WEBSITE_URL;

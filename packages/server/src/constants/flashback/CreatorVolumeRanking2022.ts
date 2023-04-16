@@ -1,5 +1,5 @@
 // Computed using Metabase on 12/16/2022
-// See https://formfunction.metabaseapp.com/question/78-creator-volume-ranking
+// See https://bullistic.metabaseapp.com/question/78-creator-volume-ranking
 const CREATOR_VOLUME_RANKING_2022 = [
   {
     CreatorId: "J1kqJ6XTiBxz5fTuTRg5yUBvkoQMjN8m5DLCToky9JsJ",

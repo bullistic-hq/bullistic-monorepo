@@ -6,7 +6,7 @@ import FontClass from "types/enums/FontClass";
 import LeaveIcon from "components/icons/LeaveIcon";
 import ButtonWithText from "components/buttons/ButtonWithText";
 import ButtonTheme from "types/enums/ButtonTheme";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 
 type Props = {
   buttonStyle: "TextButton" | "ButtonWithText";

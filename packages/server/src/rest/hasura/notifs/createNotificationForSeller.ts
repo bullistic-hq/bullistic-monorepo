@@ -1,5 +1,5 @@
 import { Request } from "express";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import NFT_TRANSACTION_ORDER_BY from "src/constants/orderBy/NftTransactionOrderBy";
 import { getPrismaObjects } from "src/rest/hasura/notifs/createNotificationsWebhook";
 import getPrisma from "src/utils/prisma/getPrisma";
@@ -13,7 +13,7 @@ import createOwnerFirstBidReceivedNotification from "src/utils/notifications/cre
 import createOwnerOtherBidReceivedNotification from "src/utils/notifications/create/createOwnerOtherBidReceivedNotification";
 import createOwnerOfferReceivedNotification from "src/utils/notifications/create/createOwnerOfferReceivedNotification";
 import createOwnerPieceSoldAsInstantSaleNotification from "src/utils/notifications/create/createOwnerPieceSoldAsInstantSaleNotification";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 async function isFirstBidForAuction(
   mint: string,

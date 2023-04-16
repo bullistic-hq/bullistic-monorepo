@@ -11,20 +11,20 @@ import {
   NftTransaction_NftTransactionExpress$data,
   NftTransaction_NftTransactionExpress$key,
 } from "components/pages/common/nft/__generated__/NftTransaction_NftTransactionExpress.graphql";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import GlobalClass from "types/enums/GlobalClass";
 import ExchangeArtIcon from "components/icons/ExchangeArtIcon";
 import ProfileLink from "components/pages/common/nft/ProfileLink";
 import TxLink from "components/pages/common/nft/TxLink";
 import NftTransactionComment from "components/pages/common/nft/NftTransactionComment";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import RELAY_FUTURE_ADDED_VALUE from "constants/RelayFutureAddedValue";
 import {
   NftTransaction_MetadataAccount$data,
   NftTransaction_MetadataAccount$key,
 } from "components/pages/common/nft/__generated__/NftTransaction_MetadataAccount.graphql";
 import useNftKindNullable from "hooks/useNftKindNullable";
-import NftKind from "formfn-shared/dist/types/enums/NftKind";
+import NftKind from "bullistic-shared/dist/types/enums/NftKind";
 import SOLD_TRANSACTION_TYPES from "constants/transactions/SoldTransactionTypes";
 import PriceWithSymbol from "components/price/PriceWithSymbol";
 import useFormattedNftPrice from "hooks/useFormattedNftPrice";

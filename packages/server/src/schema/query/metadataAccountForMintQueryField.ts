@@ -4,7 +4,7 @@ import metadataAccountForMintResolver from "src/resolvers/query/metadataAccountF
 import MetadataAccountForMintInputGqlType from "src/schema/input/MetadataAccountForMintInputGqlType";
 import MetadataAccountGqlType from "src/schema/object/MetadataAccountGqlType";
 import MyContext from "src/types/MyContext";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import gqlNonNull from "src/utils/graphql/gqlNonNull";
 import {
   MetadataAccount,

@@ -1,7 +1,7 @@
 import graphql from "babel-plugin-relay/macro";
 import CampaignDashboardHoldersTab from "components/pages/campaign/dashboard/tabs/CampaignDashboardHoldersTab";
 import CampaignDashboardCommunityUpdatesTab from "components/pages/campaign/dashboard/tabs/CampaignDashboardCommunityUpdatesTab";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { usePostsForCampaignQuery } from "hooks/campaign/__generated__/usePostsForCampaignQuery.graphql";
 import { useState } from "react";
 import { PreloadedQuery, useFragment } from "react-relay";

@@ -1,4 +1,4 @@
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import getCampaignWhereForCampaignForSlugInput from "src/utils/campaigns/getCampaignWhereForCampaignForSlugInput";
 import getPrisma from "src/utils/prisma/getPrisma";
 

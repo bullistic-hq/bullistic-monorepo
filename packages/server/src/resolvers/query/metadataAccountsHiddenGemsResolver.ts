@@ -10,7 +10,7 @@ import {
 import LaunchDarklyFlag from "src/types/enums/LaunchDarklyFlag";
 import getLdFlag from "src/utils/launch-darkly/getLdFlag";
 import Typename from "src/types/enums/Typename";
-import removeDuplicatesWithComparison from "formfn-shared/dist/utils/array/removeDuplicatesWithComparison";
+import removeDuplicatesWithComparison from "bullistic-shared/dist/utils/array/removeDuplicatesWithComparison";
 import DEFAULT_HIDDEN_GEMS_CONFIG from "src/constants/flags/hiddenGemsConfig";
 import logError from "src/utils/analytics/logError";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";

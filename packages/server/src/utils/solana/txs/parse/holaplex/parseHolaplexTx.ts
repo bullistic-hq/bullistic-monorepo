@@ -1,7 +1,7 @@
 import { ParsedTransactionWithMeta } from "@solana/web3.js";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import NftTransactionOnchain from "src/types/NftTransactionOnchain";
-import PublicKeyOrString from "formfn-shared/dist/types/PublicKeyOrString";
+import PublicKeyOrString from "bullistic-shared/dist/types/PublicKeyOrString";
 import parseHolaplexBidTx from "src/utils/solana/txs/parse/holaplex/parseHolaplexBidTx";
 import parseHolaplexClaimBidTx from "src/utils/solana/txs/parse/holaplex/parseHolaplexClaimBidTx";
 import parseHolaplexRedeemFullRightsTx from "src/utils/solana/txs/parse/holaplex/parseHolaplexRedeemFullRightsTx";

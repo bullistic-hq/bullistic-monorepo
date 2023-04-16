@@ -1,6 +1,6 @@
 import { PublicKey } from "@solana/web3.js";
 import axios, { AxiosResponse } from "axios";
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 import NftTransactionOnchain from "src/types/NftTransactionOnchain";
 import logError from "src/utils/analytics/logError";
@@ -25,7 +25,7 @@ type SolscanTransferAPIResponse = {
  * on-chain operations ourselves.
  *
  * If we ever need to do this in-house, there is a prototype
- * that was built in https://github.com/formfunction-hq/formfn-monorepo/pull/148
+ * that was built in https://github.com/bullistic-hq/bullistic-monorepo/pull/148
  * that we can extend for this use-case.
  */
 export default async function getAllTransferTxs(

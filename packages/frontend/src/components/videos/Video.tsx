@@ -2,8 +2,8 @@ import { useCallback, useEffect, useRef } from "react";
 import type HlsType from "hls.js";
 // @ts-ignore
 import Hls from "hls.js/dist/hls.light.min.js";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
-import { MaybeUndef, Undef } from "formfn-shared/dist/types/UtilityTypes";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
+import { MaybeUndef, Undef } from "bullistic-shared/dist/types/UtilityTypes";
 import isMobile from "utils/isMobile";
 import AssetWithShimmer from "components/images/AssetWithShimmer";
 import VideoQuality from "types/enums/VideoQuality";

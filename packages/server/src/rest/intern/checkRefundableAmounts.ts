@@ -6,7 +6,7 @@ import dayjs from "src/utils/dates/dayjsex";
 import logError from "src/utils/analytics/logError";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 import logEvent from "src/utils/analytics/logEvent";
-import toObject from "formfn-shared/dist/utils/toObject";
+import toObject from "bullistic-shared/dist/utils/toObject";
 import getTimeElapsed from "src/utils/dates/getTimeElapsed";
 
 /**

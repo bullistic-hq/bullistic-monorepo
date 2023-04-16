@@ -1,4 +1,4 @@
-import { range } from "formfn-shared/dist/utils/range";
+import { range } from "bullistic-shared/dist/utils/range";
 import { nanoid } from "nanoid";
 import ListingCardLoadingSkeleton from "components/auction/ListingCardLoadingSkeleton";
 import NftGridDense from "components/grids/nft/NftGridDense";

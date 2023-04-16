@@ -3,7 +3,7 @@ import axios from "axios";
 import logEventToLoki from "src/utils/analytics/logEventToLoki";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 import logError from "src/utils/analytics/logError";
-import jsonStringify from "formfn-shared/dist/utils/jsonStringify";
+import jsonStringify from "bullistic-shared/dist/utils/jsonStringify";
 
 /**
  * Fetch perf stats from Hasura GQL API and push them to Loki.

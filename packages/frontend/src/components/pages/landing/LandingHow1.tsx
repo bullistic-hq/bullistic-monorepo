@@ -15,7 +15,7 @@ export default function LandingHow1({ isHidden, onNext }: Props): JSX.Element {
   return (
     <LandingHowGeneric
       // TODO: may want to adjust this copy if we decide to eat rent fees
-      description="When you mint a new piece of art on Formfunction, you can easily add all the details right on our platform. Since we use the Solana blockchain, minting an NFT costs less than a dollar."
+      description="When you mint a new piece of art on Bullistic, you can easily add all the details right on our platform. Since we use the Solana blockchain, minting an NFT costs less than a dollar."
       isHidden={isHidden}
       onNext={onNext}
       title="1. Mint your artwork"

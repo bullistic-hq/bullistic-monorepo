@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from "express";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import createCampaignApprovedNotification from "src/utils/notifications/create/createCampaignApprovedNotification";
 import createCampaignRejectedNotification from "src/utils/notifications/create/createCampaignRejectedNotification";
 import getPrisma from "src/utils/prisma/getPrisma";

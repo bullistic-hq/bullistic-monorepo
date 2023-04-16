@@ -164,14 +164,6 @@
   background: var(--color-pinkVerticalGradient);
 }
 
-.backgroundColorPopheadzDarkGray {
-  background-color: var(--color-popheadzDarkGray);
-}
-
-.backgroundColorPopheadzLightGray {
-  background-color: var(--color-popheadzLightGray);
-}
-
 .backgroundColorPrimary {
   background-color: var(--color-primary);
 }
@@ -303,4 +295,3 @@
 .backgroundColorYellow {
   background-color: var(--color-yellow);
 }
-

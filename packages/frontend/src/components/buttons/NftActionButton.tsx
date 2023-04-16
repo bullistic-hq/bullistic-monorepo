@@ -11,7 +11,7 @@ import {
 } from "components/buttons/__generated__/NftActionButton_MetadataAccount.graphql";
 import ListNftButton from "components/buttons/ListNftButton";
 import useSolanaContext from "hooks/useSolanaContext";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import BidButton from "components/buttons/BidButton";
 import useUserContext from "hooks/useUserContext";
 import SettleButton from "components/buttons/SettleButton";
@@ -29,11 +29,11 @@ import MakeAnOfferModal from "components/modal/MakeAnOfferModal";
 import MakeAnOfferButton from "components/buttons/MakeAnOfferButton";
 import HowAuctionsWorkButton from "components/buttons/HowAuctionsWorkButton";
 import CancelOfferModal from "components/modal/CancelOfferModal";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import RELAY_FUTURE_ADDED_VALUE from "constants/RelayFutureAddedValue";
 import BuyEditionModal from "components/modal/BuyEditionModal";
 import useNftKind from "hooks/useNftKind";
-import NftKind from "formfn-shared/dist/types/enums/NftKind";
+import NftKind from "bullistic-shared/dist/types/enums/NftKind";
 import shouldShowOffersForNftKind from "utils/nft/shouldShowOffersForNftKind";
 import { useNftPageOfferTxsQuery } from "hooks/nft-page/__generated__/useNftPageOfferTxsQuery.graphql";
 import {
@@ -42,7 +42,7 @@ import {
 } from "hooks/nft-page/useNftPageOfferTxs";
 import { NftOfferTransactionsPaginationQuery } from "hooks/nft-page/__generated__/NftOfferTransactionsPaginationQuery.graphql";
 import { useNftPageOfferTxs_Query$key } from "hooks/nft-page/__generated__/useNftPageOfferTxs_Query.graphql";
-import arePublicKeysEqual from "formfn-shared/dist/utils/compare/arePublicKeysEqual";
+import arePublicKeysEqual from "bullistic-shared/dist/utils/compare/arePublicKeysEqual";
 import dayjs from "utils/dates/dayjsex";
 import { useNftPageEditionBuyerInfoQuery } from "hooks/nft-page/__generated__/useNftPageEditionBuyerInfoQuery.graphql";
 import { editionBuyerInfoQuery } from "hooks/nft-page/useNftPageEditionBuyerInfo";

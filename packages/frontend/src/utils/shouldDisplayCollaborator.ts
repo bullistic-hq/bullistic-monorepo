@@ -1,5 +1,5 @@
 import { RequestStatusExpress_enum } from "components/auction/__generated__/ListingCardForMetadata_MetadataAccount.graphql";
-import { HOLAPLEX_CREATOR_ADDRESS } from "formfn-shared/dist/constants/SolanaConstants";
+import { HOLAPLEX_CREATOR_ADDRESS } from "bullistic-shared/dist/constants/SolanaConstants";
 
 export default function shouldDisplayCollaborator(
   collaborator: {

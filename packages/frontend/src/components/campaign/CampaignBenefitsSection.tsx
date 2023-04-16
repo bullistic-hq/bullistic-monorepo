@@ -12,7 +12,7 @@ import { Suspense } from "react";
 import { CampaignBenefitsSection_CampaignsNamespaceQueryResponse$key } from "components/campaign/__generated__/CampaignBenefitsSection_CampaignsNamespaceQueryResponse.graphql";
 import TextButton from "components/buttons/TextButton";
 import FontClass from "types/enums/FontClass";
-import getCampaignLinkRelative from "formfn-shared/dist/utils/links/getCampaignLinkRelative";
+import getCampaignLinkRelative from "bullistic-shared/dist/utils/links/getCampaignLinkRelative";
 import useNftPageContext from "hooks/useNftPageContext";
 import TextButtonTheme from "types/enums/TextButtonTheme";
 

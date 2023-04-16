@@ -1,6 +1,6 @@
 import LaunchDarklyFlag from "src/types/enums/LaunchDarklyFlag";
 import getLdFlag from "src/utils/launch-darkly/getLdFlag";
-import CampaignsConfig from "formfn-shared/dist/types/CampaignsConfig";
+import CampaignsConfig from "bullistic-shared/dist/types/CampaignsConfig";
 
 const DEFAULT: CampaignsConfig = {
   campaignsBySlug: {
@@ -18,19 +18,19 @@ const DEFAULT: CampaignsConfig = {
         {
           contentType: "image/png",
           downloadUrl:
-            "https://cdn.formfunction.xyz/nft-images/--2t5r0gZOAeDZWclgSnj.png",
+            "https://cdn.bullistic.xyz/nft-images/--2t5r0gZOAeDZWclgSnj.png",
           path: "nft-images/--2t5r0gZOAeDZWclgSnj.png",
         },
         {
           contentType: "image/jpeg",
           downloadUrl:
-            "https://formfunction.imgix.net/nft-images/hmQcH6nU_nQEiEMEw8QEH.jpg",
+            "https://bullistic.imgix.net/nft-images/hmQcH6nU_nQEiEMEw8QEH.jpg",
           path: "nft-images/hmQcH6nU_nQEiEMEw8QEH.jpg",
         },
         {
           contentType: "video/mp4",
           downloadUrl:
-            "https://cdn.formfunction.xyz/nft-images/-2roGG_RiONTbuCiSwciP.mp4",
+            "https://cdn.bullistic.xyz/nft-images/-2roGG_RiONTbuCiSwciP.mp4",
           path: "nft-images/-2roGG_RiONTbuCiSwciP.mp4",
         },
       ],

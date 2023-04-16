@@ -1,7 +1,7 @@
 import graphql from "babel-plugin-relay/macro";
 import { useLazyLoadQuery } from "react-relay";
 import { Suspense } from "react";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { LandingFeaturedCampaignsQuery } from "components/pages/landing/__generated__/LandingFeaturedCampaignsQuery.graphql";
 import CampaignGridFullWidth from "components/campaign/CampaignGridFullWidth";
 import LandingSectionHeader from "components/pages/landing/LandingSectionHeader";

@@ -9,9 +9,9 @@ import { ImportPreviewImportNftsMutation } from "components/pages/import/__gener
 import { ImportPreviewMetadataAccountsQuery } from "components/pages/import/__generated__/ImportPreviewMetadataAccountsQuery.graphql";
 import Body1 from "components/text/Body1";
 import styles from "css/pages/import/ImportPreview.module.css";
-import removeDuplicatesWithSet from "formfn-shared/dist/utils/array/removeDuplicatesWithSet";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
+import removeDuplicatesWithSet from "bullistic-shared/dist/utils/array/removeDuplicatesWithSet";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
 import useImportContext from "hooks/useImportContext";
 import useUserContext from "hooks/useUserContext";
 import { Suspense } from "react";
@@ -23,7 +23,7 @@ import FontClass from "types/enums/FontClass";
 import ImportStep from "types/enums/ImportStep";
 import logIfNotProd from "utils/logIfNotProd";
 import shortenAddress from "utils/shortenAddress";
-import isPublicKey from "formfn-shared/dist/utils/solana/isPublicKey";
+import isPublicKey from "bullistic-shared/dist/utils/solana/isPublicKey";
 import notifyUnexpectedError from "components/toast/notifyUnexpectedError";
 
 const mutation = graphql`

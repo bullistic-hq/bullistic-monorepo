@@ -1,7 +1,7 @@
 import StatsRowSkeleton from "components/pages/stats/stats-row/StatsRowSkeleton";
 import StatsRowHeader from "components/pages/stats/StatsRowHeader";
 import StatsRows from "components/pages/stats/StatsRows";
-import { range } from "formfn-shared/dist/utils/range";
+import { range } from "bullistic-shared/dist/utils/range";
 import StatsDisplayType from "types/enums/StatsDisplayType";
 import StatsRowHeaderType from "types/enums/StatsRowHeaderType";
 

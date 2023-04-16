@@ -3,7 +3,7 @@ import Header2 from "components/text/Header2";
 import useCreateContext from "hooks/useCreateContext";
 import ColorClass from "types/enums/ColorClass";
 import CreateStep from "types/enums/CreateStep";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import styles from "css/pages/create/CreateListed.module.css";
 import CreateListingPreview from "components/pages/create/CreateListingPreview";
 import Body1 from "components/text/Body1";
@@ -18,7 +18,7 @@ import CloseButton from "components/buttons/CloseButton";
 import ColorValue from "types/enums/ColorValue";
 import useUserContext from "hooks/useUserContext";
 import useCreateNftDetailsContext from "hooks/useCreateNftDetailsContext";
-import getNftLinkRelative from "formfn-shared/dist/utils/links/getNftLinkRelative";
+import getNftLinkRelative from "bullistic-shared/dist/utils/links/getNftLinkRelative";
 
 export default function CreatedListed(): Maybe<JSX.Element> {
   const { step, setStep } = useCreateContext();

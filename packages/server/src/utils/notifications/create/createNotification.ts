@@ -1,6 +1,6 @@
 import { Notification, Prisma } from "@prisma/client";
 import getPrisma from "src/utils/prisma/getPrisma";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { NotificationTypeExpress_Enum } from "src/__generated__/generated";
 import getLdFlag from "src/utils/launch-darkly/getLdFlag";
 import LaunchDarklyFlag from "src/types/enums/LaunchDarklyFlag";

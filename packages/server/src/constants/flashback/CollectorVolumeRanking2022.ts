@@ -1,5 +1,5 @@
 // Computed using Metabase on 12/16/2022
-// See https://formfunction.metabaseapp.com/question/80-collector-volume-ranking
+// See https://bullistic.metabaseapp.com/question/80-collector-volume-ranking
 const COLLECTOR_VOLUME_RANKING_2022 = [
   {
     ToUserId: "FqTytZP8LWAdhXCmoQqAgfbHUTABb8GgAQeeBnSRsYLV",

@@ -1,10 +1,10 @@
 /* eslint-disable no-param-reassign */
 import { NftTransaction } from "@prisma/client";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import logError from "src/utils/analytics/logError";
-import SortOrder from "formfn-shared/dist/types/enums/SortOrder";
-import { getCompareByProperty } from "formfn-shared/dist/utils/getCompareByProperty";
+import SortOrder from "bullistic-shared/dist/types/enums/SortOrder";
+import { getCompareByProperty } from "bullistic-shared/dist/utils/getCompareByProperty";
 import { NftTransactionTypeExpress_Enum } from "src/__generated__/generated";
 
 export default function getLatestOutbidUser(

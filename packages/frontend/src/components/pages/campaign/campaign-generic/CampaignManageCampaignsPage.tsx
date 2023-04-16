@@ -178,7 +178,7 @@ export default function CampaignManageCampaignsPage(): JSX.Element {
                 Manage Campaigns
               </Header2>
               <Body1 colorClass={ColorClass.Secondary} textAlign="center">
-                Campaigns on Formfunction let you sell NFTs to fundraise for
+                Campaigns on Bullistic let you sell NFTs to fundraise for
                 your dream creative project.
               </Body1>
             </FlexBox>

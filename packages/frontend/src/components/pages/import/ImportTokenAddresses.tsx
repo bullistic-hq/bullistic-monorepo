@@ -70,7 +70,7 @@ export default function ImportTokenAddresses() {
             textAlign="center"
           >
             Enter the token addresses of each NFT you want to import to
-            Formfunction, separated with commas:
+            Bullistic, separated with commas:
           </Body1Medium>
           <div className={styles.input}>
             <TextArea

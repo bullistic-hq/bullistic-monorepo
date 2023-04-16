@@ -1,5 +1,5 @@
 import RELAY_FUTURE_ADDED_VALUE from "constants/RelayFutureAddedValue";
-import exhaustiveStringArray from "formfn-shared/dist/utils/array/exhaustiveStringArray";
+import exhaustiveStringArray from "bullistic-shared/dist/utils/array/exhaustiveStringArray";
 import NotificationType_enum from "types/relay/NotificationType_enum";
 
 const NOTIFICATION_TYPES: Array<NotificationType_enum> =

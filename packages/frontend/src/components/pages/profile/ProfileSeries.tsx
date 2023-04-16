@@ -1,7 +1,7 @@
 import graphql from "babel-plugin-relay/macro";
 import styles from "css/pages/profile/ProfileSeries.module.css";
 import { useFragment } from "react-relay";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { ProfileSeriesSeries_Query$key } from "components/pages/profile/__generated__/ProfileSeriesSeries_Query.graphql";
 import SeriesCard from "components/series/SeriesCard";
 import SeriesGridFullWidth from "components/series/SeriesGridFullWidth";

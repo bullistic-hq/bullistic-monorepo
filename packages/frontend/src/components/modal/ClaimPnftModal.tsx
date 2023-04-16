@@ -13,7 +13,7 @@ import { useFragment, useMutation } from "react-relay";
 import ListingCardForMetadata from "components/auction/ListingCardForMetadata";
 import invariant from "tiny-invariant";
 import useSolanaContext from "hooks/useSolanaContext";
-import { ClaimantWithProof } from "@formfunction-hq/formfunction-gumdrop";
+import { ClaimantWithProof } from "@bullistic-hq/bullistic-gumdrop";
 import { Keypair, PublicKey } from "@solana/web3.js";
 import sendTransactionWithWallet from "utils/solana/misc/sendTransactionWithWallet";
 import { notify } from "components/toast/notifications";
@@ -26,15 +26,15 @@ import {
   ClaimPnftModalMutation$variables,
 } from "components/modal/__generated__/ClaimPnftModalMutation.graphql";
 import { ClaimPnftModal_Claim$key } from "components/modal/__generated__/ClaimPnftModal_Claim.graphql";
-import CommitRawTxType from "formfn-shared/dist/types/enums/CommitRawTxType";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import CommitRawTxType from "bullistic-shared/dist/types/enums/CommitRawTxType";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import useConfetti from "hooks/useConfetti";
 import GenericSuccessModalContent from "components/modal/GenericSuccessModalContent";
 import useUserContext from "hooks/useUserContext";
-import getNftLinkRelative from "formfn-shared/dist/utils/links/getNftLinkRelative";
+import getNftLinkRelative from "bullistic-shared/dist/utils/links/getNftLinkRelative";
 import useNftPageContext from "hooks/useNftPageContext";
 import { ClaimPnftModal_AuctionNft_MetadataAccount$key } from "components/modal/__generated__/ClaimPnftModal_AuctionNft_MetadataAccount.graphql";
-import toObject from "formfn-shared/dist/utils/toObject";
+import toObject from "bullistic-shared/dist/utils/toObject";
 import notifyUnexpectedError from "components/toast/notifyUnexpectedError";
 import NotifyErrorDescription from "types/enums/NotifyErrorDescription";
 import useViewerId from "hooks/useViewerId";

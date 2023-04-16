@@ -6,12 +6,12 @@ import {
   useEffect,
   useState,
 } from "react";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { useNavigate } from "react-router-dom";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
 import { RedirectLocation_enum } from "components/modal/__generated__/DiscordAuthConnectModalConnectMutation.graphql";
 import RELAY_FUTURE_ADDED_VALUE from "constants/RelayFutureAddedValue";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import { ParsedDiscordAuthParams } from "types/ParsedDiscordAuthParams";
 import parseDiscordAuthCallbackParams from "utils/urlparams/parseDiscordAuthCallbackParams";
 import { notify } from "components/toast/notifications";

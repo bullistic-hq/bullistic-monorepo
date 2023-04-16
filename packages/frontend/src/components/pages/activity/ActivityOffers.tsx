@@ -1,6 +1,6 @@
 import graphql from "babel-plugin-relay/macro";
 import { useLazyLoadQuery } from "react-relay";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import ActivitySections from "components/pages/activity/ActivitySections";
 import ActivitySection from "components/pages/activity/ActivitySection";
 import useUserContext from "hooks/useUserContext";

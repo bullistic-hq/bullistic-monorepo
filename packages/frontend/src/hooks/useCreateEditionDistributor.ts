@@ -2,8 +2,8 @@ import useSolanaContext from "hooks/useSolanaContext";
 import useUserContext from "hooks/useUserContext";
 import invariant from "tiny-invariant";
 import sendTransactionWithWallet from "utils/solana/misc/sendTransactionWithWallet";
-import CommitRawTxType from "formfn-shared/dist/types/enums/CommitRawTxType";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import CommitRawTxType from "bullistic-shared/dist/types/enums/CommitRawTxType";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import SOLANA_CURRENCY_CONFIG from "constants/SolanaCurrencyConfig";
 import CurrencyConfig from "types/CurrencyConfig";
 import getCreateEditionDistributorTx, {

@@ -2,7 +2,7 @@ import TextButton from "components/buttons/TextButton";
 import Body1 from "components/text/Body1";
 import Header2 from "components/text/Header2";
 import styles from "css/pages/campaign/dashboard/tabs/CampaignDashboardTabGeneric.module.css";
-import getCampaignLinkRelative from "formfn-shared/dist/utils/links/getCampaignLinkRelative";
+import getCampaignLinkRelative from "bullistic-shared/dist/utils/links/getCampaignLinkRelative";
 import { useParams } from "react-router-dom";
 import ColorClass from "types/enums/ColorClass";
 import FontClass from "types/enums/FontClass";

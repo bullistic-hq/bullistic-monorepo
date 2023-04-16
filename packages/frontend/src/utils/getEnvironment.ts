@@ -1,4 +1,4 @@
-import Environment from "formfn-shared/dist/types/Environment";
+import Environment from "bullistic-shared/dist/types/Environment";
 import isDevSubdomain from "utils/isDevSubdomain";
 import isLocalhost from "utils/isLocalhost";
 import isTestnetSubdomain from "utils/isTestnetSubdomain";

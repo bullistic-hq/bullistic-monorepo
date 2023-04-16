@@ -83,7 +83,7 @@ export default function SeriesDndRow({ onBurnCompleted, series }: Props) {
         isLoading={isLoading}
         title={`Burn ${data.name}?`}
         bodyText={
-          "This will permanently remove the series from Formfunction and the underlying NFT will be burned." +
+          "This will permanently remove the series from Bullistic and the underlying NFT will be burned." +
           " You will need to approve this action with your connected wallet."
         }
         buttonText="Burn"

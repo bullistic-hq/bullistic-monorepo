@@ -1,6 +1,6 @@
 import ListingCardLoadingSkeleton from "components/auction/ListingCardLoadingSkeleton";
 import CampaignFundingTierStandard from "components/pages/campaign/campaign-generic/funding-tiers/CampaignFundingTierStandard";
-import { range } from "formfn-shared/dist/utils/range";
+import { range } from "bullistic-shared/dist/utils/range";
 import useNftGridFullWidthColumnCount from "hooks/grids/useNftGridFullWidthColumnCount";
 import { nanoid } from "nanoid";
 import Skeleton from "react-loading-skeleton";

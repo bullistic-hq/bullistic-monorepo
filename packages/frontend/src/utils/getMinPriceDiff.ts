@@ -1,5 +1,5 @@
 import DEFAULT_PRICE_INCREMENT_PERCENTAGE from "constants/DefaultPriceIncrementPercentage";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 function getMinAllowedPriceDifference(decimals: number) {
   return 10 ** decimals / 10;

@@ -8,7 +8,7 @@ import {
   RefundableAmountsResponse,
 } from "src/__generated__/generated";
 import MyContext from "src/types/MyContext";
-import { AuctionHouseSdk } from "@formfunction-hq/formfunction-auction-house";
+import { AuctionHouseSdk } from "@bullistic-hq/bullistic-auction-house";
 import getBuyerEscrowBalance from "src/utils/solana/getBuyerEscrowBalance";
 import Typename from "src/types/enums/Typename";
 import getPrisma from "src/utils/prisma/getPrisma";
@@ -16,8 +16,8 @@ import dayjs from "src/utils/dates/dayjsex";
 import CONVERT_NFT_TO_METADATA_INCLUDE from "src/constants/include/ConvertNftToMetadataInclude";
 import NFT_TRANSACTION_ORDER_BY from "src/constants/orderBy/NftTransactionOrderBy";
 import convertNftToMetadataAccount from "src/utils/convert/convertNftToMetadataAccount";
-import removeDuplicatesWithComparison from "formfn-shared/dist/utils/array/removeDuplicatesWithComparison";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import removeDuplicatesWithComparison from "bullistic-shared/dist/utils/array/removeDuplicatesWithComparison";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import auctionWinnerIdResolver from "src/resolvers/query/nested/nft/auctionWinnerIdResolver";
 import convertPrice from "src/utils/convert/convertPrice";
 import { Currency } from "@prisma/client";

@@ -1,5 +1,5 @@
 import SaleType from "types/enums/SaleType";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 
 export default function getSoldTransactionTypeForSaleType(saleType: SaleType) {
   switch (saleType) {

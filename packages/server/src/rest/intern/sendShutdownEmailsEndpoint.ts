@@ -1,8 +1,8 @@
 /* eslint-disable no-await-in-loop */
 import { NextFunction, Request, Response } from "express";
 import getPrisma from "src/utils/prisma/getPrisma";
-import sleepMs from "formfn-shared/dist/utils/sleepMs";
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
+import sleepMs from "bullistic-shared/dist/utils/sleepMs";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
 import sendShutdownEmail from "../../utils/email/sendShutdownEmail";
 
 const BATCH_SIZE = 100;

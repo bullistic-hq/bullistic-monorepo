@@ -16,7 +16,7 @@ import NftAssetQuestionMark from "components/images/NftAssetQuestionMark";
 import useAreCandyMachineNftsShown from "hooks/candy-machine/useAreCandyMachineNftsShown";
 import useCandyMachineIsSoldOut from "hooks/candy-machine/useCandyMachineIsSoldOut";
 import useCandyMachineMintPhase from "hooks/candy-machine/useCandyMachineMintPhase";
-import { CandyMachineMintPhase } from "@formfunction-hq/formfunction-candy-machine";
+import { CandyMachineMintPhase } from "@bullistic-hq/bullistic-candy-machine";
 
 const campaignSectionFragment = graphql`
   fragment CampaignSectionForCampaignSectionWithGenerativeMint_CampaignSectionWithGenerativeMints on CampaignSectionWithGenerativeMints {

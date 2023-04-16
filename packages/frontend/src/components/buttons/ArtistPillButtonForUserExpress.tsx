@@ -4,7 +4,7 @@ import ArtistPillButton, {
 import { useFragment } from "react-relay";
 import graphql from "babel-plugin-relay/macro";
 import { ArtistPillButtonForUserExpress_UserExpress$key } from "components/buttons/__generated__/ArtistPillButtonForUserExpress_UserExpress.graphql";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import logError from "utils/analytics/logError";
 import AnalyticsEvent from "types/enums/AnalyticsEvent";
 

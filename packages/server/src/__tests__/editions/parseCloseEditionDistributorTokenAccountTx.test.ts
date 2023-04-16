@@ -6,7 +6,7 @@ import parseCloseEditionDistributorTokenAccountTx from "src/utils/solana/txs/par
 import CLOSE_EDITION_DISTRIBUTOR_TOKEN_ACCOUNT_TX_BY_CREATOR from "src/__tests__/constants/CloseEditionDistributorTokenAccountTxByCreator";
 import mockGetAuctionHouseInfo from "src/__tests__/mocks/mockGetAuctionHouseInfo";
 import CLOSE_EDITION_DISTRIBUTOR_TOKEN_ACCOUNT_TX_BY_AUTHORITY from "src/__tests__/constants/CloseEditionDistributorTokenAccountTxByAuthority";
-import { decodeAuctionHouseTransaction } from "@formfunction-hq/formfunction-auction-house";
+import { decodeAuctionHouseTransaction } from "@bullistic-hq/bullistic-auction-house";
 import getAuctionHouseConstants from "src/utils/solana/getAuctionHouseConstants";
 
 type TestCaseName = string;

@@ -25,10 +25,10 @@ export default function HowInvitesWorkModal({
     >
       <div className={styles.body}>
         <Body1 textAlign="center" colorClass={ColorClass.Secondary}>
-          Formfunction&apos;s community decides how it grows—in addition to our
+          Bullistic&apos;s community decides how it grows—in addition to our
           voting system, we are piloting an invite model that lets our most
           active artists and collectors invite new creators to mint on
-          Formfunction.
+          Bullistic.
         </Body1>
         <div className={styles.section}>
           <ArtName colorClass={ColorClass.Primary}>

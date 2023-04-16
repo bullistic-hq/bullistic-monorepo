@@ -2,7 +2,7 @@ import graphql from "babel-plugin-relay/macro";
 import { useFragment } from "react-relay";
 import { AssetForNotificationCampaignInfo_ActivityNotificationCampaignInfo$key } from "components/assets/__generated__/AssetForNotificationCampaignInfo_ActivityNotificationCampaignInfo.graphql";
 import ActivityNotificationAssetForAssetExpress from "components/pages/activity/ActivityNotificationAssetForAssetExpress";
-import getCampaignLinkRelative from "formfn-shared/dist/utils/links/getCampaignLinkRelative";
+import getCampaignLinkRelative from "bullistic-shared/dist/utils/links/getCampaignLinkRelative";
 
 const fragment = graphql`
   fragment AssetForNotificationCampaignInfo_ActivityNotificationCampaignInfo on ActivityNotificationCampaignInfo {

@@ -1,12 +1,12 @@
 import getPrisma from "src/utils/prisma/getPrisma";
 import axios from "axios";
-import arraysEqual from "formfn-shared/dist/utils/array/arraysEqual";
+import arraysEqual from "bullistic-shared/dist/utils/array/arraysEqual";
 import getSyncNftToCollaboratorQueries from "src/utils/prisma/getSyncNftToCollaboratorQueries";
 import uploadFileFromUrl from "src/utils/firebase/uploadFileFromUrl";
 import { nanoid } from "nanoid";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import DEFAULT_MAX_FILE_SIZE_FOR_MINT from "formfn-shared/dist/constants/DefaultMaxFileSizeForMint";
-import getContentTypeFromExt from "formfn-shared/dist/utils/getContentTypeFromExt";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import DEFAULT_MAX_FILE_SIZE_FOR_MINT from "bullistic-shared/dist/constants/DefaultMaxFileSizeForMint";
+import getContentTypeFromExt from "bullistic-shared/dist/utils/getContentTypeFromExt";
 import {
   Attribute,
   Nft,
@@ -23,8 +23,8 @@ import AccountLoader from "src/utils/solana/rpc/AccountLoader";
 import CreatorOnchain from "src/types/CreatorOnchain";
 import getFileExtFromContentType from "src/utils/getFileExtFromContentType";
 import fetchOffchainMetadata from "src/utils/nft/fetchOffchainMetadata";
-import { getCompareByProperty } from "formfn-shared/dist/utils/getCompareByProperty";
-import jsonStringify from "formfn-shared/dist/utils/jsonStringify";
+import { getCompareByProperty } from "bullistic-shared/dist/utils/getCompareByProperty";
+import jsonStringify from "bullistic-shared/dist/utils/jsonStringify";
 
 type PrismaNftToCollaborator = NftToCollaborator & {
   Request: Maybe<Request>;
@@ -107,8 +107,8 @@ function areCreatorsListsEqual(
       (Number(prismaCreator.verified) === Number(onchainCreator.verified) ||
         // If our DB says a collaborator is NOT verified but they are verified onchain,
         // we still consider the situation to be "in-sync". This is because someone may verify
-        // a collaborator off-platform, which is different than them verifying a collaborator on Formfunction
-        // (e.g. if they verify off-platform, they may not intended for the collaborator to show up on Formfunction's
+        // a collaborator off-platform, which is different than them verifying a collaborator on Bullistic
+        // (e.g. if they verify off-platform, they may not intended for the collaborator to show up on Bullistic's
         // UI).
         !prismaCreator.verified)
     );

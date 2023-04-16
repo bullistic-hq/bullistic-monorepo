@@ -7,7 +7,7 @@ import sendPostmarkEmailWithTemplateId from "src/utils/email/sendPostmarkEmailWi
 import getPostmarkTemplateId from "src/utils/email/getPostmarkTemplateId";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 import logEvent from "src/utils/analytics/logEvent";
-import batchArray from "formfn-shared/dist/utils/array/batchArray";
+import batchArray from "bullistic-shared/dist/utils/array/batchArray";
 import getFilteredRecipients from "src/utils/notifications/getFilteredRecipients";
 
 // Postmark only allows sending up to 500 emails in a single batched request.

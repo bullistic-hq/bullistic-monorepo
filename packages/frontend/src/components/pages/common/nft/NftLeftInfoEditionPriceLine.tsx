@@ -1,16 +1,16 @@
 import graphql from "babel-plugin-relay/macro";
 import Body1 from "components/text/Body1";
 import RELAY_FUTURE_ADDED_VALUE from "constants/RelayFutureAddedValue";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import ColorClass from "types/enums/ColorClass";
 import FontClass from "types/enums/FontClass";
-import parseEditionPriceParams from "formfn-shared/dist/utils/price/parseEditionPriceParams";
-import { PriceFunctionType } from "@formfunction-hq/formfunction-auction-house";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import parseEditionPriceParams from "bullistic-shared/dist/utils/price/parseEditionPriceParams";
+import { PriceFunctionType } from "@bullistic-hq/bullistic-auction-house";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { useFragment } from "react-relay";
 import { NftLeftInfoEditionPriceLine_MetadataAccount$key } from "components/pages/common/nft/__generated__/NftLeftInfoEditionPriceLine_MetadataAccount.graphql";
 import useNftPriceSymbol from "hooks/useNftPriceSymbol";
-import formatDecimals from "formfn-shared/dist/utils/formatDecimals";
+import formatDecimals from "bullistic-shared/dist/utils/formatDecimals";
 
 const fragment = graphql`
   fragment NftLeftInfoEditionPriceLine_MetadataAccount on MetadataAccount {

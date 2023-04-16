@@ -4,7 +4,7 @@ import CampaignHeroSocialLinks, {
 } from "components/pages/campaign/campaign-generic/hero/CampaignHeroSocialLinks";
 import TextButton from "components/buttons/TextButton";
 import FontClass from "types/enums/FontClass";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import useCampaignColorScheme from "hooks/useCampaignColorScheme";
 import CampaignHeroTitle from "components/pages/campaign/campaign-generic/hero/CampaignHeroTitle";
 import CampaignHeroTagline from "components/pages/campaign/campaign-generic/hero/CampaignHeroTagline";

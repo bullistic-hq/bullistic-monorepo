@@ -7,7 +7,7 @@ import axios from "axios";
 import mkdirp from "mkdirp";
 import firebaseAdmin from "src/utils/firebase/firebaseAdmin";
 import probe from "probe-image-size";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 export async function downloadAsset(url: string) {
   const tempLocalFilePath = path.join(os.tmpdir(), `downloaded/${nanoid()}`);

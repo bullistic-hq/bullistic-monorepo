@@ -14,9 +14,9 @@ export default function ApplyHeader() {
         colorClass={ColorClass.Secondary}
         textAlign="center"
       >
-        Thank you for your interest in Formfunction! These applications help us
-        keep Formfunction a trustworthy platform for high-quality 1/1 art.
-        Formfunction is community-governed, and your submission here will be
+        Thank you for your interest in Bullistic! These applications help us
+        keep Bullistic a trustworthy platform for high-quality 1/1 art.
+        Bullistic is community-governed, and your submission here will be
         reviewed by artists and community members, who help us decide which
         applications to accept.
         <br />

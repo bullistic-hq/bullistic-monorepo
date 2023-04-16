@@ -13,7 +13,7 @@ import getPriceMock from "src/__tests__/utils/getPriceMock";
 import CREATE_EDITION_DISTRIBUTOR_WITH_TREASURY_MINT_TX_SOL from "src/__tests__/constants/CreateEditionDistributorWithTreasuryMintTxSol";
 import CREATE_EDITION_DISTRIBUTOR_WITH_TREASURY_MINT_TX_USDC from "src/__tests__/constants/CreateEditionDistributorWithTreasuryMintTxUsdc";
 import parseCreateEditionDistributorTx from "src/utils/solana/txs/parse/editions/parseCreateEditionDistributorTx";
-import { decodeAuctionHouseTransaction } from "@formfunction-hq/formfunction-auction-house";
+import { decodeAuctionHouseTransaction } from "@bullistic-hq/bullistic-auction-house";
 import getAuctionHouseConstants from "src/utils/solana/getAuctionHouseConstants";
 
 type TestCaseName = string;

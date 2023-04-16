@@ -1,4 +1,4 @@
-import { range } from "formfn-shared/dist/utils/range";
+import { range } from "bullistic-shared/dist/utils/range";
 import SeriesCardLoadingSkeleton from "components/series/SeriesCardLoadingSkeleton";
 import SeriesGridFullWidth from "components/series/SeriesGridFullWidth";
 import useSeriesGridFullWidthColumnCount from "hooks/grids/useSeriesGridFullWidthColumnCount";

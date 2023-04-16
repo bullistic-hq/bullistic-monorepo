@@ -1,6 +1,6 @@
 import ChevronDownIcon from "components/icons/ChevronDownIcon";
 import getSelectCustomStyles from "components/select/getSelectCustomStyles";
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import Select, {
   ActionMeta,
   MenuPlacement,

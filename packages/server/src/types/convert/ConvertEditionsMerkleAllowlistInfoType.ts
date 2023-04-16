@@ -1,5 +1,5 @@
 import { EditionsMerkleAllowlistInfo, Nft, NftListing } from "@prisma/client";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 type ConvertEditionsMerkleAllowlistInfoType = EditionsMerkleAllowlistInfo & {
   Nft: Nft & {

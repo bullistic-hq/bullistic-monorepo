@@ -1,5 +1,5 @@
 import { Decimal } from "@prisma/client/runtime";
-import { DEVNET_USDC_MINT } from "formfn-shared/dist/constants/SolanaConstants";
+import { DEVNET_USDC_MINT } from "bullistic-shared/dist/constants/SolanaConstants";
 import { CurrencyNameExpress_Enum } from "src/__generated__/generated";
 
 const USDC_CURRENCY_INFO_MOCK = {

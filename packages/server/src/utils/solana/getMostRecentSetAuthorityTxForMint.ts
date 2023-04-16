@@ -5,9 +5,9 @@ import {
   PartiallyDecodedInstruction,
   ParsedTransactionWithMeta,
 } from "@solana/web3.js";
-import SortOrder from "formfn-shared/dist/types/enums/SortOrder";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
-import { getCompareByProperty } from "formfn-shared/dist/utils/getCompareByProperty";
+import SortOrder from "bullistic-shared/dist/types/enums/SortOrder";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
+import { getCompareByProperty } from "bullistic-shared/dist/utils/getCompareByProperty";
 import getParsedTransactionsForAddress from "src/utils/solana/getParsedTransactionsForAddress";
 import getNftMintTokenAccountAddress from "src/utils/solana/getNftMintTokenAccountAddress";
 import findIxWithIndices from "src/utils/solana/txs/parse/findIxWithIndices";

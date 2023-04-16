@@ -2,7 +2,7 @@ import { PublicKey } from "@solana/web3.js";
 import {
   AUCTION_HOUSE,
   TREASURY,
-} from "formfn-shared/dist/constants/SolanaConstants";
+} from "bullistic-shared/dist/constants/SolanaConstants";
 
 export default async function findAuctionHouseTreasuryAccount(
   auctionHouse: PublicKey,

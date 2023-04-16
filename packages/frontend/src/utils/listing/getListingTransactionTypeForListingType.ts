@@ -1,5 +1,5 @@
 import ListingType from "types/enums/ListingType";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 
 export default function getListingTransactionTypeForListingType(
   listingType: ListingType

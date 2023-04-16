@@ -33,7 +33,7 @@ export default function ActivityNotificationInvitesConvertedToCreator({
       label={
         <>
           Thanks to <UsernameLink username={sender!.username} />
-          &apos;s invite, you are now a creator on Formfunction!
+          &apos;s invite, you are now a creator on Bullistic!
         </>
       }
       profilePhotoInfo={{

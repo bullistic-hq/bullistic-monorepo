@@ -1,5 +1,5 @@
 import Mux from "@mux/mux-node";
-import Environment from "formfn-shared/dist/types/Environment";
+import Environment from "bullistic-shared/dist/types/Environment";
 import getEnvironment from "src/utils/getEnvironment";
 
 const MUX_TOKEN_ID = "REPLACEME";

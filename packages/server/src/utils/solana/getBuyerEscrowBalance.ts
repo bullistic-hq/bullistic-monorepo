@@ -1,7 +1,7 @@
-import { AuctionHouseSdk } from "@formfunction-hq/formfunction-auction-house";
+import { AuctionHouseSdk } from "@bullistic-hq/bullistic-auction-house";
 import { AccountInfo, Commitment, PublicKey } from "@solana/web3.js";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import getBalanceForMint from "formfn-shared/dist/utils/solana/getBalanceForMint";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import getBalanceForMint from "bullistic-shared/dist/utils/solana/getBalanceForMint";
 import getConnection from "src/utils/solana/getConnection";
 import ConnectionWrapper from "src/utils/solana/rpc/ConnectionWrapper";
 

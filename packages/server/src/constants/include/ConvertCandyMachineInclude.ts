@@ -5,7 +5,7 @@ import CONVERT_USER_INCLUDE from "src/constants/include/ConvertUserInclude";
 const CONVERT_CANDY_MACHINE_INCLUDE = {
   CreatorAuthority: { include: CONVERT_USER_INCLUDE },
   Currency: true,
-  FormfnAuthority: { include: CONVERT_USER_INCLUDE },
+  BullisticAuthority: { include: CONVERT_USER_INCLUDE },
   MintPreviewAsset: true,
   Series: { include: CONVERT_SERIES_INCLUDE },
   // eslint-disable-next-line prettier/prettier

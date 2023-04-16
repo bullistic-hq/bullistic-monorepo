@@ -1,8 +1,8 @@
 import { NextFunction, Request, Response } from "express";
 import getPrisma from "src/utils/prisma/getPrisma";
-import isValidDisplayName from "formfn-shared/dist/utils/validation/isValidDisplayName";
-import isValidUsername from "formfn-shared/dist/utils/validation/isValidUsername";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import isValidDisplayName from "bullistic-shared/dist/utils/validation/isValidDisplayName";
+import isValidUsername from "bullistic-shared/dist/utils/validation/isValidUsername";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 /**
  * We use Hasura to update the username, but we want to prevent invalid usernames (e.g. profane usernames).

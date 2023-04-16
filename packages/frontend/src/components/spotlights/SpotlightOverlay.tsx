@@ -2,7 +2,7 @@ import styles from "css/spotlights/SpotlightOverlay.module.css";
 import OverlayContainer from "components/containers/OverlayContainer";
 import Price from "components/text/Price";
 import ColorClass from "types/enums/ColorClass";
-import dayjs from "formfn-shared/dist/utils/dates/dayjsex";
+import dayjs from "bullistic-shared/dist/utils/dates/dayjsex";
 import Header3 from "components/text/Header3";
 import joinClasses from "utils/joinClasses";
 import invariant from "tiny-invariant";

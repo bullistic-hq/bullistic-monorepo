@@ -19,7 +19,7 @@ import ColorClass from "types/enums/ColorClass";
 import { Dayjs } from "dayjs";
 import useLogPageView from "hooks/useLogPageView";
 import useSetPageTitle from "hooks/useSetPageTitle";
-import getSafetyCheckReopenDate from "formfn-shared/dist/utils/safety-check/getSafetyCheckReopenDate";
+import getSafetyCheckReopenDate from "bullistic-shared/dist/utils/safety-check/getSafetyCheckReopenDate";
 
 const query = graphql`
   query ApplyPageQuery($id: String!) {
@@ -53,7 +53,7 @@ function Rejected({ timeOfRejection }: { timeOfRejection: Dayjs }) {
   return (
     <div className={styles.submitted}>
       <Header2 colorClass={ColorClass.Primary} textAlign="center">
-        Thanks for applying to Formfunction!
+        Thanks for applying to Bullistic!
       </Header2>
       <Body1
         className={styles.rejectedDescription}

@@ -14,14 +14,14 @@ import useLogPageView from "hooks/useLogPageView";
 import NftGridFullWidthLoading from "components/grids/nft/NftGridFullWidthLoading";
 import CreatorsGrid from "components/misc/CreatorsGrid";
 import ExploreCreatorCardLoadingSkeleton from "components/pages/explore/ExploreCreatorCardLoadingSkeleton";
-import { range } from "formfn-shared/dist/utils/range";
+import { range } from "bullistic-shared/dist/utils/range";
 import SeriesGridFullWidthLoading from "components/series/SeriesGridFullWidthLoading";
 import ExploreSeriesGrid from "components/pages/explore/ExploreSeriesGrid";
 import isArtworkTab from "utils/explore/isArtworkTab";
 import ColorClass from "types/enums/ColorClass";
 import ExploreCampaignsGrid from "components/pages/explore/ExploreCampaignsGrid";
 import CampaignGridFullWidthLoading from "components/campaign/CampaignGridFullWidthLoading";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 
 function getTitleForTab(tab: ExploreTab) {
   switch (tab) {

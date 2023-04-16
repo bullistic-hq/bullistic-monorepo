@@ -1,4 +1,4 @@
-import PublicKeyOrString from "formfn-shared/dist/types/PublicKeyOrString";
+import PublicKeyOrString from "bullistic-shared/dist/types/PublicKeyOrString";
 import getParsedTransactionsForAddress from "src/utils/solana/getParsedTransactionsForAddress";
 import parseMintNewEditionFromMasterEditionViaTokenTx from "src/utils/solana/txs/parse/metaplex/parseMintNewEditionFromMasterEditionViaTokenTx";
 import parseMintNewEditionFromMasterEditionViaVaultProxyTx from "src/utils/solana/txs/parse/metaplex/parseMintNewEditionFromMasterEditionViaVaultProxyTx";

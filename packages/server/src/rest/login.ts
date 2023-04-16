@@ -2,10 +2,10 @@ import { CookieOptions, NextFunction, Request, Response } from "express";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 import logError from "src/utils/analytics/logError";
 import jwt from "jsonwebtoken";
-import Environment from "formfn-shared/dist/types/Environment";
+import Environment from "bullistic-shared/dist/types/Environment";
 import getEnvironment from "src/utils/getEnvironment";
 import getCookieWithSuffix from "src/utils/cookies/getCookieWithSuffix";
-import CookiePrefix from "formfn-shared/dist/types/enums/CookiePrefix";
+import CookiePrefix from "bullistic-shared/dist/types/enums/CookiePrefix";
 import getVerifiedPublicKey from "src/utils/auth/getVerifiedPublicKey";
 
 // Using HS512 to be extra secure
@@ -42,7 +42,7 @@ function getDefaultCookieOptions(): CookieOptions {
   const env = getEnvironment();
   return {
     // For localhost, the domains are the same
-    domain: env !== Environment.Local ? "formfunction.xyz" : undefined,
+    domain: env !== Environment.Local ? "bullistic.xyz" : undefined,
     httpOnly: true,
     // Localhost requests are not made over SSL
     secure: env !== Environment.Local,

@@ -12,13 +12,13 @@ import VideoQuality from "types/enums/VideoQuality";
 import shortenAddress from "utils/shortenAddress";
 import styles from "css/auction/ListingCardForMetadata.module.css";
 import RefreshGradientIcon from "components/icons/RefreshGradientIcon";
-import { getCompareByProperty } from "formfn-shared/dist/utils/getCompareByProperty";
-import SortOrder from "formfn-shared/dist/types/enums/SortOrder";
+import { getCompareByProperty } from "bullistic-shared/dist/utils/getCompareByProperty";
+import SortOrder from "bullistic-shared/dist/types/enums/SortOrder";
 import shouldDisplayCollaborator from "utils/shouldDisplayCollaborator";
 import isListedForSale from "utils/nft/isListedForSale";
 import ListingCardPill from "components/auction/ListingCardPill";
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
 import ListingCardNftKindPill, {
   willRenderNftKindPill,
 } from "components/auction/ListingCardNftKindPill";

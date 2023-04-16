@@ -16,8 +16,8 @@ import { Resource } from "@opentelemetry/resources";
 import { OTLPTraceExporter } from "@opentelemetry/exporter-trace-otlp-http";
 import isProd from "src/utils/isProd";
 import getEnvironment from "src/utils/getEnvironment";
-import Environment from "formfn-shared/dist/types/Environment";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import Environment from "bullistic-shared/dist/types/Environment";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import { Context } from "@opentelemetry/api";
 import ASYNC_LOCAL_STORAGE from "src/constants/AsyncLocalStorage";
 import AsyncLocalStorageKey from "src/types/enums/AsyncLocalStorageKey";
@@ -55,7 +55,7 @@ function getSampleRate() {
 }
 
 function getServiceName() {
-  return `formfunction-${getEnvironment()}`;
+  return `bullistic-${getEnvironment()}`;
 }
 
 class MyBatchSpanProcessor extends BatchSpanProcessor {

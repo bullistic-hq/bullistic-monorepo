@@ -1,5 +1,5 @@
 import { CampaignToHolder } from "@prisma/client";
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import ConvertCampaignType from "src/types/convert/ConvertCampaignType";
 
 export type CampaignWithHolderAndTeamMemberStatus = {

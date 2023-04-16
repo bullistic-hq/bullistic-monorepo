@@ -5,7 +5,7 @@ import ActivityNotificationLinkActionButton from "components/pages/activity/Acti
 import SystemNotificationContainer from "components/pages/activity/SystemNotificationContainer";
 import AssetForNotificationCampaignInfo from "components/assets/AssetForNotificationCampaignInfo";
 import { ActivityNotificationCampaignGoalReachedXPercent_ActivityNotificationCampaignGoalReachedXPercent$key } from "components/pages/activity/notifications/__generated__/ActivityNotificationCampaignGoalReachedXPercent_ActivityNotificationCampaignGoalReachedXPercent.graphql";
-import getCampaignGoalReachedXPercentBodyText from "formfn-shared/dist/utils/campaigns/getCampaignGoalReachedXPercentBodyText";
+import getCampaignGoalReachedXPercentBodyText from "bullistic-shared/dist/utils/campaigns/getCampaignGoalReachedXPercentBodyText";
 
 const fragment = graphql`
   fragment ActivityNotificationCampaignGoalReachedXPercent_ActivityNotificationCampaignGoalReachedXPercent on ActivityNotificationCampaignGoalReachedXPercent {

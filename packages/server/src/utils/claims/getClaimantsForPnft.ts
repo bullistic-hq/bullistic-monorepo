@@ -1,8 +1,8 @@
-import { ClaimantInfo } from "@formfunction-hq/formfunction-gumdrop";
+import { ClaimantInfo } from "@bullistic-hq/bullistic-gumdrop";
 import { Nft, NftListing, NftMetadata } from "@prisma/client";
 import { PublicKey } from "@solana/web3.js";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import { getCompareByProperty } from "formfn-shared/dist/utils/getCompareByProperty";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import { getCompareByProperty } from "bullistic-shared/dist/utils/getCompareByProperty";
 import getPrisma from "src/utils/prisma/getPrisma";
 
 type ClaimsAddressMap = { [key: string]: number };

@@ -12,12 +12,12 @@ import sendTransactionWithWallet from "utils/solana/misc/sendTransactionWithWall
 import usePreventRefresh from "hooks/usePreventRefresh";
 import commitRawTxMutation from "utils/relay/commitRawTxMutation";
 import useSettleSale from "hooks/useSettleSale";
-import getCreatorsForExecuteSale from "formfn-shared/dist/utils/sale/getCreatorsForExecuteSale";
+import getCreatorsForExecuteSale from "bullistic-shared/dist/utils/sale/getCreatorsForExecuteSale";
 import SettleSaleModalContent from "components/modal/SettleSaleModalContent";
 import GenericSuccessModalContent from "components/modal/GenericSuccessModalContent";
 import SaleType from "types/enums/SaleType";
 import getNftMintTokenAccountAddressOrAta from "utils/solana/tokens/read/getNftMintTokenAccountAddressOrAta";
-import CommitRawTxType from "formfn-shared/dist/types/enums/CommitRawTxType";
+import CommitRawTxType from "bullistic-shared/dist/types/enums/CommitRawTxType";
 import useConfetti from "hooks/useConfetti";
 import useFormattedNftPrice from "hooks/useFormattedNftPrice";
 import useNftPriceSymbol from "hooks/useNftPriceSymbol";

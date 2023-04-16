@@ -1,6 +1,6 @@
-import { AuctionHouseSdk } from "@formfunction-hq/formfunction-auction-house";
+import { AuctionHouseSdk } from "@bullistic-hq/bullistic-auction-house";
 import graphql from "babel-plugin-relay/macro";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import useSolanaContext from "hooks/useSolanaContext";
 import { useAuctionHouseSdkForPrice_Price$key } from "hooks/__generated__/useAuctionHouseSdkForPrice_Price.graphql";
 import { useFragment } from "react-relay";

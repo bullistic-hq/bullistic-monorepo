@@ -1,5 +1,5 @@
 import { Currency } from "@prisma/client";
-import formatDecimals from "formfn-shared/dist/utils/formatDecimals";
+import formatDecimals from "bullistic-shared/dist/utils/formatDecimals";
 import { CurrencyExpress } from "src/__generated__/generated";
 
 export default function formatPrice(

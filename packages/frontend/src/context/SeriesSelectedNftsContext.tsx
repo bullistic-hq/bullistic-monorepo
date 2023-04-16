@@ -7,13 +7,13 @@ import {
   useEffect,
   useState,
 } from "react";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
 import {
   PreloadedQuery,
   usePaginationFragment,
   usePreloadedQuery,
 } from "react-relay";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import { useSeriesPageMetadataAccountsQuery } from "hooks/series-page/__generated__/useSeriesPageMetadataAccountsQuery.graphql";
 import {
   seriesMetadataAccountsFragment,

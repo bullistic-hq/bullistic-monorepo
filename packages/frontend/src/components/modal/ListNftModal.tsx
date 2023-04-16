@@ -3,10 +3,10 @@ import { useFragment } from "react-relay";
 import { ListNftModal_MetadataAccount$key } from "components/modal/__generated__/ListNftModal_MetadataAccount.graphql";
 import ListOneOfOneModal from "components/modal/ListOneOfOneModal";
 import useNftKind from "hooks/useNftKind";
-import NftKind from "formfn-shared/dist/types/enums/NftKind";
+import NftKind from "bullistic-shared/dist/types/enums/NftKind";
 import ListEditionsModal from "components/modal/ListEditionsModal";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 const fragment = graphql`
   fragment ListNftModal_MetadataAccount on MetadataAccount {

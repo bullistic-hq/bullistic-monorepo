@@ -8,9 +8,9 @@ import ColorClass from "types/enums/ColorClass";
 import Body2 from "components/text/Body2";
 import dayjs from "utils/dates/dayjsex";
 import isNftInTimeExtensionPeriod from "utils/dates/isNftInTimeExtensionPeriod";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { useEffect, useState } from "react";
-import pluralize from "formfn-shared/dist/utils/pluralize";
+import pluralize from "bullistic-shared/dist/utils/pluralize";
 
 const fragment = graphql`
   fragment NftTimeExtensionInfo_MetadataAccount on MetadataAccount {

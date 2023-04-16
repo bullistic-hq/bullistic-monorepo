@@ -1,14 +1,14 @@
 import graphql from "babel-plugin-relay/macro";
 import useExploreContext from "hooks/useExploreContext";
 import { useLazyLoadQuery, usePaginationFragment } from "react-relay";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { EXPLORE_SERIES_PAGE_SIZE } from "constants/PageSizes";
 import { ExploreSeriesGridQuery } from "components/pages/explore/__generated__/ExploreSeriesGridQuery.graphql";
 import SeriesGridFullWidth from "components/series/SeriesGridFullWidth";
 import SeriesCard from "components/series/SeriesCard";
 import { ExploreSeriesGrid_Query$key } from "components/pages/explore/__generated__/ExploreSeriesGrid_Query.graphql";
 import { ExploreSeriesGridPaginationQuery } from "components/pages/explore/__generated__/ExploreSeriesGridPaginationQuery.graphql";
-import { range } from "formfn-shared/dist/utils/range";
+import { range } from "bullistic-shared/dist/utils/range";
 import SeriesCardLoadingSkeleton from "components/series/SeriesCardLoadingSkeleton";
 import getSeriesOrderByClauseForSortOrder from "utils/explore/getSeriesOrderByClauseForSortOrder";
 import logError from "utils/analytics/logError";

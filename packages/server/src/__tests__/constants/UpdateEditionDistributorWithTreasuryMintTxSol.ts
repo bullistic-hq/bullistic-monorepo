@@ -1,5 +1,5 @@
 // https://explorer.solana.com/tx/5DUbpAHWsMywMaec2UKbE9NehowtT55oAg9trCCnHdaMCWhFQzzLNMzxPXvZHwnNnFkGfUMHKuNarXf3sGrSQbSH?cluster=devnet
-// https://dev.formfunction.xyz/@soursop/Gs2mduryZHmKmQNHd5MRc3ePoGMpNeqoNgXYVjcAH1MZ?width=512&height=512
+// https://dev.bullistic.xyz/@soursop/Gs2mduryZHmKmQNHd5MRc3ePoGMpNeqoNgXYVjcAH1MZ?width=512&height=512
 const UPDATE_EDITION_DISTRIBUTOR_WITH_TREASURY_MINT_TX_SOL = {
   blockTime: 1662576910,
   meta: {

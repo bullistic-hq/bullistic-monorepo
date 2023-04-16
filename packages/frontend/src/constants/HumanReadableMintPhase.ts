@@ -1,4 +1,4 @@
-import { CandyMachineMintPhase } from "@formfunction-hq/formfunction-candy-machine";
+import { CandyMachineMintPhase } from "@bullistic-hq/bullistic-candy-machine";
 
 const HUMAN_READABLE_MINT_PHASE: Record<CandyMachineMintPhase, string> = {
   [CandyMachineMintPhase.Premint]: "Status: Premint",

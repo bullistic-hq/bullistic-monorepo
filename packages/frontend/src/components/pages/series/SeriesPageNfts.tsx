@@ -14,7 +14,7 @@ import {
 import { SeriesPageMetadataAccountsPaginationQuery } from "hooks/series-page/__generated__/SeriesPageMetadataAccountsPaginationQuery.graphql";
 import { useSeriesPageMetadataAccounts_Query$key } from "hooks/series-page/__generated__/useSeriesPageMetadataAccounts_Query.graphql";
 import { SERIES_PAGE_NFTS_PAGE_SIZE } from "constants/PageSizes";
-import { range } from "formfn-shared/dist/utils/range";
+import { range } from "bullistic-shared/dist/utils/range";
 import ListingCardLoadingSkeleton from "components/auction/ListingCardLoadingSkeleton";
 import useLoadNextOnBottomScroll from "hooks/useLoadNextOnBottomScroll";
 

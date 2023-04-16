@@ -1,8 +1,8 @@
 import { Currency, Nft, NftTransaction } from "@prisma/client";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import arraySum from "formfn-shared/dist/utils/array/arraySum";
-import removeDuplicatesWithSet from "formfn-shared/dist/utils/array/removeDuplicatesWithSet";
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import arraySum from "bullistic-shared/dist/utils/array/arraySum";
+import removeDuplicatesWithSet from "bullistic-shared/dist/utils/array/removeDuplicatesWithSet";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
 import COLLECTOR_NUM_BUYS_RANKING_2022 from "src/constants/flashback/CollectorNumBuysRanking2022";
 import COLLECTOR_VOLUME_RANKING_2022 from "src/constants/flashback/CollectorVolumeRanking2022";
 import CONVERT_NFT_TO_METADATA_INCLUDE from "src/constants/include/ConvertNftToMetadataInclude";

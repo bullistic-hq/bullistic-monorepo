@@ -7,12 +7,12 @@ import CampaignArtistPillButtons from "components/pages/campaign/campaign-v2/her
 import CampaignProgressTowardsGoalForCampaignV2 from "components/pages/campaign/campaign-v2/hero/goals/CampaignProgressTowardsGoalForCampaignV2";
 import { CampaignHeroForCampaignsNamespace_CampaignsNamespaceQueryResponse$key } from "components/pages/campaign/campaign-v2/hero/__generated__/CampaignHeroForCampaignsNamespace_CampaignsNamespaceQueryResponse.graphql";
 import Page404Content from "components/pages/errors/Page404Content";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { campaignQuery } from "hooks/campaign-page/v2/useCampaignPageCampaignV2";
 import { useCampaignPageCampaignV2Query } from "hooks/campaign-page/v2/__generated__/useCampaignPageCampaignV2Query.graphql";
 import useSetPageTitle from "hooks/useSetPageTitle";
 import { PreloadedQuery, useFragment, usePreloadedQuery } from "react-relay";
-import CampaignTab from "formfn-shared/dist/types/enums/CampaignTab";
+import CampaignTab from "bullistic-shared/dist/types/enums/CampaignTab";
 import ElementId from "types/enums/ElementId";
 import scrollElementIntoView from "utils/scroll/scrollElementIntoView";
 import { useCampaignPageCampaignV2GoalQuery } from "hooks/campaign-page/v2/__generated__/useCampaignPageCampaignV2GoalQuery.graphql";

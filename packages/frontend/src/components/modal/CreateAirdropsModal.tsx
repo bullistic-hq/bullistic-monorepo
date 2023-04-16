@@ -16,9 +16,9 @@ import LoadingSpinner from "components/loading/LoadingSpinner";
 import useViewerId from "hooks/useViewerId";
 import AudienceInputOption from "types/enums/AudienceInputOption";
 import AudienceSelectInput from "components/input/AudienceSelectInput";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import invariant from "tiny-invariant";
-import removeDuplicatesWithSet from "formfn-shared/dist/utils/array/removeDuplicatesWithSet";
+import removeDuplicatesWithSet from "bullistic-shared/dist/utils/array/removeDuplicatesWithSet";
 
 const mutation = graphql`
   mutation CreateAirdropsModalMutation($input: CreateAirdropsInput!) {
@@ -103,7 +103,7 @@ function Inner({
         </FlexBox>
       }
       description={
-        "You can send an airdrop to anyone using their Formfunction username or wallet address. " +
+        "You can send an airdrop to anyone using their Bullistic username or wallet address. " +
         "Once the airdrop is sent, they will be notified through email."
       }
       isLoading={isLoading}

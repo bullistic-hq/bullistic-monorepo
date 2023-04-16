@@ -1,4 +1,4 @@
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import { Price } from "src/__generated__/generated";
 
 export default function arePricesEqual(

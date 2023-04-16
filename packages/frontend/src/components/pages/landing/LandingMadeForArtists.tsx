@@ -8,11 +8,11 @@ import TextButtonTheme from "types/enums/TextButtonTheme";
 import getImgixUrl from "utils/getImgixUrl";
 
 const DESCRIPTION1 =
-  "Formfunction is a platform for creatives, by creatives. We believe that your art deserves the same attention from collectors as big generative NFT projects, and we want Formfunction to be the best NFT marketplace on Solana for independent artists and creators.";
+  "Bullistic is a platform for creatives, by creatives. We believe that your art deserves the same attention from collectors as big generative NFT projects, and we want Bullistic to be the best NFT marketplace on Solana for independent artists and creators.";
 const DESCRIPTION2 =
-  "To join Formfunction, we ask for a short artist profile submission—this helps us keep Formfunction safe, trustworthy, and high-quality. Once you join Formfunction, you’ll be able to mint NFTs, put pieces up for sale, and connect with other artists and collectors.";
-const TITLE1 = "What is Formfunction?";
-const TITLE2 = "Joining Formfunction";
+  "To join Bullistic, we ask for a short artist profile submission—this helps us keep Bullistic safe, trustworthy, and high-quality. Once you join Bullistic, you’ll be able to mint NFTs, put pieces up for sale, and connect with other artists and collectors.";
+const TITLE1 = "What is Bullistic?";
+const TITLE2 = "Joining Bullistic";
 
 export default function LandingMadeForArtists(): JSX.Element {
   const { isDarkMode } = useColorModeContext();

@@ -1,7 +1,7 @@
 import graphql from "babel-plugin-relay/macro";
 import { useFragment } from "react-relay";
 import { ProfileCampaignCardMonetaryGoal_CampaignMonetaryGoal$key } from "components/pages/profile/__generated__/ProfileCampaignCardMonetaryGoal_CampaignMonetaryGoal.graphql";
-import formatDecimals from "formfn-shared/dist/utils/formatDecimals";
+import formatDecimals from "bullistic-shared/dist/utils/formatDecimals";
 import ProfileCampaignCardGoalGeneric from "components/pages/profile/ProfileCampaignCardGoalGeneric";
 
 const goalFragment = graphql`

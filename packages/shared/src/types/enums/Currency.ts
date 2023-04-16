@@ -1,5 +1,5 @@
 // Common enum used to map between GQL enum on frontend/server
-// and formfn-shared module
+// and bullistic-shared module
 enum Currency {
   Ash = "Ash",
   Bonk = "Bonk",

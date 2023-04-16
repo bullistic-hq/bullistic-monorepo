@@ -1,5 +1,5 @@
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import NftTransactionOnchain from "src/types/NftTransactionOnchain";
 import getPriceInLamportsForEdition from "src/utils/editions/getPriceInLamportsForEdition";
 import getEditionPriceInfo from "src/utils/prisma/getEditionPriceInfo";

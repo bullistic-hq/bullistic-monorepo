@@ -1,6 +1,6 @@
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 import logError from "src/utils/analytics/logError";
-import sleep from "formfn-shared/dist/utils/sleep";
+import sleep from "bullistic-shared/dist/utils/sleep";
 import dayjs from "src/utils/dates/dayjsex";
 import { NftTransactionTypeExpress_Enum } from "src/__generated__/generated";
 import { Finality } from "@solana/web3.js";

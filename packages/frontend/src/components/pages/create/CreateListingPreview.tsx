@@ -15,7 +15,7 @@ import useCreateNftDetailsContext from "hooks/useCreateNftDetailsContext";
 import useCreateContext from "hooks/useCreateContext";
 import CreateEditionType from "types/enums/CreateEditionType";
 import ListingCardPill from "components/auction/ListingCardPill";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import CreateMintType from "types/enums/CreateMintType";
 import OverlayContainer from "components/containers/OverlayContainer";
 import OverlayButton from "components/buttons/OverlayButton";

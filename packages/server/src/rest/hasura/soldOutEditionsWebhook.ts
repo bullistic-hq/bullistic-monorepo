@@ -8,7 +8,7 @@ import {
   CurrencyNameExpress_Enum,
   NftStatusExpress_Enum,
 } from "src/__generated__/generated";
-import findAta from "formfn-shared/dist/utils/solana/pdas/findAta";
+import findAta from "bullistic-shared/dist/utils/solana/pdas/findAta";
 import isLastRetry from "src/utils/hasura/isLastRetry";
 import getAuctionHouseSdk from "src/utils/solana/getAuctionHouseSdk";
 import getPrisma from "src/utils/prisma/getPrisma";

@@ -3,7 +3,7 @@ import styles from "css/pages/explore/ExploreCreatorCard.module.css";
 import loadingStyles from "css/pages/explore/ExploreCreatorCardLoadingSkeleton.module.css";
 import Skeleton from "react-loading-skeleton";
 import joinClasses from "utils/joinClasses";
-import { range } from "formfn-shared/dist/utils/range";
+import { range } from "bullistic-shared/dist/utils/range";
 
 export default function ExploreCreatorCardLoadingSkeleton(): JSX.Element {
   const profilePhoto = (

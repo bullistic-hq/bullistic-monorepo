@@ -1,4 +1,4 @@
-import Environment from "formfn-shared/dist/types/Environment";
+import Environment from "bullistic-shared/dist/types/Environment";
 
 // On local environment we want to default the SDKs to use devnet.
 export default function getProgramSdkEnvironment(environment: Environment) {

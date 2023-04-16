@@ -1,8 +1,8 @@
 import useListenForParamChange from "hooks/useListenForParamChange";
 import { Dispatch, SetStateAction, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import CampaignTab from "formfn-shared/dist/types/enums/CampaignTab";
-import CampaignUrlParamKey from "formfn-shared/dist/types/enums/CampaignUrlParamKey";
+import CampaignTab from "bullistic-shared/dist/types/enums/CampaignTab";
+import CampaignUrlParamKey from "bullistic-shared/dist/types/enums/CampaignUrlParamKey";
 import getUrlParam from "utils/getUrlParam";
 import getUrlWithParam from "utils/getUrlWithParam";
 import graphql from "babel-plugin-relay/macro";

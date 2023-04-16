@@ -14,7 +14,7 @@ import logIfNotProd from "utils/logIfNotProd";
 import commitRawTxMutation from "utils/relay/commitRawTxMutation";
 import sendTransactionWithWallet from "utils/solana/misc/sendTransactionWithWallet";
 import getNftMintTokenAccountAddressOrAta from "utils/solana/tokens/read/getNftMintTokenAccountAddressOrAta";
-import CommitRawTxType from "formfn-shared/dist/types/enums/CommitRawTxType";
+import CommitRawTxType from "bullistic-shared/dist/types/enums/CommitRawTxType";
 import FetchGraphqlVariablesDenylist from "types/enums/FetchGraphqlVariablesDenylist";
 import useAuctionHouseSdkForPrice from "hooks/useAuctionHouseSdkForPrice";
 import notifyUnexpectedError from "components/toast/notifyUnexpectedError";

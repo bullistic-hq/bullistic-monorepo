@@ -1,9 +1,8 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
 import { useCampaignPageActivityQuery } from "hooks/campaign-page/v1/__generated__/useCampaignPageActivityQuery.graphql";
 import { useCampaignPageCampaignQuery } from "hooks/campaign-page/v1/__generated__/useCampaignPageCampaignQuery.graphql";
-import useIsPopheadzCampaign from "hooks/useIsPopheadzCampaign";
 import { Context, createContext } from "react";
 import { useQueryLoaderHookType } from "react-relay/relay-hooks/useQueryLoader";
 import ColorScheme from "types/ColorScheme";
@@ -51,20 +50,12 @@ export function CampaignContextProvider({
   loadCampaignActivityQuery,
   loadCampaignQuery,
 }: ProviderProps): JSX.Element {
-  const isPopheadz = useIsPopheadzCampaign();
   return (
     <CampaignContext.Provider
       // eslint-disable-next-line react/jsx-no-constructed-context-values
       value={{
         campaignSlug,
-        colorScheme: isPopheadz
-          ? getColorScheme(
-              "PopheadzLightGray",
-              "PopheadzDarkGray",
-              "Primary",
-              ButtonTheme.DarkGunmetal
-            )
-          : DEFAULT_COLOR_SCHEME,
+        colorScheme: DEFAULT_COLOR_SCHEME,
         creatorUsername,
         loadCampaignActivityQuery,
         loadCampaignQuery,

@@ -2,11 +2,11 @@ import { Request } from "express";
 import { Airdrop, User } from "@prisma/client";
 import { createTransferCheckedInstruction } from "@solana/spl-token";
 import { PublicKey, ParsedTransactionWithMeta } from "@solana/web3.js";
-import SortOrder from "formfn-shared/dist/types/enums/SortOrder";
-import findAta from "formfn-shared/dist/utils/solana/pdas/findAta";
-import findParsedNftTransaction from "formfn-shared/dist/utils/solana/txs/findParsedNftTransaction";
-import getCreateAtaTxIfNotExists from "formfn-shared/dist/utils/solana/txs/getCreateAtaTxIfNotExists";
-import toObject from "formfn-shared/dist/utils/toObject";
+import SortOrder from "bullistic-shared/dist/types/enums/SortOrder";
+import findAta from "bullistic-shared/dist/utils/solana/pdas/findAta";
+import findParsedNftTransaction from "bullistic-shared/dist/utils/solana/txs/findParsedNftTransaction";
+import getCreateAtaTxIfNotExists from "bullistic-shared/dist/utils/solana/txs/getCreateAtaTxIfNotExists";
+import toObject from "bullistic-shared/dist/utils/toObject";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 import logError from "src/utils/analytics/logError";
 import getAuthorityKeypair from "src/utils/keypairs/getAuthorityKeypair";
@@ -14,7 +14,7 @@ import getAllParsedTransactionsForAddress from "src/utils/solana/getAllParsedTra
 import getConnection from "src/utils/solana/getConnection";
 import ConnectionWrapper from "src/utils/solana/rpc/ConnectionWrapper";
 import parseTxWithTransfer from "src/utils/solana/txs/parse/parseTxWithTransfer";
-import ixToTx from "formfn-shared/dist/utils/solana/ix/ixToTx";
+import ixToTx from "bullistic-shared/dist/utils/solana/ix/ixToTx";
 
 async function getExistingTransferTx(
   standardEditionMint: PublicKey,

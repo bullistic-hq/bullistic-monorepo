@@ -8,7 +8,7 @@ import { useFragment } from "react-relay";
 import ColorClass from "types/enums/ColorClass";
 import FontClass from "types/enums/FontClass";
 import joinClasses from "utils/joinClasses";
-import { Maybe, Undef } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe, Undef } from "bullistic-shared/dist/types/UtilityTypes";
 import axios from "axios";
 import { UserV2Result } from "twitter-api-v2";
 import LoadingSpinner from "components/loading/LoadingSpinner";

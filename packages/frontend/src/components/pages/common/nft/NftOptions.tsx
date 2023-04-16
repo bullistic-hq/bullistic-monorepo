@@ -114,7 +114,7 @@ export default function NftOptions({
         <TextButton
           buttonThemeOrColorClass={TextButtonTheme.Error}
           fontClass={FontClass.NavLink}
-          href={`${MAILTO_HELLO_EMAIL}?subject=Formfunction: Reporting NFT ${metadataAccountData.mint}&body=Please explain why you are reporting this NFT`}
+          href={`${MAILTO_HELLO_EMAIL}?subject=Bullistic: Reporting NFT ${metadataAccountData.mint}&body=Please explain why you are reporting this NFT`}
           icon={<AlertIcon colorValue={ColorValue.Error} />}
           onClick={onClickOption}
           type="link_external"
@@ -155,7 +155,7 @@ export default function NftOptions({
               setIsDeleteModalShown(true);
             }}
           >
-            Remove from Formfunction
+            Remove from Bullistic
           </TextButton>
         )}
     </>

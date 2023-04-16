@@ -1,5 +1,5 @@
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
-import isEmptyString from "formfn-shared/dist/utils/string/isEmptyString";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
+import isEmptyString from "bullistic-shared/dist/utils/string/isEmptyString";
 import invariant from "tiny-invariant";
 import getPrisma from "src/utils/prisma/getPrisma";
 import { NftTransactionTypeExpress_Enum } from "src/__generated__/generated";

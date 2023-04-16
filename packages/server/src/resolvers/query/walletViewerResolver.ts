@@ -1,8 +1,8 @@
 import MyContext from "src/types/MyContext";
-import SortOrder from "formfn-shared/dist/types/enums/SortOrder";
-import { getCompareByProperty } from "formfn-shared/dist/utils/getCompareByProperty";
+import SortOrder from "bullistic-shared/dist/types/enums/SortOrder";
+import { getCompareByProperty } from "bullistic-shared/dist/utils/getCompareByProperty";
 import convertMetadataAccount from "src/utils/convert/convertMetadataAccount";
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
 import {
   MetadataAccount,
   WalletViewerInput,

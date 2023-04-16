@@ -3,7 +3,7 @@ import {
   NftStatusExpress_Enum,
   NftTransactionTypeExpress_Enum,
 } from "src/__generated__/generated";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import getPrisma from "src/utils/prisma/getPrisma";
 
 export default async function numberOfBidsForCurrentAuctionResolver(

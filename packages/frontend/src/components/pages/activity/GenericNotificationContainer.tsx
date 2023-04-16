@@ -3,7 +3,7 @@ import Body1 from "components/text/Body1";
 import Body2 from "components/text/Body2";
 import styles from "css/pages/activity/GenericNotificationContainer.module.css";
 import { Dayjs } from "dayjs";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import ColorClass from "types/enums/ColorClass";
 import formatNotificationTimestamp from "utils/dates/formatNotificationTimestamp";
 

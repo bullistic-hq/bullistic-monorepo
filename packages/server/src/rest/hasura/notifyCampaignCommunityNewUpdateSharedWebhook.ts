@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from "express";
-import removeDuplicatesWithSet from "formfn-shared/dist/utils/array/removeDuplicatesWithSet";
+import removeDuplicatesWithSet from "bullistic-shared/dist/utils/array/removeDuplicatesWithSet";
 import CONVERT_CAMPAIGN_INCLUDE from "src/constants/include/ConvertCampaignInclude";
 import getCampaignHoldersFromCampaignToHolderTable from "src/utils/campaigns/getCampaignHoldersFromCampaignToHolderTable";
 import createCampaignCommunityNewUpdateSharedNotifications from "src/utils/notifications/create/createCampaignCommunityNewUpdateSharedNotifications";

@@ -1,8 +1,8 @@
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import getPrisma from "src/utils/prisma/getPrisma";
-import getNftKind from "formfn-shared/dist/utils/nft/getNftKind";
-import NftKind from "formfn-shared/dist/types/enums/NftKind";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import getNftKind from "bullistic-shared/dist/utils/nft/getNftKind";
+import NftKind from "bullistic-shared/dist/types/enums/NftKind";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import NftSourceType from "src/types/graphql-source/NftSourceType";
 
 async function numberOfStandardEditionsMintedResolver(

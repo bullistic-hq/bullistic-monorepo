@@ -1,16 +1,16 @@
-import FormfnGumdropSdk from "@formfunction-hq/formfunction-gumdrop";
+import BullisticGumdropSdk from "@bullistic-hq/bullistic-gumdrop";
 import { Connection } from "@solana/web3.js";
 import { NftMetadataV1Input } from "hooks/__generated__/useUploadNftToArweaveMutation.graphql";
 import AnchorWallet from "types/AnchorWallet";
-import getMintMasterEditionTx from "formfn-shared/dist/utils/solana/metaplex/getMintMasterEditionTx";
+import getMintMasterEditionTx from "bullistic-shared/dist/utils/solana/metaplex/getMintMasterEditionTx";
 import sendMintMasterEditionTx from "utils/solana/metaplex/sendMintMasterEditionTx";
-import combineTransactions from "formfn-shared/dist/utils/solana/txs/combineTransactions";
-import { AuctionHouseSdk } from "@formfunction-hq/formfunction-auction-house";
+import combineTransactions from "bullistic-shared/dist/utils/solana/txs/combineTransactions";
+import { AuctionHouseSdk } from "@bullistic-hq/bullistic-auction-house";
 
 type Args = {
   auctionHouseSdk: AuctionHouseSdk;
   connection: Connection;
-  gumdropSdk: FormfnGumdropSdk;
+  gumdropSdk: BullisticGumdropSdk;
   metadata: NftMetadataV1Input;
   metadataArweaveLink: string;
   rawTxExtraData?: { [key: string]: any };

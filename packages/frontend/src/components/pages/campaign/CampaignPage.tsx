@@ -12,7 +12,7 @@ type Props = {
  * We ran two pilot campaigns with Robbie Shilstone and Popheadz, and in order to build the pilots faster, we didn't fully build out the backend.
  *
  * The backend (data model + new GraphQL API) is now built out, but we still need to support the old campaign page for our two pilot campaigns:
- * - https://formfunction.xyz/@shilstone_arts/campaigns/off-leash
+ * - https://bullistic.xyz/@shilstone_arts/campaigns/off-leash
  * - Popheadz
  *
  * Eventually we may want to migrate those campaigns to use the new data model and APIs, but for now, making this wrapper
@@ -24,10 +24,6 @@ export default function CampaignPage({ isDraftView }: Props) {
 
   if (campaignSlug == null) {
     return null;
-  }
-
-  if (["popheadz", "toonies"].includes(campaignSlug)) {
-    return <CampaignPageV1 />;
   }
 
   return <CampaignPageV2 isDraftView={isDraftView} />;

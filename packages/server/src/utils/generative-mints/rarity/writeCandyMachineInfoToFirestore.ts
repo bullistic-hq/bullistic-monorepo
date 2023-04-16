@@ -5,8 +5,8 @@ import getFirestoreConfigLineDocRef from "src/utils/firebase/firestore/getFirest
 import getFileExtFromContentType from "src/utils/getFileExtFromContentType";
 import uploadFileFromUrl from "src/utils/firebase/uploadFileFromUrl";
 import { nanoid } from "nanoid";
-import getArweaveTxidFromLink from "formfn-shared/dist/utils/getArweaveTxidFromLink";
-import jsonStringify from "formfn-shared/dist/utils/jsonStringify";
+import getArweaveTxidFromLink from "bullistic-shared/dist/utils/getArweaveTxidFromLink";
+import jsonStringify from "bullistic-shared/dist/utils/jsonStringify";
 
 const limit = pLimit(10);
 

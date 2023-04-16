@@ -1,6 +1,6 @@
 import { PublicKey } from "@solana/web3.js";
 import { Request } from "express";
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import verifySignature from "src/utils/auth/verifySignature";
 import getPublicKey from "src/utils/headers/getPublicKey";
 import getPublicKeySignature from "src/utils/headers/getPublicKeySignature";

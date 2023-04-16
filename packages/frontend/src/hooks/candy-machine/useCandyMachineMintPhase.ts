@@ -1,9 +1,9 @@
 import {
   CandyMachineMintPhase,
   getMintPhase,
-} from "@formfunction-hq/formfunction-candy-machine";
+} from "@bullistic-hq/bullistic-candy-machine";
 import graphql from "babel-plugin-relay/macro";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import { useCandyMachineMintPhase_CandyMachineExpress$key } from "hooks/candy-machine/__generated__/useCandyMachineMintPhase_CandyMachineExpress.graphql";
 import { useFragment } from "react-relay";
 import dayjs from "utils/dates/dayjsex";

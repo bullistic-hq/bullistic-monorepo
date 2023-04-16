@@ -2,7 +2,7 @@ import graphql from "babel-plugin-relay/macro";
 import { useFragment, useMutation } from "react-relay";
 import { useContext, useState } from "react";
 import ErrorMessageMsg from "types/enums/ErrorMessageMsg";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { v4 } from "uuid";
 import logIfNotProd from "utils/logIfNotProd";
 import getCdnUrlForProfileOrCoverPhoto from "utils/getCdnUrlForProfileOrCoverPhoto";
@@ -13,7 +13,7 @@ import { notify } from "components/toast/notifications";
 import useUploadNftToArweave, {
   OnUploadNftToArweaveCompletedInput,
 } from "hooks/useUploadNftToArweave";
-import getArweaveLink from "formfn-shared/dist/utils/getArweaveLink";
+import getArweaveLink from "bullistic-shared/dist/utils/getArweaveLink";
 import { EditSeriesModalMutation } from "components/modal/__generated__/EditSeriesModalMutation.graphql";
 import {
   EditSeriesModalPhotosMutation,
@@ -26,7 +26,7 @@ import updateMetadata from "utils/solana/metaplex/updateMetadata";
 import { PublicKey } from "@solana/web3.js";
 import useUserContext from "hooks/useUserContext";
 import invariant from "tiny-invariant";
-import getSeriesLinkRelative from "formfn-shared/dist/utils/links/getSeriesLinkRelative";
+import getSeriesLinkRelative from "bullistic-shared/dist/utils/links/getSeriesLinkRelative";
 import notifyUnexpectedError from "components/toast/notifyUnexpectedError";
 
 const seriesFragment = graphql`

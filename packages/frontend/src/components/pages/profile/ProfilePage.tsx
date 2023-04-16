@@ -1,7 +1,7 @@
 import { PreloadedQuery, usePreloadedQuery } from "react-relay";
 import ProfilePageForUser from "components/pages/profile/ProfilePageForUser";
 import DisconnectedPage from "components/pages/misc/DisconnectedPage";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import DisconnectedPageContainer from "components/containers/DisconnectedPageContainer";
 import { Suspense } from "react";
 import useSetPageTitle from "hooks/useSetPageTitle";

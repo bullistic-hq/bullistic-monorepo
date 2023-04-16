@@ -1,7 +1,7 @@
 import ModelViewerLazy from "components/model-viewer/ModelViewerLazy";
 import Video from "components/videos/Video";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import BackgroundColorClass from "types/enums/BackgroundColorClass";
 import MediaType from "types/enums/MediaType";
 import joinClasses from "utils/joinClasses";

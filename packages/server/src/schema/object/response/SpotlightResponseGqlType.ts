@@ -2,7 +2,7 @@ import { GraphQLObjectType } from "graphql";
 import Typename from "src/types/enums/Typename";
 import gqlNonNull from "src/utils/graphql/gqlNonNull";
 import SpotlightsConnectionGqlType from "src/schema/object/pagination/SpotlightsConnectionGqlType";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import MyContext from "src/types/MyContext";
 import { SpotlightsConnection } from "src/__generated__/generated";
 import logErrorsForResolver from "src/middleware/logErrorsForResolver";

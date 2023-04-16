@@ -1,12 +1,12 @@
 import graphql from "babel-plugin-relay/macro";
 import RELAY_FUTURE_UNION_VALUE from "constants/RelayFutureUnionValue";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import { PreloadedQuery, useFragment, usePreloadedQuery } from "react-relay";
 import { CampaignFundingTiersForCampaignsNamespace_CampaignsNamespaceQueryResponse$key } from "components/pages/campaign/campaign-v2/funding-tiers/__generated__/CampaignFundingTiersForCampaignsNamespace_CampaignsNamespaceQueryResponse.graphql";
 import CampaignFundingTierForCampaignFundingTierStandard from "components/pages/campaign/campaign-v2/funding-tiers/CampaignFundingTierForCampaignFundingTierStandard";
 import CampaignFundingTiersContainer from "components/pages/campaign/campaign-generic/funding-tiers/CampaignFundingTiersContainer";
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
 import { useCampaignPageFundingTiersQuery } from "hooks/campaign-page/v2/__generated__/useCampaignPageFundingTiersQuery.graphql";
 import { campaignFundingTiersQuery } from "hooks/campaign-page/v2/useCampaignPageFundingTiers";
 

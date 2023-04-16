@@ -1,8 +1,8 @@
 import graphql from "babel-plugin-relay/macro";
 import { useFragment } from "react-relay";
-import getNftKind from "formfn-shared/dist/utils/nft/getNftKind";
-import NftKind from "formfn-shared/dist/types/enums/NftKind";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import getNftKind from "bullistic-shared/dist/utils/nft/getNftKind";
+import NftKind from "bullistic-shared/dist/types/enums/NftKind";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { useNftKindNullable_MetadataAccount$key } from "hooks/__generated__/useNftKindNullable_MetadataAccount.graphql";
 
 const fragment = graphql`

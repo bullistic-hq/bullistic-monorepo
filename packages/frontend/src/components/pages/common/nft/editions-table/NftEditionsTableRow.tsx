@@ -7,7 +7,7 @@ import ArrowRightIcon from "components/icons/ArrowRightIcon";
 import ColorValue from "types/enums/ColorValue";
 import { Link } from "react-router-dom";
 import { NftStatusExpress_enum } from "components/auction/__generated__/NftOtherInfo_MetadataAccount.graphql";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import NftEditionsTableStructure from "components/pages/common/nft/editions-table/NftEditionsTableStructure";
 import { NftEditionsTableRow_MetadataAccount$key } from "components/pages/common/nft/editions-table/__generated__/NftEditionsTableRow_MetadataAccount.graphql";
 import { useFragment } from "react-relay";

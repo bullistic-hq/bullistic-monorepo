@@ -1,5 +1,5 @@
 // Computed using Metabase on 12/16/2022
-// See https://formfunction.metabaseapp.com/question/79-collector-num-buys-ranking
+// See https://bullistic.metabaseapp.com/question/79-collector-num-buys-ranking
 const COLLECTOR_NUM_BUYS_RANKING_2022 = [
   { Count: 1254, ToUserId: "FqTytZP8LWAdhXCmoQqAgfbHUTABb8GgAQeeBnSRsYLV" },
   { Count: 765, ToUserId: "r5JUEpAiFmrNaaHZE2xDMgca29FFZL4ZHTNZPzZzCcH" },

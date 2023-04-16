@@ -4,7 +4,7 @@ import useUserContext from "hooks/useUserContext";
 import { useUnlockableCtaType_MetadataAccount$key } from "hooks/__generated__/useUnlockableCtaType_MetadataAccount.graphql";
 import { useUnlockableCtaType_UnlockableWinnerExpress$key } from "hooks/__generated__/useUnlockableCtaType_UnlockableWinnerExpress.graphql";
 import UnlockableCta from "types/enums/UnlockableCta";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 const nftFragment = graphql`
   fragment useUnlockableCtaType_MetadataAccount on MetadataAccount {

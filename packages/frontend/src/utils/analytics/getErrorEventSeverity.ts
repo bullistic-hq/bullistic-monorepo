@@ -1,6 +1,6 @@
 import { Severity } from "@sentry/react";
 import AnalyticsEvent from "types/enums/AnalyticsEvent";
-import targetIncludesAny from "formfn-shared/dist/utils/array/targetIncludesAny";
+import targetIncludesAny from "bullistic-shared/dist/utils/array/targetIncludesAny";
 
 // Shorthand constants
 const error = Severity.Error;

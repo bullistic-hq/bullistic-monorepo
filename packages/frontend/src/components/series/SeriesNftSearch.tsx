@@ -7,7 +7,7 @@ import GenericNftSearchRow from "components/nft/GenericNftSearchRow";
 import { SeriesSelectedNftsContext } from "context/SeriesSelectedNftsContext";
 import useUserContext from "hooks/useUserContext";
 import ElementId from "types/enums/ElementId";
-import isEmptyString from "formfn-shared/dist/utils/string/isEmptyString";
+import isEmptyString from "bullistic-shared/dist/utils/string/isEmptyString";
 import GenericNftSearch from "components/nft/GenericNftSearch";
 import { useDebounce } from "use-debounce";
 

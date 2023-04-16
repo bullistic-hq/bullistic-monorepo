@@ -11,7 +11,7 @@ import * as fs from "fs";
  * Apollo server's remote schema) with the Hasura Relay GraphQL API
  * (which exposes Connections on plural return types).
  *
- * See https://github.com/formfunction-hq/formfn-monorepo/pull/143
+ * See https://github.com/bullistic-hq/bullistic-monorepo/pull/143
  * for more details on why this is necessary.
  *
  * This script should primarily be run by running the yarn script:

@@ -1,6 +1,6 @@
-import { getCompareByProperty } from "formfn-shared/dist/utils/getCompareByProperty";
+import { getCompareByProperty } from "bullistic-shared/dist/utils/getCompareByProperty";
 import calculateAttributeMoonrankRarities from "src/utils/generative-mints/rarity/calculateAttributeMoonrankRarities";
-import arrayLast from "formfn-shared/dist/utils/array/arrayLast";
+import arrayLast from "bullistic-shared/dist/utils/array/arrayLast";
 import NftAttributes from "src/types/NftAttributes";
 import NftAttributeWithRarity from "src/types/NftAttributeWithRarity";
 import RarityInfo from "src/types/generative-mints/rarity/RarityInfo";

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Dimensions from "types/Dimensions";
 import { useSearchParams } from "react-router-dom";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 function getDefaultDims() {
   const url = document.querySelector("meta[property='og:url']")?.baseURI;

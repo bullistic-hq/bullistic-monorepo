@@ -12,12 +12,12 @@ import getOffPlatformNft from "src/utils/solana/getOffPlatformNft";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 import { NftToTag, Tag } from "@prisma/client";
 import logError from "src/utils/analytics/logError";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import logEvent from "src/utils/analytics/logEvent";
 import { Nft as MetaplexNft } from "@metaplex-foundation/js";
 import ConnectionWrapper from "src/utils/solana/rpc/ConnectionWrapper";
 import invariant from "tiny-invariant";
-import findEditionPda from "formfn-shared/dist/utils/solana/pdas/findEditionPda";
+import findEditionPda from "bullistic-shared/dist/utils/solana/pdas/findEditionPda";
 import CONVERT_NFT_TO_METADATA_INCLUDE from "src/constants/include/ConvertNftToMetadataInclude";
 import ConvertNftToMetadataAccountType from "src/types/convert/ConvertNftToMetadataAccountType";
 

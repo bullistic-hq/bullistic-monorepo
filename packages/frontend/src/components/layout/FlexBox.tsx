@@ -1,5 +1,5 @@
 import * as Flexbox from "flexbox-react";
-import { Undef } from "formfn-shared/dist/types/UtilityTypes";
+import { Undef } from "bullistic-shared/dist/types/UtilityTypes";
 
 type StringPropOverrides = {
   height?: number | string;

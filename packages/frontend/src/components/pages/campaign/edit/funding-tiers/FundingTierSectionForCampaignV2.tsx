@@ -5,11 +5,11 @@ import { STANDARD_SECTION_HEIGHT } from "components/pages/campaign/campaign-v2/C
 import FundingTierCardForCampaignFundingTierStandard from "components/pages/campaign/edit/funding-tiers/FundingTierCardForCampaignFundingTierStandard";
 import { FundingTierSectionForCampaignV2_CampaignV2$key } from "components/pages/campaign/edit/funding-tiers/__generated__/FundingTierSectionForCampaignV2_CampaignV2.graphql";
 import RELAY_FUTURE_UNION_VALUE from "constants/RelayFutureUnionValue";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import { useFragment } from "react-relay";
 import ColorValue from "types/enums/ColorValue";
 import styles from "css/pages/campaign/edit/funding-tiers/FundingTierSectionForCampaignV2.module.css";
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
 import FlexBox from "components/layout/FlexBox";
 import ManageFundingTiersModal from "components/pages/campaign/edit/funding-tiers/ManageFundingTiersModal";
 import { useState } from "react";

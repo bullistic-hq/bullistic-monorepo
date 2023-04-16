@@ -4,5 +4,5 @@ export default function isDevSubdomain() {
   }
 
   const { href } = window.location;
-  return href.includes("dev.formfunction");
+  return href.includes("dev.bullistic");
 }

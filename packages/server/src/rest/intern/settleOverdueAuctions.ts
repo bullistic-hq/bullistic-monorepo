@@ -1,7 +1,7 @@
 import { PublicKey } from "@solana/web3.js";
 import { NextFunction, Request, Response } from "express";
 import getPrisma from "src/utils/prisma/getPrisma";
-import findAta from "formfn-shared/dist/utils/solana/pdas/findAta";
+import findAta from "bullistic-shared/dist/utils/solana/pdas/findAta";
 import getAuthorityKeypair from "src/utils/keypairs/getAuthorityKeypair";
 import invariant from "tiny-invariant";
 import CONVERT_NFT_TO_METADATA_INCLUDE from "src/constants/include/ConvertNftToMetadataInclude";
@@ -20,7 +20,7 @@ import priceLastListedResolver from "src/resolvers/query/nested/nft/priceLastLis
 import auctionWinnerIdResolver from "src/resolvers/query/nested/nft/auctionWinnerIdResolver";
 import createOwnerAuctionSettledNotification from "src/utils/notifications/create/createOwnerAuctionSettledNotification";
 import getAuctionHouseSdk from "src/utils/solana/getAuctionHouseSdk";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import ConnectionWrapper from "src/utils/solana/rpc/ConnectionWrapper";
 
 async function settleOverdueAuction(

@@ -59,15 +59,15 @@ function LogoSection(): JSX.Element {
     <div className={styles.logoSection}>
       <Link className={styles.logo} to="/">
         <img className={styles.logoImage} src="/images/logo-white.svg" />
-        <h3 className={styles.logoText}>formfunction</h3>
+        <h3 className={styles.logoText}>bullistic</h3>
       </Link>
       <Body2 colorClass={ColorClass.White}>
-        Formfunction is the Solana NFT marketplace made for independent
+        Bullistic is the Solana NFT marketplace made for independent
         creators.
       </Body2>
       <div className={styles.icons}>
         <a
-          href="https://twitter.com/formfunction"
+          href="https://twitter.com/bullistic"
           target="_blank"
           rel="noreferrer"
         >
@@ -77,7 +77,7 @@ function LogoSection(): JSX.Element {
           <DiscordFilledIcon colorValue={ColorValue.White} />
         </a>
         <a
-          href="https://www.instagram.com/formfunction.xyz/"
+          href="https://www.instagram.com/bullistic.xyz/"
           target="_blank"
           rel="noreferrer"
         >
@@ -150,7 +150,7 @@ export default function LandingFooter(): JSX.Element {
   const careerLinks: Array<LinkObject> = [
     { href: "/about", label: "About", type: "link_internal" },
     {
-      href: "https://formfunction.notion.site/Join-Formfunction-4d162e0369174c6c8a69b0653a7e594b",
+      href: "https://bullistic.notion.site/Join-Bullistic-4d162e0369174c6c8a69b0653a7e594b",
       label: "Careers",
     },
     {
@@ -158,11 +158,11 @@ export default function LandingFooter(): JSX.Element {
       label: "Help",
     },
     {
-      href: "https://blog.formfunction.xyz/",
+      href: "https://blog.bullistic.xyz/",
       label: "Blog",
     },
     {
-      href: "https://www.blog.formfunction.xyz/artist-playbook",
+      href: "https://www.blog.bullistic.xyz/artist-playbook",
       label: "Artist playbook",
     },
   ];
@@ -192,7 +192,7 @@ export default function LandingFooter(): JSX.Element {
                   type: "link_internal",
                 },
                 {
-                  href: "https://formfunction.canny.io/feature-requests",
+                  href: "https://bullistic.canny.io/feature-requests",
                   label: "Feature requests",
                   type: "link_external",
                 },

@@ -1,5 +1,5 @@
 import NftTransactions from "components/pages/common/nft/NftTransactions";
-import { range } from "formfn-shared/dist/utils/range";
+import { range } from "bullistic-shared/dist/utils/range";
 import CampaignActivityItemSkeleton from "components/pages/campaign/campaign-generic/activity/skeletons/CampaignActivityItemSkeleton";
 
 export default function CampaignActivitySkeleton(): JSX.Element {

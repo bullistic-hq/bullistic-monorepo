@@ -1,11 +1,11 @@
-import Environment from "formfn-shared/dist/types/Environment";
+import Environment from "bullistic-shared/dist/types/Environment";
 import getEnvironment from "utils/getEnvironment";
-import AuctionHouseInfo from "formfn-shared/dist/types/AuctionHouseInfo";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import AuctionHouseInfo from "bullistic-shared/dist/types/AuctionHouseInfo";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import Currency from "types/relay/Currency";
 import getSharedCurrencyEnumFromGqlCurrency from "utils/solana/misc/getSharedCurrencyEnumFromGqlCurrency";
-import getTreasuryMintForCurrency from "formfn-shared/dist/utils/auction-house/getTreasuryMintForCurrency";
-import getAuctionHouseAccountKeyForCurrency from "formfn-shared/dist/utils/auction-house/getAuctionHouseAccountKeyForCurrency";
+import getTreasuryMintForCurrency from "bullistic-shared/dist/utils/auction-house/getTreasuryMintForCurrency";
+import getAuctionHouseAccountKeyForCurrency from "bullistic-shared/dist/utils/auction-house/getAuctionHouseAccountKeyForCurrency";
 
 export default function getAuctionHouseInfo(
   currency: Currency,

@@ -1,4 +1,4 @@
-import { decodeGumdropTransaction } from "@formfunction-hq/formfunction-gumdrop";
+import { decodeGumdropTransaction } from "@bullistic-hq/bullistic-gumdrop";
 import { ParsedTransactionWithMeta } from "@solana/web3.js";
 import getGumdropInfo from "src/utils/solana/getGumdropInfo";
 import parseClaimedPnftTx from "src/utils/solana/txs/parse/gumdrop/parseClaimedPnftTx";

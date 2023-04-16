@@ -1,5 +1,5 @@
 import graphql from "babel-plugin-relay/macro";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { useFragment } from "react-relay";
 import {
   CampaignDraftAboutCard_CampaignV2$data,

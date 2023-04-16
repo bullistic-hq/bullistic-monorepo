@@ -7,10 +7,10 @@ import styles from "css/modal/HowAuctionsWorkModal.module.css";
 import { useFragment } from "react-relay";
 import ColorClass from "types/enums/ColorClass";
 import dayjs from "utils/dates/dayjsex";
-import pluralize from "formfn-shared/dist/utils/pluralize";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import pluralize from "bullistic-shared/dist/utils/pluralize";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import DEFAULT_PRICE_INCREMENT_PERCENTAGE from "constants/DefaultPriceIncrementPercentage";
-import formatDecimals from "formfn-shared/dist/utils/formatDecimals";
+import formatDecimals from "bullistic-shared/dist/utils/formatDecimals";
 
 const fragment = graphql`
   fragment HowAuctionsWorkModal_MetadataAccount on MetadataAccount {

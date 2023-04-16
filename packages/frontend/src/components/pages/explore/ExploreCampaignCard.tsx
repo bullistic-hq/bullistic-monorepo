@@ -5,7 +5,7 @@ import Body1 from "components/text/Body1";
 import FlexBox from "components/layout/FlexBox";
 import AspectRatioContainer from "components/containers/AspectRatioContainer";
 import { Link } from "react-router-dom";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import HideIfEmpty from "components/containers/HideIfEmpty";
 import joinClasses from "utils/joinClasses";
 import GlobalClass from "types/enums/GlobalClass";

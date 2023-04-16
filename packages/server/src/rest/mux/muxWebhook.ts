@@ -4,7 +4,7 @@ import { NextFunction, Request, Response } from "express";
 import muxClient from "src/utils/mux/muxClient";
 import muxCreateClip from "src/utils/mux/muxCreateClip";
 import getPrisma from "src/utils/prisma/getPrisma";
-import sleep from "formfn-shared/dist/utils/sleep";
+import sleep from "bullistic-shared/dist/utils/sleep";
 import dayjs from "src/utils/dates/dayjsex";
 import logError from "src/utils/analytics/logError";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";

@@ -11,7 +11,7 @@ import ActivityButton from "components/buttons/ActivityButton";
 import ProfileButton from "components/buttons/ProfileButton";
 import ConnectWalletButton from "components/buttons/ConnectWalletButton";
 import { Suspense } from "react";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import HELP_LINK from "constants/HelpLink";
 import useUserContext from "hooks/useUserContext";
 import { Link } from "react-router-dom";

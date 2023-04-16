@@ -3,7 +3,7 @@ import styles from "css/header/HeaderAndCoverPhoto.module.css";
 import useIsBottomTabsWidth from "hooks/useIsBottomTabsWidth";
 import useSolanaContext from "hooks/useSolanaContext";
 import HeaderTheme from "types/enums/HeaderTheme";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import MaybeImgix from "components/images/MaybeImgix";
 import Imgix from "react-imgix";
 

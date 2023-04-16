@@ -3,9 +3,9 @@ import {
   ParsedTransactionWithMeta,
   PartiallyDecodedInstruction,
 } from "@solana/web3.js";
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
-import findAsync from "formfn-shared/dist/utils/array/findAsync";
-import findIndexAsync from "formfn-shared/dist/utils/array/findIndexAsync";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
+import findAsync from "bullistic-shared/dist/utils/array/findAsync";
+import findIndexAsync from "bullistic-shared/dist/utils/array/findIndexAsync";
 import getAllInnerIxsWithIndices from "src/utils/solana/getAllInnerIxsWithIndices";
 
 /**

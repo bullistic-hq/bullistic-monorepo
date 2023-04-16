@@ -1,9 +1,9 @@
-import { AuctionHouseSdk } from "@formfunction-hq/formfunction-auction-house";
+import { AuctionHouseSdk } from "@bullistic-hq/bullistic-auction-house";
 import { Connection, PublicKey } from "@solana/web3.js";
 import AnchorWallet from "types/AnchorWallet";
 import { notify } from "components/toast/notifications";
-import CommitRawTxType from "formfn-shared/dist/types/enums/CommitRawTxType";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import CommitRawTxType from "bullistic-shared/dist/types/enums/CommitRawTxType";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import AnalyticsEvent from "types/enums/AnalyticsEvent";
 import ListingType from "types/enums/ListingType";
 import logEvent from "utils/analytics/logEvent";

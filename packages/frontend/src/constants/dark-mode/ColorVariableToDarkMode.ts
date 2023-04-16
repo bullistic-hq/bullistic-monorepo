@@ -46,10 +46,6 @@ const COLOR_VARIABLE_TO_DARK_MODE: {
   [ColorVariableName.Pink]: ColorVariableDarkModeName.Pink,
   [ColorVariableName.PinkVerticalGradient]:
     ColorVariableDarkModeName.PinkVerticalGradient,
-  [ColorVariableName.PopheadzDarkGray]:
-    ColorVariableDarkModeName.PopheadzDarkGray,
-  [ColorVariableName.PopheadzLightGray]:
-    ColorVariableDarkModeName.PopheadzLightGray,
   [ColorVariableName.Primary]: ColorVariableDarkModeName.Primary,
   [ColorVariableName.ProgressBar]: ColorVariableDarkModeName.ProgressBar,
   [ColorVariableName.Purple]: ColorVariableDarkModeName.Purple,

@@ -1,5 +1,5 @@
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import removeDuplicatesWithSet from "formfn-shared/dist/utils/array/removeDuplicatesWithSet";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import removeDuplicatesWithSet from "bullistic-shared/dist/utils/array/removeDuplicatesWithSet";
 import CONVERT_CAMPAIGN_FUNDING_TIER_INCLUDE from "src/constants/include/ConvertCampaignFundingTierInclude";
 import CONVERT_USER_INCLUDE from "src/constants/include/ConvertUserInclude";
 import ConvertCampaignFundingTierType from "src/types/convert/ConvertCampaignFundingTierType";

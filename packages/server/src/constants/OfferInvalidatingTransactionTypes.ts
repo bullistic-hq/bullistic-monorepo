@@ -1,4 +1,4 @@
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import { NftTransactionTypeExpress_Enum } from "src/__generated__/generated";
 
 function isOfferInvalidatingTransactionType(

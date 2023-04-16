@@ -12,8 +12,8 @@ import {
 } from "components/pages/campaign/dashboard/__generated__/CampaignDashboardPage_Query.graphql";
 import Page404Content from "components/pages/errors/Page404Content";
 import CAMPAIGN_DASHBOARD_AVAILABLE_STATUSES from "constants/CampaignDashboardAvailableStatuses";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
 import usePostsForCampaign from "hooks/campaign/usePostsForCampaign";
 import useUserContext from "hooks/useUserContext";
 import { Suspense } from "react";

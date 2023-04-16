@@ -1,5 +1,5 @@
 import { ParsedTransactionWithMeta, PublicKey } from "@solana/web3.js";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import NftTransactionOnchain from "src/types/NftTransactionOnchain";
 import getNftCreatorFromMint from "src/utils/prisma/getNftCreatorFromMint";
 import dayjs from "src/utils/dates/dayjsex";
@@ -11,10 +11,10 @@ import convertPriceFunctionTypeToGql from "src/utils/convert/convertPriceFunctio
 import {
   DecodedAuctionHouseTransactionResult,
   deserializePriceFunctionType,
-} from "@formfunction-hq/formfunction-auction-house";
-import maybeNumber from "formfn-shared/dist/utils/numbers/maybeNumber";
+} from "@bullistic-hq/bullistic-auction-house";
+import maybeNumber from "bullistic-shared/dist/utils/numbers/maybeNumber";
 import getCurrencyInfoForTreasuryMint from "src/utils/solana/txs/parse/getCurrencyInfoForTreasuryMint";
-import { WRAPPED_SOL_MINT } from "formfn-shared/dist/constants/SolanaConstants";
+import { WRAPPED_SOL_MINT } from "bullistic-shared/dist/constants/SolanaConstants";
 import convertPrice from "src/utils/convert/convertPrice";
 
 type UpdateEditionDistributorInfo = {

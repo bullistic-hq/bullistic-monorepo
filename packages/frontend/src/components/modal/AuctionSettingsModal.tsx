@@ -13,7 +13,7 @@ import dayjs from "utils/dates/dayjsex";
 import { AuctionSettingsModalMutation } from "components/modal/__generated__/AuctionSettingsModalMutation.graphql";
 import updateNftAuctionSettings from "utils/relay/updaters/updateNftAuctionSettings";
 import { Dayjs } from "dayjs";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import ListingScheduledAuctionInputs from "components/listing/ListingScheduledAuctionInputs";
 import InputWithLabel from "components/input/InputWithLabel";
 import InputLabel from "components/input/InputLabel";
@@ -29,11 +29,11 @@ import getNftMintTokenAccountAddressOrAta from "utils/solana/tokens/read/getNftM
 import { PublicKey } from "@solana/web3.js";
 import sendTransactionWithWallet from "utils/solana/misc/sendTransactionWithWallet";
 import commitRawTxMutation from "utils/relay/commitRawTxMutation";
-import CommitRawTxType from "formfn-shared/dist/types/enums/CommitRawTxType";
+import CommitRawTxType from "bullistic-shared/dist/types/enums/CommitRawTxType";
 import useGetCurrencyConfigForPrice from "hooks/useGetCurrencyConfigForPrice";
 import useAuctionHouseSdkForPrice from "hooks/useAuctionHouseSdkForPrice";
-import formatDecimals from "formfn-shared/dist/utils/formatDecimals";
-import convertToFullDecimals from "formfn-shared/dist/utils/convertToFullDecimals";
+import formatDecimals from "bullistic-shared/dist/utils/formatDecimals";
+import convertToFullDecimals from "bullistic-shared/dist/utils/convertToFullDecimals";
 import notifyUnexpectedError from "components/toast/notifyUnexpectedError";
 import ErrorMessage from "components/text/ErrorMessage";
 

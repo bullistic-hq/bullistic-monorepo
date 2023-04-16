@@ -1,6 +1,6 @@
 import { ConnectionHandler, RecordSourceSelectorProxy } from "relay-runtime";
 import getNftOfferTransactionsConnection from "utils/relay/getNftOfferTransactionsConnection";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 
 export default function deleteOfferTransactionNodes<T>(
   store: RecordSourceSelectorProxy<T>,

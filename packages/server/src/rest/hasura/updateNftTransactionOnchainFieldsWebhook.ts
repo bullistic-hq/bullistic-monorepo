@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from "express";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import getPrisma from "src/utils/prisma/getPrisma";
 import ConnectionWrapper from "src/utils/solana/rpc/ConnectionWrapper";
 import getTransactionSizeInBytes from "src/utils/solana/txs/getTransactionSizeInBytes";

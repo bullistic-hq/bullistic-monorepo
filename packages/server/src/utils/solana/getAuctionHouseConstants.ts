@@ -1,12 +1,12 @@
-import Environment from "formfn-shared/dist/types/Environment";
+import Environment from "bullistic-shared/dist/types/Environment";
 import getEnvironment from "src/utils/getEnvironment";
-import AuctionHouseConstants from "formfn-shared/dist/types/AuctionHouseConstants";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import AuctionHouseConstants from "bullistic-shared/dist/types/AuctionHouseConstants";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import {
   AUCTION_HOUSE_INFO_DEVNET,
   AUCTION_HOUSE_INFO_MAINNET,
   AUCTION_HOUSE_INFO_TESTNET,
-} from "formfn-shared/dist/constants/AuctionHouseInfoConstants";
+} from "bullistic-shared/dist/constants/AuctionHouseInfoConstants";
 
 export default function getAuctionHouseConstants(
   environment = getEnvironment()

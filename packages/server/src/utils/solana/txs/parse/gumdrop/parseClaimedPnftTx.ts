@@ -1,14 +1,14 @@
 import { ParsedTransactionWithMeta } from "@solana/web3.js";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import dayjs from "src/utils/dates/dayjsex";
 import getNftCreatorFromMint from "src/utils/prisma/getNftCreatorFromMint";
 import { NftTransactionTypeExpress_Enum } from "src/__generated__/generated";
 import NftTransactionOnchain from "src/types/NftTransactionOnchain";
-import { DecodedFormfnGumdropTransactionResult } from "@formfunction-hq/formfunction-gumdrop";
+import { DecodedBullisticGumdropTransactionResult } from "@bullistic-hq/bullistic-gumdrop";
 
 export default async function parseClaimedPnftTx(
   tx: ParsedTransactionWithMeta,
-  decodedTransaction: Maybe<DecodedFormfnGumdropTransactionResult>
+  decodedTransaction: Maybe<DecodedBullisticGumdropTransactionResult>
 ): Promise<Maybe<{ tx: NftTransactionOnchain }>> {
   if (decodedTransaction == null || decodedTransaction.claimEdition == null) {
     return null;

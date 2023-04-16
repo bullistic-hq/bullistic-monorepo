@@ -4,7 +4,7 @@ import InputWithLabel from "components/input/InputWithLabel";
 import CurrencySelect from "components/select/CurrencySelect";
 import PriceInput from "components/input/PriceInput";
 import CurrencyConfig from "types/CurrencyConfig";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import useBreakpoint from "hooks/useBreakpoint";
 
 type Props = {

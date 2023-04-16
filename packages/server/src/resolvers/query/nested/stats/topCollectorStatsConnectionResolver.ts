@@ -1,6 +1,6 @@
 import Typename from "src/types/enums/Typename";
 import MyContext from "src/types/MyContext";
-import { Maybe, Undef } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe, Undef } from "bullistic-shared/dist/types/UtilityTypes";
 import createOffsetPaginationConnection from "src/utils/pagination/createOffsetPaginationConnection";
 import getPrisma from "src/utils/prisma/getPrisma";
 import {

@@ -1,5 +1,5 @@
 import tracer from "dd-trace";
-import jsonStringify from "formfn-shared/dist/utils/jsonStringify";
+import jsonStringify from "bullistic-shared/dist/utils/jsonStringify";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 import logEvent from "src/utils/analytics/logEvent";
 

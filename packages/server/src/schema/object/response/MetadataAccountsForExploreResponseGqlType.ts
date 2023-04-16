@@ -5,7 +5,7 @@ import MetadataAccountsForExploreInputGqlType from "src/schema/input/MetadataAcc
 import MetadataAccountsConnectionGqlType from "src/schema/object/pagination/MetadataAccountsConnectionGqlType";
 import Typename from "src/types/enums/Typename";
 import MyContext from "src/types/MyContext";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import gqlNonNull from "src/utils/graphql/gqlNonNull";
 import {
   MetadataAccountsConnection,

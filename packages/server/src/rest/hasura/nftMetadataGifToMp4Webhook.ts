@@ -2,13 +2,13 @@ import { NextFunction, Request, Response } from "express";
 import getPrisma from "src/utils/prisma/getPrisma";
 import invariant from "tiny-invariant";
 import { getStorage, getDownloadURL, ref } from "firebase/storage";
-import getErrorPropertiesToLog from "formfn-shared/dist/utils/analytics/getErrorPropertiesToLog";
+import getErrorPropertiesToLog from "bullistic-shared/dist/utils/analytics/getErrorPropertiesToLog";
 
 const MP4_EXTENSION = ".mp4";
 
 /**
  * We have a Firebase function that converts GIFs >= 1 second in length to MP4s for
- * performance reasons (see https://github.com/formfunction-hq/formfn-cloud-functions for more info).
+ * performance reasons (see https://github.com/bullistic-hq/bullistic-cloud-functions for more info).
  *
  * This webhook updates our DB to point to the new MP4 file.
  *

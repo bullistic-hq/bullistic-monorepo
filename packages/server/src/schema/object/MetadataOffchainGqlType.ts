@@ -6,7 +6,7 @@ import {
   MetadataOffchainImageInput,
 } from "src/__generated__/generated";
 import MetadataOffchainImageInputGqlType from "src/schema/input/MetadataOffchainImageInputGqlType";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import convertNftMetadataImageToUrl from "src/utils/nft/convertNftMetadataImageToUrl";
 
 function resolveImage(

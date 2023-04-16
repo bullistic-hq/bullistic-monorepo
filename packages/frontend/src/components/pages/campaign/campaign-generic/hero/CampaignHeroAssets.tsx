@@ -8,7 +8,7 @@ import PlainButton from "components/buttons/PlainButton";
 import AspectRatioContainer from "components/containers/AspectRatioContainer";
 import { CampaignHeroAssets_AssetExpress$key } from "components/pages/campaign/campaign-generic/hero/__generated__/CampaignHeroAssets_AssetExpress.graphql";
 import styles from "css/pages/campaign/campaign-generic/hero/CampaignHeroAssets.module.css";
-import isEmptyString from "formfn-shared/dist/utils/string/isEmptyString";
+import isEmptyString from "bullistic-shared/dist/utils/string/isEmptyString";
 import { Maybe } from "graphql/jsutils/Maybe";
 import useCampaignColorScheme from "hooks/useCampaignColorScheme";
 import { useState } from "react";

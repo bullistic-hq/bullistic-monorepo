@@ -2,7 +2,7 @@ import styles from "css/pages/campaign/campaign-generic/activity/CampaignActivit
 import graphql from "babel-plugin-relay/macro";
 import { useFragment } from "react-relay";
 import RELAY_FUTURE_ADDED_VALUE from "constants/RelayFutureAddedValue";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import formatUsername from "utils/formatUsername";
 import ColorClass from "types/enums/ColorClass";
 import Body1 from "components/text/Body1";
@@ -11,8 +11,8 @@ import formatTransactionTimestamp from "utils/dates/formatTransactionTimestamp";
 import TextButton from "components/buttons/TextButton";
 import FontClass from "types/enums/FontClass";
 import TextButtonTheme from "types/enums/TextButtonTheme";
-import getUserProfileLinkRelative from "formfn-shared/dist/utils/links/getUserProfileLinkRelative";
-import getNftLinkRelative from "formfn-shared/dist/utils/links/getNftLinkRelative";
+import getUserProfileLinkRelative from "bullistic-shared/dist/utils/links/getUserProfileLinkRelative";
+import getNftLinkRelative from "bullistic-shared/dist/utils/links/getNftLinkRelative";
 import { CampaignActivityItemForNftTransaction_NftTransactionExpress$key } from "components/pages/campaign/campaign-generic/activity/__generated__/CampaignActivityItemForNftTransaction_NftTransactionExpress.graphql";
 
 const nftTransactionFragment = graphql`

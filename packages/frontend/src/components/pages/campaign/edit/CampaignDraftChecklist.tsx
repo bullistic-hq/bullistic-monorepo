@@ -6,11 +6,11 @@ import {
   CampaignDraftChecklist_CampaignV2$data,
   CampaignDraftChecklist_CampaignV2$key,
 } from "components/pages/campaign/edit/__generated__/CampaignDraftChecklist_CampaignV2.graphql";
-import isEmptyString from "formfn-shared/dist/utils/string/isEmptyString";
+import isEmptyString from "bullistic-shared/dist/utils/string/isEmptyString";
 import { useFragment } from "react-relay";
 import ButtonTheme from "types/enums/ButtonTheme";
 import FontClass from "types/enums/FontClass";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 
 enum SubmitForApprovalChecklistSection {
   FundingTiers = "Funding tiers",

@@ -2,7 +2,7 @@ import { PublicKey } from "@solana/web3.js";
 import convertUser from "src/utils/convert/convertUser";
 import getPrisma from "src/utils/prisma/getPrisma";
 import { UserExpress } from "src/__generated__/generated";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import getMetadataAccountFirstCreator from "src/utils/solana/getMetadataAccountFirstCreator";
 import CONVERT_USER_INCLUDE from "src/constants/include/ConvertUserInclude";
 import AccountLoader from "src/utils/solana/rpc/AccountLoader";

@@ -4,7 +4,7 @@ import { useState } from "react";
 import ButtonTheme from "types/enums/ButtonTheme";
 import FontClass from "types/enums/FontClass";
 import getSignature from "utils/local-storage/getSignature";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import ConnectWalletModals from "components/modal/ConnectWalletModals";
 
 type Props = {

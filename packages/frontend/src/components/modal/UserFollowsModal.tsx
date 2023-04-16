@@ -8,7 +8,7 @@ import GenericModal from "components/modal/GenericModal";
 import { UserFollowsModalQuery } from "components/modal/__generated__/UserFollowsModalQuery.graphql";
 import Body1Medium from "components/text/Body1Medium";
 import styles from "css/modal/UserFollowsModal.module.css";
-import getUserProfileLinkRelative from "formfn-shared/dist/utils/links/getUserProfileLinkRelative";
+import getUserProfileLinkRelative from "bullistic-shared/dist/utils/links/getUserProfileLinkRelative";
 import useUserContext from "hooks/useUserContext";
 import { Suspense, useState } from "react";
 import { useLazyLoadQuery } from "react-relay";

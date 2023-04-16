@@ -5,14 +5,14 @@ import PlusIcon from "components/icons/PlusIcon";
 import CrossIcon from "components/icons/CrossIcon";
 import InputLabel from "components/input/InputLabel";
 import TextInput from "components/input/TextInput";
-import { MAXIMUM_NFT_ATTRIBUTES_LENGTH } from "formfn-shared/dist/constants/NftAttributesValidationConstants";
+import { MAXIMUM_NFT_ATTRIBUTES_LENGTH } from "bullistic-shared/dist/constants/NftAttributesValidationConstants";
 import ColorValue from "types/enums/ColorValue";
 import FontClass from "types/enums/FontClass";
 import TextButtonTheme from "types/enums/TextButtonTheme";
 import useWindowDimensions from "hooks/useWindowDimensions";
 import GlobalClass from "types/enums/GlobalClass";
-import isValidTraitType from "formfn-shared/dist/utils/validation/isValidTraitType";
-import isValidTraitValue from "formfn-shared/dist/utils/validation/isValidTraitValue";
+import isValidTraitType from "bullistic-shared/dist/utils/validation/isValidTraitType";
+import isValidTraitValue from "bullistic-shared/dist/utils/validation/isValidTraitValue";
 import useCreateNftDetailsContext from "hooks/useCreateNftDetailsContext";
 import useColorModeContext from "hooks/useColorModeContext";
 

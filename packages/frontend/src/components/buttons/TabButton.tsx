@@ -7,7 +7,7 @@ import ButtonName from "types/enums/ButtonName";
 import COLOR_CLASS_TO_COLOR_VALUE from "utils/colors/ColorClassToColorValue";
 import GlobalClass from "types/enums/GlobalClass";
 import ColorValue from "types/enums/ColorValue";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 type Props = {
   activeColorClass?: ColorClass;

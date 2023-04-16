@@ -3,10 +3,10 @@ import {
   Transaction,
   TransactionInstruction,
 } from "@solana/web3.js";
-import SIGN_AUTH_MESSAGE from "formfn-shared/dist/constants/SignAuthMessage";
+import SIGN_AUTH_MESSAGE from "bullistic-shared/dist/constants/SignAuthMessage";
 import { MyAnchorWallet } from "context/SolanaContext";
 import getSignature from "utils/local-storage/getSignature";
-import { MEMO_PROGRAM_ID } from "formfn-shared/dist/constants/SolanaConstants";
+import { MEMO_PROGRAM_ID } from "bullistic-shared/dist/constants/SolanaConstants";
 import setSignature from "utils/local-storage/setSignature";
 
 /**

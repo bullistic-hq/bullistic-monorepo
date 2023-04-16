@@ -1,7 +1,7 @@
 import NFT_TRANSACTION_ORDER_BY from "src/constants/orderBy/NftTransactionOrderBy";
 import Typename from "src/types/enums/Typename";
 import MyContext from "src/types/MyContext";
-import { Maybe, Undef } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe, Undef } from "bullistic-shared/dist/types/UtilityTypes";
 import convertNftTransaction from "src/utils/convert/convertNftTransaction";
 import createOffsetPaginationConnection from "src/utils/pagination/createOffsetPaginationConnection";
 import getPrisma from "src/utils/prisma/getPrisma";

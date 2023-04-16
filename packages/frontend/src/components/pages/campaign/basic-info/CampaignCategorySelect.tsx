@@ -1,7 +1,7 @@
 import CustomSelect from "components/select/CustomSelect";
 import CAMPAIGN_CATEGORIES from "constants/CampaignCategories";
 import HUMAN_READABLE_CAMPAIGN_CATEGORY from "constants/HumanReadableCampaignCategory";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import CampaignCategoryExpress_enum from "types/relay/CampaignCategoryExpress_enum";
 
 const OPTIONS: Array<{ label: string; value: CampaignCategoryExpress_enum }> =

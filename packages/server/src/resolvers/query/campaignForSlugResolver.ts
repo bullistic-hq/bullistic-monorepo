@@ -9,14 +9,14 @@ import CONVERT_USER_INCLUDE from "src/constants/include/ConvertUserInclude";
 import convertUser from "src/utils/convert/convertUser";
 import getCampaignsConfig from "src/utils/launch-darkly/getCampaignsConfig";
 import invariant from "tiny-invariant";
-import arraySum from "formfn-shared/dist/utils/array/arraySum";
+import arraySum from "bullistic-shared/dist/utils/array/arraySum";
 import bigintToNumber from "src/utils/bigintToNumber";
 import getCampaignAmountRaisedTransactionsWhereClause from "src/utils/campaigns/getCampaignAmountRaisedTransactionsWhereClause";
-import { WRAPPED_SOL_MINT } from "formfn-shared/dist/constants/SolanaConstants";
+import { WRAPPED_SOL_MINT } from "bullistic-shared/dist/constants/SolanaConstants";
 import {
   Asset as LdAsset,
   CampaignConfig,
-} from "formfn-shared/dist/types/CampaignsConfig";
+} from "bullistic-shared/dist/types/CampaignsConfig";
 
 function ldAssetToAsset(
   { contentType, darkModeInfo, downloadUrl, path }: LdAsset,

@@ -6,8 +6,8 @@ import MyContext from "src/types/MyContext";
 import Typename from "src/types/enums/Typename";
 import getPrisma from "src/utils/prisma/getPrisma";
 import getSeriesUniqueWhereClause from "src/utils/series/getSeriesUniqueWhereClause";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import groupBy from "formfn-shared/dist/utils/array/groupBy";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import groupBy from "bullistic-shared/dist/utils/array/groupBy";
 
 export default async function attributesForSeriesResolver(
   _context: MyContext,

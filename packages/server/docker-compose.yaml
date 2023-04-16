@@ -1,7 +1,7 @@
 version: "3.6"
 services:
   api:
-    image: formfn-api:${TAG}
+    image: bullistic-api:${TAG}
     ports:
       - 4000:4000
     environment:
@@ -17,7 +17,7 @@ services:
 
   # Fallback
   apifallback:
-    image: formfn-api:${TAG}
+    image: bullistic-api:${TAG}
     ports:
       - 4003:4003
     environment:
@@ -35,7 +35,7 @@ services:
   # DEV
   # ====================
   apidev:
-    image: formfn-api:${TAG}
+    image: bullistic-api:${TAG}
     ports:
       - 4001:4001
     environment:
@@ -51,7 +51,7 @@ services:
 
   # Fallback
   apidevfallback:
-    image: formfn-api:${TAG}
+    image: bullistic-api:${TAG}
     ports:
       - 4002:4002
     environment:
@@ -69,7 +69,7 @@ services:
   # TEST
   # ====================
   apitest:
-    image: formfn-api:${TAG}
+    image: bullistic-api:${TAG}
     ports:
       - 4004:4004
     environment:

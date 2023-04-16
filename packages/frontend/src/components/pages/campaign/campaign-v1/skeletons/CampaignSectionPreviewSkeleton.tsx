@@ -3,7 +3,7 @@ import ArtName from "components/text/ArtName";
 import Body1 from "components/text/Body1";
 import Body1Medium from "components/text/Body1Medium";
 import styles from "css/pages/campaign/campaign-v1/sections/GenericCampaignSectionPreview.module.css";
-import { range } from "formfn-shared/dist/utils/range";
+import { range } from "bullistic-shared/dist/utils/range";
 import Skeleton from "react-loading-skeleton";
 import ColorValue from "types/enums/ColorValue";
 import GlobalClass from "types/enums/GlobalClass";

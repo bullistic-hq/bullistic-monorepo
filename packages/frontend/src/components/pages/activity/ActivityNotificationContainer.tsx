@@ -1,8 +1,8 @@
 import ProfilePhotoCircle from "components/images/ProfilePhotoCircle";
 import GenericNotificationContainer from "components/pages/activity/GenericNotificationContainer";
 import { Dayjs } from "dayjs";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
-import getUserProfileLinkRelative from "formfn-shared/dist/utils/links/getUserProfileLinkRelative";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
+import getUserProfileLinkRelative from "bullistic-shared/dist/utils/links/getUserProfileLinkRelative";
 import { Link } from "react-router-dom";
 
 type Props = {

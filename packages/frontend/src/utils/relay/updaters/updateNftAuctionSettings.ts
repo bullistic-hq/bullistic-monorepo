@@ -2,7 +2,7 @@ import { RecordSourceSelectorProxy } from "relay-runtime";
 import getNftExpressDataId from "utils/relay/getNftExpressDataId";
 import { Duration } from "dayjs/plugin/duration";
 import { Dayjs } from "dayjs";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 export default function updateNftAuctionSettings<T>(
   store: RecordSourceSelectorProxy<T>,

@@ -3,7 +3,7 @@ import ProfilePhotoCircle from "components/images/ProfilePhotoCircle";
 import PostCommentLayout from "components/posts/PostCommentLayout";
 import Body1 from "components/text/Body1";
 import Body2 from "components/text/Body2";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import ColorClass from "types/enums/ColorClass";
 import FontClass from "types/enums/FontClass";
 import TextButtonTheme from "types/enums/TextButtonTheme";

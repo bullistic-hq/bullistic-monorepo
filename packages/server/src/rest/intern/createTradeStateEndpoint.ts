@@ -1,7 +1,7 @@
 import { NextFunction, Request, Response } from "express";
-import auctionHouseCreateTradeStateIx from "@formfunction-hq/formfunction-auction-house/dist/solana/instructions/auctionHouseCreateTradeStateIx";
+import auctionHouseCreateTradeStateIx from "@bullistic-hq/bullistic-auction-house/dist/solana/instructions/auctionHouseCreateTradeStateIx";
 import { PublicKey, Transaction } from "@solana/web3.js";
-import SaleType from "@formfunction-hq/formfunction-auction-house/dist/types/enum/SaleType";
+import SaleType from "@bullistic-hq/bullistic-auction-house/dist/types/enum/SaleType";
 import getAuthorityKeypair from "src/utils/keypairs/getAuthorityKeypair";
 import getAuctionHouseSdk from "src/utils/solana/getAuctionHouseSdk";
 import { CurrencyNameExpress_Enum } from "src/__generated__/generated";

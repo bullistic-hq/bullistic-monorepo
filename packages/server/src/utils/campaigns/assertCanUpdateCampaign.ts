@@ -1,6 +1,6 @@
 import { Prisma } from "@prisma/client";
 import { PublicKey } from "@solana/web3.js";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import CONVERT_CAMPAIGN_INCLUDE from "src/constants/include/ConvertCampaignInclude";
 import ConvertCampaignType from "src/types/convert/ConvertCampaignType";
 import CampaignAction from "src/types/enums/CampaignAction";

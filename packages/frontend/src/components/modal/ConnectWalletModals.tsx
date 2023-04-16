@@ -2,7 +2,7 @@ import ConnectWalletModal from "components/modal/ConnectWalletModal";
 import useSolanaContext from "hooks/useSolanaContext";
 import AccountSetupModalContainer from "components/modal/AccountSetupModalContainer";
 import getSignature from "utils/local-storage/getSignature";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 type Props = {
   isShown: boolean;

@@ -1,4 +1,4 @@
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import NftAttributes from "src/types/NftAttributes";
 
 type FirestoreConfigLineWithoutRarityInfoDoc = {

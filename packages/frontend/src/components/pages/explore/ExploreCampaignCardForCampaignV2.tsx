@@ -10,7 +10,7 @@ import { Dayjs } from "dayjs";
 import Body2Medium from "components/text/Body2Medium";
 import ColorClass from "types/enums/ColorClass";
 import dayjs from "utils/dates/dayjsex";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import { ExploreCampaignCardForCampaignV2_CampaignV2$key } from "components/pages/explore/__generated__/ExploreCampaignCardForCampaignV2_CampaignV2.graphql";
 
 const fragment = graphql`

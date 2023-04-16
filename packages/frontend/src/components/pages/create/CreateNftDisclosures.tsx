@@ -101,7 +101,7 @@ export default function CreateNftDisclosures(): JSX.Element {
                 buttonThemeOrColorClass={TextButtonTheme.BrightPurple}
                 display="inline"
                 fontClass={FontClass.Body2}
-                href="https://help.formfunction.xyz/en/articles/5969135-formfunction-community-guidelines"
+                href="https://help.bullistic.xyz/en/articles/5969135-bullistic-community-guidelines"
                 type="link_external"
               >
                 Learn more about our guidelines.

@@ -1,7 +1,7 @@
 import { Prisma } from "@prisma/client";
 import { PublicKey } from "@solana/web3.js";
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
-import toObject from "formfn-shared/dist/utils/toObject";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
+import toObject from "bullistic-shared/dist/utils/toObject";
 import invariant from "tiny-invariant";
 import pLimit from "p-limit";
 import ConvertNftToMetadataAccountType from "src/types/convert/ConvertNftToMetadataAccountType";

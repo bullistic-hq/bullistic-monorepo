@@ -5,7 +5,7 @@ import useSendCreatorInvites from "hooks/invites-page/useSendCreatorInvites";
 import { notify } from "components/toast/notifications";
 import { InviteWithEmailBody_CreatorInvite_aggregate$key } from "components/invites/__generated__/InviteWithEmailBody_CreatorInvite_aggregate.graphql";
 import GenericInviteBody from "components/invites/GenericInviteBody";
-import isValidEmail from "formfn-shared/dist/utils/validation/isValidEmail";
+import isValidEmail from "bullistic-shared/dist/utils/validation/isValidEmail";
 import notifyErrorMessageFromError from "components/toast/notifyErrorMessageFromError";
 
 const fragment = graphql`
@@ -69,9 +69,9 @@ export default function InviteWithEmailBody({
       buttonDisabled={numInvites === 0}
       title="Enter their email:"
       description={
-        "We'll send them an email invite to join Formfunction as a" +
+        "We'll send them an email invite to join Bullistic as a" +
         " creator. If you don't have their email, please ask them to" +
-        " register an account on Formfunction first. Then refresh this page and" +
+        " register an account on Bullistic first. Then refresh this page and" +
         " choose “Yes” in the first step. "
       }
       inputPlaceholder="name@email.com"

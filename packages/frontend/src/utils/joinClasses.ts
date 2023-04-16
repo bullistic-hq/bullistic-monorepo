@@ -1,4 +1,4 @@
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 
 /**
  * Joins the passed-in CSS classes with a space.

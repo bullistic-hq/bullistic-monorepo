@@ -1,5 +1,5 @@
 import RELAY_FUTURE_ADDED_VALUE from "constants/RelayFutureAddedValue";
-import arrayOfUnionType from "formfn-shared/dist/utils/array/arrayOfUnionType";
+import arrayOfUnionType from "bullistic-shared/dist/utils/array/arrayOfUnionType";
 import NftTransactionTypeExpress_enum from "types/relay/NftTransactionTypeExpress_enum";
 
 const arrayOfTransactionTypes =

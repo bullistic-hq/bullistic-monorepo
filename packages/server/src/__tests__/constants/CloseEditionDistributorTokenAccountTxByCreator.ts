@@ -1,6 +1,6 @@
 // https://explorer.solana.com/tx/3EnagNiZZfhMhsDFLtMW6HXwjJnjYC6rMzLnD28uKCoeFS1CNtGU3W6M9WiDpNi4gdqM3f922XzZuh67173vjQmu?cluster=devnet
 //
-// For https://dev.formfunction.xyz/@burner/CZcBSySzxYbrwwrjcdDEMi3sVw2N9jKNtKLNV5JXxWMX
+// For https://dev.bullistic.xyz/@burner/CZcBSySzxYbrwwrjcdDEMi3sVw2N9jKNtKLNV5JXxWMX
 const CLOSE_EDITION_DISTRIBUTOR_TOKEN_ACCOUNT_TX_BY_CREATOR = {
   blockTime: 1652936528,
   meta: {

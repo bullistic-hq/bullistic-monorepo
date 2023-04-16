@@ -1,8 +1,8 @@
 {
-  "name": "formfn-shared",
+  "name": "bullistic-shared",
   "version": "1.0.0",
   "private": true,
-  "description": "Shared module for sharing code within formfn-monorepo",
+  "description": "Shared module for sharing code within bullistic-monorepo",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "commonjs",
@@ -18,9 +18,9 @@
     "test:coverage": "jest --coverage --passWithNoTests"
   },
   "dependencies": {
-    "@formfunction-hq/formfunction-auction-house": "0.0.5-alpha.146",
-    "@formfunction-hq/formfunction-candy-machine": "0.0.38",
-    "@formfunction-hq/formfunction-gumdrop": "0.0.51",
+    "@bullistic-hq/bullistic-auction-house": "0.0.5-alpha.147",
+    "@bullistic-hq/bullistic-candy-machine": "0.0.41",
+    "@bullistic-hq/bullistic-gumdrop": "0.0.52",
     "@metaplex-foundation/mpl-token-metadata": "2.7.0",
     "@solana/spl-token": "^0.3.7",
     "@solana/web3.js": "1.73.0",

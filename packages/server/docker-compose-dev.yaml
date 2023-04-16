@@ -1,24 +1,24 @@
 version: "3.6"
 services:
   postgres:
-    container_name: formfn-postgres
+    container_name: bullistic-postgres
     image: postgres:12
     restart: always
     volumes:
-      - db_data:/var/lib/postgresql/formfndata
+      - db_data:/var/lib/postgresql/bullisticdata
     environment:
-      POSTGRES_DB: formfn
+      POSTGRES_DB: bullistic
       POSTGRES_PASSWORD: postgrespassword
       POSTGRES_USER: postgres
     ports:
       - 6432:5432
   api:
-    image: formfn-api
-    container_name: formfn-api
+    image: bullistic-api
+    container_name: bullistic-api
     ports:
       - 4000:4000
     environment:
-      DATABASE_URL: postgresql://postgres:postgrespassword@postgres:5432/formfn?connect_timeout=30
+      DATABASE_URL: postgresql://postgres:postgrespassword@postgres:5432/bullistic?connect_timeout=30
     env_file:
       - .env
     depends_on:
@@ -60,6 +60,6 @@ services:
       HASURA_GRAPHQL_ADMIN_SECRET: 771043a6-2176-4cd6-9831-591ceca0ad5z
       REMOTE_SCHEMA: http://host.docker.internal:4000/graphql
       EVENT_BASE_URL: http://host.docker.internal:4000
-      DATABASE_URL: postgresql://postgres:postgrespassword@host.docker.internal:6432/formfn
+      DATABASE_URL: postgresql://postgres:postgrespassword@host.docker.internal:6432/bullistic
 volumes:
   db_data:

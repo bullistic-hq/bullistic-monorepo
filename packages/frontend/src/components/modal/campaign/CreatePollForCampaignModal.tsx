@@ -17,8 +17,8 @@ import PollOptionsInput from "components/input/post/PollOptionsInput";
 import PostMediaInput from "components/input/post/PostMediaInput";
 import uploadFile from "utils/firebase/uploadFile";
 import getPostAssetStoragePath from "utils/firebase/storage-paths/getPostAssetStoragePath";
-import getContentTypeFromFilename from "formfn-shared/dist/utils/getContentTypeFromFilename";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import getContentTypeFromFilename from "bullistic-shared/dist/utils/getContentTypeFromFilename";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { CreatePollForCampaignModal_CampaignV2$key } from "components/modal/campaign/__generated__/CreatePollForCampaignModal_CampaignV2.graphql";
 import notifyErrorMessageFromError from "components/toast/notifyErrorMessageFromError";
 

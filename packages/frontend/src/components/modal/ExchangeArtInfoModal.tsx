@@ -29,7 +29,7 @@ export default function ExchangeArtInfoModal({
             </li>
             <li>Copy the address—this is the token address for the NFT.</li>
             <li>
-              Paste the address into the Formfunction token addresses field.
+              Paste the address into the Bullistic token addresses field.
             </li>
           </ol>
         </Body1>

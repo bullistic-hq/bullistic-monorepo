@@ -1,5 +1,5 @@
 import Typename from "src/types/enums/Typename";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { PageInfo } from "src/__generated__/generated";
 
 export default function createOffsetPaginationConnection<

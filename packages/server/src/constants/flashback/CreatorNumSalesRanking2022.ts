@@ -1,5 +1,5 @@
 // Computed using Metabase on 12/16/2022
-// See https://formfunction.metabaseapp.com/question/77-creator-num-sales-ranking
+// See https://bullistic.metabaseapp.com/question/77-creator-num-sales-ranking
 const CREATOR_NUM_SALES_RANKING_2022 = [
   { Count: 10490, CreatorId: "J1kqJ6XTiBxz5fTuTRg5yUBvkoQMjN8m5DLCToky9JsJ" },
   { Count: 2464, CreatorId: "DdNZVaufCRcqHUjY9wGxv7F7TBfcgTmTyt1AeFPPnz63" },

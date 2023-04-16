@@ -4,10 +4,10 @@ import getIActivityNotificationFields from "src/utils/notifications/convert/getI
 import { ActivityNotificationCampaignCommunityNewUpdateShared } from "src/__generated__/generated";
 import convertCampaignNotificationInfo from "src/utils/notifications/convert/convertCampaignNotificationInfo";
 import getActivityNotificationLinkAction from "src/utils/notifications/actions/getActivityNotificationLinkAction";
-import getCampaignLinkRelative from "formfn-shared/dist/utils/links/getCampaignLinkRelative";
+import getCampaignLinkRelative from "bullistic-shared/dist/utils/links/getCampaignLinkRelative";
 import ConvertCampaignNotificationInfoType from "src/types/convert/ConvertCampaignNotificationInfoType";
-import CampaignTab from "formfn-shared/dist/types/enums/CampaignTab";
-import CampaignUrlParamKey from "formfn-shared/dist/types/enums/CampaignUrlParamKey";
+import CampaignTab from "bullistic-shared/dist/types/enums/CampaignTab";
+import CampaignUrlParamKey from "bullistic-shared/dist/types/enums/CampaignUrlParamKey";
 
 export default function convertCampaignCommunityNewUpdateSharedNotification(
   notification: ConvertActivityNotificationType,

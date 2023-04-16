@@ -1,5 +1,5 @@
-import getNftKind from "formfn-shared/dist/utils/nft/getNftKind";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import getNftKind from "bullistic-shared/dist/utils/nft/getNftKind";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import CONVERT_NFT_TO_METADATA_INCLUDE from "src/constants/include/ConvertNftToMetadataInclude";
 import SpotlightType from "src/types/enums/SpotlightType";
 import getPrisma from "src/utils/prisma/getPrisma";
@@ -9,14 +9,14 @@ import {
   SpotlightInfo,
   NftStatusExpress_Enum,
 } from "src/__generated__/generated";
-import getNftLinkRelative from "formfn-shared/dist/utils/links/getNftLinkRelative";
-import getAssetCdnUrl from "formfn-shared/dist/utils/getAssetCdnUrl";
+import getNftLinkRelative from "bullistic-shared/dist/utils/links/getNftLinkRelative";
+import getAssetCdnUrl from "bullistic-shared/dist/utils/getAssetCdnUrl";
 import getImgixUrl from "src/utils/getImgixUrl";
 import getSpotlightStatusForNftStatus from "src/utils/spotlights/getSpotlightStatusForNftStatus";
 import getSpotlightLabelForNftKind from "src/utils/spotlights/getSpotlightLabelForNftKind";
 import CONVERT_SERIES_INCLUDE from "src/constants/include/ConvertSeriesInclude";
-import getContentTypeFromFilename from "formfn-shared/dist/utils/getContentTypeFromFilename";
-import getSeriesLinkRelative from "formfn-shared/dist/utils/links/getSeriesLinkRelative";
+import getContentTypeFromFilename from "bullistic-shared/dist/utils/getContentTypeFromFilename";
+import getSeriesLinkRelative from "bullistic-shared/dist/utils/links/getSeriesLinkRelative";
 import convertUser from "src/utils/convert/convertUser";
 
 const EMPTY_RESPONSE = {

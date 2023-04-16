@@ -1,4 +1,4 @@
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import ConvertPollType from "src/types/convert/ConvertPollType";
 import Typename from "src/types/enums/Typename";
 import convertPollOption from "src/utils/convert/convertPollOption";

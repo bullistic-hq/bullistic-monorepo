@@ -5,9 +5,9 @@ import logError from "src/utils/analytics/logError";
 import uploadFirebaseAssetToArweave from "src/utils/arweave/uploadFirebaseAssetToArweave";
 import invariant from "tiny-invariant";
 import isLastRetry from "src/utils/hasura/isLastRetry";
-import toObject from "formfn-shared/dist/utils/toObject";
+import toObject from "bullistic-shared/dist/utils/toObject";
 import logEvent from "src/utils/analytics/logEvent";
-import getContentTypeFromFilename from "formfn-shared/dist/utils/getContentTypeFromFilename";
+import getContentTypeFromFilename from "bullistic-shared/dist/utils/getContentTypeFromFilename";
 
 /**
  * Uploads an asset to Arweave, based on changes to Asset.arweaveTxid

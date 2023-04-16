@@ -6,13 +6,13 @@ import {
   PublicKey,
 } from "@solana/web3.js";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
-import arePublicKeysEqual from "formfn-shared/dist/utils/compare/arePublicKeysEqual";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
+import arePublicKeysEqual from "bullistic-shared/dist/utils/compare/arePublicKeysEqual";
 import logError from "src/utils/analytics/logError";
 import dayjs from "src/utils/dates/dayjsex";
 import getNftCreatorFromMint from "src/utils/prisma/getNftCreatorFromMint";
 import { NftTransactionTypeExpress_Enum } from "src/__generated__/generated";
-import PublicKeyOrString from "formfn-shared/dist/types/PublicKeyOrString";
+import PublicKeyOrString from "bullistic-shared/dist/types/PublicKeyOrString";
 import getTokenAccountOwner from "src/utils/solana/accounts/getTokenAccountOwner";
 import NftTransactionOnchain from "src/types/NftTransactionOnchain";
 import getTokenAccountMint from "src/utils/solana/accounts/getTokenAccountMint";

@@ -1,5 +1,5 @@
 import { Prisma } from "@prisma/client";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import SOLD_TRANSACTION_TYPES from "src/constants/SoldTransactionTypes";
 import ConvertCampaignType from "src/types/convert/ConvertCampaignType";
 import Typename from "src/types/enums/Typename";

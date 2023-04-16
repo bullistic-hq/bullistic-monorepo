@@ -7,15 +7,15 @@ import Body1Medium from "components/text/Body1Medium";
 import Header3 from "components/text/Header3";
 import TinyLabel from "components/text/TinyLabel";
 import HUMAN_READABLE_MINT_PHASE from "constants/HumanReadableMintPhase";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
-import dayjs from "formfn-shared/dist/utils/dates/dayjsex";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
+import dayjs from "bullistic-shared/dist/utils/dates/dayjsex";
 import useCandyMachineMintPhase from "hooks/candy-machine/useCandyMachineMintPhase";
 import { useFragment } from "react-relay";
 import ColorClass from "types/enums/ColorClass";
 import useCandyMachineViewerInfo from "hooks/candy-machine/useCandyMachineViewerInfo";
 import useUserContext from "hooks/useUserContext";
-import pluralize from "formfn-shared/dist/utils/pluralize";
-import { CandyMachineMintPhase } from "@formfunction-hq/formfunction-candy-machine";
+import pluralize from "bullistic-shared/dist/utils/pluralize";
+import { CandyMachineMintPhase } from "@bullistic-hq/bullistic-candy-machine";
 import useCandyMachineIsSoldOut from "hooks/candy-machine/useCandyMachineIsSoldOut";
 
 const campaignSectionFragment = graphql`

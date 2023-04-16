@@ -1,8 +1,8 @@
 import { Prisma } from "@prisma/client";
 import { Request, Response, NextFunction } from "express";
-import { Undef } from "formfn-shared/dist/types/UtilityTypes";
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
-import isEmptyString from "formfn-shared/dist/utils/string/isEmptyString";
+import { Undef } from "bullistic-shared/dist/types/UtilityTypes";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
+import isEmptyString from "bullistic-shared/dist/utils/string/isEmptyString";
 import isUserCampaignHolder from "src/utils/campaigns/isUserCampaignHolder";
 import getPrisma from "src/utils/prisma/getPrisma";
 

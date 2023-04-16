@@ -12,7 +12,7 @@ import styles from "css/pages/series/SeriesPageContents.module.css";
 import ResponsiveContainer from "components/containers/ResponsiveContainer";
 import Body1 from "components/text/Body1";
 import ColorClass from "types/enums/ColorClass";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import LandingFooter from "components/pages/landing/LandingFooter";
 import PageWithBottomTabs from "components/containers/PageWithBottomTabs";
 import { Suspense, useState } from "react";

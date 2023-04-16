@@ -11,8 +11,8 @@ import {
 } from "react";
 import { PreloadedQuery, useFragment } from "react-relay";
 import AuctionStatus from "types/enums/AuctionStatus";
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
 import { useQueryLoaderHookType } from "react-relay/relay-hooks/useQueryLoader";
 import { useNftPageNftQuery } from "hooks/nft-page/__generated__/useNftPageNftQuery.graphql";
 import { useNftPageClaimsQuery } from "hooks/nft-page/__generated__/useNftPageClaimsQuery.graphql";

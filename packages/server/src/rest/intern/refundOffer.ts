@@ -2,7 +2,7 @@ import { NextFunction, Request, Response } from "express";
 import getPrisma from "src/utils/prisma/getPrisma";
 import cancelAndRefundOffer from "src/utils/offers/cancelAndRefundOffer";
 import OFFER_WITH_NFT_AND_TRANSACTION_INCLUDE from "src/constants/include/OfferWithNftAndTransactionInclude";
-import toObject from "formfn-shared/dist/utils/toObject";
+import toObject from "bullistic-shared/dist/utils/toObject";
 
 // Although we could technically reuse the `refund` endpoint for
 // refunding offers, this endpoint takes care of other nice things

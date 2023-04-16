@@ -6,7 +6,7 @@ import getPrisma from "src/utils/prisma/getPrisma";
 import CONVERT_CAMPAIGN_INCLUDE from "src/constants/include/ConvertCampaignInclude";
 import getLdFlag from "src/utils/launch-darkly/getLdFlag";
 import LaunchDarklyFlag from "src/types/enums/LaunchDarklyFlag";
-import getCompareByPropertyFunction from "formfn-shared/dist/utils/getCompareByPropertyFunction";
+import getCompareByPropertyFunction from "bullistic-shared/dist/utils/getCompareByPropertyFunction";
 import ldBackendUser from "src/utils/launch-darkly/ldBackendUser";
 
 export default async function campaignsForHeroResolver(

@@ -33,7 +33,7 @@ export default function ActivityNotificationInvitesInviteeAcceptedInvite({
       label={
         <>
           <UsernameLink username={sender!.username} /> accepted your invite, and
-          is now a creator on Formfunction
+          is now a creator on Bullistic
         </>
       }
       profilePhotoInfo={{

@@ -2,7 +2,7 @@ import ReactTagInput from "@pathofdev/react-tag-input";
 import InputLabel from "components/input/InputLabel";
 import InputWithLabel from "components/input/InputWithLabel";
 import TAGS_LABEL from "constants/TagsLabel";
-import removeDuplicatesWithSet from "formfn-shared/dist/utils/array/removeDuplicatesWithSet";
+import removeDuplicatesWithSet from "bullistic-shared/dist/utils/array/removeDuplicatesWithSet";
 import isValidTag from "utils/validation/isValidTag";
 
 export default function ListingTagsInput({

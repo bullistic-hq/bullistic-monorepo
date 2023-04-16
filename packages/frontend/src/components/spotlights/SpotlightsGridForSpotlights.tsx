@@ -4,7 +4,7 @@ import { SpotlightsGridForSpotlights_SpotlightExpress$key } from "components/spo
 import SpotlightCard from "components/spotlights/SpotlightCard";
 import SpotlightsGridFullWidth from "components/spotlights/SpotlightsGridFullWidth";
 import useSpotlightsGridFullWidthColumnCount from "hooks/grids/useSpotlightsGridFullWidthColumnCount";
-import { range } from "formfn-shared/dist/utils/range";
+import { range } from "bullistic-shared/dist/utils/range";
 import SpotlightCardLoadingSkeleton from "components/spotlights/skeletons/SpotlightCardLoadingSkeleton";
 
 const fragment = graphql`

@@ -1,4 +1,4 @@
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import StatsDisplayType from "types/enums/StatsDisplayType";
 import styles from "css/pages/stats/StatsRows.module.css";
 

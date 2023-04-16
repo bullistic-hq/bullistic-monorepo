@@ -1,7 +1,7 @@
 import useCreateContext from "hooks/useCreateContext";
 import ColorClass from "types/enums/ColorClass";
 import CreateStep from "types/enums/CreateStep";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import styles from "css/pages/create/CreateType.module.css";
 import CreateBodyContainer from "components/pages/create/CreateBodyContainer";
 import Body2 from "components/text/Body2";

@@ -1,6 +1,6 @@
-import SaleType from "@formfunction-hq/formfunction-auction-house/dist/types/enum/SaleType";
+import SaleType from "@bullistic-hq/bullistic-auction-house/dist/types/enum/SaleType";
 import { ParsedTransactionWithMeta } from "@solana/web3.js";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 import logError from "src/utils/analytics/logError";
 

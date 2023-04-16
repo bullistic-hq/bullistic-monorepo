@@ -7,7 +7,7 @@ export default function ListingUnlockablesEnableActivationPriceToggle() {
 
   const subLabel =
     "If the auction does not reach this price, the unlockable will not activate—" +
-    "you won't have to fulfill it, and Formfunction will not collect any " +
+    "you won't have to fulfill it, and Bullistic will not collect any " +
     "information from the buyer.";
 
   return (

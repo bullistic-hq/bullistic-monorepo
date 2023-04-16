@@ -1,8 +1,8 @@
 import TextButton from "components/buttons/TextButton";
 import TextButtonTheme from "types/enums/TextButtonTheme";
 import FontClass from "types/enums/FontClass";
-import getNftLinkRelative from "formfn-shared/dist/utils/links/getNftLinkRelative";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import getNftLinkRelative from "bullistic-shared/dist/utils/links/getNftLinkRelative";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 export default function NftLink({
   assetHeight,

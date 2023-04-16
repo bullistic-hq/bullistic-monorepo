@@ -9,11 +9,11 @@ import ColorValue from "types/enums/ColorValue";
 import FontClass from "types/enums/FontClass";
 import TextButtonTheme from "types/enums/TextButtonTheme";
 import GlobalClass from "types/enums/GlobalClass";
-import isPublicKey from "formfn-shared/dist/utils/solana/isPublicKey";
+import isPublicKey from "bullistic-shared/dist/utils/solana/isPublicKey";
 import useUserContext from "hooks/useUserContext";
 import ErrorMessage from "components/text/ErrorMessage";
 import { notify } from "components/toast/notifications";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
 import shortenAddress from "utils/shortenAddress";
 import useCreateNftDetailsContext from "hooks/useCreateNftDetailsContext";
 import useColorModeContext from "hooks/useColorModeContext";
@@ -130,7 +130,7 @@ export default function CreateCreatorSplits() {
             <TextButton
               buttonThemeOrColorClass={TextButtonTheme.PurpleGradient}
               display="inline"
-              href="https://help.formfunction.xyz/en/articles/6111089-how-do-collab-splits-work"
+              href="https://help.bullistic.xyz/en/articles/6111089-how-do-collab-splits-work"
               type="link_external"
             >
               Learn more

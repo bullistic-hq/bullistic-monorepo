@@ -13,8 +13,8 @@ import UnlockableLabel from "components/pages/common/nft/unlockables/UnlockableL
 import UnlockableActionButton from "components/pages/common/nft/unlockables/UnlockableActionButton";
 import Body2 from "components/text/Body2";
 import { NftPageUnlockableInfo_MetadataAccount$key } from "components/pages/common/nft/__generated__/NftPageUnlockableInfo_MetadataAccount.graphql";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import UnlockableCta from "types/enums/UnlockableCta";
 import useUnlockableCtaType from "hooks/useUnlockableCtaType";
 import NftGenericSupplementaryItem from "components/pages/common/nft/NftGenericSupplementaryItem";

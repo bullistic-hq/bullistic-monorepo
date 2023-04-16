@@ -5,7 +5,7 @@ import PageWithHeaderAndFooter from "components/containers/PageWithHeaderAndFoot
 import FontClass from "types/enums/FontClass";
 import ErrorMessage from "components/text/ErrorMessage";
 import CampaignHeaderStatusBanner from "components/pages/campaign/campaign-generic/CampaignHeaderStatusBanner";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import graphql from "babel-plugin-relay/macro";
 import { useMutation } from "react-relay";
 import { CreateCampaignPageMutation } from "components/pages/campaign/basic-info/__generated__/CreateCampaignPageMutation.graphql";
@@ -19,7 +19,7 @@ import CampaignBasicInfoForm, {
 } from "components/pages/campaign/basic-info/CampaignBasicInfoForm";
 import { UserSearchContextProvider } from "context/UserSearchContext";
 import useUserSearchContext from "hooks/useUserSearchContext";
-import getCampaignLinkRelative from "formfn-shared/dist/utils/links/getCampaignLinkRelative";
+import getCampaignLinkRelative from "bullistic-shared/dist/utils/links/getCampaignLinkRelative";
 import SOLANA_CURRENCY_CONFIG from "constants/SolanaCurrencyConfig";
 import CurrencyConfig from "types/CurrencyConfig";
 import { notify } from "components/toast/notifications";

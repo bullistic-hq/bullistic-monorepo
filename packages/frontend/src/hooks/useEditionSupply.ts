@@ -1,10 +1,10 @@
 import graphql from "babel-plugin-relay/macro";
 import { useFragment } from "react-relay";
-import NftKind from "formfn-shared/dist/types/enums/NftKind";
+import NftKind from "bullistic-shared/dist/types/enums/NftKind";
 import { useEditionSupply_MetadataAccount$key } from "hooks/__generated__/useEditionSupply_MetadataAccount.graphql";
 import useNftKind from "hooks/useNftKind";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 const fragment = graphql`
   fragment useEditionSupply_MetadataAccount on MetadataAccount {

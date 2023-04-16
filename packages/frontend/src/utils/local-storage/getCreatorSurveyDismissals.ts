@@ -1,4 +1,4 @@
-import isNumber from "formfn-shared/dist/utils/numbers/isNumber";
+import isNumber from "bullistic-shared/dist/utils/numbers/isNumber";
 import LocalStoragePrefix from "types/enums/LocalStoragePrefix";
 import getWithPrefix from "utils/local-storage/getWithPrefix";
 

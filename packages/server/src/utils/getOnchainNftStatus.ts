@@ -1,6 +1,6 @@
 import { Nft } from "@prisma/client";
 import { PublicKey } from "@solana/web3.js";
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import NftTransactionOnchain from "src/types/NftTransactionOnchain";
 import getNftMintOwner from "src/utils/solana/getNftMintOwner";
 import findNftOwnerFromTxs from "src/utils/solana/txs/findNftOwnerFromTxs";

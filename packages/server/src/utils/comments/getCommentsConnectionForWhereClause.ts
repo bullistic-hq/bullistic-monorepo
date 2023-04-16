@@ -1,5 +1,5 @@
 import Typename from "src/types/enums/Typename";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import createOffsetPaginationConnection from "src/utils/pagination/createOffsetPaginationConnection";
 import getPrisma from "src/utils/prisma/getPrisma";
 import {

@@ -1,10 +1,10 @@
 import * as Sentry from "@sentry/node";
 import getEnvironment from "src/utils/getEnvironment";
 import { Integration, SamplingContext } from "@sentry/types";
-import Environment from "formfn-shared/dist/types/Environment";
+import Environment from "bullistic-shared/dist/types/Environment";
 import AnalyticsEventSource from "src/types/enums/AnalyticsEventSource";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
-import targetIncludesAny from "formfn-shared/dist/utils/array/targetIncludesAny";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
+import targetIncludesAny from "bullistic-shared/dist/utils/array/targetIncludesAny";
 import * as Tracing from "@sentry/tracing";
 import getPrisma from "src/utils/prisma/getPrisma";
 

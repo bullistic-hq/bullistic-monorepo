@@ -2,7 +2,7 @@ import ListNftForAuctionWithPnft from "components/listing/ListNftForAuctionWithP
 import ListNftForAuction from "components/listing/ListNftForAuction";
 import useListingContext from "hooks/useListingContext";
 import ListingStep from "types/enums/ListingStep";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import graphql from "babel-plugin-relay/macro";
 import { useFragment } from "react-relay";
 import { ListNftForAuctionSteps_MetadataAccount$key } from "components/listing/__generated__/ListNftForAuctionSteps_MetadataAccount.graphql";

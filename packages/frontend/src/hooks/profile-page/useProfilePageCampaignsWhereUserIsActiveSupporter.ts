@@ -2,7 +2,7 @@ import graphql from "babel-plugin-relay/macro";
 import { useEffect, useMemo } from "react";
 import { loadQuery, useQueryLoader } from "react-relay";
 import RelayEnvironment from "utils/relay/RelayEnvironment";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { useProfilePageCampaignsWhereUserIsActiveSupporterQuery } from "hooks/profile-page/__generated__/useProfilePageCampaignsWhereUserIsActiveSupporterQuery.graphql";
 
 // NOTE: must be leq than the max specified in PaginationAmountGqlType

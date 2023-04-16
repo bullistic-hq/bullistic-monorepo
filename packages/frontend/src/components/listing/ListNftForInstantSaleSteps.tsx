@@ -1,7 +1,7 @@
 import invariant from "tiny-invariant";
 import useListingContext from "hooks/useListingContext";
 import ListingStep from "types/enums/ListingStep";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import graphql from "babel-plugin-relay/macro";
 import { useFragment } from "react-relay";
 import ListNftForInstantSale from "components/listing/ListNftForInstantSale";

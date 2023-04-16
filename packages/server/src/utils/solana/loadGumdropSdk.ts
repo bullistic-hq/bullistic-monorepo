@@ -1,7 +1,7 @@
 import * as anchor from "@project-serum/anchor";
-import FormfnGumdropSdk from "@formfunction-hq/formfunction-gumdrop";
+import BullisticGumdropSdk from "@bullistic-hq/bullistic-gumdrop";
 import { Connection } from "@solana/web3.js";
-import Environment from "formfn-shared/dist/types/Environment";
+import Environment from "bullistic-shared/dist/types/Environment";
 import Network from "src/types/enums/Network";
 import getEnvironment from "src/utils/getEnvironment";
 import getRpcHostFromNetwork from "src/utils/solana/getRpcHostFromNetwork";
@@ -17,5 +17,5 @@ export default function loadGumdropSdk() {
   const rpc = getRpcHostFromNetwork(process.env.SOLANA_NETWORK as Network);
   const connection = new Connection(rpc);
 
-  return new FormfnGumdropSdk({ connection, environment, wallet });
+  return new BullisticGumdropSdk({ connection, environment, wallet });
 }

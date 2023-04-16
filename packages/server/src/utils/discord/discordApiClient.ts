@@ -1,5 +1,5 @@
 import axios from "axios";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import DISCORD_AUTH_CONFIG from "src/constants/DiscordAuthConfig";
 import { URLSearchParams } from "url";
 

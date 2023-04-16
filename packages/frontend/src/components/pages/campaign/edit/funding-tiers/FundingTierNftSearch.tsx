@@ -2,7 +2,7 @@ import graphql from "babel-plugin-relay/macro";
 import { RefObject, useContext, useState } from "react";
 import { usePaginationFragment } from "react-relay";
 import ElementId from "types/enums/ElementId";
-import isEmptyString from "formfn-shared/dist/utils/string/isEmptyString";
+import isEmptyString from "bullistic-shared/dist/utils/string/isEmptyString";
 import { FundingTierNftsContext } from "components/pages/campaign/edit/funding-tiers/FundingTierNftsContext";
 import GenericNftSearchRow from "components/nft/GenericNftSearchRow";
 import { FundingTierNftSearchMetadataAccounts_Query$key } from "components/pages/campaign/edit/funding-tiers/__generated__/FundingTierNftSearchMetadataAccounts_Query.graphql";

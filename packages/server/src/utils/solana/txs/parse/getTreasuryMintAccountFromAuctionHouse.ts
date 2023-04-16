@@ -1,6 +1,6 @@
 import { PublicKey } from "@solana/web3.js";
-import getTreasuryMintForCurrency from "formfn-shared/dist/utils/auction-house/getTreasuryMintForCurrency";
-import arePublicKeysEqual from "formfn-shared/dist/utils/compare/arePublicKeysEqual";
+import getTreasuryMintForCurrency from "bullistic-shared/dist/utils/auction-house/getTreasuryMintForCurrency";
+import arePublicKeysEqual from "bullistic-shared/dist/utils/compare/arePublicKeysEqual";
 import getEnvironment from "src/utils/getEnvironment";
 import getAuctionHouseSdk from "src/utils/solana/getAuctionHouseSdk";
 import getSharedCurrencyEnumFromGqlCurrency from "src/utils/solana/getSharedCurrencyEnumFromGqlCurrency";

@@ -1,5 +1,5 @@
 import useCampaignColorScheme from "hooks/useCampaignColorScheme";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import CampaignProgressNormal from "components/pages/campaign/campaign-generic/hero/goals/CampaignProgressNormal";
 import CampaignProgressCompact from "components/pages/campaign/campaign-generic/hero/goals/CampaignProgressCompact";
 

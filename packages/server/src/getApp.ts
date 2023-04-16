@@ -155,8 +155,6 @@ import SentryTagName from "src/types/enums/SentryTagName";
 import MyGateway from "src/utils/graphql/MyGateway";
 import syncAllCampaignHoldersEndpoint from "src/rest/intern/syncAllCampaignHoldersEndpoint";
 import isProd from "src/utils/isProd";
-import getTooniesSwapTxEndpoint from "src/rest/getTooniesSwapTxEndpoint";
-import revealTooniesEndpoint from "src/rest/intern/revealTooniesEndpoint";
 import getHashlistEndpoint from "src/rest/getHashlistEndpoint";
 import sendShutdownEmailsEndpoint from "src/rest/intern/sendShutdownEmailsEndpoint";
 import cancelEndpoint from "src/rest/intern/cancelEndpoint";
@@ -312,7 +310,6 @@ export default async function getApp(): Promise<Express> {
     "/preprocessVersionedTransaction",
     logErrors(signVersionedTransactionWithAntiBotAuthority)
   );
-  app.post("/getTooniesSwapTx", logErrors(getTooniesSwapTxEndpoint));
   app.get("/twitter/:username", logErrors(getTwitterUserByUsername));
   app.get("/verifySignature", logErrors(verifySignatureEndpoint));
   app.get("/getHashlist", logErrors(getHashlistEndpoint));
@@ -625,7 +622,6 @@ export default async function getApp(): Promise<Express> {
     "/intern/syncAllCampaignHolders",
     logErrors(syncAllCampaignHoldersEndpoint)
   );
-  app.post("/intern/revealToonies", logErrors(revealTooniesEndpoint));
   app.post("/intern/sendShutdownEmails", logErrors(sendShutdownEmailsEndpoint));
 
   // The error handler must be before any other error middleware and after all controllers

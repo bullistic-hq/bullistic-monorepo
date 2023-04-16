@@ -2,10 +2,10 @@ import { useEffect } from "react";
 
 export default function useSetPageTitle(title: string) {
   useEffect(() => {
-    document.title = `Formfunction | ${title}`;
+    document.title = `Bullistic | ${title}`;
 
     return () => {
-      document.title = "Formfunction";
+      document.title = "Bullistic";
     };
   }, [title]);
 }

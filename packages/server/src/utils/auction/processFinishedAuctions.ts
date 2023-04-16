@@ -19,7 +19,7 @@ import {
 import pLimit from "p-limit";
 import getWinningBidForMostRecentAuction from "src/utils/auction/getWinningBidForMostRecentAuction";
 import getOutbidUsers from "src/utils/auction/getOutbidUsers";
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
 import logEvent from "src/utils/analytics/logEvent";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 import logError from "src/utils/analytics/logError";
@@ -31,7 +31,7 @@ import isProd from "src/utils/isProd";
 import getTimeElapsed from "src/utils/dates/getTimeElapsed";
 import NftTransactionWithUsers from "src/types/NftTransactionWithUsers";
 import logIfNotProd from "src/utils/logIfNotProd";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import createBidderLostAuctionNotification from "src/utils/notifications/create/createBidderLostAuctionNotification";
 import createBidderWonAuctionNotification from "src/utils/notifications/create/createBidderWonAuctionNotification";
 import createOwnerAuctionEndedNotification from "src/utils/notifications/create/createOwnerAuctionEndedNotification";
@@ -138,7 +138,7 @@ async function processNftAuctionWon(
     await sendSlackNotification(
       SlackWebhook.AuctionAlertChannel,
       `*Auction End Alert* (${nft.mint}): auction ended!` +
-        ` Check it out at https://formfunction.xyz/@/${nft.mint}`
+        ` Check it out at https://bullistic.xyz/@/${nft.mint}`
     );
   }
 

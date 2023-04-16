@@ -1,7 +1,7 @@
 import { NextFunction, Request, Response } from "express";
 import invariant from "tiny-invariant";
 import parseAndInsertTransaction from "src/utils/transaction/parseAndInsertTransaction";
-import toObject from "formfn-shared/dist/utils/toObject";
+import toObject from "bullistic-shared/dist/utils/toObject";
 
 /**
  * Used for manual insertions of transactions. Reads

@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-constructed-context-values */
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
 import useUserSearchBarUserExpress, {
   UserSearchBarItem,
 } from "hooks/useUserSearchBarUserExpress";

@@ -1,4 +1,4 @@
-import { Maybe, Undef } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe, Undef } from "bullistic-shared/dist/types/UtilityTypes";
 import convertMetadataAccount from "src/utils/convert/convertMetadataAccount";
 import {
   MetadataAccount,
@@ -9,7 +9,7 @@ import MyContext from "src/types/MyContext";
 import AccountLoader from "src/utils/solana/rpc/AccountLoader";
 import CONVERT_NFT_TO_METADATA_INCLUDE from "src/constants/include/ConvertNftToMetadataInclude";
 import convertNftToMetadataAccount from "src/utils/convert/convertNftToMetadataAccount";
-import isPublicKey from "formfn-shared/dist/utils/solana/isPublicKey";
+import isPublicKey from "bullistic-shared/dist/utils/solana/isPublicKey";
 import logError from "src/utils/analytics/logError";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 

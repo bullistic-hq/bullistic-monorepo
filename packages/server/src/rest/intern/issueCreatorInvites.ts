@@ -5,10 +5,10 @@ import dayjs from "src/utils/dates/dayjsex";
 import getLdFlag from "src/utils/launch-darkly/getLdFlag";
 import LaunchDarklyFlag from "src/types/enums/LaunchDarklyFlag";
 import { PrismaClient } from "@prisma/client";
-import { range } from "formfn-shared/dist/utils/range";
+import { range } from "bullistic-shared/dist/utils/range";
 import logEvent from "src/utils/analytics/logEvent";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
-import { Maybe, Undef } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe, Undef } from "bullistic-shared/dist/types/UtilityTypes";
 import { OpUnitType } from "dayjs";
 
 const limit = pLimit(20);

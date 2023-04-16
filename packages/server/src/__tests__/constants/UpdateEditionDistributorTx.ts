@@ -1,6 +1,6 @@
 // https://explorer.solana.com/tx/5WeWEnXkTxMz8FKimFF1zPuyZq1z6HK7CpHT3QPMJwBg4tT4MU3ueFCduL9Zq65t4NxxHeBmP8sMjP6iJY7bmNzj?cluster=devnet
 //
-// For https://dev.formfunction.xyz/@pencilflip/8kX7765rn5vCZbMZMZFfrTojzjwuMLbAnHRyZpNXy9zv
+// For https://dev.bullistic.xyz/@pencilflip/8kX7765rn5vCZbMZMZFfrTojzjwuMLbAnHRyZpNXy9zv
 const UPDATE_EDITION_DISTRIBUTOR_TX = {
   blockTime: 1652938091,
   meta: {

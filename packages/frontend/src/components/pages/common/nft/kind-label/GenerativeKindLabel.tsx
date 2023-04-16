@@ -8,7 +8,7 @@ import { GenerativeKindLabel_MetadataAccount$key } from "components/pages/common
 import ArrowRightIcon from "components/icons/ArrowRightIcon";
 import { Link } from "react-router-dom";
 import useSeriesLinkRelativeForSeriesExpress from "hooks/useSeriesLinkRelativeForSeriesExpress";
-import formatIntegerWithCommas from "formfn-shared/dist/utils/numbers/formatIntegerWithCommas";
+import formatIntegerWithCommas from "bullistic-shared/dist/utils/numbers/formatIntegerWithCommas";
 import LayersIcon from "components/icons/LayersIcon";
 
 const fragment = graphql`

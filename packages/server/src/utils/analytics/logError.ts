@@ -1,12 +1,12 @@
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import { Request } from "express";
 import logEvent from "src/utils/analytics/logEvent";
 import logSentryError from "src/utils/analytics/logSentryError";
 import getDefaultLogProperties from "src/utils/analytics/getDefaultLogProperties";
 import { SeverityLevel } from "@sentry/node";
 import getErrorEventSeverity from "src/utils/analytics/getErrorEventSeverity";
-import getErrorPropertiesToLog from "formfn-shared/dist/utils/analytics/getErrorPropertiesToLog";
+import getErrorPropertiesToLog from "bullistic-shared/dist/utils/analytics/getErrorPropertiesToLog";
 import getRequest from "src/utils/async-local-storage/getRequest";
 
 export default async function logError(

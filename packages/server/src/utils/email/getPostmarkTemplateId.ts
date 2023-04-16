@@ -1,4 +1,4 @@
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import PostmarkTemplateId from "src/types/enums/PostmarkTemplateId";
 import { NotificationTypeExpress_Enum } from "src/__generated__/generated";
 

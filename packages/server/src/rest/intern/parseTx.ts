@@ -1,7 +1,7 @@
 import { PublicKey } from "@solana/web3.js";
 import { NextFunction, Request, Response } from "express";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
-import isPublicKey from "formfn-shared/dist/utils/solana/isPublicKey";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
+import isPublicKey from "bullistic-shared/dist/utils/solana/isPublicKey";
 import parseNftTx from "src/utils/solana/txs/parse/parseNftTx";
 import ConnectionWrapper from "src/utils/solana/rpc/ConnectionWrapper";
 

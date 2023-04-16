@@ -7,7 +7,7 @@ const apiRequestHeaders = { headers: { Authorization: `Bot ${botToken}` } };
 const discordApiBase = "https://discord.com/api";
 const redirectUri = `${process.env.API_URL}/social/discordCallback`;
 
-// This is the Formfunction Discord Server id.
+// This is the Bullistic Discord Server id.
 const guildId = "926690312817106994";
 
 const DISCORD_AUTH_CONFIG = {

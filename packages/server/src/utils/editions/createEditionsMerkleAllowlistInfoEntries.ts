@@ -1,4 +1,4 @@
-import MerkleAllowlistBuyersList from "@formfunction-hq/formfunction-auction-house/dist/types/merkle-tree/MerkleAllowlistBuyersList";
+import MerkleAllowlistBuyersList from "@bullistic-hq/bullistic-auction-house/dist/types/merkle-tree/MerkleAllowlistBuyersList";
 import pLimit from "p-limit";
 import PrismaTransactionClient from "src/types/PrismaTransactionClient";
 import getUserConnectOrCreate from "src/utils/prisma/getUserConnectOrCreate";

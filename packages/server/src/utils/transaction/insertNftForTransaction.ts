@@ -2,7 +2,7 @@ import {
   InsertNftTransactionInput,
   NftTransactionTypeExpress_Enum,
 } from "src/__generated__/generated";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import ConvertNftToMetadataAccountType from "src/types/convert/ConvertNftToMetadataAccountType";
 import createStandardEditionNft from "src/utils/prisma/createStandardEditionNft";
 import insertNft from "src/utils/nft/insertNft";
@@ -13,7 +13,7 @@ import parseSoldGenerativeMintTx from "src/utils/solana/txs/parse/parseSoldGener
 import insertNftFromMintTransaction from "src/utils/transaction/insertNftFromMintTransaction";
 import insertNftFromSoldGenerativeMintTransaction from "src/utils/transaction/insertNftFromSoldGenerativeMintTransaction";
 import PrismaTransactionClient from "src/types/PrismaTransactionClient";
-import { decodeCandyMachineTransaction } from "@formfunction-hq/formfunction-candy-machine";
+import { decodeCandyMachineTransaction } from "@bullistic-hq/bullistic-candy-machine";
 import loadCandyMachineSdk from "src/utils/solana/loadCandyMachineSdk";
 
 /**

@@ -1,7 +1,7 @@
 import {
   AuctionHouseSdk,
   loadAuctionHouseProgram,
-} from "@formfunction-hq/formfunction-auction-house";
+} from "@bullistic-hq/bullistic-auction-house";
 import getAuthorityKeypair from "src/utils/keypairs/getAuthorityKeypair";
 import Network from "src/types/enums/Network";
 import getAuctionHouseInfo from "src/utils/solana/getAuctionHouseInfo";

@@ -3,7 +3,7 @@ import {
   createCreateMetadataAccountInstruction,
 } from "@metaplex-foundation/mpl-token-metadata";
 import { PublicKey, Transaction } from "@solana/web3.js";
-import ixToTx from "formfn-shared/dist/utils/solana/ix/ixToTx";
+import ixToTx from "bullistic-shared/dist/utils/solana/ix/ixToTx";
 import findTokenMetadata from "utils/solana/pdas/findTokenMetadata";
 
 export default async function createMetadataTx(

@@ -8,9 +8,9 @@ import {
   User,
 } from "@prisma/client";
 import { NextFunction, Request, Response } from "express";
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
-import getUserProfileLinkRelative from "formfn-shared/dist/utils/links/getUserProfileLinkRelative";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
+import getUserProfileLinkRelative from "bullistic-shared/dist/utils/links/getUserProfileLinkRelative";
 import sendBidderAuctionAlmostOverEmail from "src/utils/email/auction-emails/sendBidderAuctionAlmostOverEmail";
 import parseNotificationData from "src/utils/notifications/parseNotificationData";
 import getPrisma from "src/utils/prisma/getPrisma";
@@ -20,7 +20,7 @@ import {
 } from "src/__generated__/generated";
 import invariant from "tiny-invariant";
 import dayjs from "src/utils/dates/dayjsex";
-import pluralize from "formfn-shared/dist/utils/pluralize";
+import pluralize from "bullistic-shared/dist/utils/pluralize";
 import getImageSrcForEmail from "src/utils/getImageSrcForEmail";
 import getNftLink from "src/utils/getNftLink";
 import formatPrice from "src/utils/price/formatPrice";
@@ -28,7 +28,7 @@ import sendBidderAuctionExtendedEmail from "src/utils/email/auction-emails/sendB
 import CONVERT_USER_INCLUDE from "src/constants/include/ConvertUserInclude";
 import sendBidderAuctionSettledEmail from "src/utils/email/auction-emails/sendBidderAuctionSettledEmail";
 import sendPnftClaimAvailableEmail from "src/utils/email/auction-emails/sendPnftClaimAvailableEmail";
-import formatPnftDropDuration from "formfn-shared/dist/utils/dates/formatPnftDropDuration";
+import formatPnftDropDuration from "bullistic-shared/dist/utils/dates/formatPnftDropDuration";
 import sendPnftClaimReminderEmail from "src/utils/email/auction-emails/sendPnftClaimReminderEmail";
 import sendBidderLostAuctionEmail from "src/utils/email/auction-emails/sendBidderLostAuctionEmail";
 import bigintToNumber from "src/utils/bigintToNumber";
@@ -69,18 +69,18 @@ import sendOwnerGenerativeMintSoldOutEmail from "src/utils/email/candy-machine-e
 import CONVERT_CANDY_MACHINE_INCLUDE from "src/constants/include/ConvertCandyMachineInclude";
 import getSeriesLink from "src/utils/getSeriesLink";
 import sendCampaignCommunityNewUpdateSharedEmail from "src/utils/email/campaign-emails/sendCampaignCommunityNewUpdateSharedEmail";
-import getCampaignLinkRelative from "formfn-shared/dist/utils/links/getCampaignLinkRelative";
+import getCampaignLinkRelative from "bullistic-shared/dist/utils/links/getCampaignLinkRelative";
 import sendCampaignApprovedEmail from "src/utils/email/campaign-emails/sendCampaignApprovedEmail";
 import sendCampaignRejectedEmail from "src/utils/email/campaign-emails/sendCampaignRejectedEmail";
-import CampaignTab from "formfn-shared/dist/types/enums/CampaignTab";
-import CampaignUrlParamKey from "formfn-shared/dist/types/enums/CampaignUrlParamKey";
+import CampaignTab from "bullistic-shared/dist/types/enums/CampaignTab";
+import CampaignUrlParamKey from "bullistic-shared/dist/types/enums/CampaignUrlParamKey";
 import sendCampaignFollowerCampaignPublishedEmail from "src/utils/email/campaign-emails/sendCampaignFollowerCampaignPublishedEmail";
 import sendCampaignAddedAsTeamMemberEmail from "src/utils/email/campaign-emails/sendCampaignAddedAsTeamMemberEmail";
-import getCampaignGoalReachedXPercentBodyText from "formfn-shared/dist/utils/campaigns/getCampaignGoalReachedXPercentBodyText";
+import getCampaignGoalReachedXPercentBodyText from "bullistic-shared/dist/utils/campaigns/getCampaignGoalReachedXPercentBodyText";
 import sendCampaignGoalReachedXPercentEmail from "src/utils/email/campaign-emails/sendCampaignGoalReachedXPercentEmail";
 import sendAirdropCompletedEmail from "src/utils/email/airdrop-emails/sendAirdropCompletedEmail";
 import sendAirdropGiftReceivedEmail from "src/utils/email/airdrop-emails/sendAirdropGiftReceivedEmail";
-import HelpCenterLink from "formfn-shared/dist/types/enums/HelpCenterLink";
+import HelpCenterLink from "bullistic-shared/dist/types/enums/HelpCenterLink";
 import sendNewFollowerEmail from "src/utils/email/follow-emails/sendNewFollowerEmail";
 import getLinkForEnvironment from "src/utils/getLinkForEnvironment";
 import getFrontendUrl from "src/utils/getFrontendUrl";

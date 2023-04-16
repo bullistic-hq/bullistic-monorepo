@@ -6,10 +6,10 @@ import { Suspense } from "react";
 import { PreloadedQuery, useFragment, usePreloadedQuery } from "react-relay";
 import styles from "css/pages/series/SeriesStats.module.css";
 import ArtName from "components/text/ArtName";
-import formatLamports from "formfn-shared/dist/utils/formatLamports";
+import formatLamports from "bullistic-shared/dist/utils/formatLamports";
 import ColorClass from "types/enums/ColorClass";
 import Body1Medium from "components/text/Body1Medium";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import TextSymbol from "types/enums/TextSymbol";
 
 const fragment = graphql`

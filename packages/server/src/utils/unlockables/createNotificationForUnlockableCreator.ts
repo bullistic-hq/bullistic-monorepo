@@ -1,4 +1,4 @@
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import invariant from "tiny-invariant";
 import { UpdateUnlockableWinnerPrismaResult } from "src/utils/prisma/updateUnlockableWinner";
 import { NotificationTypeExpress_Enum } from "src/__generated__/generated";

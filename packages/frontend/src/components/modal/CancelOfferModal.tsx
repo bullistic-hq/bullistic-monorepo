@@ -12,8 +12,8 @@ import sendTransactionWithWallet from "utils/solana/misc/sendTransactionWithWall
 import logIfNotProd from "utils/logIfNotProd";
 import { CancelOfferModalUpdateOfferMutation } from "components/modal/__generated__/CancelOfferModalUpdateOfferMutation.graphql";
 import deleteOfferTransactionNode from "utils/relay/deleteOfferTransactionNode";
-import getTokenAccountFromBuyTx from "formfn-shared/dist/utils/solana/txs/getTokenAccountFromBuyTx";
-import getPaymentAccountFromBuyTx from "formfn-shared/dist/utils/solana/txs/getPaymentAccountFromBuyTx";
+import getTokenAccountFromBuyTx from "bullistic-shared/dist/utils/solana/txs/getTokenAccountFromBuyTx";
+import getPaymentAccountFromBuyTx from "bullistic-shared/dist/utils/solana/txs/getPaymentAccountFromBuyTx";
 import logError from "utils/analytics/logError";
 import AnalyticsEvent from "types/enums/AnalyticsEvent";
 import getAuctionHouseConstants from "utils/solana/misc/getAuctionHouseConstants";

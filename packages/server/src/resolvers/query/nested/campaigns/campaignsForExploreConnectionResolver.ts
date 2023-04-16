@@ -1,5 +1,5 @@
 import MyContext from "src/types/MyContext";
-import { Maybe, Undef } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe, Undef } from "bullistic-shared/dist/types/UtilityTypes";
 import {
   CampaignsConnection,
   CampaignsForExploreInput,
@@ -7,7 +7,7 @@ import {
   CampaignStatusExpress_Enum,
 } from "src/__generated__/generated";
 import { Prisma } from "@prisma/client";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import getCampaignsConnectionForWhereClause from "src/utils/campaigns/getCampaignsConnectionForWhereClause";
 
 function getOrderBy(

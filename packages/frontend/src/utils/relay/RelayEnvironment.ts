@@ -1,4 +1,4 @@
-import toObject from "formfn-shared/dist/utils/toObject";
+import toObject from "bullistic-shared/dist/utils/toObject";
 import {
   Environment,
   FetchFunction,

@@ -1,4 +1,4 @@
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import SpotlightType from "src/types/enums/SpotlightType";
 import { SpotlightExpress } from "src/__generated__/generated";
 

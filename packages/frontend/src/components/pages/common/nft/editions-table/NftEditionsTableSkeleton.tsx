@@ -2,8 +2,8 @@ import PaginationControls from "components/nav/PaginationControls";
 import NftEditionsTableHeader from "components/pages/common/nft/editions-table/NftEditionsTableHeader";
 import NftEditionsTableRowSkeleton from "components/pages/common/nft/editions-table/NftEditionsTableRowSkeleton";
 import { EDITIONS_PAGE_SIZE } from "constants/PageSizes";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
-import { range } from "formfn-shared/dist/utils/range";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
+import { range } from "bullistic-shared/dist/utils/range";
 
 export default function NftEditionsTableSkeleton() {
   return (

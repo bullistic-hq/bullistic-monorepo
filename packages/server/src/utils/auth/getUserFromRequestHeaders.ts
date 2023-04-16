@@ -1,6 +1,6 @@
 import { User } from "@prisma/client";
 import { Request } from "express";
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 import logError from "src/utils/analytics/logError";
 import getVerifiedPublicKey from "src/utils/auth/getVerifiedPublicKey";

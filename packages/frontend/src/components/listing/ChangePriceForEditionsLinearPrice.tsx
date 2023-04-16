@@ -1,4 +1,4 @@
-import { PriceFunctionType } from "@formfunction-hq/formfunction-auction-house";
+import { PriceFunctionType } from "@bullistic-hq/bullistic-auction-house";
 import graphql from "babel-plugin-relay/macro";
 import EditionsMaxPriceInput from "components/listing/EditionsMaxPriceInput";
 import ListButton from "components/listing/ListButton";
@@ -14,7 +14,7 @@ import {
   STARTING_PRICE_PLACEHOLDER,
   STARTING_PRICE_SUB_LABEL,
 } from "constants/EditionsCopyConstants";
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
 import useChangePriceForEditions from "hooks/useChangePriceForEditions";
 import useErrorMessage from "hooks/useErrorMessage";
 import { useState } from "react";
@@ -23,14 +23,14 @@ import ErrorMessageMsg from "types/enums/ErrorMessageMsg";
 import FontClass from "types/enums/FontClass";
 import isMaxPriceValid from "utils/price/isMaxPriceValid";
 import isValidPrice from "utils/price/isValidPrice";
-import parseEditionPriceParams from "formfn-shared/dist/utils/price/parseEditionPriceParams";
-import convertToFullDecimals from "formfn-shared/dist/utils/convertToFullDecimals";
+import parseEditionPriceParams from "bullistic-shared/dist/utils/price/parseEditionPriceParams";
+import convertToFullDecimals from "bullistic-shared/dist/utils/convertToFullDecimals";
 import InputLabel from "components/input/InputLabel";
 import InputWithLabel from "components/input/InputWithLabel";
 import PriceInput from "components/input/PriceInput";
 import useGetCurrencyConfigForPrice from "hooks/useGetCurrencyConfigForPrice";
 import MaxDecimals from "types/enums/MaxDecimals";
-import formatDecimals from "formfn-shared/dist/utils/formatDecimals";
+import formatDecimals from "bullistic-shared/dist/utils/formatDecimals";
 import notifyUnexpectedError from "components/toast/notifyUnexpectedError";
 
 const fragment = graphql`

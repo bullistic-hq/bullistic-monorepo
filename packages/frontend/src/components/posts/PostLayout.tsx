@@ -1,7 +1,7 @@
 import FlexBox from "components/layout/FlexBox";
 import Divider from "components/misc/Divider";
 import styles from "css/posts/Post.module.css";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import ColorClass from "types/enums/ColorClass";
 
 type Props = {

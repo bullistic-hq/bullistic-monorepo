@@ -1,5 +1,5 @@
-import { PriceFunctionType } from "@formfunction-hq/formfunction-auction-house";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import { PriceFunctionType } from "@bullistic-hq/bullistic-auction-house";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import { PriceFunctionTypeExpress_Enum } from "src/__generated__/generated";
 
 export default function convertPriceFunctionTypeToGql(

@@ -4,8 +4,8 @@ import getDefaultLogProperties from "utils/analytics/getDefaultLogProperties";
 import getErrorEventSeverity from "utils/analytics/getErrorEventSeverity";
 import logEvent from "utils/analytics/logEvent";
 import logSentryError from "utils/analytics/logSentryError";
-import toObject from "formfn-shared/dist/utils/toObject";
-import getErrorPropertiesToLog from "formfn-shared/dist/utils/analytics/getErrorPropertiesToLog";
+import toObject from "bullistic-shared/dist/utils/toObject";
+import getErrorPropertiesToLog from "bullistic-shared/dist/utils/analytics/getErrorPropertiesToLog";
 import logIfNotProd from "utils/logIfNotProd";
 
 export default function logError(

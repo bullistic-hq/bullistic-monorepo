@@ -40,7 +40,7 @@ export default function HeaderMobile({
             <Link className={styles.logo} to="/">
               <img className={styles.logoImage} src={logoSrc} />
               <h3 className={joinClasses(styles.logoText, colorClass)}>
-                formfunction
+                bullistic
               </h3>
             </Link>
             <HamburgerButton

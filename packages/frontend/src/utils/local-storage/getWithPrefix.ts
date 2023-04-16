@@ -1,4 +1,4 @@
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import LocalStoragePrefix from "types/enums/LocalStoragePrefix";
 
 export default function getWithPrefix(

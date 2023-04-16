@@ -9,7 +9,7 @@ import {
 import convertUnlockableWinner from "src/utils/convert/convertUnlockableWinner";
 import ConvertUnlockableWinnerType from "src/types/convert/ConvertUnlockableWinnerType";
 import convertPrice from "src/utils/convert/convertPrice";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 export default function convertUnlockable(
   prismaUnlockable: Unlockable & {

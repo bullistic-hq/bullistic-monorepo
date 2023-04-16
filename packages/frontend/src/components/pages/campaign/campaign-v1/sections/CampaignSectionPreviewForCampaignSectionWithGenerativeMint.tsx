@@ -1,6 +1,6 @@
 import graphql from "babel-plugin-relay/macro";
 import { useFragment } from "react-relay";
-import CampaignTab from "formfn-shared/dist/types/enums/CampaignTab";
+import CampaignTab from "bullistic-shared/dist/types/enums/CampaignTab";
 import GenericCampaignSectionPreview from "components/pages/campaign/campaign-v1/sections/GenericCampaignSectionPreview";
 import { CampaignSectionPreviewForCampaignSectionWithGenerativeMint_CampaignSectionWithGenerativeMints$key } from "components/pages/campaign/campaign-v1/sections/__generated__/CampaignSectionPreviewForCampaignSectionWithGenerativeMint_CampaignSectionWithGenerativeMints.graphql";
 

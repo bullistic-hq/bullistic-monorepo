@@ -2,9 +2,9 @@ import {
   ParsedInstruction,
   PartiallyDecodedInstruction,
 } from "@solana/web3.js";
-import IsIxResult from "formfn-shared/dist/types/IsIxResult";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import isAuctionHouseIx from "formfn-shared/dist/utils/solana/txs/parse/isAuctionHouseIx";
+import IsIxResult from "bullistic-shared/dist/types/IsIxResult";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import isAuctionHouseIx from "bullistic-shared/dist/utils/solana/txs/parse/isAuctionHouseIx";
 import getAuctionHouseConstants from "src/utils/solana/getAuctionHouseConstants";
 
 type BuyEditionIxResult = {

@@ -2,7 +2,7 @@ import CONVERT_USER_INCLUDE from "src/constants/include/ConvertUserInclude";
 import NFT_TRANSACTION_ORDER_BY from "src/constants/orderBy/NftTransactionOrderBy";
 import Typename from "src/types/enums/Typename";
 import MyContext from "src/types/MyContext";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import convertNftTransaction from "src/utils/convert/convertNftTransaction";
 import createOffsetPaginationConnection from "src/utils/pagination/createOffsetPaginationConnection";
 import getPrisma from "src/utils/prisma/getPrisma";
@@ -12,7 +12,7 @@ import {
   NftOffersForUserInput,
 } from "src/__generated__/generated";
 import { Prisma } from "@prisma/client";
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
 import OFFER_INVALIDATING_TRANSACTION_TYPES from "src/constants/OfferInvalidatingTransactionTypes";
 import isOfferValid from "src/utils/offers/isOfferValid";
 import CONVERT_NFT_TO_METADATA_INCLUDE from "src/constants/include/ConvertNftToMetadataInclude";

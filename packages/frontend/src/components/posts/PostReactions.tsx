@@ -7,9 +7,9 @@ import { PostReactionsCreateReactionMutation } from "components/posts/__generate
 import { PostReactionsDeleteReactionMutation } from "components/posts/__generated__/PostReactionsDeleteReactionMutation.graphql";
 import Body1 from "components/text/Body1";
 import notifyErrorMessageFromError from "components/toast/notifyErrorMessageFromError";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
-import pluralize from "formfn-shared/dist/utils/pluralize";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
+import pluralize from "bullistic-shared/dist/utils/pluralize";
 import useBreakpoint from "hooks/useBreakpoint";
 import { useMutation } from "react-relay";
 import { RecordSourceProxy } from "relay-runtime";

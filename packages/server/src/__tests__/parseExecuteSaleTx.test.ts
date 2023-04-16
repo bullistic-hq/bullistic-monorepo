@@ -1,4 +1,4 @@
-import SaleType from "@formfunction-hq/formfunction-auction-house/dist/types/enum/SaleType";
+import SaleType from "@bullistic-hq/bullistic-auction-house/dist/types/enum/SaleType";
 import { ParsedTransactionWithMeta } from "@solana/web3.js";
 import parseExecuteSaleTx from "src/utils/solana/txs/parse/parseExecuteSaleTx";
 import {
@@ -16,7 +16,7 @@ import mockGetNftCreatorFromMint from "src/__tests__/mocks/mockGetNftCreatorFrom
 import mockGetSaleTypeFromTradeState from "src/__tests__/mocks/mockGetSaleTypeFromTradeState";
 import getPriceMock from "src/__tests__/utils/getPriceMock";
 import invariant from "tiny-invariant";
-import { decodeAuctionHouseTransaction } from "@formfunction-hq/formfunction-auction-house";
+import { decodeAuctionHouseTransaction } from "@bullistic-hq/bullistic-auction-house";
 import getAuctionHouseConstants from "src/utils/solana/getAuctionHouseConstants";
 
 type TestCaseName = string;

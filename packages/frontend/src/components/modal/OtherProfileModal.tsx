@@ -24,7 +24,7 @@ export default function OtherProfileModal({
       <TextButton
         buttonThemeOrColorClass={TextButtonTheme.Error}
         fontClass={FontClass.NavLink}
-        href={`${MAILTO_HELLO_EMAIL}?subject=Formfunction: Reporting profile @${username}&body=Please explain why you are reporting this profile`}
+        href={`${MAILTO_HELLO_EMAIL}?subject=Bullistic: Reporting profile @${username}&body=Please explain why you are reporting this profile`}
         icon={<AlertIcon colorValue={ColorValue.Error} />}
         onClick={onHide}
         type="link_external"

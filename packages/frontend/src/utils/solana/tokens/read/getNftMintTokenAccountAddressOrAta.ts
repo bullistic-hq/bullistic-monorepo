@@ -1,5 +1,5 @@
 import { Connection, PublicKey } from "@solana/web3.js";
-import findAta from "formfn-shared/dist/utils/solana/pdas/findAta";
+import findAta from "bullistic-shared/dist/utils/solana/pdas/findAta";
 import getNftMintTokenAccountAddress from "utils/solana/tokens/getNftMintTokenAccountAddress";
 
 export default async function getNftMintTokenAccountAddressOrAta(

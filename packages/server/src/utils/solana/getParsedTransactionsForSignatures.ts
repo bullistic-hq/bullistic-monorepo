@@ -1,8 +1,8 @@
 /* eslint-disable no-await-in-loop */
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
 import ConnectionWrapper from "src/utils/solana/rpc/ConnectionWrapper";
 import pLimit from "p-limit";
-import batchArray from "formfn-shared/dist/utils/array/batchArray";
+import batchArray from "bullistic-shared/dist/utils/array/batchArray";
 import { ParsedTransactionWithMeta } from "@solana/web3.js";
 
 const limit = pLimit(20);

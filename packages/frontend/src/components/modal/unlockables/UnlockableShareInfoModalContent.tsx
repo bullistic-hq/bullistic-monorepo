@@ -9,7 +9,7 @@ import InputLabel from "components/input/InputLabel";
 import InputWithLabel from "components/input/InputWithLabel";
 import TextInput from "components/input/TextInput";
 import { MAX_EMAIL_LENGTH } from "constants/MaxLengths";
-import isValidEmail from "formfn-shared/dist/utils/validation/isValidEmail";
+import isValidEmail from "bullistic-shared/dist/utils/validation/isValidEmail";
 import CheckboxButtonWithLabel from "components/buttons/CheckboxButtonWithLabel";
 import ColorClass from "types/enums/ColorClass";
 import ErrorMessage from "components/text/ErrorMessage";
@@ -135,7 +135,7 @@ export default function UnlockableShareInfoModalContent({
     <Body1 className={styles.description} colorClass={ColorClass.Secondary}>
       The email you entered has been shared with {creatorName}. For further
       information about the unlockable, please contact {creatorName} directly
-      (Formfunction does not fulfill or ship unlockables).
+      (Bullistic does not fulfill or ship unlockables).
     </Body1>
   );
 

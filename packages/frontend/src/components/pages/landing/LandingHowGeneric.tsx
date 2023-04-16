@@ -71,7 +71,7 @@ export default function LandingHowGeneric({
           textAlign="center"
           textTransform="uppercase"
         >
-          How does Formfunction work
+          How does Bullistic work
         </TinyLabel>
         <div className={styles.containerInnerAnim}>
           <Header2

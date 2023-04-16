@@ -3,7 +3,7 @@ import { useEffect, useMemo } from "react";
 import { loadQuery, useQueryLoader } from "react-relay";
 import RelayEnvironment from "utils/relay/RelayEnvironment";
 import { useProfilePageMetadataAccountsQuery } from "hooks/profile-page/__generated__/useProfilePageMetadataAccountsQuery.graphql";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { COLLECTED_TAB_PAGE_SIZE } from "constants/PageSizes";
 
 // NOTE: must be leq than the max specified in PaginationAmountGqlType

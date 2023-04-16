@@ -1,6 +1,6 @@
 import { PublicKey } from "@solana/web3.js";
 import getParsedTransactionsForAddress from "src/utils/solana/getParsedTransactionsForAddress";
-import PublicKeyOrString from "formfn-shared/dist/types/PublicKeyOrString";
+import PublicKeyOrString from "bullistic-shared/dist/types/PublicKeyOrString";
 import parseCreateMasterEditionTx from "src/utils/solana/txs/parse/metaplex/parseCreateMasterEditionTx";
 import { getMint } from "@solana/spl-token";
 import getConnection from "src/utils/solana/getConnection";

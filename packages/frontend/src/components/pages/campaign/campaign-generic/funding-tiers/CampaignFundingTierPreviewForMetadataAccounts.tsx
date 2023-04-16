@@ -1,4 +1,4 @@
-import CampaignTab from "formfn-shared/dist/types/enums/CampaignTab";
+import CampaignTab from "bullistic-shared/dist/types/enums/CampaignTab";
 import graphql from "babel-plugin-relay/macro";
 import { useFragment } from "react-relay";
 import NftAssetSize from "types/enums/NftAssetSize";

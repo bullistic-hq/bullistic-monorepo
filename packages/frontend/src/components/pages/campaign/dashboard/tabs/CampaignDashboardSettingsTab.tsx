@@ -18,7 +18,7 @@ import { CampaignDashboardSettingsTabConcludeCampaignMutation } from "components
 import { notify } from "components/toast/notifications";
 import notifyUnexpectedError from "components/toast/notifyUnexpectedError";
 import { CampaignDashboardSettingsTabRemoveUserAsTeamMemberMutation } from "components/pages/campaign/dashboard/tabs/__generated__/CampaignDashboardSettingsTabRemoveUserAsTeamMemberMutation.graphql";
-import sleepMs from "formfn-shared/dist/utils/sleepMs";
+import sleepMs from "bullistic-shared/dist/utils/sleepMs";
 import { useState } from "react";
 import GenericConfirmationModal from "components/modal/GenericConfirmationModal";
 

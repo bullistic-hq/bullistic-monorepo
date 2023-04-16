@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from "express";
-import isNumber from "formfn-shared/dist/utils/numbers/isNumber";
+import isNumber from "bullistic-shared/dist/utils/numbers/isNumber";
 import getPrisma from "src/utils/prisma/getPrisma";
 
 export default async function loadUsersEndpoint(

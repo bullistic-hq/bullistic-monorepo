@@ -1,5 +1,5 @@
 import graphql from "babel-plugin-relay/macro";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { useCanViewerEditCampaign_CampaignV2$key } from "hooks/campaign/__generated__/useCanViewerEditCampaign_CampaignV2.graphql";
 import useViewerId from "hooks/useViewerId";
 import { useFragment } from "react-relay";

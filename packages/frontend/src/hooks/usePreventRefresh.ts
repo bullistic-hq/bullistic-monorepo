@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
 
 export default function usePreventRefresh(shouldPrevent: boolean) {
   useEffect(() => {

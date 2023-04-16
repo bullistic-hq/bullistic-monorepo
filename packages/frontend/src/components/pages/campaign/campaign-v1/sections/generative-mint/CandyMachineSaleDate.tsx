@@ -4,7 +4,7 @@ import Body1 from "components/text/Body1";
 import Body1Bold from "components/text/Body1Bold";
 import InfoIconTooltip from "components/tooltips/InfoIconTooltip";
 import { Dayjs } from "dayjs";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import ColorClass from "types/enums/ColorClass";
 import ColorValue from "types/enums/ColorValue";
 

@@ -1,8 +1,8 @@
 import { useFlags } from "launchdarkly-react-client-sdk";
-import Environment from "formfn-shared/dist/types/Environment";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
-import PnftDropTimesFlag from "formfn-shared/dist/types/PnftDropTimesFlag";
-import CampaignsConfig from "formfn-shared/dist/types/CampaignsConfig";
+import Environment from "bullistic-shared/dist/types/Environment";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
+import PnftDropTimesFlag from "bullistic-shared/dist/types/PnftDropTimesFlag";
+import CampaignsConfig from "bullistic-shared/dist/types/CampaignsConfig";
 import GraphqlUrlConfig from "types/GraphqlUrlConfig";
 import { ConnectionConfig } from "@solana/web3.js";
 import Currency from "types/relay/Currency";

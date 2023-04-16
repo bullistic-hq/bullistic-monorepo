@@ -2,7 +2,7 @@ import CreatorStory from "components/misc/CreatorStory";
 import GenericModal from "components/modal/GenericModal";
 import styles from "css/modal/CreatorStoryModal.module.css";
 import ColorScheme from "types/ColorScheme";
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 
 type Props = {
   colorScheme: ColorScheme;

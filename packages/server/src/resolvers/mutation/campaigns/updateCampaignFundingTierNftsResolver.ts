@@ -11,11 +11,11 @@ import CONVERT_CAMPAIGN_FUNDING_TIER_INCLUDE from "src/constants/include/Convert
 import convertCampaignFundingTier from "src/utils/convert/convertCampaignFundingTier";
 import assertUserSignedRequest from "src/utils/auth/assertUserSignedRequest";
 import assertCanUpdateCampaignFundingTierNfts from "src/utils/campaigns/validation/assertCanUpdateCampaignFundingTierNfts";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { Campaign, Nft, NftListing } from "@prisma/client";
 import logError from "src/utils/analytics/logError";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
-import toObject from "formfn-shared/dist/utils/toObject";
+import toObject from "bullistic-shared/dist/utils/toObject";
 
 // NOTE: keep in sync with getWhereForCurrencyId in metadataAccountsAvailableToAddToCampaignConnectionResolver.ts
 function canNftBeAddedToFundingTier(

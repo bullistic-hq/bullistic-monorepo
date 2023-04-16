@@ -1,5 +1,5 @@
-import Environment from "formfn-shared/dist/types/Environment";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import Environment from "bullistic-shared/dist/types/Environment";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import getEnvironment from "utils/getEnvironment";
 import isDevSubdomain from "utils/isDevSubdomain";
 import getLdBootstrap from "utils/launch-darkly/getLdBootstrap";
@@ -10,11 +10,11 @@ function getRestBaseUrl() {
   const ldBootstrap = getLdBootstrap();
 
   const devUrl =
-    ldBootstrap?.restApiUrl?.development ?? "https://apidev2.formfunction.xyz/";
+    ldBootstrap?.restApiUrl?.development ?? "https://apidev2.bullistic.xyz/";
   const prodUrl =
-    ldBootstrap?.restApiUrl?.production ?? "https://api2.formfunction.xyz/";
+    ldBootstrap?.restApiUrl?.production ?? "https://api2.bullistic.xyz/";
   const testUrl =
-    ldBootstrap?.restApiUrl?.testnet ?? "https://apitest.formfunction.xyz/";
+    ldBootstrap?.restApiUrl?.testnet ?? "https://apitest.bullistic.xyz/";
 
   if (isPointToProd()) {
     return prodUrl;

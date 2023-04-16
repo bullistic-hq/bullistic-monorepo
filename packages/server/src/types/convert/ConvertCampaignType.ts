@@ -5,7 +5,7 @@ import {
   Currency,
   Request,
 } from "@prisma/client";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import ConvertCampaignFundingTierType from "src/types/convert/ConvertCampaignFundingTierType";
 import ConvertUserType from "src/types/convert/ConvertUserType";
 

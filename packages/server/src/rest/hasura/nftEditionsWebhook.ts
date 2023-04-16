@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from "express";
 import getPrisma from "src/utils/prisma/getPrisma";
-import sleep from "formfn-shared/dist/utils/sleep";
+import sleep from "bullistic-shared/dist/utils/sleep";
 import dayjs from "src/utils/dates/dayjsex";
 import getEditionUpdateFields from "src/utils/nft/getEditionUpdateFields";
 import isLastRetry from "src/utils/hasura/isLastRetry";

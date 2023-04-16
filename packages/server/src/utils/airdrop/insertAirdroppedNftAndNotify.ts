@@ -10,12 +10,12 @@ import {
   InsertStandardEditionInput,
   NftTransactionTypeExpress_Enum,
 } from "src/__generated__/generated";
-import SortOrder from "formfn-shared/dist/types/enums/SortOrder";
-import findParsedNftTransaction from "formfn-shared/dist/utils/solana/txs/findParsedNftTransaction";
+import SortOrder from "bullistic-shared/dist/types/enums/SortOrder";
+import findParsedNftTransaction from "bullistic-shared/dist/utils/solana/txs/findParsedNftTransaction";
 import getAllParsedTransactionsForAddress from "src/utils/solana/getAllParsedTransactionsForAddress";
 import parseBuyEditionTx from "src/utils/solana/txs/parse/editions/parseBuyEditionTx";
 import invariant from "tiny-invariant";
-import { decodeAuctionHouseTransaction } from "@formfunction-hq/formfunction-auction-house";
+import { decodeAuctionHouseTransaction } from "@bullistic-hq/bullistic-auction-house";
 import getAuctionHouseConstants from "src/utils/solana/getAuctionHouseConstants";
 
 export async function getMintTxid(

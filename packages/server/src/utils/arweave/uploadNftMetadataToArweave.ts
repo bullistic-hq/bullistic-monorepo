@@ -3,13 +3,13 @@ import { getStorage, getMetadata, getBytes, ref } from "firebase/storage";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 import logEvent from "src/utils/analytics/logEvent";
 import { Request } from "express";
-import getArweaveLink from "formfn-shared/dist/utils/getArweaveLink";
+import getArweaveLink from "bullistic-shared/dist/utils/getArweaveLink";
 import createAndSignTransaction from "src/utils/arweave/bundlr/createAndSignTransaction";
 import uploadToArweaveUsingBundlr from "src/utils/arweave/bundlr/uploadToArweaveUsingBundlr";
 import { AxiosResponse } from "axios";
 import logError from "src/utils/analytics/logError";
 import is200StatusCode from "src/utils/is200StatusCode";
-import getContentTypeFromFilename from "formfn-shared/dist/utils/getContentTypeFromFilename";
+import getContentTypeFromFilename from "bullistic-shared/dist/utils/getContentTypeFromFilename";
 
 import ffmpeg from "fluent-ffmpeg";
 import mkdirp from "mkdirp";
@@ -17,7 +17,7 @@ import * as path from "path";
 import * as os from "os";
 import * as fsPromises from "fs/promises";
 import { nanoid } from "nanoid";
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import { JsonMetadata } from "@metaplex-foundation/js";
 
 type FileInfo = {

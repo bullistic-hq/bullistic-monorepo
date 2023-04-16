@@ -17,7 +17,7 @@ import useUserSearchContext from "hooks/useUserSearchContext";
 import useUserSearchBarUserExpress from "hooks/useUserSearchBarUserExpress";
 import InputWithSelectedItems from "components/input/InputWithSelectedItems";
 import SearchIcon from "components/icons/SearchIcon";
-import isPublicKey from "formfn-shared/dist/utils/solana/isPublicKey";
+import isPublicKey from "bullistic-shared/dist/utils/solana/isPublicKey";
 import TextButton from "components/buttons/TextButton";
 import TextButtonTheme from "types/enums/TextButtonTheme";
 import FontClass from "types/enums/FontClass";
@@ -26,7 +26,7 @@ import IconButton from "components/buttons/IconButton";
 import CrossIcon from "components/icons/CrossIcon";
 import shortenAddress from "utils/shortenAddress";
 import Body2 from "components/text/Body2";
-import arrayLast from "formfn-shared/dist/utils/array/arrayLast";
+import arrayLast from "bullistic-shared/dist/utils/array/arrayLast";
 import PlusIcon from "components/icons/PlusIcon";
 import useBreakpoint from "hooks/useBreakpoint";
 

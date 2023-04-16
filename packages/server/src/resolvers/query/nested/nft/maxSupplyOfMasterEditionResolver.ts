@@ -1,8 +1,8 @@
 import { NftStatusExpress_Enum } from "src/__generated__/generated";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import getNftKind from "formfn-shared/dist/utils/nft/getNftKind";
-import NftKind from "formfn-shared/dist/types/enums/NftKind";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import getNftKind from "bullistic-shared/dist/utils/nft/getNftKind";
+import NftKind from "bullistic-shared/dist/types/enums/NftKind";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import getPrisma from "src/utils/prisma/getPrisma";
 import NftSourceType from "src/types/graphql-source/NftSourceType";
 

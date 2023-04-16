@@ -26,7 +26,7 @@ import {
 } from "components/modal/__generated__/BuyNowGenericModal_Price.graphql";
 import CampaignBenefitsSection from "components/campaign/CampaignBenefitsSection";
 import { CampaignBenefitsSection_CampaignFundingTierStandard$key } from "components/campaign/__generated__/CampaignBenefitsSection_CampaignFundingTierStandard.graphql";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 const fragment = graphql`
   fragment BuyNowGenericModal_Price on Price {

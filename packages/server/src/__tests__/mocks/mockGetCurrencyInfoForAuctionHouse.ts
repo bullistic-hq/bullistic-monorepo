@@ -3,9 +3,9 @@
 import * as getCurrencyInfoForAuctionHouse from "src/utils/solana/txs/parse/getCurrencyInfoForAuctionHouse";
 import { PublicKey } from "@solana/web3.js";
 import getAuctionHouseInfo from "src/utils/solana/getAuctionHouseInfo";
-import Environment from "formfn-shared/dist/types/Environment";
+import Environment from "bullistic-shared/dist/types/Environment";
 import { CurrencyNameExpress_Enum } from "src/__generated__/generated";
-import arePublicKeysEqual from "formfn-shared/dist/utils/compare/arePublicKeysEqual";
+import arePublicKeysEqual from "bullistic-shared/dist/utils/compare/arePublicKeysEqual";
 import SOLANA_CURRENCY_INFO_MOCK from "src/__tests__/constants/SolanaCurrencyInfoMock";
 import USDC_CURRENCY_INFO_MOCK from "src/__tests__/constants/UsdcCurrencyInfoMock";
 

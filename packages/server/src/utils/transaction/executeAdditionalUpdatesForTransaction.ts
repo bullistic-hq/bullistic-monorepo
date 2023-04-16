@@ -4,17 +4,17 @@ import {
 } from "src/__generated__/generated";
 import dayjs from "src/utils/dates/dayjsex";
 import invariant from "tiny-invariant";
-import { OFFER_EXPIRATION_TIME_DEFAULT_DURATION } from "formfn-shared/dist/constants/OfferConstants";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import { OFFER_EXPIRATION_TIME_DEFAULT_DURATION } from "bullistic-shared/dist/constants/OfferConstants";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import PrismaTransactionClient from "src/types/PrismaTransactionClient";
 import ConvertNftToMetadataAccountType from "src/types/convert/ConvertNftToMetadataAccountType";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import createOwnerGenerativeMintSoldOutNotification from "src/utils/notifications/create/createOwnerGenerativeMintSoldOutNotification";
-import isPublicKey from "formfn-shared/dist/utils/solana/isPublicKey";
-import removeDuplicatesWithSet from "formfn-shared/dist/utils/array/removeDuplicatesWithSet";
+import isPublicKey from "bullistic-shared/dist/utils/solana/isPublicKey";
+import removeDuplicatesWithSet from "bullistic-shared/dist/utils/array/removeDuplicatesWithSet";
 import createEditionsMerkleAllowlistInfoEntries from "src/utils/editions/createEditionsMerkleAllowlistInfoEntries";
 import { PublicKey } from "@solana/web3.js";
-import { constructMerkleEditionAllowlist } from "@formfunction-hq/formfunction-auction-house";
+import { constructMerkleEditionAllowlist } from "@bullistic-hq/bullistic-auction-house";
 
 export default async function executeAdditionalUpdatesForTransaction(
   prisma: PrismaTransactionClient,

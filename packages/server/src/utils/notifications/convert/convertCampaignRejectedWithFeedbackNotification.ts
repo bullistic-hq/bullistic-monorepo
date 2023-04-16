@@ -7,7 +7,7 @@ import getActivityNotificationLinkAction from "src/utils/notifications/actions/g
 import CampaignRejectedWithFeedbackNotificationData from "src/types/notifications/CampaignRejectedWithFeedbackNotificationData";
 import getPrisma from "src/utils/prisma/getPrisma";
 import CONVERT_CAMPAIGN_NOTIFICATION_INFO_INCLUDE from "src/constants/include/ConvertCampaignNotificationInclude";
-import getCampaignLinkRelative from "formfn-shared/dist/utils/links/getCampaignLinkRelative";
+import getCampaignLinkRelative from "bullistic-shared/dist/utils/links/getCampaignLinkRelative";
 import invariant from "tiny-invariant";
 
 export default async function convertCampaignRejectedWithFeedbackNotification(

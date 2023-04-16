@@ -8,7 +8,7 @@ import GlobalClass from "types/enums/GlobalClass";
 import joinClasses from "utils/joinClasses";
 import Body1Medium from "components/text/Body1Medium";
 import scrollElementIntoView from "utils/scroll/scrollElementIntoView";
-import CampaignTab from "formfn-shared/dist/types/enums/CampaignTab";
+import CampaignTab from "bullistic-shared/dist/types/enums/CampaignTab";
 import useCampaignColorScheme from "hooks/useCampaignColorScheme";
 import CampaignFundingTierPreviewAssetsContainer from "components/pages/campaign/campaign-generic/funding-tiers/CampaignFundingTierPreviewAssetsContainer";
 import ButtonWithText from "components/buttons/ButtonWithText";

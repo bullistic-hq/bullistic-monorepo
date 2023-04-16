@@ -1,6 +1,6 @@
 import graphql from "babel-plugin-relay/macro";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
-import formatDecimals from "formfn-shared/dist/utils/formatDecimals";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
+import formatDecimals from "bullistic-shared/dist/utils/formatDecimals";
 import { useFormattedNftPrice_Price$key } from "hooks/__generated__/useFormattedNftPrice_Price.graphql";
 import { useFragment } from "react-relay";
 

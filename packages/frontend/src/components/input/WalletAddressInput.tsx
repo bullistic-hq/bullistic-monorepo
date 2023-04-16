@@ -6,8 +6,8 @@ import PillWithTextAndIcon from "components/misc/PillWithTextAndIcon";
 import IconButton from "components/buttons/IconButton";
 import CrossIcon from "components/icons/CrossIcon";
 import Body2 from "components/text/Body2";
-import isPublicKey from "formfn-shared/dist/utils/solana/isPublicKey";
-import removeDuplicatesWithSet from "formfn-shared/dist/utils/array/removeDuplicatesWithSet";
+import isPublicKey from "bullistic-shared/dist/utils/solana/isPublicKey";
+import removeDuplicatesWithSet from "bullistic-shared/dist/utils/array/removeDuplicatesWithSet";
 import InputWithSelectedItems from "components/input/InputWithSelectedItems";
 import shortenAddress from "utils/shortenAddress";
 

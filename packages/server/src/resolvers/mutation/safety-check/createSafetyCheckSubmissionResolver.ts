@@ -7,7 +7,7 @@ import {
 import assertUserSignedRequest from "src/utils/auth/assertUserSignedRequest";
 import getPrisma from "src/utils/prisma/getPrisma";
 import invariant from "tiny-invariant";
-import getSafetyCheckReopenDate from "formfn-shared/dist/utils/safety-check/getSafetyCheckReopenDate";
+import getSafetyCheckReopenDate from "bullistic-shared/dist/utils/safety-check/getSafetyCheckReopenDate";
 import dayjs from "src/utils/dates/dayjsex";
 import { User } from "@prisma/client";
 

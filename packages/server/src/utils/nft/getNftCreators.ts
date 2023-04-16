@@ -1,5 +1,5 @@
 import { NftToCollaborator, Photo, Request, User } from "@prisma/client";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import CreatorOnchain from "src/types/CreatorOnchain";
 import Typename from "src/types/enums/Typename";
 import convertUser from "src/utils/convert/convertUser";

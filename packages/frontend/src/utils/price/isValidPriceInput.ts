@@ -1,4 +1,4 @@
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
 import MaxDecimals from "types/enums/MaxDecimals";
 import isValidPrice from "utils/price/isValidPrice";
 

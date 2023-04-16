@@ -3,7 +3,7 @@ import TextButton from "components/buttons/TextButton";
 import FlexBox from "components/layout/FlexBox";
 import GenericModal from "components/modal/GenericModal";
 import Body1 from "components/text/Body1";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
 import useUserContext from "hooks/useUserContext";
 import BackgroundOverlayTheme from "types/enums/BackgroundOverlayTheme";
 import ButtonTheme from "types/enums/ButtonTheme";

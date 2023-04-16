@@ -2,8 +2,8 @@ import graphql from "babel-plugin-relay/macro";
 import NftLabelAndContent from "components/pages/common/nft/NftLabelAndContent";
 import { NftLeftInfoEditionInfo_MetadataAccount$key } from "components/pages/common/nft/__generated__/NftLeftInfoEditionInfo_MetadataAccount.graphql";
 import Body1 from "components/text/Body1";
-import NftKind from "formfn-shared/dist/types/enums/NftKind";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import NftKind from "bullistic-shared/dist/types/enums/NftKind";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import useEditionSupply from "hooks/useEditionSupply";
 import useNftKind from "hooks/useNftKind";
 import { useFragment } from "react-relay";
@@ -16,7 +16,7 @@ import ColorValue from "types/enums/ColorValue";
 import TextButton from "components/buttons/TextButton";
 import TextButtonTheme from "types/enums/TextButtonTheme";
 import GlobalClass from "types/enums/GlobalClass";
-import pluralize from "formfn-shared/dist/utils/pluralize";
+import pluralize from "bullistic-shared/dist/utils/pluralize";
 import dayjs from "utils/dates/dayjsex";
 
 const fragment = graphql`
@@ -111,7 +111,7 @@ export default function NftLeftInfoEditionInfo({ metadataAccount }: Props) {
                 <TextButton
                   className={GlobalClass.HideText}
                   buttonThemeOrColorClass={TextButtonTheme.PurpleGradient}
-                  href="https://help.formfunction.xyz/en/articles/6462459-how-bot-protection-works"
+                  href="https://help.bullistic.xyz/en/articles/6462459-how-bot-protection-works"
                   type="link_external"
                 >
                   <InfoIcon colorValue={ColorValue.Secondary} size={24} />

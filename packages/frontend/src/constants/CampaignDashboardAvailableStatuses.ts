@@ -1,6 +1,6 @@
 import CAMPAIGN_STATUSES from "constants/CampaignStatuses";
 import RELAY_FUTURE_ADDED_VALUE from "constants/RelayFutureAddedValue";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import CampaignStatusExpress_enum from "types/relay/CampaignStatusExpress_enum";
 
 function isCampaignDashboardAvailable(status: CampaignStatusExpress_enum) {

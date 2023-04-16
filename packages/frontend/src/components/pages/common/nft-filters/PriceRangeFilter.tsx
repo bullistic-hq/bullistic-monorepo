@@ -3,7 +3,7 @@ import NftFilterSection from "components/pages/common/nft-filters/NftFilterSecti
 import CurrencySelect from "components/select/CurrencySelect";
 import SOLANA_CURRENCY_CONFIG from "constants/SolanaCurrencyConfig";
 import styles from "css/pages/common/nft-filters/PriceRangeFilter.module.css";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { useState } from "react";
 import CurrencyConfig from "types/CurrencyConfig";
 import CurrencyNameExpress_enum from "types/relay/Currency";

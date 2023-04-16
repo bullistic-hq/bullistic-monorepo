@@ -1,5 +1,5 @@
 import CAMPAIGN_CATEGORIES from "constants/CampaignCategories";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import CampaignCategoryExpress_enum from "types/relay/CampaignCategoryExpress_enum";
 
 export default function getCategoriesFromUrlParam(

@@ -1,4 +1,4 @@
-- name: formfn
+- name: bullistic
   kind: postgres
   configuration:
     connection_info:
@@ -6,5 +6,5 @@
       database_url:
         from_env: DATABASE_URL
       isolation_level: read-committed
-  tables: "!include formfn/tables/tables.yaml"
-  functions: "!include formfn/functions/functions.yaml"
+  tables: "!include bullistic/tables/tables.yaml"
+  functions: "!include bullistic/functions/functions.yaml"

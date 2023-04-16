@@ -1,10 +1,10 @@
 import graphql from "babel-plugin-relay/macro";
 import RELAY_FUTURE_ADDED_VALUE from "constants/RelayFutureAddedValue";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import { useFragment } from "react-relay";
 import useSolanaContext from "hooks/useSolanaContext";
-import arePublicKeysEqual from "formfn-shared/dist/utils/compare/arePublicKeysEqual";
+import arePublicKeysEqual from "bullistic-shared/dist/utils/compare/arePublicKeysEqual";
 import { PublicKey } from "@solana/web3.js";
 import { useEffect, useState } from "react";
 import getNftMintTokenAccountAddressOrAta from "utils/solana/tokens/read/getNftMintTokenAccountAddressOrAta";

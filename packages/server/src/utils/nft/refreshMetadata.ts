@@ -11,13 +11,13 @@ import { Request } from "express";
 import ConvertNftToMetadataAccountType from "src/types/convert/ConvertNftToMetadataAccountType";
 import insertMissingTransactions from "src/utils/nft/insertMissingTransactions";
 import { PublicKey } from "@solana/web3.js";
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
 import getParsedTransactionsForAddress from "src/utils/solana/getParsedTransactionsForAddress";
 import getAuthorityKeypair from "src/utils/keypairs/getAuthorityKeypair";
 import dayjs from "src/utils/dates/dayjsex";
 import updateNftOwner from "src/utils/nft/updateNftOwner";
 import getAuctionHouseSdk from "src/utils/solana/getAuctionHouseSdk";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import areOwnersSynced from "src/utils/solana/areOwnersSynced";
 import getNftMintOwner from "src/utils/solana/getNftMintOwner";
 

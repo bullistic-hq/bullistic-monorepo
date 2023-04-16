@@ -23,7 +23,7 @@ export default function ListingBotProtectionToggle({
           <TextButton
             buttonThemeOrColorClass={TextButtonTheme.PurpleGradient}
             display="inline"
-            href="https://help.formfunction.xyz/en/articles/6462459-how-bot-protection-works"
+            href="https://help.bullistic.xyz/en/articles/6462459-how-bot-protection-works"
             type="link_external"
           >
             Learn more.

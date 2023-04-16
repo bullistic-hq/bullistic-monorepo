@@ -1,4 +1,4 @@
-import { Undef } from "formfn-shared/dist/types/UtilityTypes";
+import { Undef } from "bullistic-shared/dist/types/UtilityTypes";
 
 export default function getSortSeriesBySeriesOrderCompareFn<T>(
   orderFunction: (i: T) => Undef<number>,

@@ -1,4 +1,4 @@
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
 import { useEffect } from "react";
 import ElementId from "types/enums/ElementId";
 

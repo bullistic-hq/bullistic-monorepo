@@ -1,4 +1,4 @@
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import { GraphQLObjectType } from "graphql";
 import logErrorsForResolver from "src/middleware/logErrorsForResolver";
 import unseenActivityNotificationsCountForViewerResolver from "src/resolvers/query/nested/notifications/unseenActivityNotificationsCountForViewerResolver";

@@ -31,7 +31,7 @@ export default function AboutHero(): JSX.Element {
             colorClass={ColorClass.DarkPurple}
             textAlign="center"
           >
-            Formfunction is on a mission to help independent creators make a
+            Bullistic is on a mission to help independent creators make a
             living by selling their art.
           </Header2>
           <Body1

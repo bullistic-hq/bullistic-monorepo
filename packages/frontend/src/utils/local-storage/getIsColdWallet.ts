@@ -1,6 +1,6 @@
 import { WalletType } from "components/modal/ConnectWalletModal";
-import PublicKeyOrString from "formfn-shared/dist/types/PublicKeyOrString";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import PublicKeyOrString from "bullistic-shared/dist/types/PublicKeyOrString";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import LocalStoragePrefix from "types/enums/LocalStoragePrefix";
 import getWithPrefix from "utils/local-storage/getWithPrefix";
 

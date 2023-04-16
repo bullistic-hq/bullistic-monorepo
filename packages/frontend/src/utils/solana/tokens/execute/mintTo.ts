@@ -5,7 +5,7 @@ import {
   Transaction,
   TransactionSignature,
 } from "@solana/web3.js";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import sendAndConfirmTransaction from "utils/solana/misc/sendAndConfirmTransaction";
 import mintToIx from "utils/solana/tokens/instructions/mintToIx";
 

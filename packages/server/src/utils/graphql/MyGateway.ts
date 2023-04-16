@@ -7,7 +7,7 @@ import {
 import { CompiledQuery, compileQuery, isCompiledQuery } from "graphql-jit";
 import LRUCache from "lru-cache";
 import schema from "src/schema/schema";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
 import { GraphQLError } from "graphql";
 
 const CACHE_MAX = 1000;

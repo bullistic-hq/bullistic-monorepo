@@ -1,4 +1,4 @@
-import { PriceFunctionType } from "@formfunction-hq/formfunction-auction-house";
+import { PriceFunctionType } from "@bullistic-hq/bullistic-auction-house";
 import { PublicKey } from "@solana/web3.js";
 import graphql from "babel-plugin-relay/macro";
 import useSolanaContext from "hooks/useSolanaContext";
@@ -7,7 +7,7 @@ import { useFragment, useMutation } from "react-relay";
 import invariant from "tiny-invariant";
 import commitRawTxMutation from "utils/relay/commitRawTxMutation";
 import sendTransactionWithWallet from "utils/solana/misc/sendTransactionWithWallet";
-import CommitRawTxType from "formfn-shared/dist/types/enums/CommitRawTxType";
+import CommitRawTxType from "bullistic-shared/dist/types/enums/CommitRawTxType";
 import useRelayConnectionIdsContext from "hooks/useRelayConnectionIdsContext";
 import { useChangePriceForEditions_MetadataAccount$key } from "hooks/__generated__/useChangePriceForEditions_MetadataAccount.graphql";
 import { useChangePriceForEditionsMutation } from "hooks/__generated__/useChangePriceForEditionsMutation.graphql";

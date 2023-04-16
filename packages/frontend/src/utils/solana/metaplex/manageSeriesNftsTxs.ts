@@ -6,10 +6,10 @@ import {
   createUnverifyCollectionInstruction,
   Metadata,
 } from "@metaplex-foundation/mpl-token-metadata";
-import combineTransactions from "formfn-shared/dist/utils/solana/txs/combineTransactions";
+import combineTransactions from "bullistic-shared/dist/utils/solana/txs/combineTransactions";
 import findTokenMetadata from "utils/solana/pdas/findTokenMetadata";
 import findTokenMasterEdition from "utils/solana/pdas/findTokenMasterEdition";
-import ixToTx from "formfn-shared/dist/utils/solana/ix/ixToTx";
+import ixToTx from "bullistic-shared/dist/utils/solana/ix/ixToTx";
 
 export default async function manageSeriesNftsTxs(
   connection: Connection,

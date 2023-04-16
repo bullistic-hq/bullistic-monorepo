@@ -9,7 +9,7 @@ import {
 import AttributesForSeriesInputGqlType from "src/schema/input/AttributesForSeriesInputGqlType";
 import AttributesForSeriesResponseGqlType from "src/schema/object/response/AttributesForSeriesResponseGqlType";
 import attributesForSeriesResolver from "src/resolvers/query/attributesForSeriesResolver";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 const attributesForSeriesQueryField: GraphQLFieldConfig<unknown, any> = {
   args: {

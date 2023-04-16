@@ -6,7 +6,7 @@ import {
   NftTransaction,
   Notification,
 } from "@prisma/client";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import ConvertUserType from "src/types/convert/ConvertUserType";
 
 type ConvertActivityNotificationType = ActivityNotification & {

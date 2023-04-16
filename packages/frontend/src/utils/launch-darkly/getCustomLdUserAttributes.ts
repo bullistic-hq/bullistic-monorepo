@@ -1,5 +1,5 @@
 import { User } from "context/UserContext";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { LDUser } from "launchdarkly-js-client-sdk";
 
 /**

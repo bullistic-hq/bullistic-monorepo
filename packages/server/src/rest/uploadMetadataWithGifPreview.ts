@@ -4,7 +4,7 @@ import uploadNftMetadataToArweave from "src/utils/arweave/uploadNftMetadataToArw
 import axios from "axios";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 import logError from "src/utils/analytics/logError";
-import getArweaveLink from "formfn-shared/dist/utils/getArweaveLink";
+import getArweaveLink from "bullistic-shared/dist/utils/getArweaveLink";
 
 // This endpoint assumes that the Nft and Nft Metadata objects
 // for the provided mint exists in our DB.

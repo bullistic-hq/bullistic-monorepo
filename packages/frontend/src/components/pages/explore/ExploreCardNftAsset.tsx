@@ -4,7 +4,7 @@ import SquareContainer from "components/containers/SquareContainer";
 import Video from "components/videos/Video";
 import LoadingShimmer from "components/loading/LoadingShimmer";
 import isMobile from "utils/isMobile";
-import getNftLinkRelative from "formfn-shared/dist/utils/links/getNftLinkRelative";
+import getNftLinkRelative from "bullistic-shared/dist/utils/links/getNftLinkRelative";
 import { getLazyLoadConfig } from "hooks/useLazyLoadConfig";
 import MaybeWrapWithLazyLoad from "components/containers/MaybeWrapWithLazyLoad";
 import graphql from "babel-plugin-relay/macro";

@@ -6,11 +6,11 @@ import {
   NftStatusExpress_Enum,
 } from "src/__generated__/generated";
 import ConvertNftToMetadataAccountType from "src/types/convert/ConvertNftToMetadataAccountType";
-import getNftKind from "formfn-shared/dist/utils/nft/getNftKind";
+import getNftKind from "bullistic-shared/dist/utils/nft/getNftKind";
 import parseCreatorsMetadataString from "src/utils/nft/parseCreatorsMetadataString";
 import bigintToNumber from "src/utils/bigintToNumber";
 import dayjs from "src/utils/dates/dayjsex";
-import NftKind from "formfn-shared/dist/types/enums/NftKind";
+import NftKind from "bullistic-shared/dist/types/enums/NftKind";
 import getEditionPriceInfo from "src/utils/prisma/getEditionPriceInfo";
 import getNftCreators from "src/utils/nft/getNftCreators";
 import NftSourceType from "src/types/graphql-source/NftSourceType";

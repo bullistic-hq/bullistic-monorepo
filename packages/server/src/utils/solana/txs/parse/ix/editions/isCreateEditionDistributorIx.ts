@@ -2,8 +2,8 @@ import {
   ParsedInstruction,
   PartiallyDecodedInstruction,
 } from "@solana/web3.js";
-import IsIxResult from "formfn-shared/dist/types/IsIxResult";
-import isAuctionHouseIx from "formfn-shared/dist/utils/solana/txs/parse/isAuctionHouseIx";
+import IsIxResult from "bullistic-shared/dist/types/IsIxResult";
+import isAuctionHouseIx from "bullistic-shared/dist/utils/solana/txs/parse/isAuctionHouseIx";
 import getAuctionHouseConstants from "src/utils/solana/getAuctionHouseConstants";
 
 export default function isCreateEditionDistributorIx(

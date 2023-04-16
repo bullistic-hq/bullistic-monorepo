@@ -13,7 +13,7 @@ import { PollOptionForPollOptionExpressMutation } from "components/posts/__gener
 import useColorModeContext from "hooks/useColorModeContext";
 import notifyErrorMessageFromError from "components/toast/notifyErrorMessageFromError";
 import { PollOptionForPollOptionExpress_PollExpress$key } from "components/posts/__generated__/PollOptionForPollOptionExpress_PollExpress.graphql";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
 import { useEffect, useState } from "react";
 
 const pollFragment = graphql`

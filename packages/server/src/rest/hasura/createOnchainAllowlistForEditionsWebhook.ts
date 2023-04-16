@@ -8,7 +8,7 @@ import getPrisma from "src/utils/prisma/getPrisma";
 import ConnectionWrapper from "src/utils/solana/rpc/ConnectionWrapper";
 import { CurrencyNameExpress_Enum } from "src/__generated__/generated";
 import logEvent from "src/utils/analytics/logEvent";
-import { constructMerkleEditionAllowlist } from "@formfunction-hq/formfunction-auction-house";
+import { constructMerkleEditionAllowlist } from "@bullistic-hq/bullistic-auction-house";
 import loadAuctionHouseSdk from "src/utils/solana/loadAuctionHouseSdk";
 import appendEditionsMerkleAllowlist from "src/utils/editions/appendEditionsMerkleAllowlist";
 

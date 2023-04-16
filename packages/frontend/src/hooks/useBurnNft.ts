@@ -2,7 +2,7 @@ import { TOKEN_PROGRAM_ID } from "@solana/spl-token";
 import { PublicKey } from "@solana/web3.js";
 import useSolanaContext from "hooks/useSolanaContext";
 import invariant from "tiny-invariant";
-import ixToTx from "formfn-shared/dist/utils/solana/ix/ixToTx";
+import ixToTx from "bullistic-shared/dist/utils/solana/ix/ixToTx";
 import sendTransactionWithWallet from "utils/solana/misc/sendTransactionWithWallet";
 import getNftMintTokenAccountAddressOrAta from "utils/solana/tokens/read/getNftMintTokenAccountAddressOrAta";
 import {

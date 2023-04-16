@@ -12,7 +12,7 @@ export default function getImgixUrl(
   config?: { raw?: boolean; width?: number }
 ): string {
   const { width, raw } = config ?? {};
-  const base = `https://formfunction.imgix.net/${fileName}`;
+  const base = `https://bullistic.imgix.net/${fileName}`;
   if (raw === true) {
     return base;
   }

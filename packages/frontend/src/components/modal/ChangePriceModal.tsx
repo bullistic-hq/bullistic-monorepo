@@ -23,16 +23,16 @@ import isValidPrice from "utils/price/isValidPrice";
 import ListingType from "types/enums/ListingType";
 import getListingTransactionTypeForListingType from "utils/listing/getListingTransactionTypeForListingType";
 import getNftMintTokenAccountAddressOrAta from "utils/solana/tokens/read/getNftMintTokenAccountAddressOrAta";
-import CommitRawTxType from "formfn-shared/dist/types/enums/CommitRawTxType";
+import CommitRawTxType from "bullistic-shared/dist/types/enums/CommitRawTxType";
 import isListedForAuction from "utils/nft/isListedForAuction";
 import FetchGraphqlVariablesDenylist from "types/enums/FetchGraphqlVariablesDenylist";
 import PriceInput from "components/input/PriceInput";
 import useGetCurrencyConfigForPrice from "hooks/useGetCurrencyConfigForPrice";
-import convertToFullDecimals from "formfn-shared/dist/utils/convertToFullDecimals";
+import convertToFullDecimals from "bullistic-shared/dist/utils/convertToFullDecimals";
 import useAuctionHouseSdkForPrice from "hooks/useAuctionHouseSdkForPrice";
 import notifyUnexpectedError from "components/toast/notifyUnexpectedError";
 import useViewerId from "hooks/useViewerId";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 const mutation = graphql`
   mutation ChangePriceModalMutation(

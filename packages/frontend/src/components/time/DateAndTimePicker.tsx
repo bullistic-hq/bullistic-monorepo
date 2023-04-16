@@ -2,7 +2,7 @@ import shiftByTimezoneDiff from "utils/dates/shiftByTimezoneDiff";
 import styles from "css/time/DateAndTimePicker.module.css";
 import dayjs from "utils/dates/dayjsex";
 import { Dayjs } from "dayjs";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import TimezoneSelect from "components/select/TimezoneSelect";
 import CalendarSelect from "components/select/CalendarSelect";
 import TimeSelect from "components/select/TimeSelect";

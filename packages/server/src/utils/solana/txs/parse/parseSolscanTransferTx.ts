@@ -3,13 +3,13 @@ import {
   PartiallyDecodedInstruction,
   PublicKey,
 } from "@solana/web3.js";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import dayjs from "src/utils/dates/dayjsex";
 import getNftCreatorFromMint from "src/utils/prisma/getNftCreatorFromMint";
 import { NftTransactionTypeExpress_Enum } from "src/__generated__/generated";
 import logError from "src/utils/analytics/logError";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
-import { EXCHANGE_ART_PROGRAM_ID } from "formfn-shared/dist/constants/SolanaConstants";
+import { EXCHANGE_ART_PROGRAM_ID } from "bullistic-shared/dist/constants/SolanaConstants";
 import parseTxWithTransfer from "src/utils/solana/txs/parse/parseTxWithTransfer";
 import getTokenAccountOwner from "src/utils/solana/accounts/getTokenAccountOwner";
 import ConnectionWrapper from "src/utils/solana/rpc/ConnectionWrapper";

@@ -1,4 +1,4 @@
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import ExploreTab from "types/enums/ExploreTab";
 
 export default function isArtworkTab(tab: ExploreTab) {

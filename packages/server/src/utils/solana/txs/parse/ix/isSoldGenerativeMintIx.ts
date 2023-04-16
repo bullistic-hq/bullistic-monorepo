@@ -2,9 +2,9 @@ import {
   ParsedInstruction,
   PartiallyDecodedInstruction,
 } from "@solana/web3.js";
-import IsIxResult from "formfn-shared/dist/types/IsIxResult";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import isCandyMachineIx from "formfn-shared/dist/utils/solana/txs/parse/isCandyMachineIx";
+import IsIxResult from "bullistic-shared/dist/types/IsIxResult";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import isCandyMachineIx from "bullistic-shared/dist/utils/solana/txs/parse/isCandyMachineIx";
 import loadCandyMachineSdk from "src/utils/solana/loadCandyMachineSdk";
 
 export default async function isSoldGenerativeMintIx(

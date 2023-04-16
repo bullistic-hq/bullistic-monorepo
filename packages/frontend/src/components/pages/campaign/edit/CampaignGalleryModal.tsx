@@ -1,4 +1,4 @@
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import GenericModal from "components/modal/GenericModal";
 import ButtonWithText from "components/buttons/ButtonWithText";
 import ButtonTheme from "types/enums/ButtonTheme";
@@ -11,7 +11,7 @@ import InputLabel from "components/input/InputLabel";
 import { YOUTUBE_VIDEO_URL_SUBLABEL } from "constants/InputSubLabels";
 import InputWithLabel from "components/input/InputWithLabel";
 import FormTextInput from "components/input/FormTextInput";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
 import { CampaignGalleryModalMutation } from "components/pages/campaign/edit/__generated__/CampaignGalleryModalMutation.graphql";
 import {
   CampaignGalleryModal_CampaignV2$data,
@@ -32,7 +32,7 @@ import getCampaignGalleryImageStoragePath from "utils/firebase/storage-paths/get
 import useUserContext from "hooks/useUserContext";
 import isYouTubeUrl from "utils/you-tube/isYouTubeUrl";
 import { notify } from "components/toast/notifications";
-import isEmptyString from "formfn-shared/dist/utils/string/isEmptyString";
+import isEmptyString from "bullistic-shared/dist/utils/string/isEmptyString";
 import usePreventRefresh from "hooks/usePreventRefresh";
 
 const mutation = graphql`

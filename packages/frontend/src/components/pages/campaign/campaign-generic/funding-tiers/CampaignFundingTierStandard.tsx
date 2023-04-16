@@ -3,7 +3,7 @@ import Body1 from "components/text/Body1";
 import Body1Medium from "components/text/Body1Medium";
 import Header3 from "components/text/Header3";
 import styles from "css/pages/campaign/campaign-generic/funding-tiers/CampaignFundingTierStandard.module.css";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import ColorClass from "types/enums/ColorClass";
 
 type Props = {

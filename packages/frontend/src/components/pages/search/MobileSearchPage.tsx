@@ -12,13 +12,13 @@ import TextButton from "components/buttons/TextButton";
 import TextButtonTheme from "types/enums/TextButtonTheme";
 import FontClass from "types/enums/FontClass";
 import ProfilePhotoCircle from "components/images/ProfilePhotoCircle";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { useDebounce } from "use-debounce";
 import ResponsiveContainer from "components/containers/ResponsiveContainer";
 import formatUsername from "utils/formatUsername";
 import GlobalClass from "types/enums/GlobalClass";
-import getUserProfileLinkRelative from "formfn-shared/dist/utils/links/getUserProfileLinkRelative";
-import getSeriesLinkRelative from "formfn-shared/dist/utils/links/getSeriesLinkRelative";
+import getUserProfileLinkRelative from "bullistic-shared/dist/utils/links/getUserProfileLinkRelative";
+import getSeriesLinkRelative from "bullistic-shared/dist/utils/links/getSeriesLinkRelative";
 import MobileSearchBar from "components/pages/search/MobileSearchBar";
 
 // TODO: use fragment between here and HeaderDesktopSearch.tsx rather than duplicating

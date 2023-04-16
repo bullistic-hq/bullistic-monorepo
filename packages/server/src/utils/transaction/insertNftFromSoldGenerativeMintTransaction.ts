@@ -1,5 +1,5 @@
 import { ParsedTransactionWithMeta } from "@solana/web3.js";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import ConvertNftToMetadataAccountType from "src/types/convert/ConvertNftToMetadataAccountType";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 import logError from "src/utils/analytics/logError";
@@ -10,7 +10,7 @@ import insertNft from "src/utils/nft/insertNft";
 import FirestoreConfigLineDoc from "src/types/generative-mints/rarity/FirestoreConfigLineWithRarityInfoDoc";
 import { NftStatusExpress_Enum } from "src/__generated__/generated";
 import PrismaTransactionClient from "src/types/PrismaTransactionClient";
-import { decodeCandyMachineTransaction } from "@formfunction-hq/formfunction-candy-machine";
+import { decodeCandyMachineTransaction } from "@bullistic-hq/bullistic-candy-machine";
 import loadCandyMachineSdk from "src/utils/solana/loadCandyMachineSdk";
 
 function getConfigLineIndex(parsedTx: ParsedTransactionWithMeta): number {
@@ -72,7 +72,7 @@ export default async function insertNftFromSoldGenerativeMintTransaction(
           })
         ),
         /**
-         * NOTE: The candy machine creator authority is actually a Formfunction
+         * NOTE: The candy machine creator authority is actually a Bullistic
          * managed authority wallet because of an issue when minting with setting
          * and verifying the collection (the update authority needs to sign) so
          * we cannot currently use the actual creator address as the candy machine

@@ -11,7 +11,7 @@ import joinClasses from "utils/joinClasses";
 import HIGHER_THAN_MODAL_Z_INDEX from "constants/HigherThanModalZIndex";
 import ElementId from "types/enums/ElementId";
 import usePreventModalScroll from "hooks/usePreventModalScroll";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 function PopoverContentInner({
   searchResults,

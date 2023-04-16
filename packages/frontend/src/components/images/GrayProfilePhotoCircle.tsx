@@ -1,7 +1,7 @@
 import MaybeImgix from "components/images/MaybeImgix";
 import Imgix from "react-imgix";
 import styles from "css/images/GrayProfilePhotoCircle.module.css";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import joinClasses from "utils/joinClasses";
 
 type Props = {

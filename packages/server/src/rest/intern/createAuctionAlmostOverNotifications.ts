@@ -6,7 +6,7 @@ import {
 } from "src/__generated__/generated";
 import dayjs from "src/utils/dates/dayjsex";
 import { Currency, Nft, NftListing, NftMetadata, User } from "@prisma/client";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import bigintToNumber from "src/utils/bigintToNumber";
 import pLimit from "p-limit";
 import { UnitTypeLong } from "dayjs";

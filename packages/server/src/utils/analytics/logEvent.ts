@@ -1,5 +1,5 @@
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import { Request } from "express";
 import logEventToLoki from "src/utils/analytics/logEventToLoki";
 import getRequest from "src/utils/async-local-storage/getRequest";

@@ -4,7 +4,7 @@ import pLimit from "p-limit";
 import logError from "src/utils/analytics/logError";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 import { NftStatusExpress_Enum } from "src/__generated__/generated";
-import toObject from "formfn-shared/dist/utils/toObject";
+import toObject from "bullistic-shared/dist/utils/toObject";
 import syncNftMetadata, {
   SYNC_NFT_METADATA_INCLUDE,
   SyncStatus,

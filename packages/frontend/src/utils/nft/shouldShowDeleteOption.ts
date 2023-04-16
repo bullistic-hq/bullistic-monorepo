@@ -1,9 +1,9 @@
 import RELAY_FUTURE_ADDED_VALUE from "constants/RelayFutureAddedValue";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import NftStatusExpress_enum from "types/relay/NftStatusExpress_enum";
 
 // We don't want to let people delete NFTs when it may affect others,
-// e.g. if someone has already listed it on Formfunction or an auction is ongoing.
+// e.g. if someone has already listed it on Bullistic or an auction is ongoing.
 export default function shouldShowDeleteOption(
   status: NftStatusExpress_enum
 ): boolean {

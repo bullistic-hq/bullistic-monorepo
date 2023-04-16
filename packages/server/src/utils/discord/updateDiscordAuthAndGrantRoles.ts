@@ -1,7 +1,7 @@
 import { DiscordAuth } from "@prisma/client";
-import DiscordRoleId from "formfn-shared/dist/types/enums/DiscordRoleId";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
+import DiscordRoleId from "bullistic-shared/dist/types/enums/DiscordRoleId";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
 import { DiscordUserDetail } from "src/utils/discord/discordApiClient";
 import grantDiscordUserRole from "src/utils/discord/grantDiscordUserRole";
 import getPrisma from "src/utils/prisma/getPrisma";

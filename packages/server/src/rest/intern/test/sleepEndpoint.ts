@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from "express";
-import isNumber from "formfn-shared/dist/utils/numbers/isNumber";
-import sleepMs from "formfn-shared/dist/utils/sleepMs";
+import isNumber from "bullistic-shared/dist/utils/numbers/isNumber";
+import sleepMs from "bullistic-shared/dist/utils/sleepMs";
 
 export default async function sleepEndpoint(
   req: Request,

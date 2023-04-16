@@ -3,7 +3,7 @@ import {
   NftStatusExpress_Enum,
   NftTransactionTypeExpress_Enum,
 } from "src/__generated__/generated";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import getPrisma from "src/utils/prisma/getPrisma";
 import CONVERT_USER_INCLUDE from "src/constants/include/ConvertUserInclude";
 import NFT_TRANSACTION_ORDER_BY from "src/constants/orderBy/NftTransactionOrderBy";

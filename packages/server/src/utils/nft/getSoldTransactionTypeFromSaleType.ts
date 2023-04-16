@@ -1,5 +1,5 @@
-import SaleType from "@formfunction-hq/formfunction-auction-house/dist/types/enum/SaleType";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import SaleType from "@bullistic-hq/bullistic-auction-house/dist/types/enum/SaleType";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import { NftTransactionTypeExpress_Enum } from "src/__generated__/generated";
 
 export default function getSoldTransactionTypeFromSaleType(saleType: SaleType) {

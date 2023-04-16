@@ -39,8 +39,6 @@ enum ColorClass {
   OverlayButton = "colorOverlayButton",
   PhantomPurple = "colorPhantomPurple",
   Pink = "colorPink",
-  PopheadzDarkGray = "colorPopheadzDarkGray",
-  PopheadzLightGray = "colorPopheadzLightGray",
   Primary = "colorPrimary",
   ProgressBar = "colorProgressBar",
   Purple = "colorPurple",

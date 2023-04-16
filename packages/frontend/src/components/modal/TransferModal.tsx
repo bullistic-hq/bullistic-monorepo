@@ -17,7 +17,7 @@ import TextButtonTheme from "types/enums/TextButtonTheme";
 import logIfNotProd from "utils/logIfNotProd";
 import TextInput from "components/input/TextInput";
 import useTransferNft from "hooks/useTransferNft";
-import isPublicKey from "formfn-shared/dist/utils/solana/isPublicKey";
+import isPublicKey from "bullistic-shared/dist/utils/solana/isPublicKey";
 import ErrorMessage from "components/text/ErrorMessage";
 import usePreventRefresh from "hooks/usePreventRefresh";
 import PrimaryAndSecondaryButtonContainerForModal from "components/buttons/PrimaryAndSecondaryButtonContainerForModal";

@@ -1,6 +1,6 @@
 import { Photo, User } from "@prisma/client";
 import Typename from "src/types/enums/Typename";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { UserExpress, PhotoExpress } from "src/__generated__/generated";
 import convertPhoto from "src/utils/convert/convertPhoto";
 import getRequest from "src/utils/async-local-storage/getRequest";

@@ -3,7 +3,7 @@ import {
   PublicKey,
   TokenAccountBalancePair,
 } from "@solana/web3.js";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 /**
  * Returns true if token accounts are valid for an NFT mint.

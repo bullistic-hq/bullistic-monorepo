@@ -1,5 +1,5 @@
 import { NftTransaction } from "@prisma/client";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import OFFER_INVALIDATING_TRANSACTION_TYPES from "src/constants/OfferInvalidatingTransactionTypes";
 import NFT_TRANSACTION_ORDER_BY from "src/constants/orderBy/NftTransactionOrderBy";
 import getPrisma from "src/utils/prisma/getPrisma";

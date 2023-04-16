@@ -2,7 +2,7 @@ import { PostVisibilityExpress_Enum } from "src/__generated__/generated";
 import { Post } from "@prisma/client";
 import getCampaignFundingTierIdsForUser from "src/utils/campaigns/getCampaignFundingTierIdsForUser";
 import ConvertCampaignType from "src/types/convert/ConvertCampaignType";
-import isUserCampaignCommunityOmniViewer from "formfn-shared/dist/utils/campaigns/isUserCampaignCommunityOmniViewer";
+import isUserCampaignCommunityOmniViewer from "bullistic-shared/dist/utils/campaigns/isUserCampaignCommunityOmniViewer";
 
 // Keep logic in sync with getPostsForCampaignWhereClause.ts
 export default async function canViewerSeePost(

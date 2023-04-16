@@ -1,7 +1,7 @@
 import { NftListing } from "@prisma/client";
-import { AuctionHouseSdk } from "@formfunction-hq/formfunction-auction-house";
+import { AuctionHouseSdk } from "@bullistic-hq/bullistic-auction-house";
 import dayjs from "dayjs";
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import { NftStatusExpress_Enum } from "src/__generated__/generated";
 import areOwnersSynced from "src/utils/solana/areOwnersSynced";
 

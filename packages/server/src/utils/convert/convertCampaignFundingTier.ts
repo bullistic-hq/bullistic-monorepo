@@ -1,4 +1,4 @@
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import ConvertCampaignFundingTierType from "src/types/convert/ConvertCampaignFundingTierType";
 import Typename from "src/types/enums/Typename";
 import { CampaignFundingTierExpress } from "src/__generated__/generated";

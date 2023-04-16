@@ -6,7 +6,7 @@ import { ExploreCampaignsGridPaginationQuery } from "components/pages/explore/__
 import { ExploreCampaignsGridQuery } from "components/pages/explore/__generated__/ExploreCampaignsGridQuery.graphql";
 import { ExploreCampaignsGrid_Query$key } from "components/pages/explore/__generated__/ExploreCampaignsGrid_Query.graphql";
 import { EXPLORE_CAMPAIGNS_PAGE_SIZE } from "constants/PageSizes";
-import { range } from "formfn-shared/dist/utils/range";
+import { range } from "bullistic-shared/dist/utils/range";
 import useCampaignGridFullWidthColumnCount from "hooks/grids/useCampaignGridFullWidthColumnCount";
 import useExploreContext from "hooks/useExploreContext";
 import useLoadNextOnBottomScroll from "hooks/useLoadNextOnBottomScroll";

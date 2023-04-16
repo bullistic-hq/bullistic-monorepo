@@ -1,5 +1,5 @@
-import Currency from "formfn-shared/dist/types/enums/Currency";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import Currency from "bullistic-shared/dist/types/enums/Currency";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import { CurrencyNameExpress_Enum } from "src/__generated__/generated";
 
 export default function getSharedCurrencyEnumFromGqlCurrency(

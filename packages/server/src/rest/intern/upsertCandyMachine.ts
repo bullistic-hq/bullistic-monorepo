@@ -1,5 +1,5 @@
 import getPrisma from "src/utils/prisma/getPrisma";
-import dayjs from "formfn-shared/dist/utils/dates/dayjsex";
+import dayjs from "bullistic-shared/dist/utils/dates/dayjsex";
 import maybeUpsertAsset from "src/utils/asset/maybeUpsertAsset";
 import {
   Asset,
@@ -12,9 +12,9 @@ import invariant from "tiny-invariant";
 import AccountLoader from "src/utils/solana/rpc/AccountLoader";
 import axios from "axios";
 import uploadFileFromUrl from "src/utils/firebase/uploadFileFromUrl";
-import getSeriesPreviewImageStoragePath from "formfn-shared/dist/utils/series/getSeriesPreviewImageStoragePath";
-import getDashCasedString from "formfn-shared/dist/utils/string/getDashCasedString";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import getSeriesPreviewImageStoragePath from "bullistic-shared/dist/utils/series/getSeriesPreviewImageStoragePath";
+import getDashCasedString from "bullistic-shared/dist/utils/string/getDashCasedString";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import getUserConnectOrCreate from "src/utils/prisma/getUserConnectOrCreate";
 import { SeriesTypeExpress_Enum } from "src/__generated__/generated";
 import { nanoid } from "nanoid";
@@ -215,7 +215,7 @@ export default async function upsertCandyMachine(
     ...commonData,
     CreatorAuthority: getUserConnectOrCreate(creatorAuthorityId!),
     Currency: { connect: { name: currencyName } },
-    FormfnAuthority: getUserConnectOrCreate(candyMachineAuthorityId!),
+    BullisticAuthority: getUserConnectOrCreate(candyMachineAuthorityId!),
     Series: { connect: { mint: series!.mint } },
     antiBotProtectionEnabled: antiBotProtectionEnabled!,
     creatorWallets,
@@ -236,7 +236,7 @@ export default async function upsertCandyMachine(
         : undefined,
     Currency:
       currencyName != null ? { connect: { name: currencyName } } : undefined,
-    FormfnAuthority:
+    BullisticAuthority:
       candyMachineAuthorityId != null
         ? { connect: { id: candyMachineAuthorityId } }
         : undefined,

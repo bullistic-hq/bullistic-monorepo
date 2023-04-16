@@ -1,4 +1,4 @@
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 
 import BackgroundOverlay from "components/loading/BackgroundOverlay";
 import CloseButton from "components/buttons/CloseButton";

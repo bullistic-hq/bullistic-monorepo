@@ -18,7 +18,7 @@ function DisconnectedBody() {
       button={<ConnectWalletButton showAccountSetupModal={false} />}
       imgSrc={img}
       primaryText={
-        "You've been invited to be a creator on Formfunction!" +
+        "You've been invited to be a creator on Bullistic!" +
         " Sign in with your wallet to continue."
       }
     />

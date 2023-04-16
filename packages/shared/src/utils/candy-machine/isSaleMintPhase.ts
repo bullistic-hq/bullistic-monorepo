@@ -1,4 +1,4 @@
-import { CandyMachineMintPhase } from "@formfunction-hq/formfunction-candy-machine";
+import { CandyMachineMintPhase } from "@bullistic-hq/bullistic-candy-machine";
 import assertUnreachable from "utils/assertUnreachable";
 
 export default function isSaleMintPhase(mintPhase: CandyMachineMintPhase) {

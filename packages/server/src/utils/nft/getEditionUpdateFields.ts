@@ -1,5 +1,5 @@
 import { NftEdition } from "@metaplex-foundation/js";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 import logError from "src/utils/analytics/logError";
 import AccountLoader from "src/utils/solana/rpc/AccountLoader";

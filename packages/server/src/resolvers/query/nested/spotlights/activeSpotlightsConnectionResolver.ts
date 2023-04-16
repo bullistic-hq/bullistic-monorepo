@@ -1,7 +1,7 @@
 import MyContext from "src/types/MyContext";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { SpotlightsConnection } from "src/__generated__/generated";
-import dayjs from "formfn-shared/dist/utils/dates/dayjsex";
+import dayjs from "bullistic-shared/dist/utils/dates/dayjsex";
 import { Prisma } from "@prisma/client";
 import getSpotlightsConnectionForWhereClause from "src/utils/spotlights/getSpotlightsConnectionByStartAndEndTime";
 

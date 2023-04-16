@@ -1,6 +1,6 @@
 import Typename from "src/types/enums/Typename";
 import MyContext from "src/types/MyContext";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import createOffsetPaginationConnection from "src/utils/pagination/createOffsetPaginationConnection";
 import {
   CampaignHoldersForSlugInput,

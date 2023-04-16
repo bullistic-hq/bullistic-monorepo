@@ -11,13 +11,12 @@ import joinClasses from "utils/joinClasses";
 import styles from "css/buttons/TextButton.module.css";
 import logEvent from "utils/analytics/logEvent";
 import ColorClass from "types/enums/ColorClass";
-import getLinkWithProtocol from "formfn-shared/dist/utils/links/getLinkWithProtocol";
+import getLinkWithProtocol from "bullistic-shared/dist/utils/links/getLinkWithProtocol";
 
 const THEME_TO_CLASS_NAME = {
   [TextButtonTheme.BrightPurple]: styles.buttonBrightPurple,
   [TextButtonTheme.Error]: styles.buttonError,
   [TextButtonTheme.Navy]: styles.buttonNavy,
-  [TextButtonTheme.PopheadzDarkGray]: styles.buttonPopheadzDarkGray,
   [TextButtonTheme.Primary]: styles.buttonPrimary,
   [TextButtonTheme.PurpleGradient]: styles.buttonPurpleGradient,
   [TextButtonTheme.Secondary]: styles.buttonSecondary,
@@ -28,7 +27,6 @@ const THEME_TO_ACTIVE_CLASS_NAME = {
   [TextButtonTheme.BrightPurple]: styles.buttonBrightPurpleActive,
   [TextButtonTheme.Error]: styles.buttonErrorActive,
   [TextButtonTheme.Navy]: styles.buttonNavyActive,
-  [TextButtonTheme.PopheadzDarkGray]: styles.buttonPopheadzDarkGrayActive,
   [TextButtonTheme.Primary]: styles.buttonPrimaryActive,
   [TextButtonTheme.PurpleGradient]: styles.buttonPurpleGradientActive,
   [TextButtonTheme.Secondary]: styles.buttonSecondaryActive,

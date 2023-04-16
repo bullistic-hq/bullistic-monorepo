@@ -1,6 +1,6 @@
 import { Request } from "express";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import { getPrismaObjects } from "src/rest/hasura/notifs/createNotificationsWebhook";
 import createBidderOutbidNotificationForWebhook from "src/rest/hasura/notifs/createBidderOutbidNotificationForWebhook";
 import createBidderAuctionSettledNotification from "src/utils/notifications/create/createBidderAuctionSettledNotification";

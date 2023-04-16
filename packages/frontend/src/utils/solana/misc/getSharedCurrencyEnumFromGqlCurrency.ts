@@ -1,6 +1,6 @@
 import RELAY_FUTURE_ADDED_VALUE from "constants/RelayFutureAddedValue";
-import SharedCurrency from "formfn-shared/dist/types/enums/Currency";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import SharedCurrency from "bullistic-shared/dist/types/enums/Currency";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import Currency from "types/relay/Currency";
 
 export default function getSharedCurrencyEnumFromGqlCurrency(

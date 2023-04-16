@@ -7,7 +7,7 @@ export default async function getNumberOfNftsToSync() {
     "GET",
     // URL path
     "/intern/numberOfNftsToSync",
-    { headers: { check: "fofu" } }
+    { headers: { check: "bull" } }
   );
   return run.output.response.count;
 }

@@ -9,14 +9,14 @@ import ButtonTheme from "types/enums/ButtonTheme";
 import ColorValue from "types/enums/ColorValue";
 import CreateStep from "types/enums/CreateStep";
 import FontClass from "types/enums/FontClass";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import CreateDisplayFile from "components/pages/create/CreateDisplayFile";
 import useCreateNftDetailsContext from "hooks/useCreateNftDetailsContext";
 import MediaType from "types/enums/MediaType";
 import useFlagsTyped from "hooks/useFlagsTyped";
 import FlexBox from "components/layout/FlexBox";
 import getFileMediaType from "utils/files/getFileMediaType";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 
 const GLB_EXT = ".glb";
 

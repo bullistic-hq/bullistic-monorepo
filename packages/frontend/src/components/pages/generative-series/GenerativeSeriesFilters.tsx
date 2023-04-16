@@ -7,7 +7,7 @@ import { PreloadedQuery, useFragment, usePreloadedQuery } from "react-relay";
 import { useGenerativeSeriesPageAttributesQuery } from "hooks/generative-series-page/__generated__/useGenerativeSeriesPageAttributesQuery.graphql";
 import { generativeSeriesAttributesQuery } from "hooks/generative-series-page/useGenerativeSeriesPageAttributes";
 import { GenerativeSeriesFilters_AttributesForSeriesResponse$key } from "components/pages/generative-series/__generated__/GenerativeSeriesFilters_AttributesForSeriesResponse.graphql";
-import groupBy from "formfn-shared/dist/utils/array/groupBy";
+import groupBy from "bullistic-shared/dist/utils/array/groupBy";
 import { Suspense } from "react";
 import GenerativeSeriesContentTypeFilter from "components/pages/generative-series/GenerativeSeriesContentTypeFilter";
 

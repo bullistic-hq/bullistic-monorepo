@@ -9,7 +9,7 @@ import {
 } from "src/__generated__/generated";
 import convertPhotoToAsset from "src/utils/convert/convertPhotoToAsset";
 import getActivityNotificationLinkAction from "src/utils/notifications/actions/getActivityNotificationLinkAction";
-import getSeriesLinkRelative from "formfn-shared/dist/utils/links/getSeriesLinkRelative";
+import getSeriesLinkRelative from "bullistic-shared/dist/utils/links/getSeriesLinkRelative";
 
 function getNotificationCandyMachineInfoFromCandyMachine(
   candyMachine: ConvertCandyMachineType

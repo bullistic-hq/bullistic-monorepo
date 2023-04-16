@@ -1,8 +1,8 @@
-import SIGN_AUTH_MESSAGE from "formfn-shared/dist/constants/SignAuthMessage";
+import SIGN_AUTH_MESSAGE from "bullistic-shared/dist/constants/SignAuthMessage";
 import { MyAnchorWallet } from "context/SolanaContext";
 import getSignature from "utils/local-storage/getSignature";
 import WalletName from "types/enums/WalletName";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import { PublicKey } from "@solana/web3.js";
 import setSignature from "utils/local-storage/setSignature";
 

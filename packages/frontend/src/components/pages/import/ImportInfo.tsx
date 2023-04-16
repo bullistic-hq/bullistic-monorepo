@@ -41,14 +41,14 @@ export default function ImportInfo() {
     <ImportPageGeneric onNext={onNext}>
       <div className={styles.container}>
         <InfoSection title="How to import">
-          To import an NFT to Formfunction, you&apos;ll need to find the token
+          To import an NFT to Bullistic, you&apos;ll need to find the token
           address of the NFT (more details in the next step).
           <br />
           <br />
           For security reasons,{" "}
           <b>
             you will only be able to import NFTs for which the update authority
-            is the wallet address you use on Formfunction
+            is the wallet address you use on Bullistic
           </b>
           .
           <br />
@@ -59,7 +59,7 @@ export default function ImportInfo() {
             <TextButton
               buttonThemeOrColorClass={TextButtonTheme.PurpleGradient}
               display="inline"
-              href="https://help.formfunction.xyz/en/articles/5885077-importing-nfts-from-other-platforms-to-formfunction"
+              href="https://help.bullistic.xyz/en/articles/5885077-importing-nfts-from-other-platforms-to-bullistic"
               type="link_external"
             >
               follow the steps in this article
@@ -68,9 +68,9 @@ export default function ImportInfo() {
           </Body2>
         </InfoSection>
         <InfoSection title="What can you do with imported NFTs?">
-          The NFTs you import will be visible on your Formfunction profile. The
-          owners will be able to list them for sale on Formfunction. The current
-          state of each imported NFT will be reflected on Formfunction, although
+          The NFTs you import will be visible on your Bullistic profile. The
+          owners will be able to list them for sale on Bullistic. The current
+          state of each imported NFT will be reflected on Bullistic, although
           not all the previous bid history may be shown.
         </InfoSection>
         {!isBottomTabsWidth && (

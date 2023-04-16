@@ -1,4 +1,4 @@
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 import MyContext from "src/types/MyContext";
 import logError from "src/utils/analytics/logError";
@@ -6,7 +6,7 @@ import getVerifiedPublicKey from "src/utils/auth/getVerifiedPublicKey";
 
 /**
  * For queries that rely on the viewer, we typically require viewerId to be passed as
- * input (for why, see https://github.com/formfunction-hq/formfn-monorepo/pull/2680).
+ * input (for why, see https://github.com/bullistic-hq/bullistic-monorepo/pull/2680).
  *
  * However, we don't want to allow people to pretend to be someone else, and hence gain
  * access to sensitive information.

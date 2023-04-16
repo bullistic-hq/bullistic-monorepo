@@ -1,11 +1,11 @@
 import TinyLabel from "components/text/TinyLabel";
 import ColorClass from "types/enums/ColorClass";
-import pluralize from "formfn-shared/dist/utils/pluralize";
+import pluralize from "bullistic-shared/dist/utils/pluralize";
 import styles from "css/series/SeriesCount.module.css";
 import joinClasses from "utils/joinClasses";
 import SeriesType_enum from "types/relay/SeriesType_enum";
 import RELAY_FUTURE_ADDED_VALUE from "constants/RelayFutureAddedValue";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 
 function getLabel(seriesType: SeriesType_enum) {
   switch (seriesType) {

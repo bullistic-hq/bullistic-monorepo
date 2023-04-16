@@ -1,7 +1,7 @@
 import ActivityNotificationInfoCircle from "components/pages/activity/ActivityNotificationInfoCircle";
 import GenericNotificationContainer from "components/pages/activity/GenericNotificationContainer";
 import { Dayjs } from "dayjs";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 
 type Props = {
   actionButton?: MaybeUndef<JSX.Element>;

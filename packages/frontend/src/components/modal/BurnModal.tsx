@@ -100,7 +100,7 @@ export default function BurnModal({
       >
         Burning
       </TextButton>{" "}
-      will remove it from the blockchain and delete it from Formfunction. After
+      will remove it from the blockchain and delete it from Bullistic. After
       burning it, this NFT will no longer be displayed on our website.
     </Body1>
   );

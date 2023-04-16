@@ -6,13 +6,13 @@ import {
   useMemo,
   useState,
 } from "react";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
 import AnchorWallet from "types/AnchorWallet";
-import SolanaNetworkHealth from "formfn-shared/dist/types/enums/SolanaNetworkHealth";
-import getSolanaNetworkHealth from "formfn-shared/dist/utils/solana/health/getSolanaNetworkHealth";
+import SolanaNetworkHealth from "bullistic-shared/dist/types/enums/SolanaNetworkHealth";
+import getSolanaNetworkHealth from "bullistic-shared/dist/utils/solana/health/getSolanaNetworkHealth";
 import getRpcHostFromNetwork from "utils/solana/misc/getRpcHostFromNetwork";
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
-import flattenArrayOfObjectsToObject from "formfn-shared/dist/utils/object/flattenArrayOfObjectsToObject";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
+import flattenArrayOfObjectsToObject from "bullistic-shared/dist/utils/object/flattenArrayOfObjectsToObject";
 import {
   Connection,
   PublicKey,
@@ -24,8 +24,8 @@ import Network from "types/enums/Network";
 import {
   AuctionHouseSdk,
   loadAuctionHouseProgramWithWallet,
-} from "@formfunction-hq/formfunction-auction-house";
-import FormfnGumdropSdk from "@formfunction-hq/formfunction-gumdrop";
+} from "@bullistic-hq/bullistic-auction-house";
+import BullisticGumdropSdk from "@bullistic-hq/bullistic-gumdrop";
 import getSolanaNetwork from "utils/env/getSolanaNetwork";
 import getAuctionHouseInfo from "utils/solana/misc/getAuctionHouseInfo";
 import getSignature from "utils/local-storage/getSignature";
@@ -58,7 +58,7 @@ import getAuctionHouseConstants from "utils/solana/misc/getAuctionHouseConstants
 import getPhantomWallet from "utils/solana/wallet/getPhantomWallet";
 import getSolflareWallet from "utils/solana/wallet/getSolflareWallet";
 import WalletName from "types/enums/WalletName";
-import FormfnCandyMachineSdk from "@formfunction-hq/formfunction-candy-machine";
+import BullisticCandyMachineSdk from "@bullistic-hq/bullistic-candy-machine";
 import getProgramSdkEnvironment from "utils/env/getProgramSdkEnvironment";
 import getBackpackWallet from "utils/solana/wallet/getBackpackWallet";
 import connectWallet from "utils/solana/connectWallet";
@@ -77,7 +77,7 @@ const txTimeout = 240 * 1000; // milliseconds (confirm this works for your proje
 // Determined by trial and error
 const NUM_AUTOCONNECT_ATTEMPTS = 7;
 
-export type FormfunctionWallet = {
+export type BullisticWallet = {
   icon: string;
   name: WalletName;
   url: string;
@@ -95,7 +95,7 @@ export type MyAnchorWallet = AnchorWallet & {
     data: Uint8Array,
     publicKey: PublicKey
   ) => Promise<Uint8Array>;
-  wallet: FormfunctionWallet;
+  wallet: BullisticWallet;
 };
 
 export type SolanaContextData = {
@@ -103,14 +103,14 @@ export type SolanaContextData = {
   connection: Connection;
   disconnectWallet: () => void;
   getAuctionHouseSdk: (currency: Currency) => Maybe<AuctionHouseSdk>;
-  getCandyMachineSdk: () => Maybe<FormfnCandyMachineSdk>;
-  gumdropSdk: Maybe<FormfnGumdropSdk>;
+  getCandyMachineSdk: () => Maybe<BullisticCandyMachineSdk>;
+  gumdropSdk: Maybe<BullisticGumdropSdk>;
   network: Network;
   networkHealth: Maybe<SolanaNetworkHealth>;
   setAnchorWallet: (val: MaybeUndef<MyAnchorWallet>) => void;
   setNetwork: (val: Network) => void;
   txTimeout: number;
-  wallets: Array<FormfunctionWallet>;
+  wallets: Array<BullisticWallet>;
 };
 
 export const SolanaContext: Context<SolanaContextData> =
@@ -151,9 +151,9 @@ export function SolanaContextProvider(props: ProviderProps): JSX.Element {
   // and null is treated as error/could not load the wallet state.
   const [anchorWallet, setAnchorWalletOriginal] =
     useState<MaybeUndef<MyAnchorWallet>>(undefined);
-  const [gumdropSdk, setGumdropSdk] = useState<Maybe<FormfnGumdropSdk>>(null);
+  const [gumdropSdk, setGumdropSdk] = useState<Maybe<BullisticGumdropSdk>>(null);
   const [candyMachineSdk, setCandyMachineSdk] =
-    useState<Maybe<FormfnCandyMachineSdk>>(null);
+    useState<Maybe<BullisticCandyMachineSdk>>(null);
   const [networkHealth, setNetworkHealth] =
     useState<Maybe<SolanaNetworkHealth>>(null);
   const [auctionHouseSdks, setAuctionHouseSdks] = useState<
@@ -256,7 +256,7 @@ export function SolanaContextProvider(props: ProviderProps): JSX.Element {
     const wallet = anchorWallet;
     if (wallet != null) {
       const environment = getProgramSdkEnvironment(env);
-      setGumdropSdk(new FormfnGumdropSdk({ connection, environment, wallet }));
+      setGumdropSdk(new BullisticGumdropSdk({ connection, environment, wallet }));
     }
   }, [anchorWallet, connection, env]);
 
@@ -265,7 +265,7 @@ export function SolanaContextProvider(props: ProviderProps): JSX.Element {
     if (wallet != null) {
       const environment = getProgramSdkEnvironment(env);
       setCandyMachineSdk(
-        new FormfnCandyMachineSdk({ connection, environment, wallet })
+        new BullisticCandyMachineSdk({ connection, environment, wallet })
       );
     }
   }, [anchorWallet, connection, env]);

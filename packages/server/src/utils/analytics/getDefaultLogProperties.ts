@@ -1,5 +1,5 @@
 import { Request } from "express";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import getPublicKey from "src/utils/headers/getPublicKey";
 import getOperationName from "src/utils/request/getOperationName";
 

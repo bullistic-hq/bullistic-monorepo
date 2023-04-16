@@ -45,8 +45,6 @@ enum ColorVariableDarkModeName {
   PhantomPurple = "--color-phantomPurple-darkMode",
   Pink = "--color-pink-darkMode",
   PinkVerticalGradient = "--color-pinkVerticalGradient-darkMode",
-  PopheadzDarkGray = "--color-popheadzDarkGray-darkMode",
-  PopheadzLightGray = "--color-popheadzLightGray-darkMode",
   Primary = "--color-primary-darkMode",
   ProgressBar = "--color-progressBar-darkMode",
   Purple = "--color-purple-darkMode",

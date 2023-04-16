@@ -1,5 +1,5 @@
-import Environment from "formfn-shared/dist/types/Environment";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import Environment from "bullistic-shared/dist/types/Environment";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import getEnvironment from "src/utils/getEnvironment";
 
 export default function getLaunchDarklySdkKey() {

@@ -6,7 +6,7 @@ import {
   CurrencySelect_Query,
   CurrencySelect_Query$data,
 } from "components/select/__generated__/CurrencySelect_Query.graphql";
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import ColorValue from "types/enums/ColorValue";
 import CurrencyConfig from "types/CurrencyConfig";
 import useBreakpoint from "hooks/useBreakpoint";

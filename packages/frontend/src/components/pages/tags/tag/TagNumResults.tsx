@@ -3,7 +3,7 @@ import { TagNumResultsQuery } from "components/pages/tags/tag/__generated__/TagN
 import Subheader from "components/text/Subheader";
 import { useLazyLoadQuery } from "react-relay";
 import ColorClass from "types/enums/ColorClass";
-import pluralize from "formfn-shared/dist/utils/pluralize";
+import pluralize from "bullistic-shared/dist/utils/pluralize";
 
 const query = graphql`
   query TagNumResultsQuery($tag: String!) {

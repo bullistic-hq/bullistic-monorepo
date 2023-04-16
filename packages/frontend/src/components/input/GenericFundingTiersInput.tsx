@@ -14,7 +14,7 @@ import ColorValue from "types/enums/ColorValue";
 import ElementId from "types/enums/ElementId";
 import FontClass from "types/enums/FontClass";
 import { GenericFundingTiersInput_CampaignFundingTierStandard$key } from "components/input/__generated__/GenericFundingTiersInput_CampaignFundingTierStandard.graphql";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 const fragment = graphql`
   fragment GenericFundingTiersInput_CampaignFundingTierStandard on CampaignFundingTierStandard

@@ -17,7 +17,7 @@ import {
   TransactionSignature,
   VersionedTransactionResponse,
 } from "@solana/web3.js";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import getConnection from "src/utils/solana/getConnection";
 import retryFn from "src/utils/solana/rpc/retryFn";
 import addLatestValidBlockheightToTx from "src/utils/solana/txs/addLatestValidBlockheightToTx";

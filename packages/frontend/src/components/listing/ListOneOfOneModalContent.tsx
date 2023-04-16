@@ -1,7 +1,7 @@
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import ListingType from "types/enums/ListingType";
 import ListNftChooseListingType from "components/listing/ListNftChooseListingType";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import ListNftForAuctionSteps from "components/listing/ListNftForAuctionSteps";
 import graphql from "babel-plugin-relay/macro";
 import { useFragment } from "react-relay";

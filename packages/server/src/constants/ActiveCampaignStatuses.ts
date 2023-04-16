@@ -1,4 +1,4 @@
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import { CampaignStatusExpress_Enum } from "src/__generated__/generated";
 
 function isActive(status: CampaignStatusExpress_Enum) {

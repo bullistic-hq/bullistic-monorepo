@@ -1,6 +1,6 @@
 import logErrorsForResolver from "src/middleware/logErrorsForResolver";
 import MyContext from "src/types/MyContext";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import EditionBuyerInfoInputGqlType from "src/schema/input/EditionBuyerInfoInputGqlType";
 import { GraphQLFieldConfig } from "graphql";
 import gqlNonNull from "src/utils/graphql/gqlNonNull";

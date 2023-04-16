@@ -1,4 +1,4 @@
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import getLdFlag from "src/utils/launch-darkly/getLdFlag";
 import LaunchDarklyFlag from "src/types/enums/LaunchDarklyFlag";
 

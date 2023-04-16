@@ -1,5 +1,5 @@
 import styles from "css/spotlights/SpotlightCard.module.css";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import graphql from "babel-plugin-relay/macro";
 import { useFragment } from "react-relay";
 import TinyLabel from "components/text/TinyLabel";
@@ -9,7 +9,7 @@ import {
   SpotlightCard_SpotlightExpress$key,
   SpotlightExpressStatus_enum,
 } from "components/spotlights/__generated__/SpotlightCard_SpotlightExpress.graphql";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import SpotlightAssetWithOverlay from "components/spotlights/SpotlightAssetWithOverlay";
 import SpotlightArtistPills from "components/spotlights/SpotlightArtistPills";
 import SpotlightGoToUrlOrShowDetailsModal from "components/spotlights/SpotlightGoToUrlOrShowDetailsModal";

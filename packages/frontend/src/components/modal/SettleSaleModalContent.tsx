@@ -26,7 +26,7 @@ import ColorValue from "types/enums/ColorValue";
 import LongArrowRightIcon from "components/icons/LongArrowRightIcon";
 import LongArrowUpIcon from "components/icons/LongArrowUpIcon";
 import LongArrowLeftIcon from "components/icons/LongArrowLeftIcon";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 const userFragment = graphql`
   fragment SettleSaleModalContent_UserExpress on UserExpress {

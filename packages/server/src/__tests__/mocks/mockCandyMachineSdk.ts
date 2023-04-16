@@ -1,16 +1,16 @@
 import { BN } from "@project-serum/anchor";
-import FormfnCandyMachineSdk from "@formfunction-hq/formfunction-candy-machine";
+import BullisticCandyMachineSdk from "@bullistic-hq/bullistic-candy-machine";
 
 export default function mockCandyMachineSdk(price: number) {
   // TODO: return proper mock as needed
   jest
-    .spyOn(FormfnCandyMachineSdk.prototype, "fetchCandyMachine")
+    .spyOn(BullisticCandyMachineSdk.prototype, "fetchCandyMachine")
     .mockResolvedValue({
       // @ts-ignore
       data: { price: new BN(price) },
     });
   jest
-    .spyOn(FormfnCandyMachineSdk.prototype, "fetchCandyMachineCollectionPda")
+    .spyOn(BullisticCandyMachineSdk.prototype, "fetchCandyMachineCollectionPda")
     // @ts-ignore
     .mockResolvedValue({});
 }

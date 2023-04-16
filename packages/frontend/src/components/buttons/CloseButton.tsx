@@ -1,7 +1,7 @@
 import ColorValue from "types/enums/ColorValue";
 import CrossIcon from "components/icons/CrossIcon";
 import PlainButton from "components/buttons/PlainButton";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
 import CrossWithBorderIcon from "components/icons/CrossWithBorderIcon";
 
 type Props = {

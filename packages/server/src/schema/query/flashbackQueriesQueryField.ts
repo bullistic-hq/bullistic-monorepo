@@ -3,7 +3,7 @@ import FlashbackQueriesResponseGqlType from "src/schema/object/response/flashbac
 import gqlNonNull from "src/utils/graphql/gqlNonNull";
 
 const flashbackQueriesQueryField: GraphQLFieldConfig<unknown, any> = {
-  description: "Query field that houses Formfunction Flashback queries.",
+  description: "Query field that houses Bullistic Flashback queries.",
   resolve: () => ({}),
   type: gqlNonNull(FlashbackQueriesResponseGqlType),
 };

@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { PreloadedQuery, usePreloadedQuery } from "react-relay";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { Suspense } from "react";
 import useSetPageTitle from "hooks/useSetPageTitle";
 import useLogPageView from "hooks/useLogPageView";

@@ -1,4 +1,4 @@
-import DiscordAuthCallbackFailureReason from "formfn-shared/dist/types/enums/DiscordAuthCallbackFailureReason";
+import DiscordAuthCallbackFailureReason from "bullistic-shared/dist/types/enums/DiscordAuthCallbackFailureReason";
 
 export type ParsedDiscordAuthParams = {
   failureReason?: DiscordAuthCallbackFailureReason;

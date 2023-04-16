@@ -1,15 +1,15 @@
 import { Request } from "express";
-import getOnchainNftMetadata from "formfn-shared/dist/utils/solana/metaplex/getOnchainNftMetadata";
+import getOnchainNftMetadata from "bullistic-shared/dist/utils/solana/metaplex/getOnchainNftMetadata";
 import getConnection from "src/utils/solana/getConnection";
 import { PublicKey, sendAndConfirmTransaction } from "@solana/web3.js";
-import getNftMetadataFileProperties from "formfn-shared/dist/utils/solana/metaplex/getNftMetadataFileProperties";
+import getNftMetadataFileProperties from "bullistic-shared/dist/utils/solana/metaplex/getNftMetadataFileProperties";
 import axios from "axios";
 import uploadToArweaveUsingBundlr from "src/utils/arweave/bundlr/uploadToArweaveUsingBundlr";
 import uploadFirebaseAssetToArweave from "src/utils/arweave/uploadFirebaseAssetToArweave";
-import getAssetPathFromFormfunctionAssetSrc from "src/utils/asset/getAssetPathFromFormfunctionAssetSrc";
-import getContentTypeFromFilename from "formfn-shared/dist/utils/getContentTypeFromFilename";
-import getArweaveLink from "formfn-shared/dist/utils/getArweaveLink";
-import getUpdateMetadataTx from "formfn-shared/dist/utils/solana/metaplex/getUpdateMetadataTx";
+import getAssetPathFromBullisticAssetSrc from "src/utils/asset/getAssetPathFromBullisticAssetSrc";
+import getContentTypeFromFilename from "bullistic-shared/dist/utils/getContentTypeFromFilename";
+import getArweaveLink from "bullistic-shared/dist/utils/getArweaveLink";
+import getUpdateMetadataTx from "bullistic-shared/dist/utils/solana/metaplex/getUpdateMetadataTx";
 import getAuthorityKeypair from "src/utils/keypairs/getAuthorityKeypair";
 
 export type MetadataUpdateFields = {
@@ -30,7 +30,7 @@ async function maybeUploadNewAsset(req: Request, assetUri?: string) {
   }
 
   // Upload new file, if applicable
-  const assetStoragePath = getAssetPathFromFormfunctionAssetSrc(assetUri);
+  const assetStoragePath = getAssetPathFromBullisticAssetSrc(assetUri);
   const assetContentType = getContentTypeFromFilename(assetStoragePath!);
   const assetArweaveTxid = await uploadFirebaseAssetToArweave(
     req,

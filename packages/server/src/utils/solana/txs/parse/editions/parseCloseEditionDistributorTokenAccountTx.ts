@@ -1,12 +1,12 @@
 import { ParsedTransactionWithMeta, PublicKey } from "@solana/web3.js";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import NftTransactionOnchain from "src/types/NftTransactionOnchain";
 import getNftCreatorFromMint from "src/utils/prisma/getNftCreatorFromMint";
 import dayjs from "src/utils/dates/dayjsex";
 import { NftTransactionTypeExpress_Enum } from "src/__generated__/generated";
 import getAuctionHouseConstants from "src/utils/solana/getAuctionHouseConstants";
-import arePublicKeysEqual from "formfn-shared/dist/utils/compare/arePublicKeysEqual";
-import { DecodedAuctionHouseTransactionResult } from "@formfunction-hq/formfunction-auction-house";
+import arePublicKeysEqual from "bullistic-shared/dist/utils/compare/arePublicKeysEqual";
+import { DecodedAuctionHouseTransactionResult } from "@bullistic-hq/bullistic-auction-house";
 
 export default async function parseCloseEditionDistributorTokenAccountTx(
   tx: ParsedTransactionWithMeta,

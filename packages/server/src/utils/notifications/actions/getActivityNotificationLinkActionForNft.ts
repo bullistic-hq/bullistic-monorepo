@@ -1,6 +1,6 @@
 import { Nft, NftMetadata } from "@prisma/client";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
-import getNftLinkRelative from "formfn-shared/dist/utils/links/getNftLinkRelative";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
+import getNftLinkRelative from "bullistic-shared/dist/utils/links/getNftLinkRelative";
 import getActivityNotificationLinkAction from "src/utils/notifications/actions/getActivityNotificationLinkAction";
 import { ActivityNotificationLinkAction } from "src/__generated__/generated";
 

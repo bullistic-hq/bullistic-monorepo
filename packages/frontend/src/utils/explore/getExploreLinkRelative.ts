@@ -1,6 +1,6 @@
 import ExploreTab from "types/enums/ExploreTab";
 import ExploreUrlParamKey from "types/enums/ExploreUrlParamKey";
-import getParamStringForUrl from "formfn-shared/dist/utils/getParamStringForUrl";
+import getParamStringForUrl from "bullistic-shared/dist/utils/getParamStringForUrl";
 
 export default function getExploreLinkRelative(
   tab: ExploreTab,

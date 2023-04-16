@@ -10,8 +10,8 @@ import TextButton from "components/buttons/TextButton";
 import TextButtonTheme from "types/enums/TextButtonTheme";
 import DISCORD_INVITE_LINK from "constants/DiscordInviteLink";
 import DiscordOnboardingStatus from "types/enums/DiscordOnboardingStatus";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
-import DiscordRoleId from "formfn-shared/dist/types/enums/DiscordRoleId";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
+import DiscordRoleId from "bullistic-shared/dist/types/enums/DiscordRoleId";
 import { useFragment, useMutation } from "react-relay";
 import {
   DiscordAuthConnectModalConnectMutation,
@@ -29,14 +29,14 @@ import {
 } from "components/modal/__generated__/DiscordAuthConnectModalCheckJoinedDiscordMutation.graphql";
 import LoadingSpinner from "components/loading/LoadingSpinner";
 import ColorValue from "types/enums/ColorValue";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import Header3 from "components/text/Header3";
 import dayjs from "utils/dates/dayjsex";
 import { RecordSourceSelectorProxy } from "relay-runtime";
 import { ParsedDiscordAuthParams } from "types/ParsedDiscordAuthParams";
 import logError from "utils/analytics/logError";
 import AnalyticsEvent from "types/enums/AnalyticsEvent";
-import toObject from "formfn-shared/dist/utils/toObject";
+import toObject from "bullistic-shared/dist/utils/toObject";
 import useDiscordAuthContext from "hooks/useDiscordAuthContext";
 import RELAY_FUTURE_UNION_VALUE from "constants/RelayFutureUnionValue";
 import notifyUnexpectedError from "components/toast/notifyUnexpectedError";

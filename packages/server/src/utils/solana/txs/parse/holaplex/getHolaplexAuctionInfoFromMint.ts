@@ -1,8 +1,8 @@
 import { PublicKey } from "@solana/web3.js";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import HOLAPLEX_TRANSACTION_TYPES from "src/constants/HolaplexTransactionTypes";
 import HolaplexAuctionInfo from "src/types/HolaplexAuctionInfo";
-import PublicKeyOrString from "formfn-shared/dist/types/PublicKeyOrString";
+import PublicKeyOrString from "bullistic-shared/dist/types/PublicKeyOrString";
 import getStandardEditionMintFromMasterEditionMint from "src/utils/solana/accounts/getStandardEditionMintFromMasterEditionMint";
 import getMasterEditionMintFromStandardEditionMint from "src/utils/solana/accounts/getMasterEditionMintFromStandardEditionMint";
 import getParsedTransactionsForAddress from "src/utils/solana/getParsedTransactionsForAddress";

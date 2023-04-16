@@ -1,5 +1,5 @@
 import styles from "css/pages/campaign/campaign-generic/hero/CampaignHeroAssetsAndActivity.module.css";
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 
 type Props = {
   activity: MaybeUndef<JSX.Element>;

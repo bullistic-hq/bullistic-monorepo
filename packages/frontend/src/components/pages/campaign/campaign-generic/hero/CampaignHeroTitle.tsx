@@ -1,5 +1,5 @@
 import Header2 from "components/text/Header2";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import useCampaignColorScheme from "hooks/useCampaignColorScheme";
 
 type Props = {

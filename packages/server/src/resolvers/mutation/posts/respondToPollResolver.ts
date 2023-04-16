@@ -9,7 +9,7 @@ import assertUserSignedRequest from "src/utils/auth/assertUserSignedRequest";
 import invariant from "tiny-invariant";
 import convertPoll from "src/utils/convert/convertPoll";
 import CONVERT_POLL_INCLUDE from "src/constants/include/ConvertPollInclude";
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
 
 export default async function respondToPollResolver(
   context: MyContext,

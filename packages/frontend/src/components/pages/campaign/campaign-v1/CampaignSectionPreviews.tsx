@@ -2,11 +2,11 @@ import CampaignSectionPreviewForCampaignSectionWithGenerativeMint from "componen
 import CampaignSectionPreviewForCampaignSectionWithNfts from "components/pages/campaign/campaign-v1/sections/CampaignSectionPreviewForCampaignSectionWithNfts";
 import Header3 from "components/text/Header3";
 import styles from "css/pages/campaign/campaign-v1/CampaignSectionPreviews.module.css";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { campaignSectionsQuery } from "hooks/campaign-page/v1/useCampaignPageSections";
 import { useCampaignPageSectionsQuery } from "hooks/campaign-page/v1/__generated__/useCampaignPageSectionsQuery.graphql";
 import { PreloadedQuery, usePreloadedQuery } from "react-relay";
-import CampaignTab from "formfn-shared/dist/types/enums/CampaignTab";
+import CampaignTab from "bullistic-shared/dist/types/enums/CampaignTab";
 import ColorClass from "types/enums/ColorClass";
 
 type Props = {

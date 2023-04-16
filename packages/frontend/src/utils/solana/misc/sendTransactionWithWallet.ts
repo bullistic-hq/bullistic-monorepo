@@ -8,25 +8,25 @@ import {
   TransactionMessage,
   VersionedTransaction,
 } from "@solana/web3.js";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { notify } from "components/toast/notifications";
 import parseErrorMessage from "utils/solana/errors/parseErrorMessage";
 import logIfNotProd from "utils/logIfNotProd";
 import parseTransactionError from "utils/solana/errors/parseTransactionError";
 import AnalyticsEvent from "types/enums/AnalyticsEvent";
 import logError from "utils/analytics/logError";
-import toObject from "formfn-shared/dist/utils/toObject";
+import toObject from "bullistic-shared/dist/utils/toObject";
 import signTransaction from "utils/solana/transactions/signTransaction";
 import { bs58 } from "@project-serum/anchor/dist/cjs/utils/bytes";
 import signLegacyTransactionWithAntiBotAuthority from "utils/transactions/signLegacyTransactionWithAntiBotSigner";
 import UserFriendlyRpcErrorMessage from "types/enums/UserFriendlyRpcErrorMessage";
-import isBotTaxedTransaction from "formfn-shared/dist/utils/solana/txs/parse/isBotTaxedTransaction";
+import isBotTaxedTransaction from "bullistic-shared/dist/utils/solana/txs/parse/isBotTaxedTransaction";
 import ErrorMessageMsg from "types/enums/ErrorMessageMsg";
 import getEnvironment from "utils/getEnvironment";
-import combineTransactions from "formfn-shared/dist/utils/solana/txs/combineTransactions";
+import combineTransactions from "bullistic-shared/dist/utils/solana/txs/combineTransactions";
 import signVersionedTransactionWithAntiBotAuthority from "utils/transactions/signVersionedTransactionWithAntiBotSigner";
 import getParsedTransaction from "utils/solana/transactions/getParsedTransaction";
-import { getAddressLookupTableForEnvironment } from "@formfunction-hq/formfunction-auction-house";
+import { getAddressLookupTableForEnvironment } from "@bullistic-hq/bullistic-auction-house";
 
 const ERROR_MESSAGES_TO_IGNORE = [
   "User rejected the request.",

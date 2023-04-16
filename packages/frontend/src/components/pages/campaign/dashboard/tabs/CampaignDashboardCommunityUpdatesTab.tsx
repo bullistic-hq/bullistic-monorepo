@@ -6,7 +6,7 @@ import CampaignPosts from "components/pages/campaign/campaign-generic/posts/Camp
 import CampaignDashboardTabGeneric from "components/pages/campaign/dashboard/tabs/CampaignDashboardTabGeneric";
 import Body1 from "components/text/Body1";
 import styles from "css/pages/campaign/dashboard/tabs/CampaignDashboardCommunityUpdatesTab.module.css";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { usePostsForCampaignQuery } from "hooks/campaign/__generated__/usePostsForCampaignQuery.graphql";
 import { useState } from "react";
 import { PreloadedQuery, useFragment } from "react-relay";

@@ -1,5 +1,5 @@
 import { SeverityLevel } from "@sentry/node";
-import targetIncludesAny from "formfn-shared/dist/utils/array/targetIncludesAny";
+import targetIncludesAny from "bullistic-shared/dist/utils/array/targetIncludesAny";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 
 // Shorthand constants

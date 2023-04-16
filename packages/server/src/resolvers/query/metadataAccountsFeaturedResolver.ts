@@ -8,9 +8,9 @@ import {
   NftStatusExpress_Enum,
   NftTransactionTypeExpress_Enum,
 } from "src/__generated__/generated";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import LaunchDarklyFlag from "src/types/enums/LaunchDarklyFlag";
-import removeDuplicatesWithComparison from "formfn-shared/dist/utils/array/removeDuplicatesWithComparison";
+import removeDuplicatesWithComparison from "bullistic-shared/dist/utils/array/removeDuplicatesWithComparison";
 import getLdFlag from "src/utils/launch-darkly/getLdFlag";
 import ConvertNftToMetadataAccountType from "src/types/convert/ConvertNftToMetadataAccountType";
 import { NftTransaction } from "@prisma/client";

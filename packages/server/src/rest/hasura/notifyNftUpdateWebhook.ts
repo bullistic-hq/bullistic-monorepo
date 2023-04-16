@@ -20,7 +20,7 @@ export default async function notifyNftUpdateWebhook(
   ) {
     await sendSlackNotification(
       SlackWebhook.AuctionAlertChannel,
-      `*New Auction Alert* (${mint}): auction started for NFT! Check it out at https://formfunction.xyz/@/${mint}`
+      `*New Auction Alert* (${mint}): auction started for NFT! Check it out at https://bullistic.xyz/@/${mint}`
     );
   }
 
@@ -31,7 +31,7 @@ export default async function notifyNftUpdateWebhook(
   ) {
     await sendSlackNotification(
       SlackWebhook.AuctionAlertChannel,
-      `*Auction Status Change* (${mint}): from "${oldStatus}" to "${status}"! Check it out at https://formfunction.xyz/@/${mint}`
+      `*Auction Status Change* (${mint}): from "${oldStatus}" to "${status}"! Check it out at https://bullistic.xyz/@/${mint}`
     );
   }
 

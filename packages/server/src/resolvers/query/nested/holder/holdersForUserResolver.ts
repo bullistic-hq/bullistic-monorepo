@@ -6,7 +6,7 @@ import {
 } from "src/__generated__/generated";
 import getPrisma from "src/utils/prisma/getPrisma";
 import CONVERT_USER_INCLUDE from "src/constants/include/ConvertUserInclude";
-import removeDuplicatesWithComparison from "formfn-shared/dist/utils/array/removeDuplicatesWithComparison";
+import removeDuplicatesWithComparison from "bullistic-shared/dist/utils/array/removeDuplicatesWithComparison";
 import convertUser from "src/utils/convert/convertUser";
 
 export default async function holdersForUserResolver(

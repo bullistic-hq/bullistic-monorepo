@@ -1,4 +1,4 @@
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import firebaseAdmin from "src/utils/firebase/firebaseAdmin";
 
 export default async function firebaseCustomToken(

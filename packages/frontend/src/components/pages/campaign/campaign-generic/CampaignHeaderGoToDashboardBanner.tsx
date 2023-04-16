@@ -6,7 +6,7 @@ import { CampaignHeaderGoToDashboardBanner_CampaignV2$key } from "components/pag
 import { useFragment } from "react-relay";
 import useIsViewerCampaignCreatorOrTeamMember from "hooks/campaign/useIsViewerCampaignCreatorOrTeamMember";
 import ChevronLeftIcon from "components/icons/ChevronLeftIcon";
-import getCampaignLinkRelative from "formfn-shared/dist/utils/links/getCampaignLinkRelative";
+import getCampaignLinkRelative from "bullistic-shared/dist/utils/links/getCampaignLinkRelative";
 import FontClass from "types/enums/FontClass";
 import ColorValue from "types/enums/ColorValue";
 

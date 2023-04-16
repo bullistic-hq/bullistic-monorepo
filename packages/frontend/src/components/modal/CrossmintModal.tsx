@@ -43,7 +43,7 @@ export default function CrossmintModal({
         colorClass={ColorClass.Secondary}
         textAlign="center"
       >
-        Formfunction uses{" "}
+        Bullistic uses{" "}
         <TextButton
           buttonThemeOrColorClass={TextButtonTheme.PurpleGradient}
           display="inline"

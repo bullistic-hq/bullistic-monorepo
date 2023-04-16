@@ -15,8 +15,8 @@ import { ConnectSocialNetworkButtonDisconnectMutation } from "components/buttons
 import { useState } from "react";
 import GenericConfirmationModal from "components/modal/GenericConfirmationModal";
 import { ConnectSocialNetworkButton_User$key } from "components/buttons/__generated__/ConnectSocialNetworkButton_User.graphql";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import RELAY_FUTURE_ADDED_VALUE from "constants/RelayFutureAddedValue";
 import useDiscordAuthContext from "hooks/useDiscordAuthContext";
 import notifyUnexpectedError from "components/toast/notifyUnexpectedError";

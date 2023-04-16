@@ -1,11 +1,11 @@
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import GenericModal from "components/modal/GenericModal";
 import Body1 from "components/text/Body1";
 import ColorClass from "types/enums/ColorClass";
 import graphql from "babel-plugin-relay/macro";
 import { useMutation } from "react-relay";
 import { useState } from "react";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import GenericConfirmationModal from "components/modal/GenericConfirmationModal";
 import { CampaignPublishModalMutation } from "components/pages/campaign/edit/__generated__/CampaignPublishModalMutation.graphql";
 import useConfetti from "hooks/useConfetti";

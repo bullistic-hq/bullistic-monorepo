@@ -1,37 +1,51 @@
-# formfn-server
+# bullistic-server
 
 ## Dev environment setup
 
 ### Initial setup (should only need to do once, after pulling repo)
 
-* Pre-requisites:
-  * [Install Docker](https://docs.docker.com/engine/install/)
-  * Install [Phantom Wallet](https://phantom.app/)
-  * Install the [Hasura CLI](https://hasura.io/docs/latest/graphql/core/hasura-cli/install-hasura-cli/)
+- Pre-requisites:
+  - [Install Docker](https://docs.docker.com/engine/install/)
+  - Install [Phantom Wallet](https://phantom.app/)
+  - Install the [Hasura CLI](https://hasura.io/docs/latest/graphql/core/hasura-cli/install-hasura-cli/)
 
-**💡 NOTE:** run all these steps in `formfn-monorepo`
+**💡 NOTE:** run all these steps in `bullistic-monorepo`
 
-1. **Copy Env vars**: 
-  * Run `cp packages/server/.env.local packages/server/.env`
-2. **Start Docker containers for server and DB**: Run `yarn start-server`. 
-  * Make sure you give Docker permission to read your `Documents` folder in System Preferences! Otherwise, you may run into errors like `Error: EPERM: operation not permitted`.
+1. **Copy Env vars**:
+
+- Run `cp packages/server/.env.local packages/server/.env`
+
+2. **Start Docker containers for server and DB**: Run `yarn start-server`.
+
+- Make sure you give Docker permission to read your `Documents` folder in System Preferences! Otherwise, you may run into errors like `Error: EPERM: operation not permitted`.
+
 3. **Initial DB setup:**
-  * `export HASURA_GRAPHQL_ADMIN_SECRET=771043a6-2176-4cd6-9831-591ceca0ad5z`
-  * `yarn server hasura-migrate && yarn server hasura-reload`
-  * `yarn server hasura-console`
-4. **Generate Prisma (ORM) client**: 
-  * First, install [`gsed`](https://formulae.brew.sh/formula/gnu-sed)
-  * Then run `yarn server gen-prisma`
-5. **Build TypeScript modules**: 
-  * Run `yarn tsc`. 
-6. **Wait for server to reload**: 
-  * Wait until you see `Server listening at http://0.0.0.0:4000` in the Docker logs in your terminal
-  * Then, run `yarn server hasura-reload` again
-  * NOTE: if you encounter problems, re-run the Docker containers (step 2)
-7. **Pull latest exchange rates**: 
-  * Run `yarn update-local-exchange-rates`
+
+- `export HASURA_GRAPHQL_ADMIN_SECRET=771043a6-2176-4cd6-9831-591ceca0ad5z`
+- `yarn server hasura-migrate && yarn server hasura-reload`
+- `yarn server hasura-console`
+
+4. **Generate Prisma (ORM) client**:
+
+- First, install [`gsed`](https://formulae.brew.sh/formula/gnu-sed)
+- Then run `yarn server gen-prisma`
+
+5. **Build TypeScript modules**:
+
+- Run `yarn tsc`.
+
+6. **Wait for server to reload**:
+
+- Wait until you see `Server listening at http://0.0.0.0:4000` in the Docker logs in your terminal
+- Then, run `yarn server hasura-reload` again
+- NOTE: if you encounter problems, re-run the Docker containers (step 2)
+
+7. **Pull latest exchange rates**:
+
+- Run `yarn update-local-exchange-rates`
+
 8. Create an account via the frontend (Sign in and fill out modal)
-9. Add that account's address to the `Whitelist` table ("Insert Row") via Hasura console 
+9. Add that account's address to the `Whitelist` table ("Insert Row") via Hasura console
 
 ### Misc. steps
 
@@ -40,7 +54,7 @@
 
 ### Running stuff
 
-1. `yarn start-server` from `formfn-monorepo`
+1. `yarn start-server` from `bullistic-monorepo`
 2. If you make changes, just run `yarn swc` locally (you don't need to re-build/re-run), and your changes will propagate to the container. We use `swc` for development because it is much faster than `tsc`. Note that `swc` is only for transpilation, i.e. generating JS files from TS files. It does not do any type checking, so `tsc` is still important to use if you want to make sure your types are valid.
 
 ### Post-merge (`git pull`) steps
@@ -56,8 +70,8 @@
 I was running into this error for a while when trying to run `hasura migrate apply`:
 
 ```
-formfn-server/hasura-project $ hasura migrate apply --endpoint http://localhost:8080/
-✔ formfn
+bullistic-server/hasura-project $ hasura migrate apply --endpoint http://localhost:8080/
+✔ bullistic
 INFO nothing to apply
 ```
 
@@ -100,38 +114,38 @@ Mostly following https://hasura.io/docs/latest/graphql/core/migrations/migration
 1. Disable the console by setting `HASURA_GRAPHQL_ENABLE_CONSOLE` to `"false"` in `docker-compose.yaml`. ALSO, set the `HASURA_GRAPHQL_ADMIN_SECRET` env variable, otherwise all the commands below will ask for it
 1. Install the Hasura CLI.
 1. Set up a project directory with `hasura init hasura-project --endpoint http://localhost:8080/`. Then, run `cd hasura-project`
-1. Create migration files `hasura migrate create "init" --from-server --database-name formfn`.
+1. Create migration files `hasura migrate create "init" --from-server --database-name bullistic`.
    - `INFO Migrations files created name=init version=1640235527703`
-1. Mark migration as applied `hasura migrate apply --version "1640235527703" --skip-execution --database-name formfn`
+1. Mark migration as applied `hasura migrate apply --version "1640235527703" --skip-execution --database-name bullistic`
 1. Export Hasura metadata `hasura metadata export`
 1. Now, when making changes, run `hasura console`
 1. To apply changes in prod:
-   - Apply metadata `hasura metadata apply --endpoint https://graphql.formfn.com/`
-   - Apply migrations `hasura migrate apply --all-databases --endpoint https://graphql.formfn.com/`
-   - Reload metadata `hasura metadata reload --endpoint https://graphql.formfn.com/`
-1. Remember to change endpoints of actions and events to use `api.formfn.com` instead of `localhost` (should really use environment variables for this though...)
+   - Apply metadata `hasura metadata apply --endpoint https://graphql.bullistic.com/`
+   - Apply migrations `hasura migrate apply --all-databases --endpoint https://graphql.bullistic.com/`
+   - Reload metadata `hasura metadata reload --endpoint https://graphql.bullistic.com/`
+1. Remember to change endpoints of actions and events to use `api.bullistic.com` instead of `localhost` (should really use environment variables for this though...)
 
 NOTE: it's ok to enable the console on the prod server, because running `hasura console` doesn't work on there (see https://github.com/hasura/graphql-engine/issues/2824). So as long as no data is modified using the console, which shouldn't happen anyways (we should modify the devdb and then apply migrations), it's fine.
 
 ### Subsequent migrations
 
-1. Squash migrations into single file `hasura migrate squash --name "image library" --from <start-migration-version> --database-name formfn`
-1. [Only necessary if you squash] Mark migration as applied `hasura migrate apply --version "<squash-migration-version>" --skip-execution --database-name formfn`
+1. Squash migrations into single file `hasura migrate squash --name "image library" --from <start-migration-version> --database-name bullistic`
+1. [Only necessary if you squash] Mark migration as applied `hasura migrate apply --version "<squash-migration-version>" --skip-execution --database-name bullistic`
 1. `npx prisma introspect && npx prisma generate`
 1. Commit changes
 1. Pull changes on prod server
-1. Apply metadata `hasura metadata apply --endpoint https://graphql.formfn.com/`
-1. Apply migrations `hasura migrate apply --endpoint https://graphql.formfn.com/ --version LAST_MIGRATION_VERSION`
-1. Reload metadata `hasura metadata reload --endpoint https://graphql.formfn.com/`
+1. Apply metadata `hasura metadata apply --endpoint https://graphql.bullistic.com/`
+1. Apply migrations `hasura migrate apply --endpoint https://graphql.bullistic.com/ --version LAST_MIGRATION_VERSION`
+1. Reload metadata `hasura metadata reload --endpoint https://graphql.bullistic.com/`
 1. `docker build` and `docker-compose up` (for Prisma). Otherwise webhook for action doesn't work? TODO: not sure why, figure it out.
 
 ## Setting up new Hasura project + Amazon RDS DB
 
 1. Follow [these instructions](https://hasura.io/docs/latest/graphql/cloud/getting-started/cloud-databases/aws-postgres.html#step-2-create-a-postgres-db-on-aws-skip-if-you-have-an-existing-db)
-2. `hasura metadata apply --endpoint https://graphqldev.formfunction.xyz/ --admin-secret SECRET`
-3. `hasura migrate apply --endpoint https://graphqldev.formfunction.xyz/ --admin-secret SECRET`
+2. `hasura metadata apply --endpoint https://graphqldev.bullistic.xyz/ --admin-secret SECRET`
+3. `hasura migrate apply --endpoint https://graphqldev.bullistic.xyz/ --admin-secret SECRET`
    - NOTE: if you are creating a second Hasura project for the same DB, you should run `hasura migrate apply --skip-execution --up all --endpoint ENDPOINT --admin-secret SECRET` instead
-4. `hasura metadata reload --endpoint https://graphqldev.formfunction.xyz/ --admin-secret SECRET`
+4. `hasura metadata reload --endpoint https://graphqldev.bullistic.xyz/ --admin-secret SECRET`
 
 ## Starting over with a clean DB
 
@@ -147,12 +161,12 @@ NOTE: it's ok to enable the console on the prod server, because running `hasura 
 ## Interacting directly with the Postgres DB (dev)
 
 ```
-formfn/formfn-server $ docker exec -it formfn-postgres bash
-root@8201a2fb0709:/# psql -U postgres formfn
+bullistic/bullistic-server $ docker exec -it bullistic-postgres bash
+root@8201a2fb0709:/# psql -U postgres bullistic
 psql (12.7 (Debian 12.7-1.pgdg100+1))
 Type "help" for help.
 
-formfn=#
+bullistic=#
 ```
 
 ### Nuking the DB
@@ -167,7 +181,7 @@ Then, run `\d` to check that there are no tables.
 ## Creating last bid price (manually)
 
 ```
-curl -X POST http://localhost:4000/intern/createLastBidPrice -d '{"mint": "PDvDtvhZy8gXJMJ9P7Aq2DE1pG8CLrj2npxR39LPPFA"}' --header "Content-Type: application/json" --header "check: fofu"
+curl -X POST http://localhost:4000/intern/createLastBidPrice -d '{"mint": "PDvDtvhZy8gXJMJ9P7Aq2DE1pG8CLrj2npxR39LPPFA"}' --header "Content-Type: application/json" --header "check: bull"
 ```
 
 ## Misc

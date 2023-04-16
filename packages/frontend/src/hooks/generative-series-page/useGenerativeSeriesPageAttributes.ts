@@ -1,6 +1,6 @@
 import graphql from "babel-plugin-relay/macro";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
-import isEmptyString from "formfn-shared/dist/utils/string/isEmptyString";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
+import isEmptyString from "bullistic-shared/dist/utils/string/isEmptyString";
 import {
   AttributesForSeriesInput,
   useGenerativeSeriesPageAttributesQuery,

@@ -1,6 +1,6 @@
 import RELAY_FUTURE_ADDED_VALUE from "constants/RelayFutureAddedValue";
 import CampaignStatusExpress_enum from "types/relay/CampaignStatusExpress_enum";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 
 export default function isDeleteFundingTierAllowed(
   status: CampaignStatusExpress_enum

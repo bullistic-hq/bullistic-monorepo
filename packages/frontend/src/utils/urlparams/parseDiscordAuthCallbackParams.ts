@@ -1,7 +1,7 @@
-import DiscordAuthCallbackParam from "formfn-shared/dist/types/enums/DiscordAuthCallbackParam";
-import DiscordAuthCallbackFailureReason from "formfn-shared/dist/types/enums/DiscordAuthCallbackFailureReason";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import DiscordAuthCallbackParam from "bullistic-shared/dist/types/enums/DiscordAuthCallbackParam";
+import DiscordAuthCallbackFailureReason from "bullistic-shared/dist/types/enums/DiscordAuthCallbackFailureReason";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { ParsedDiscordAuthParams } from "types/ParsedDiscordAuthParams";
 
 export default function parseDiscordAuthCallbackParams(

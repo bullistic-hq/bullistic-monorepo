@@ -1,14 +1,14 @@
 import { NextFunction, Request, Response } from "express";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 import logError from "src/utils/analytics/logError";
-import sleep from "formfn-shared/dist/utils/sleep";
+import sleep from "bullistic-shared/dist/utils/sleep";
 import createLastBidPrice from "src/utils/solana/createLastBidPrice";
 import dayjs from "src/utils/dates/dayjsex";
 import isLastRetry from "src/utils/hasura/isLastRetry";
 import getPrisma from "src/utils/prisma/getPrisma";
-import getNftKind from "formfn-shared/dist/utils/nft/getNftKind";
-import NftKind from "formfn-shared/dist/types/enums/NftKind";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import getNftKind from "bullistic-shared/dist/utils/nft/getNftKind";
+import NftKind from "bullistic-shared/dist/types/enums/NftKind";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 
 async function createLastBidPriceAndRespond(
   mint: string,
@@ -44,7 +44,7 @@ export default async function createLastBidPriceWebhook(
   const { body } = req;
   const { mint } = body.event.data.new;
 
-  // Sleep for a bit, otherwise may get error like this https://sentry.io/organizations/formfunction/issues/2973175815/?project=6155922&referrer=slack
+  // Sleep for a bit, otherwise may get error like this https://sentry.io/organizations/bullistic/issues/2973175815/?project=6155922&referrer=slack
   // (mint may not be initalized yet)
   await sleep(dayjs.duration({ seconds: 45 }));
 

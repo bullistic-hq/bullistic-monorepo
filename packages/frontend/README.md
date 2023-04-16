@@ -1,6 +1,6 @@
-# formfn-website
+# bullistic-website
 
-Website: https://formfunction.xyz
+Website: https://bullistic.xyz
 
 ## Dev environment setup
 

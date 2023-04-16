@@ -9,8 +9,8 @@ import {
   useState,
 } from "react";
 
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
 import getUrlParams from "utils/getUrlParams";
 import maybeNumber from "utils/maybeNumber";
 import { useNavigate } from "react-router-dom";
@@ -21,10 +21,10 @@ import ExploreUrlParamKey from "types/enums/ExploreUrlParamKey";
 import wrapSetterWithNavigation from "utils/urlparams/wrapSetterWithNavigation";
 import { setCurrencyConfigCallback } from "context/ExploreContext";
 import { SelectedTrait } from "components/pages/generative-series/GenerativeSeriesAttributesFilter";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
-import removeDuplicatesWithComparison from "formfn-shared/dist/utils/array/removeDuplicatesWithComparison";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
+import removeDuplicatesWithComparison from "bullistic-shared/dist/utils/array/removeDuplicatesWithComparison";
 import ExploreAvailabilityV2 from "types/enums/ExploreAvailabilityV2";
-import isEmptyString from "formfn-shared/dist/utils/string/isEmptyString";
+import isEmptyString from "bullistic-shared/dist/utils/string/isEmptyString";
 import addToParamSet from "utils/urlparams/addToParamSet";
 import removeFromParamSet from "utils/urlparams/removeFromParamSet";
 import getAvailabilitySetFromUrlParam from "utils/urlparams/getAvailabilitySetFromUrlParam";

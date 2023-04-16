@@ -1,6 +1,6 @@
 import { PublicKey } from "@solana/web3.js";
 import { NextFunction, Request, Response } from "express";
-import toObject from "formfn-shared/dist/utils/toObject";
+import toObject from "bullistic-shared/dist/utils/toObject";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 import logError from "src/utils/analytics/logError";
 import logEvent from "src/utils/analytics/logEvent";

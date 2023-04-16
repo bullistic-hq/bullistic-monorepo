@@ -121,7 +121,7 @@ function QueryLoader({ createdCampaignsQueryRef }: Props) {
 // TODO[@arcticmatt] consider making this take in a fragment on CampaignV2 to make
 // it more reusable.
 //
-// For more context, see https://github.com/formfunction-hq/formfn-monorepo/pull/3278#discussion_r1043925517
+// For more context, see https://github.com/bullistic-hq/bullistic-monorepo/pull/3278#discussion_r1043925517
 export default function ProfileCampaignV2Card({
   createdCampaignsQueryRef,
 }: Props) {

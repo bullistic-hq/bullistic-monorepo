@@ -1,4 +1,4 @@
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { GraphQLObjectType } from "graphql";
 import DEFAULT_CONNECTION_PARAMS from "src/constants/graphql/DefaultConnectionParams";
 import logErrorsForResolver from "src/middleware/logErrorsForResolver";

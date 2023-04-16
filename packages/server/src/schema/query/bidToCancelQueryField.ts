@@ -4,7 +4,7 @@ import bidToCancelResolver from "src/resolvers/query/bidToCancelResolver";
 import BidToCancelInputGqlType from "src/schema/input/BidToCancelInputGqlType";
 import NftTransactionGqlType from "src/schema/object/NftTransactionGqlType";
 import MyContext from "src/types/MyContext";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import gqlNonNull from "src/utils/graphql/gqlNonNull";
 import {
   BidToCancelInput,

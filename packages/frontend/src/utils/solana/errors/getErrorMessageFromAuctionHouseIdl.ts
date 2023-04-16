@@ -1,5 +1,5 @@
-import { AUCTION_HOUSE_IDL } from "@formfunction-hq/formfunction-auction-house";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { AUCTION_HOUSE_IDL } from "@bullistic-hq/bullistic-auction-house";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 /**
  * The Auction house IDL contains error messages for all the

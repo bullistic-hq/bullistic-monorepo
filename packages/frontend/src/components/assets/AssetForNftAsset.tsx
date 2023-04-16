@@ -3,7 +3,7 @@ import { useFragment } from "react-relay";
 import { AssetForNftAsset_NftAsset$key } from "components/assets/__generated__/AssetForNftAsset_NftAsset.graphql";
 import { Link } from "react-router-dom";
 import AssetForAssetExpress from "components/assets/AssetForAssetExpress";
-import getNftLinkRelative from "formfn-shared/dist/utils/links/getNftLinkRelative";
+import getNftLinkRelative from "bullistic-shared/dist/utils/links/getNftLinkRelative";
 import { AssetProps } from "components/assets/AssetGeneric";
 
 const assetFragment = graphql`

@@ -5,8 +5,8 @@ import shortenAddress from "utils/shortenAddress";
 import FontClass from "types/enums/FontClass";
 import GlobalClass from "types/enums/GlobalClass";
 import joinClasses from "utils/joinClasses";
-import { Maybe, Undef } from "formfn-shared/dist/types/UtilityTypes";
-import getUserProfileLinkRelative from "formfn-shared/dist/utils/links/getUserProfileLinkRelative";
+import { Maybe, Undef } from "bullistic-shared/dist/types/UtilityTypes";
+import getUserProfileLinkRelative from "bullistic-shared/dist/utils/links/getUserProfileLinkRelative";
 import ProfileLinkLayout from "components/pages/common/nft/ProfileLinkLayout";
 
 export default function ProfileLink({

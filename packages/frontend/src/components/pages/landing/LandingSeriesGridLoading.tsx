@@ -1,4 +1,4 @@
-import { range } from "formfn-shared/dist/utils/range";
+import { range } from "bullistic-shared/dist/utils/range";
 import SeriesCardLoadingSkeleton from "components/series/SeriesCardLoadingSkeleton";
 import LandingSeriesGrid from "components/pages/landing/LandingSeriesGrid";
 import LandingSeriesGridItem from "components/pages/landing/LandingSeriesGridItem";

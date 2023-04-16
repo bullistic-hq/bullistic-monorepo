@@ -1,5 +1,5 @@
 import CampaignHeroAssetsAndActivity from "components/pages/campaign/campaign-generic/hero/CampaignHeroAssetsAndActivity";
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 
 type Props = {
   activity: MaybeUndef<JSX.Element>;

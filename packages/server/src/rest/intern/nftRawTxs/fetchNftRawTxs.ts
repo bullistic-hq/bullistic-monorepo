@@ -7,7 +7,7 @@ import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 import dayjs from "src/utils/dates/dayjsex";
 import parseNftTx from "src/utils/solana/txs/parse/parseNftTx";
 import { PublicKey, TransactionError } from "@solana/web3.js";
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
 import {
   InsertNftInput,
   InsertNftTransactionEditionsInput,
@@ -18,13 +18,13 @@ import {
   NftTransactionExpress,
   NftTransactionTypeExpress_Enum,
 } from "src/__generated__/generated";
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import logEvent from "src/utils/analytics/logEvent";
 import insertNftTransaction from "src/utils/transaction/insertNftTransaction";
 import getTimeElapsed from "src/utils/dates/getTimeElapsed";
 import ConnectionWrapper from "src/utils/solana/rpc/ConnectionWrapper";
-import CommitRawTxType from "formfn-shared/dist/types/enums/CommitRawTxType";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import CommitRawTxType from "bullistic-shared/dist/types/enums/CommitRawTxType";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import INSERT_MISSING_TRANSACTION_TYPES from "src/constants/InsertMissingTransactionTypes";
 
 type NftTransactionExpressWithError = NftTransactionExpress & {

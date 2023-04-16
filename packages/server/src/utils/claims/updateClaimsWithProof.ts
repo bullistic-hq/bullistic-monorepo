@@ -1,7 +1,7 @@
 import {
   ClaimantInfo,
   constructProofForClaimants,
-} from "@formfunction-hq/formfunction-gumdrop";
+} from "@bullistic-hq/bullistic-gumdrop";
 import { PublicKey } from "@solana/web3.js";
 import getPrisma from "src/utils/prisma/getPrisma";
 

@@ -1,7 +1,7 @@
 import CONVERT_NFT_TO_METADATA_INCLUDE from "src/constants/include/ConvertNftToMetadataInclude";
 import Typename from "src/types/enums/Typename";
 import MyContext from "src/types/MyContext";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import convertNftToMetadataAccount from "src/utils/convert/convertNftToMetadataAccount";
 import createOffsetPaginationConnection from "src/utils/pagination/createOffsetPaginationConnection";
 import getPrisma from "src/utils/prisma/getPrisma";
@@ -13,7 +13,7 @@ import {
   RequestStatusExpress_Enum,
 } from "src/__generated__/generated";
 import { Prisma } from "@prisma/client";
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
 import getCreatorFilter from "src/utils/prisma/where/getCreatorFilter";
 import getUserFilter from "src/utils/prisma/where/getUserFilter";
 

@@ -10,7 +10,7 @@ import insertAirdroppedNftAndNotify, {
 import invariant from "tiny-invariant";
 import logError from "src/utils/analytics/logError";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
-import toObject from "formfn-shared/dist/utils/toObject";
+import toObject from "bullistic-shared/dist/utils/toObject";
 import {
   CurrencyNameExpress_Enum,
   InsertNftTransactionInput,
@@ -18,7 +18,7 @@ import {
 } from "src/__generated__/generated";
 import insertNftTransaction from "src/utils/transaction/insertNftTransaction";
 import createAirdropGiftReceivedNotification from "src/utils/notifications/create/createAirdropGiftReceivedNotification";
-import getErrorPropertiesToLog from "formfn-shared/dist/utils/analytics/getErrorPropertiesToLog";
+import getErrorPropertiesToLog from "bullistic-shared/dist/utils/analytics/getErrorPropertiesToLog";
 import dayjs from "src/utils/dates/dayjsex";
 
 const limit = pLimit(5);

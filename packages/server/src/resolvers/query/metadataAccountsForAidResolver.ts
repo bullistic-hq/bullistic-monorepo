@@ -7,7 +7,7 @@ import {
   MetadataAccountsForAidInput,
   NftStatusExpress_Enum,
 } from "src/__generated__/generated";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import LaunchDarklyFlag from "src/types/enums/LaunchDarklyFlag";
 import getLdFlag from "src/utils/launch-darkly/getLdFlag";
 

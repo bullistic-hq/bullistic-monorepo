@@ -3,7 +3,7 @@ import Body2 from "components/text/Body2";
 import TinyLabel from "components/text/TinyLabel";
 import styles from "css/pages/create/CreateDisplayFile.module.css";
 import ColorClass from "types/enums/ColorClass";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import MediaTypeOrExtension from "types/MediaTypeOrExtension";
 import getHumanReadableMediaTypeOrExtension from "utils/content-types/getHumanReadableMediaTypeOrExtension";
 import FilePreview from "components/file/FilePreview";

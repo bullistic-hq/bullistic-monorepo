@@ -47,7 +47,7 @@ export default async function updateDiscordRolesForUserResolver(
     return {
       __typename: Typename.UpdateDiscordRolesForUserResponseFailure,
       reason:
-        "User must be in the Formfunction Discord server to be granted roles.",
+        "User must be in the Bullistic Discord server to be granted roles.",
     };
   }
 

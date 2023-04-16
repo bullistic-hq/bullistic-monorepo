@@ -5,7 +5,7 @@ import NftLabelAndContent from "components/pages/common/nft/NftLabelAndContent";
 import { NftInfoDisclosures_MetadataAccount$key } from "components/pages/common/nft/__generated__/NftInfoDisclosures_MetadataAccount.graphql";
 import Body1 from "components/text/Body1";
 import Body1Medium from "components/text/Body1Medium";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { useFragment } from "react-relay";
 import ColorClass from "types/enums/ColorClass";
 import getHumanReadableDisclosureType from "utils/nft/disclosures/getHumanReadableDisclosureType";
@@ -14,7 +14,7 @@ import AiIcon from "components/icons/AiIcon";
 import ColorValue from "types/enums/ColorValue";
 import RELAY_FUTURE_ADDED_VALUE from "constants/RelayFutureAddedValue";
 import ShuffleCrossIcon from "components/icons/ShuffleCrossIcon";
-import { getCompareByProperty } from "formfn-shared/dist/utils/getCompareByProperty";
+import { getCompareByProperty } from "bullistic-shared/dist/utils/getCompareByProperty";
 import EyeOffIcon from "components/icons/EyeOffIcon";
 
 const fragment = graphql`

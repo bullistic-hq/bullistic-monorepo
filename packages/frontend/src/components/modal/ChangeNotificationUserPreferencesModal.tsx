@@ -22,15 +22,15 @@ import {
   ChangeNotificationUserPreferencesModal_NotificationUserPreference$data,
   ChangeNotificationUserPreferencesModal_NotificationUserPreference$key,
 } from "components/modal/__generated__/ChangeNotificationUserPreferencesModal_NotificationUserPreference.graphql";
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
 import NOTIFICATION_TYPES from "constants/NotificationTypes";
 import getEmailConfigForNotificationType, {
   EmailConfig,
 } from "utils/email/getEmailConfigForNotificationType";
 import EmailToggle from "types/enums/EmailToggle";
-import groupBy from "formfn-shared/dist/utils/array/groupBy";
+import groupBy from "bullistic-shared/dist/utils/array/groupBy";
 import EmailSection from "types/enums/EmailSection";
-import objectEntries from "formfn-shared/dist/utils/object/objectEntries";
+import objectEntries from "bullistic-shared/dist/utils/object/objectEntries";
 import FontClass from "types/enums/FontClass";
 import ArtName from "components/text/ArtName";
 import ColorClass from "types/enums/ColorClass";
@@ -46,7 +46,7 @@ import { notify } from "components/toast/notifications";
 import RELAY_FUTURE_ADDED_VALUE from "constants/RelayFutureAddedValue";
 import ToggleButtons, { ToggleOption } from "components/buttons/ToggleButtons";
 import TinyLabel from "components/text/TinyLabel";
-import flattenArrayOfObjectsToObject from "formfn-shared/dist/utils/object/flattenArrayOfObjectsToObject";
+import flattenArrayOfObjectsToObject from "bullistic-shared/dist/utils/object/flattenArrayOfObjectsToObject";
 import notifyUnexpectedError from "components/toast/notifyUnexpectedError";
 
 const fragment = graphql`

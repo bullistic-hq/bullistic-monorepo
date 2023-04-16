@@ -1,6 +1,6 @@
 import graphql from "babel-plugin-relay/macro";
 import { CampaignHero_CampaignExpress$key } from "components/pages/campaign/campaign-v1/__generated__/CampaignHero_CampaignExpress.graphql";
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import { campaignQuery } from "hooks/campaign-page/v1/useCampaignPageCampaign";
 import { useCampaignPageCampaignQuery } from "hooks/campaign-page/v1/__generated__/useCampaignPageCampaignQuery.graphql";
 import { PreloadedQuery, useFragment, usePreloadedQuery } from "react-relay";
@@ -8,7 +8,7 @@ import ArtistPillButtonForUserExpress from "components/buttons/ArtistPillButtonF
 import CampaignProgressTowardsGoal from "components/pages/campaign/campaign-v1/CampaignProgressTowardsGoal";
 import CampaignHeroAssets from "components/pages/campaign/campaign-v1/CampaignHeroAssets";
 import useSetPageTitle from "hooks/useSetPageTitle";
-import CampaignTab from "formfn-shared/dist/types/enums/CampaignTab";
+import CampaignTab from "bullistic-shared/dist/types/enums/CampaignTab";
 import scrollElementIntoView from "utils/scroll/scrollElementIntoView";
 import ElementId from "types/enums/ElementId";
 import Page404Content from "components/pages/errors/Page404Content";

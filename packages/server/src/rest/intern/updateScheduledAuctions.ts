@@ -14,7 +14,7 @@ import {
 } from "@prisma/client";
 import getFollowers from "src/utils/prisma/getFollowers";
 import pLimit from "p-limit";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import createFollowerScheduledAuctionIsLiveNotifications from "src/utils/notifications/create/createFollowerScheduledAuctionIsLiveNotifications";
 import bigintToNumber from "src/utils/bigintToNumber";
 import convertPrice from "src/utils/convert/convertPrice";

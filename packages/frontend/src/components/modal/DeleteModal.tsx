@@ -17,7 +17,7 @@ import useUserContext from "hooks/useUserContext";
 import PrimaryAndSecondaryButtonContainerForModal from "components/buttons/PrimaryAndSecondaryButtonContainerForModal";
 import notifyUnexpectedError from "components/toast/notifyUnexpectedError";
 import useNftKind from "hooks/useNftKind";
-import NftKind from "formfn-shared/dist/types/enums/NftKind";
+import NftKind from "bullistic-shared/dist/types/enums/NftKind";
 import NotifyErrorDescription from "types/enums/NotifyErrorDescription";
 
 const mutation = graphql`
@@ -112,7 +112,7 @@ export default function DeleteModal({
             }}
             isLoading={inFlight}
           >
-            Remove from Formfunction
+            Remove from Bullistic
           </ButtonWithText>
           <TextButton
             buttonThemeOrColorClass={TextButtonTheme.PurpleGradient}

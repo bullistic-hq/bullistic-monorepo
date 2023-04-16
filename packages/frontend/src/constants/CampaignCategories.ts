@@ -1,4 +1,4 @@
-import exhaustiveStringArray from "formfn-shared/dist/utils/array/exhaustiveStringArray";
+import exhaustiveStringArray from "bullistic-shared/dist/utils/array/exhaustiveStringArray";
 import { ExcludeFutureAddedValue } from "types/ExcludeFutureAddedValue";
 import CampaignCategoryExpress_enum from "types/relay/CampaignCategoryExpress_enum";
 

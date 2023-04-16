@@ -1,4 +1,4 @@
-import { PriceFunctionType } from "@formfunction-hq/formfunction-auction-house";
+import { PriceFunctionType } from "@bullistic-hq/bullistic-auction-house";
 import graphql from "babel-plugin-relay/macro";
 import InputLabel from "components/input/InputLabel";
 import InputWithLabel from "components/input/InputWithLabel";
@@ -9,8 +9,8 @@ import ListingInputs from "components/listing/ListingInputs";
 import { ChangePriceForEditionsConstantOrMinimumPrice_MetadataAccount$key } from "components/listing/__generated__/ChangePriceForEditionsConstantOrMinimumPrice_MetadataAccount.graphql";
 import { notify } from "components/toast/notifications";
 import notifyUnexpectedError from "components/toast/notifyUnexpectedError";
-import convertToFullDecimals from "formfn-shared/dist/utils/convertToFullDecimals";
-import formatDecimals from "formfn-shared/dist/utils/formatDecimals";
+import convertToFullDecimals from "bullistic-shared/dist/utils/convertToFullDecimals";
+import formatDecimals from "bullistic-shared/dist/utils/formatDecimals";
 import useChangePriceForEditions from "hooks/useChangePriceForEditions";
 import useGetCurrencyConfigForPrice from "hooks/useGetCurrencyConfigForPrice";
 import { useState } from "react";

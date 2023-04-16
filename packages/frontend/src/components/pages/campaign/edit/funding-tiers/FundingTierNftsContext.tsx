@@ -6,7 +6,7 @@ import {
   SetStateAction,
   useState,
 } from "react";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
 import { useFragment } from "react-relay";
 import graphql from "babel-plugin-relay/macro";
 import {
@@ -14,7 +14,7 @@ import {
   FundingTierNftsContext_CampaignFundingTierStandard$key,
 } from "components/pages/campaign/edit/funding-tiers/__generated__/FundingTierNftsContext_CampaignFundingTierStandard.graphql";
 import { CampaignFundingTierManageNftsModalUpdateMutation$data } from "components/pages/campaign/edit/funding-tiers/__generated__/CampaignFundingTierManageNftsModalUpdateMutation.graphql";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 // TODO[@bryancho]: refactor to share more code with SeriesNftContext
 type ItemMetadataAccount = {

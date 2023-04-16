@@ -23,8 +23,8 @@ import {
 } from "constants/InputSubLabels";
 import InputWithLabel from "components/input/InputWithLabel";
 import FormTextArea from "components/input/FormTextArea";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 const mutation = graphql`
   mutation CampaignAboutModalMutation($input: UpdateCampaignAboutInput!) {

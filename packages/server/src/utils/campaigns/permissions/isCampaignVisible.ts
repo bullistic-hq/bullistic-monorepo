@@ -1,5 +1,5 @@
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import LaunchDarklyFlag from "src/types/enums/LaunchDarklyFlag";
 import getLdFlag from "src/utils/launch-darkly/getLdFlag";
 import { CampaignStatusExpress_Enum } from "src/__generated__/generated";

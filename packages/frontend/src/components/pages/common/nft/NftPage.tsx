@@ -11,7 +11,7 @@ import useSetPageTitle from "hooks/useSetPageTitle";
 import useLogPageView from "hooks/useLogPageView";
 import usePollingFetchKey from "hooks/usePollingFetchKey";
 import { RelayConnectionIdsProvider } from "context/RelayConnectionIdsContext";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import useUserContext from "hooks/useUserContext";
 import useNftPageTxs from "hooks/nft-page/useNftPageTxs";
 import useNftPageClaims from "hooks/nft-page/useNftPageClaims";
@@ -126,7 +126,7 @@ export default function NftPage(): JSX.Element {
     userId ?? ""
   );
   // NOTE: Polling introduces some weird issues, see
-  // https://github.com/formfunction-hq/formfn-monorepo/pull/1039 for more details.
+  // https://github.com/bullistic-hq/bullistic-monorepo/pull/1039 for more details.
   // We may want to do a more thorough fix in the future, but for now we'll just disable polling.
   const editionsQueryRef = useNftPageEditions(mint, 0);
   const { editionBuyerInfoQueryRef, loadEditionBuyerInfoQuery } =

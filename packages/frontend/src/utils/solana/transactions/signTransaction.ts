@@ -1,6 +1,6 @@
 import { Connection, Keypair, Transaction } from "@solana/web3.js";
 import AnchorWallet from "types/AnchorWallet";
-import combineTransactions from "formfn-shared/dist/utils/solana/txs/combineTransactions";
+import combineTransactions from "bullistic-shared/dist/utils/solana/txs/combineTransactions";
 
 interface ISendTransactionParams {
   connection: Connection;

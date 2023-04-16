@@ -6,7 +6,7 @@ import Body1 from "components/text/Body1";
 import SpotlightTitle from "components/text/SpotlightTitle";
 import TinyLabel from "components/text/TinyLabel";
 import styles from "css/spotlights/SpotlightHeroSquareImage.module.css";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
 import useBreakpoint from "hooks/useBreakpoint";
 import ColorClass from "types/enums/ColorClass";
 import ColorValue from "types/enums/ColorValue";

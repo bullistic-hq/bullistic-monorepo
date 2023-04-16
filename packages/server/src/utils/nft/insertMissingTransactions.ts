@@ -12,11 +12,11 @@ import sendSlackNotification from "src/utils/tooling/sendSlackNotification";
 import SlackWebhook from "src/types/enums/SlackWebhook";
 import insertNftTransaction from "src/utils/transaction/insertNftTransaction";
 import LaunchDarklyFlag from "src/types/enums/LaunchDarklyFlag";
-import { getCompareByProperty } from "formfn-shared/dist/utils/getCompareByProperty";
-import SortOrder from "formfn-shared/dist/types/enums/SortOrder";
+import { getCompareByProperty } from "bullistic-shared/dist/utils/getCompareByProperty";
+import SortOrder from "bullistic-shared/dist/types/enums/SortOrder";
 import getPrisma from "src/utils/prisma/getPrisma";
 import getLdFlag from "src/utils/launch-darkly/getLdFlag";
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
 import dayjs from "dayjs";
 import NftTransactionOnchain from "src/types/NftTransactionOnchain";
 import INSERT_MISSING_TRANSACTION_TYPES from "src/constants/InsertMissingTransactionTypes";
@@ -157,7 +157,7 @@ export default async function insertMissingTransactions(
       // eslint-disable-next-line no-await-in-loop
       await sendSlackNotification(
         channel,
-        `${type} tx detected with txid = ${txid} for NFT https://formfunction.xyz/@/${mint}`
+        `${type} tx detected with txid = ${txid} for NFT https://bullistic.xyz/@/${mint}`
       );
     }
 

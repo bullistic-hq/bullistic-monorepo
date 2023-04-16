@@ -2,22 +2,22 @@ import dayjs from "src/utils/dates/dayjsex";
 import { NextFunction, Request, Response } from "express";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 import logError from "src/utils/analytics/logError";
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
 import getPrisma from "src/utils/prisma/getPrisma";
 import parseNftTx from "src/utils/solana/txs/parse/parseNftTx";
 import pLimit from "p-limit";
 import logEvent from "src/utils/analytics/logEvent";
 import getTimeElapsed from "src/utils/dates/getTimeElapsed";
 import NftTransactionOnchain from "src/types/NftTransactionOnchain";
-import removeDuplicatesWithSet from "formfn-shared/dist/utils/array/removeDuplicatesWithSet";
+import removeDuplicatesWithSet from "bullistic-shared/dist/utils/array/removeDuplicatesWithSet";
 import { NftTransactionTypeExpress_Enum } from "src/__generated__/generated";
 import parseAndInsertTransaction from "src/utils/transaction/parseAndInsertTransaction";
-import getErrorPropertiesToLog from "formfn-shared/dist/utils/analytics/getErrorPropertiesToLog";
+import getErrorPropertiesToLog from "bullistic-shared/dist/utils/analytics/getErrorPropertiesToLog";
 import getAuctionHouseConstants from "src/utils/solana/getAuctionHouseConstants";
 import loadCandyMachineSdk from "src/utils/solana/loadCandyMachineSdk";
 import getConfirmedSignaturesForAddress from "src/utils/solana/getConfirmedSignaturesForAddress";
 import getParsedTransactionsForSignatures from "src/utils/solana/getParsedTransactionsForSignatures";
-import arrayLast from "formfn-shared/dist/utils/array/arrayLast";
+import arrayLast from "bullistic-shared/dist/utils/array/arrayLast";
 
 const limit = pLimit(5);
 

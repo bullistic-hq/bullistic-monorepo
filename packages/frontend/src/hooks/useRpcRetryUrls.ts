@@ -1,4 +1,4 @@
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import useFlagsTyped from "hooks/useFlagsTyped";
 import Network from "types/enums/Network";
 import getSolanaNetwork from "utils/env/getSolanaNetwork";

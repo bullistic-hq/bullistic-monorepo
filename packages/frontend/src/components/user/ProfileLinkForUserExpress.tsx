@@ -1,4 +1,4 @@
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import graphql from "babel-plugin-relay/macro";
 import { useFragment } from "react-relay";
 import { ProfileLinkForUserExpress_UserExpress$key } from "components/user/__generated__/ProfileLinkForUserExpress_UserExpress.graphql";

@@ -12,10 +12,10 @@ import { useLazyLoadQuery } from "react-relay";
 import dayjs from "utils/dates/dayjsex";
 import getCreatorInvitesAggregateQueryVariables from "utils/invites/getCreatorInvitesAggregateQueryVariables";
 import InviteExistingUserAsCreatorBody from "components/invites/InviteExistingUserAsCreatorBody";
-import pluralize from "formfn-shared/dist/utils/pluralize";
+import pluralize from "bullistic-shared/dist/utils/pluralize";
 import InviteMode from "types/enums/InviteMode";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import InviteWithEmailBody from "components/invites/InviteWithEmailBody";
 import PlainButton from "components/buttons/PlainButton";
 import ArtName from "components/text/ArtName";
@@ -61,7 +61,7 @@ function SelectInviteMode({
   return (
     <div className={styles.selectInviteModeBody}>
       <ArtName textAlign="center" colorClass={ColorClass.Primary}>
-        Does the person you&apos;re inviting have a Formfunction account
+        Does the person you&apos;re inviting have a Bullistic account
         already?
       </ArtName>
       <div className={styles.inviteModeSelect}>

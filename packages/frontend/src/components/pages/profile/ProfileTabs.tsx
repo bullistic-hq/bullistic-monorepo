@@ -1,7 +1,7 @@
 import graphql from "babel-plugin-relay/macro";
 import styles from "css/pages/profile/ProfileTabs.module.css";
 import ProfileTabType from "types/enums/ProfileTabType";
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import TabButton from "components/buttons/TabButton";
 import { PreloadedQuery, useFragment, usePreloadedQuery } from "react-relay";
 import { useProfilePageCreatedCampaignsQuery } from "hooks/profile-page/__generated__/useProfilePageCreatedCampaignsQuery.graphql";

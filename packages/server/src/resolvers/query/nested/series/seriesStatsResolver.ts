@@ -1,5 +1,5 @@
 import { Prisma } from "@prisma/client";
-import { Maybe, Undef } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe, Undef } from "bullistic-shared/dist/types/UtilityTypes";
 import Typename from "src/types/enums/Typename";
 import MyContext from "src/types/MyContext";
 import getPrisma from "src/utils/prisma/getPrisma";

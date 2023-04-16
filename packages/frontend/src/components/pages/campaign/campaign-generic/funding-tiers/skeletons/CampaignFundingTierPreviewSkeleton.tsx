@@ -1,7 +1,7 @@
 import SquareContainer from "components/containers/SquareContainer";
 import CampaignFundingTierPreview from "components/pages/campaign/campaign-generic/funding-tiers/CampaignFundingTierPreview";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
-import { range } from "formfn-shared/dist/utils/range";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
+import { range } from "bullistic-shared/dist/utils/range";
 import Skeleton from "react-loading-skeleton";
 
 export default function CampaignFundingTierPreviewSkeleton(): JSX.Element {

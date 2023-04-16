@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-constructed-context-values */
 import { Context, createContext, useState } from "react";
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
 import RelayConnection from "types/enums/RelayConnection";
 import RelayKeyedConnection from "types/enums/RelayKeyedConnection";
 

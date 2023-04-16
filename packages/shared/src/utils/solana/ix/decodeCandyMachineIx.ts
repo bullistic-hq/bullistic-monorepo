@@ -1,5 +1,5 @@
 import { Instruction } from "@project-serum/anchor";
-import { FORMFN_CANDY_MACHINE_IDL } from "@formfunction-hq/formfunction-candy-machine";
+import { BULLISTIC_CANDY_MACHINE_IDL } from "@bullistic-hq/bullistic-candy-machine";
 import { PartiallyDecodedInstruction, PublicKey } from "@solana/web3.js";
 import { Maybe } from "types/UtilityTypes";
 import decodeWithIdl from "utils/solana/ix/decodeWithIdl";
@@ -15,5 +15,5 @@ export default function decodeCandyMachineIx(
     return null;
   }
 
-  return decodeWithIdl(ix, FORMFN_CANDY_MACHINE_IDL, onError);
+  return decodeWithIdl(ix, BULLISTIC_CANDY_MACHINE_IDL, onError);
 }

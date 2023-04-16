@@ -1,6 +1,6 @@
-import NftKind from "formfn-shared/dist/types/enums/NftKind";
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import NftKind from "bullistic-shared/dist/types/enums/NftKind";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 
 export default function getUnlockableWinner<T extends Record<string, unknown>>(
   winners: MaybeUndef<ReadonlyArray<T>>,

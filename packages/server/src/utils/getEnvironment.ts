@@ -1,4 +1,4 @@
-import Environment from "formfn-shared/dist/types/Environment";
+import Environment from "bullistic-shared/dist/types/Environment";
 
 export default function getEnvironment() {
   switch (process.env.NODE_ENV) {

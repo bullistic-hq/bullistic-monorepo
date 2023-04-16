@@ -10,7 +10,7 @@ import SOLD_GENERATIVE_MINT_TX from "src/__tests__/constants/SoldGenerativeMintT
 import mockGetConnection from "src/__tests__/mocks/mockGetConnection";
 import getPriceMock from "src/__tests__/utils/getPriceMock";
 import mockGetCurrencyInfoForTreasuryMint from "src/__tests__/mocks/mockGetCurrencyInfoForTreasuryMint";
-import { decodeCandyMachineTransaction } from "@formfunction-hq/formfunction-candy-machine";
+import { decodeCandyMachineTransaction } from "@bullistic-hq/bullistic-candy-machine";
 import loadCandyMachineSdk from "src/utils/solana/loadCandyMachineSdk";
 
 describe("parseSoldGenerativeMintTxNew tests", () => {

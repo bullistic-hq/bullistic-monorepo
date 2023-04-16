@@ -7,8 +7,8 @@ import dayjs from "utils/dates/dayjsex";
 import useUserContext from "hooks/useUserContext";
 import getCreatorInvitesAggregateQueryVariables from "utils/invites/getCreatorInvitesAggregateQueryVariables";
 import GenericInviteBody from "components/invites/GenericInviteBody";
-import isValidUsername from "formfn-shared/dist/utils/validation/isValidUsername";
-import isPublicKey from "formfn-shared/dist/utils/solana/isPublicKey";
+import isValidUsername from "bullistic-shared/dist/utils/validation/isValidUsername";
+import isPublicKey from "bullistic-shared/dist/utils/solana/isPublicKey";
 import notifyErrorMessageFromError from "components/toast/notifyErrorMessageFromError";
 
 const fragment = graphql`
@@ -78,7 +78,7 @@ export default function InviteExistingUserAsCreatorBody({
     <GenericInviteBody
       backButton={backButton}
       buttonDisabled={numInvites === 0}
-      title="Enter their Formfunction username or wallet address:"
+      title="Enter their Bullistic username or wallet address:"
       description="Make sure this is the username or wallet address that they want to use"
       inputPlaceholder="Enter their username or wallet address"
       onClickInvite={onClickInvite}

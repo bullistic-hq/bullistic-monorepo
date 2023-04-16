@@ -1,15 +1,15 @@
 import { NextFunction, Request, Response } from "express";
-import dayjs from "formfn-shared/dist/utils/dates/dayjsex";
+import dayjs from "bullistic-shared/dist/utils/dates/dayjsex";
 import loadCandyMachineSdk from "src/utils/solana/loadCandyMachineSdk";
 import { PublicKey } from "@solana/web3.js";
 import upsertCandyMachine, {
   CandyMachineAllowlistEntry,
 } from "src/rest/intern/upsertCandyMachine";
 import { BN } from "@project-serum/anchor";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { CurrencyNameExpress_Enum } from "src/__generated__/generated";
 import getCurrencyInfoForTreasuryMint from "src/utils/solana/txs/parse/getCurrencyInfoForTreasuryMint";
-import toObject from "formfn-shared/dist/utils/toObject";
+import toObject from "bullistic-shared/dist/utils/toObject";
 import writeCandyMachineInfoToFirestore from "src/utils/generative-mints/rarity/writeCandyMachineInfoToFirestore";
 
 interface ImportOnchainCandyMachineRequestBody {
@@ -68,7 +68,7 @@ export default async function importOnchainCandyMachine(
   }
 
   const {
-    formfnAuthority,
+    bullisticAuthority,
     treasuryMint,
     data: {
       allowlistSaleStartTime,
@@ -98,7 +98,7 @@ export default async function importOnchainCandyMachine(
       undefined,
     allowlistTokenMint: splTokenAllowlistSettings?.mint.toString(),
     antiBotProtectionEnabled,
-    candyMachineAuthorityId: formfnAuthority.toString(),
+    candyMachineAuthorityId: bullisticAuthority.toString(),
     creatorAuthorityId: creatorAuthority.toString(),
     creatorWallets: creators.map((creator) => creator.address.toString()),
     currencyName:

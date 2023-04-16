@@ -374,8 +374,6 @@ enum Typename {
   SeriesStatsInput = "SeriesStatsInput",
   SeriesStatsResponse = "SeriesStatsResponse",
   SeriesType = "SeriesTypeExpress_enum",
-  ShareInfoAndSwapForTooniesInput = "ShareInfoAndSwapForTooniesInput",
-  ShareInfoAndSwapForTooniesResponse = "ShareInfoAndSwapForTooniesResponse",
   SocialNetwork = "SocialNetwork",
   SocialNetworkType = "SocialNetworkType_enum",
   Spotlight = "SpotlightExpress",

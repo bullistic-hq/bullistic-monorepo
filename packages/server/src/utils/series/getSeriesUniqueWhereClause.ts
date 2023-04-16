@@ -1,5 +1,5 @@
 import { Prisma } from "@prisma/client";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import getPrisma from "src/utils/prisma/getPrisma";
 import invariant from "tiny-invariant";
 

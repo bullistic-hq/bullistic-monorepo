@@ -1,6 +1,6 @@
 import graphql from "babel-plugin-relay/macro";
 import { useFragment } from "react-relay";
-import formatDecimals from "formfn-shared/dist/utils/formatDecimals";
+import formatDecimals from "bullistic-shared/dist/utils/formatDecimals";
 import CampaignProgress, {
   CampaignProgressDisplayType,
 } from "components/pages/campaign/campaign-generic/hero/goals/CampaignProgress";

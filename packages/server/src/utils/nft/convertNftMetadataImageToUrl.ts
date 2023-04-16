@@ -1,5 +1,5 @@
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import getAssetCdnUrl from "formfn-shared/dist/utils/getAssetCdnUrl";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import getAssetCdnUrl from "bullistic-shared/dist/utils/getAssetCdnUrl";
 import getImgixUrl from "src/utils/getImgixUrl";
 import isValidHttpUrl from "src/utils/isValidHttpUrl";
 import { MetadataOffchainImageInput } from "src/__generated__/generated";
@@ -14,8 +14,8 @@ function extractNftImagePath(url: string) {
     return `nft-images/${match[0].replace("nft-images%2F", "").slice(0, -1)}`;
   }
 
-  if (url.includes("https://cdn.formfunction.xyz/")) {
-    return url.replace("https://cdn.formfunction.xyz/", "");
+  if (url.includes("https://cdn.bullistic.xyz/")) {
+    return url.replace("https://cdn.bullistic.xyz/", "");
   }
 
   return null;
@@ -26,12 +26,12 @@ function extractNftImagePath(url: string) {
  * in the following way:
  *   * Images and GIFs < 1 second: use a third party service (Imgix)
  *   * GIFs >= 1 second: we asynchronously convert them to MP4 using a Cloud Function
- *       (see `formfn-cloud-functions` repo and nftMetadataGifToMp4Webhook)
+ *       (see `bullistic-cloud-functions` repo and nftMetadataGifToMp4Webhook)
  *   * Videos: serve them as-is through a CDN. Note that NFT images should be rendered
  *             using Mux (and not the URL returned from this function) if NftMetadata.videoPlaybackId is populated.
  *
  * For more information on this, read:
- * https://www.notion.so/formfunction/Design-Doc-Image-Video-Optimization-391324aed89f44e092af78de9c7a7d1e
+ * https://www.notion.so/bullistic/Design-Doc-Image-Video-Optimization-391324aed89f44e092af78de9c7a7d1e
  */
 export default function convertNftMetadataImageToUrl(
   image: string,

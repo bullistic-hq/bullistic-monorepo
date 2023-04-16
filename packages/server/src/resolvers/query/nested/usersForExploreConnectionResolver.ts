@@ -4,7 +4,7 @@ import CONVERT_USER_INCLUDE from "src/constants/include/ConvertUserInclude";
 import WHERE_NOT_BURNED from "src/constants/WhereNotBurned";
 import Typename from "src/types/enums/Typename";
 import MyContext from "src/types/MyContext";
-import { Maybe, Undef } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe, Undef } from "bullistic-shared/dist/types/UtilityTypes";
 import convertNftToMetadataAccount from "src/utils/convert/convertNftToMetadataAccount";
 import convertUser from "src/utils/convert/convertUser";
 import createOffsetPaginationConnection from "src/utils/pagination/createOffsetPaginationConnection";
@@ -14,7 +14,7 @@ import {
   UserAndMetadataAccountsConnection,
   UsersForExploreInput,
 } from "src/__generated__/generated";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import validateFirstInput from "src/utils/validation/validateFirstInput";
 
 const NUM_NFTS = 3;

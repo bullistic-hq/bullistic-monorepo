@@ -13,7 +13,7 @@ export default function HeaderDesktop(): JSX.Element {
       <Header1 className={styles.header} colorClass={null} textAlign="center">
         <a className={styles.logo} href="/">
           <img src="/images/logo-black.svg" />
-          <h3 className={styles.logoText}>formfunction</h3>
+          <h3 className={styles.logoText}>bullistic</h3>
         </a>
         <div className={styles.right}>
           {/* <TextButton

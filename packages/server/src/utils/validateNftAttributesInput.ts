@@ -1,8 +1,8 @@
-import { MAXIMUM_NFT_ATTRIBUTES_COUNT } from "formfn-shared/dist/constants/NftAttributesValidationConstants";
-import removeDuplicatesWithComparison from "formfn-shared/dist/utils/array/removeDuplicatesWithComparison";
-import isValidTraitType from "formfn-shared/dist/utils/validation/isValidTraitType";
-import isValidTraitValue from "formfn-shared/dist/utils/validation/isValidTraitValue";
-import { Undef } from "formfn-shared/dist/types/UtilityTypes";
+import { MAXIMUM_NFT_ATTRIBUTES_COUNT } from "bullistic-shared/dist/constants/NftAttributesValidationConstants";
+import removeDuplicatesWithComparison from "bullistic-shared/dist/utils/array/removeDuplicatesWithComparison";
+import isValidTraitType from "bullistic-shared/dist/utils/validation/isValidTraitType";
+import isValidTraitValue from "bullistic-shared/dist/utils/validation/isValidTraitValue";
+import { Undef } from "bullistic-shared/dist/types/UtilityTypes";
 import {
   InputMaybe,
   NftMetadataV1AttributeInput,

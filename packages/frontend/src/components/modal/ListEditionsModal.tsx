@@ -4,11 +4,11 @@ import { notify } from "components/toast/notifications";
 import graphql from "babel-plugin-relay/macro";
 import { useFragment } from "react-relay";
 import usePreventRefresh from "hooks/usePreventRefresh";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import ElementId from "types/enums/ElementId";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import { ListEditionsModal_MetadataAccount$key } from "components/modal/__generated__/ListEditionsModal_MetadataAccount.graphql";
-import { PriceFunctionType } from "@formfunction-hq/formfunction-auction-house";
+import { PriceFunctionType } from "@bullistic-hq/bullistic-auction-house";
 import ListEditionsModalContent from "components/listing/ListEditionsModalContent";
 
 const fragment = graphql`

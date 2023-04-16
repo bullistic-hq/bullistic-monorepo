@@ -8,8 +8,8 @@ import {
   useState,
 } from "react";
 
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
-import ProfileUrlParamKey from "formfn-shared/dist/types/enums/ProfileUrlParamKey";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
+import ProfileUrlParamKey from "bullistic-shared/dist/types/enums/ProfileUrlParamKey";
 import getUrlParam from "utils/getUrlParam";
 
 export type ProfilePageModalData = {

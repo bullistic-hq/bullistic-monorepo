@@ -13,7 +13,7 @@ import styles from "css/buttons/ButtonWithText.module.css";
 import LoadingSpinner from "components/loading/LoadingSpinner";
 import ColorValue from "types/enums/ColorValue";
 import logEvent from "utils/analytics/logEvent";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import FlexBox from "components/layout/FlexBox";
 import AnchorTarget from "types/AnchorTarget";
 

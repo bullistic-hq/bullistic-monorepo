@@ -7,9 +7,9 @@ import useConfetti from "hooks/useConfetti";
 import ButtonWithText from "components/buttons/ButtonWithText";
 import ButtonTheme from "types/enums/ButtonTheme";
 import FontClass from "types/enums/FontClass";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import useUserContext from "hooks/useUserContext";
-import getNftLinkRelative from "formfn-shared/dist/utils/links/getNftLinkRelative";
+import getNftLinkRelative from "bullistic-shared/dist/utils/links/getNftLinkRelative";
 import { useNftPageEditionBuyerInfoQuery } from "hooks/nft-page/__generated__/useNftPageEditionBuyerInfoQuery.graphql";
 import { editionBuyerInfoQuery } from "hooks/nft-page/useNftPageEditionBuyerInfo";
 import { BuyEditionModal_MetadataAccount$key } from "components/modal/__generated__/BuyEditionModal_MetadataAccount.graphql";
@@ -17,7 +17,7 @@ import BuyNowGenericModalForMetadataAccount from "components/modal/BuyNowGeneric
 import notifyUnexpectedError from "components/toast/notifyUnexpectedError";
 import BuyEditionModalPriceInput from "components/modal/BuyEditionModalPriceInput";
 import useFormattedNftPrice from "hooks/useFormattedNftPrice";
-import convertToFullDecimals from "formfn-shared/dist/utils/convertToFullDecimals";
+import convertToFullDecimals from "bullistic-shared/dist/utils/convertToFullDecimals";
 import { BuyEditionModal_EditionBuyerInfoResponse$key } from "components/modal/__generated__/BuyEditionModal_EditionBuyerInfoResponse.graphql";
 import dayjs from "utils/dates/dayjsex";
 

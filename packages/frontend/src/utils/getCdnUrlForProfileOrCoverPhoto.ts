@@ -1,4 +1,4 @@
-import getAssetCdnUrl from "formfn-shared/dist/utils/getAssetCdnUrl";
+import getAssetCdnUrl from "bullistic-shared/dist/utils/getAssetCdnUrl";
 import getImgixUrl from "utils/getImgixUrl";
 
 export default function getCdnUrlForProfileOrCoverPhoto(

@@ -19,9 +19,9 @@ import CheckboxButton from "components/buttons/CheckboxButton";
 import PlusIcon from "components/icons/PlusIcon";
 import ColorValue from "types/enums/ColorValue";
 import GenericDropzone from "components/input/GenericDropzone";
-import { range } from "formfn-shared/dist/utils/range";
+import { range } from "bullistic-shared/dist/utils/range";
 import joinClasses from "utils/joinClasses";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import graphql from "babel-plugin-relay/macro";
 import { ApplyForm_User$key } from "components/pages/apply/__generated__/ApplyForm_User.graphql";
 import { useFragment, useMutation } from "react-relay";
@@ -32,10 +32,10 @@ import uploadFile from "utils/firebase/uploadFile";
 import getArtistSubmissionAssetStoragePath from "utils/firebase/storage-paths/getArtistSubmissionAssetStoragePath";
 import getFileExt from "utils/getFileExt";
 import Video from "components/videos/Video";
-import BYTES_PER_MEGABYTE from "formfn-shared/dist/constants/BytesPerMegabyte";
+import BYTES_PER_MEGABYTE from "bullistic-shared/dist/constants/BytesPerMegabyte";
 import useCheckSocialNetworkAuthError from "hooks/useCheckSocialNetworkAuthError";
 import useFlagsTyped from "hooks/useFlagsTyped";
-import isEmptyObject from "formfn-shared/dist/utils/isEmptyObject";
+import isEmptyObject from "bullistic-shared/dist/utils/isEmptyObject";
 import ConnectDiscordButton from "components/buttons/ConnectDiscordButton";
 import TextButton from "components/buttons/TextButton";
 import TextButtonTheme from "types/enums/TextButtonTheme";
@@ -283,7 +283,7 @@ export default function ApplyForm({ onSubmitted, user }: Props) {
           label={
             <InputLabel
               label="Link your Discord"
-              subLabel="If you are accepted onto Formfunction, we'll add you to a special Discord channel for our verified creators."
+              subLabel="If you are accepted onto Bullistic, we'll add you to a special Discord channel for our verified creators."
             />
           }
         />
@@ -350,7 +350,7 @@ export default function ApplyForm({ onSubmitted, user }: Props) {
             <InputLabel
               label="Artist statement"
               required
-              subLabel="Tell us about yourself! Who are you as an artist, and why do you want to join Formfunction?"
+              subLabel="Tell us about yourself! Who are you as an artist, and why do you want to join Bullistic?"
             />
           }
         />

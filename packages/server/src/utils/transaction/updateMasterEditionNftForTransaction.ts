@@ -4,13 +4,13 @@ import {
   NftTransactionTypeExpress_Enum,
 } from "src/__generated__/generated";
 import { Prisma } from "@prisma/client";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import CONVERT_NFT_TO_METADATA_INCLUDE from "src/constants/include/ConvertNftToMetadataInclude";
 import ConvertNftToMetadataAccountType from "src/types/convert/ConvertNftToMetadataAccountType";
 import invariant from "tiny-invariant";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
-import getNftKind from "formfn-shared/dist/utils/nft/getNftKind";
-import NftKind from "formfn-shared/dist/types/enums/NftKind";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
+import getNftKind from "bullistic-shared/dist/utils/nft/getNftKind";
+import NftKind from "bullistic-shared/dist/types/enums/NftKind";
 import getEditionPriceInfo from "src/utils/prisma/getEditionPriceInfo";
 import getPriceInLamportsForEdition from "src/utils/editions/getPriceInLamportsForEdition";
 import PrismaTransactionClient from "src/types/PrismaTransactionClient";

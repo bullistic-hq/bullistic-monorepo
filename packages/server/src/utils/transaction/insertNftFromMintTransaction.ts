@@ -2,12 +2,12 @@ import {
   NftStatusExpress_Enum,
   NftTransactionTypeExpress_Enum,
 } from "src/__generated__/generated";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import getArweaveTxidFromLink from "formfn-shared/dist/utils/getArweaveTxidFromLink";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import getArweaveTxidFromLink from "bullistic-shared/dist/utils/getArweaveTxidFromLink";
 import ConvertNftToMetadataAccountType from "src/types/convert/ConvertNftToMetadataAccountType";
 import insertNft from "src/utils/nft/insertNft";
 import axios from "axios";
-import jsonStringify from "formfn-shared/dist/utils/jsonStringify";
+import jsonStringify from "bullistic-shared/dist/utils/jsonStringify";
 import uploadFileFromUrl from "src/utils/firebase/uploadFileFromUrl";
 import getFileExtFromContentType from "src/utils/getFileExtFromContentType";
 import { nanoid } from "nanoid";

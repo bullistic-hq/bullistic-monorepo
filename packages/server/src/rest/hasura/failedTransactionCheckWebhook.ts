@@ -1,13 +1,13 @@
 import { NextFunction, Request, Response } from "express";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 import logError from "src/utils/analytics/logError";
-import sleep from "formfn-shared/dist/utils/sleep";
+import sleep from "bullistic-shared/dist/utils/sleep";
 import dayjs from "src/utils/dates/dayjsex";
 import ConnectionWrapper from "src/utils/solana/rpc/ConnectionWrapper";
 import isLastRetry from "src/utils/hasura/isLastRetry";
 
 // NOTE: keep in sync with auction house program code
-// See https://github.com/formfunction-hq/formfn-auction-house/pull/169 for rationale
+// See https://github.com/bullistic-hq/bullistic-auction-house/pull/169 for rationale
 // behind these logs.
 const DELEGATE_WARNING_MESSAGES = [
   "WARNING: seller ATA has delegate",

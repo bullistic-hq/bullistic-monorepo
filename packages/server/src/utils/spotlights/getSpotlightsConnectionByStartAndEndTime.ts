@@ -1,5 +1,5 @@
 import { Prisma } from "@prisma/client";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import Typename from "src/types/enums/Typename";
 import { SpotlightSourceType } from "src/types/graphql-source/SpotlightSourceType";
 import convertSpotlight from "src/utils/convert/convertSpotlight";

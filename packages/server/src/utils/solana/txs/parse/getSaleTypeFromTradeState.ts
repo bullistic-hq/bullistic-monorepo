@@ -1,12 +1,12 @@
-import SaleType from "@formfunction-hq/formfunction-auction-house/dist/types/enum/SaleType";
+import SaleType from "@bullistic-hq/bullistic-auction-house/dist/types/enum/SaleType";
 import { BN } from "@project-serum/anchor";
 import { PublicKey } from "@solana/web3.js";
-import SortOrder from "formfn-shared/dist/types/enums/SortOrder";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import { getCompareByProperty } from "formfn-shared/dist/utils/getCompareByProperty";
+import SortOrder from "bullistic-shared/dist/types/enums/SortOrder";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import { getCompareByProperty } from "bullistic-shared/dist/utils/getCompareByProperty";
 import getParsedTransactionsForAddress from "src/utils/solana/getParsedTransactionsForAddress";
 import getAuctionHouseConstants from "src/utils/solana/getAuctionHouseConstants";
-import { decodeAuctionHouseTransaction } from "@formfunction-hq/formfunction-auction-house";
+import { decodeAuctionHouseTransaction } from "@bullistic-hq/bullistic-auction-house";
 
 type CreateTradeStateIxData = {
   price: BN;

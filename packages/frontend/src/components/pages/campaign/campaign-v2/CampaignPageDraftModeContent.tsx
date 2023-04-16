@@ -23,15 +23,15 @@ import useCampaignColorScheme from "hooks/useCampaignColorScheme";
 import CampaignDraftCta from "components/pages/campaign/edit/CampaignDraftCta";
 import CampaignPublishModal from "components/pages/campaign/edit/CampaignPublishModal";
 import RELAY_FUTURE_ADDED_VALUE from "constants/RelayFutureAddedValue";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import {
   CampaignPageDraftModeContent_CampaignV2$data,
   CampaignPageDraftModeContent_CampaignV2$key,
 } from "components/pages/campaign/campaign-v2/__generated__/CampaignPageDraftModeContent_CampaignV2.graphql";
-import getCampaignLinkRelative from "formfn-shared/dist/utils/links/getCampaignLinkRelative";
+import getCampaignLinkRelative from "bullistic-shared/dist/utils/links/getCampaignLinkRelative";
 import CampaignDraftBiddingInfo from "components/pages/campaign/edit/CampaignDraftBiddingInfo";
 import CampaignArtistPillButtons from "components/pages/campaign/campaign-v2/hero/CampaignArtistPillButtons";
-import isEmptyString from "formfn-shared/dist/utils/string/isEmptyString";
+import isEmptyString from "bullistic-shared/dist/utils/string/isEmptyString";
 import { CampaignV2ContextProvider } from "context/CampaignV2Context";
 import AspectRatioContainer from "components/containers/AspectRatioContainer";
 import isUpdateBasicInfoAllowed from "utils/campaigns/permissions/isUpdateBasicInfoAllowed";

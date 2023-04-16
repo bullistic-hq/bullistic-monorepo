@@ -1,4 +1,4 @@
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import styles from "css/pages/campaign/campaign-generic/hero/CampaignHeroSocialLinks.module.css";
 import SocialLinkButton from "components/buttons/SocialLinkButton";
 

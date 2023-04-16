@@ -1,5 +1,5 @@
 import RELAY_FUTURE_ADDED_VALUE from "constants/RelayFutureAddedValue";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import { UnlockableCategory } from "hooks/__generated__/useListNftForSaleMutation.graphql";
 import getSelectLabelFromUnlockableCategory from "utils/unlockables/getSelectLabelFromUnlockableCategory";
 

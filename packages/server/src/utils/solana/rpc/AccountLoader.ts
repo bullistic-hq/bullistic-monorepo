@@ -1,6 +1,6 @@
 import { SeverityLevel } from "@sentry/node";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import PublicKeyOrString from "formfn-shared/dist/types/PublicKeyOrString";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import PublicKeyOrString from "bullistic-shared/dist/types/PublicKeyOrString";
 import retryFn from "src/utils/solana/rpc/retryFn";
 import {
   Metaplex,

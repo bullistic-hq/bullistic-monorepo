@@ -3,7 +3,7 @@ import CreatorStory from "components/misc/CreatorStory";
 import { ProfileCreatorStory_User$key } from "components/pages/profile/__generated__/ProfileCreatorStory_User.graphql";
 import COLOR_SCHEMES from "constants/ColorSchemes";
 import { useFragment } from "react-relay";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 const fragment = graphql`
   fragment ProfileCreatorStory_User on User {

@@ -17,7 +17,7 @@ export default function MobileSearchBar({ searchText, setSearchText }: Props) {
       <input
         className={joinClasses(styles.input, FontClass.Body1)}
         value={searchText}
-        placeholder="Search Formfunction..."
+        placeholder="Search Bullistic..."
         onChange={(e) => setSearchText(e.target.value)}
       />
       {searchText.length > 0 && (

@@ -12,7 +12,7 @@ import AssetForAssetExpress from "components/assets/AssetForAssetExpress";
 import styles from "css/posts/PostForPostWithPoll.module.css";
 import Body2 from "components/text/Body2";
 import ColorClass from "types/enums/ColorClass";
-import pluralize from "formfn-shared/dist/utils/pluralize";
+import pluralize from "bullistic-shared/dist/utils/pluralize";
 
 const fragment = graphql`
   fragment PostForPostWithPoll_PostWithPoll on PostWithPoll {

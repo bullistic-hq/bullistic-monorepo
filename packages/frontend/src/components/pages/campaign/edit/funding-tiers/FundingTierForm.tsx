@@ -12,7 +12,7 @@ import {
 } from "constants/InputSubLabels";
 import FormTextArea from "components/input/FormTextArea";
 import FormTextInput from "components/input/FormTextInput";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
 import TextAreaWithBulletPoints from "components/input/TextAreaWithBulletPoints";
 
 export type FundingTierFormData = {

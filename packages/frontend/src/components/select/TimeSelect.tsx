@@ -1,7 +1,7 @@
 import CustomSelect from "components/select/CustomSelect";
 import { Dayjs } from "dayjs";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import { range } from "formfn-shared/dist/utils/range";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import { range } from "bullistic-shared/dist/utils/range";
 import useBreakpoint from "hooks/useBreakpoint";
 import useFlagsTyped from "hooks/useFlagsTyped";
 import { useMemo } from "react";

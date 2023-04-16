@@ -72,8 +72,6 @@ const COLOR_CLASS_TO_COLOR_VALUE: Record<ColorClass, ColorValue> = {
   [ColorClass.MidnightBlue]: ColorValue.MidnightBlue,
   [ColorClass.AntiFlashWhite]: ColorValue.AntiFlashWhite,
   [ColorClass.DarkGunmetal]: ColorValue.DarkGunmetal,
-  [ColorClass.PopheadzDarkGray]: ColorValue.PopheadzDarkGray,
-  [ColorClass.PopheadzLightGray]: ColorValue.PopheadzLightGray,
 };
 
 export default COLOR_CLASS_TO_COLOR_VALUE;

@@ -7,9 +7,9 @@ import { useFragment, useMutation } from "react-relay";
 import invariant from "tiny-invariant";
 import commitRawTxMutation from "utils/relay/commitRawTxMutation";
 import sendTransactionWithWallet from "utils/solana/misc/sendTransactionWithWallet";
-import CommitRawTxType from "formfn-shared/dist/types/enums/CommitRawTxType";
+import CommitRawTxType from "bullistic-shared/dist/types/enums/CommitRawTxType";
 import { useBuyEditionMutation } from "hooks/__generated__/useBuyEditionMutation.graphql";
-import getCreatorsForExecuteSale from "formfn-shared/dist/utils/sale/getCreatorsForExecuteSale";
+import getCreatorsForExecuteSale from "bullistic-shared/dist/utils/sale/getCreatorsForExecuteSale";
 import useRelayConnectionIdsContext from "hooks/useRelayConnectionIdsContext";
 import logError from "utils/analytics/logError";
 import AnalyticsEvent from "types/enums/AnalyticsEvent";
@@ -20,7 +20,7 @@ import notifyUnexpectedError from "components/toast/notifyUnexpectedError";
 import NotifyErrorDescription from "types/enums/NotifyErrorDescription";
 import useViewerId from "hooks/useViewerId";
 import { useBuyEdition_EditionsMerkleAllowlistInfoExpress$key } from "hooks/__generated__/useBuyEdition_EditionsMerkleAllowlistInfoExpress.graphql";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 const mutation = graphql`
   mutation useBuyEditionMutation(

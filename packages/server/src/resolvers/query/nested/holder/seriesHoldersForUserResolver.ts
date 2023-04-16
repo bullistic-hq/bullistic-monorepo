@@ -7,14 +7,14 @@ import {
 import getPrisma from "src/utils/prisma/getPrisma";
 import CONVERT_USER_INCLUDE from "src/constants/include/ConvertUserInclude";
 import CONVERT_SERIES_INCLUDE from "src/constants/include/ConvertSeriesInclude";
-import groupBy from "formfn-shared/dist/utils/array/groupBy";
+import groupBy from "bullistic-shared/dist/utils/array/groupBy";
 import ConvertUserType from "src/types/convert/ConvertUserType";
 import ConvertSeriesType from "src/types/convert/ConvertSeriesType";
 import { Nft } from "@prisma/client";
 import convertSeries from "src/utils/convert/convertSeries";
 import convertUser from "src/utils/convert/convertUser";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import removeDuplicatesWithComparison from "formfn-shared/dist/utils/array/removeDuplicatesWithComparison";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import removeDuplicatesWithComparison from "bullistic-shared/dist/utils/array/removeDuplicatesWithComparison";
 
 function getSeriesHoldersForNfts(
   nfts: Array<

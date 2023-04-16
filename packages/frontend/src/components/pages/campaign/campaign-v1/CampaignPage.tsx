@@ -19,18 +19,14 @@ import useCampaignPageSections from "hooks/campaign-page/v1/useCampaignPageSecti
 import useSolanaContext from "hooks/useSolanaContext";
 import { Suspense, useState } from "react";
 import { useParams } from "react-router-dom";
-import CampaignTab from "formfn-shared/dist/types/enums/CampaignTab";
-import PopheadzCampaignTab from "types/enums/PopheadzCampaignTab";
+import CampaignTab from "bullistic-shared/dist/types/enums/CampaignTab";
 import CampaignFundingTierStandardSkeleton from "components/pages/campaign/campaign-generic/funding-tiers/skeletons/CampaignFundingTierStandardSkeleton";
-import useIsPopheadzCampaign from "hooks/useIsPopheadzCampaign";
 import { PreloadedQuery } from "react-relay";
 import { useCampaignPageCampaignQuery } from "hooks/campaign-page/v1/__generated__/useCampaignPageCampaignQuery.graphql";
 import { useCampaignPageActivityQuery } from "hooks/campaign-page/v1/__generated__/useCampaignPageActivityQuery.graphql";
 import { useCampaignPageSectionsQuery } from "hooks/campaign-page/v1/__generated__/useCampaignPageSectionsQuery.graphql";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import useUserContext from "hooks/useUserContext";
-import CampaignTooniesSwap from "components/pages/campaign/campaign-v1/CampaignTooniesSwap";
-import TooniesCampaignTab from "types/enums/TooniesCampaignTab";
 import CampaignTabType from "types/CampaignTabType";
 
 type InnerProps = {
@@ -50,7 +46,6 @@ function Inner({
   campaignSectionsQueryRef,
   campaignSlug,
 }: InnerProps) {
-  const isPopheadz = useIsPopheadzCampaign();
   const [campaignTab, setCampaignTab] = useState<CampaignTabType>(
     CampaignTab.Support
   );
@@ -77,7 +72,7 @@ function Inner({
           </Suspense>
         )}
         {/* TODO: better solution for hiding this */}
-        {campaignSectionsQueryRef != null && !isPopheadz && (
+        {campaignSectionsQueryRef != null && (
           <Suspense fallback={<CampaignSectionPreviewsSkeleton />}>
             <CampaignSectionPreviews
               campaignSectionsQueryRef={campaignSectionsQueryRef}
@@ -118,13 +113,7 @@ function Inner({
               <CampaignAbout campaignQueryRef={campaignQueryRef} />
             </Suspense>
           )}
-          {campaignQueryRef != null &&
-            campaignTab === PopheadzCampaignTab.Team && (
-              <CampaignTeam slug={campaignSlug!} />
-            )}
-          {user != null && campaignTab === TooniesCampaignTab.TooniesSwap && (
-            <CampaignTooniesSwap />
-          )}
+          {campaignQueryRef != null && <CampaignTeam slug={campaignSlug!} />}
         </CampaignTabsContent>
       </CampaignBottom>
     </PageWithHeaderAndFooter>

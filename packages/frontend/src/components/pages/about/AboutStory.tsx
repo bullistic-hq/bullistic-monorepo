@@ -24,7 +24,7 @@ const STORY_SEGMENTS: Array<StorySegmentProps> = [
   {
     description: (
       <>
-        Formfunction launched on February 3, 2022 with an amazing group of 24
+        Bullistic launched on February 3, 2022 with an amazing group of 24
         genesis artists. We spent the next few months building the foundational
         marketplace and creating an amazing experience for buying and selling
         digital art.
@@ -52,12 +52,12 @@ const STORY_SEGMENTS: Array<StorySegmentProps> = [
       <>
         After building a full-featured marketplace, we’re now exploring how
         creators can fund their creative dream projects by selling art. The
-        first project to be community-funded on Formfunction was{" "}
+        first project to be community-funded on Bullistic was{" "}
         <TextButton
           buttonThemeOrColorClass={TextButtonTheme.PurpleGradient}
           display="inline"
           fontClass={FontClass.Body1}
-          href="https://formfunction.xyz/@shilstone_arts/campaigns/off-leash"
+          href="https://bullistic.xyz/@shilstone_arts/campaigns/off-leash"
           textDecoration="underline"
           type="link_external"
         >

@@ -5,14 +5,14 @@ import {
 } from "components/pages/explore/__generated__/ExploreCreatorsGridQuery.graphql";
 import useExploreContext from "hooks/useExploreContext";
 import { useLazyLoadQuery, usePaginationFragment } from "react-relay";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import ExploreCreatorCard from "components/pages/explore/ExploreCreatorCard";
 import CreatorsGrid from "components/misc/CreatorsGrid";
 import { ExploreCreatorsGridPaginationQuery } from "components/pages/explore/__generated__/ExploreCreatorsGridPaginationQuery.graphql";
 import { ExploreCreatorsGrid_Query$key } from "components/pages/explore/__generated__/ExploreCreatorsGrid_Query.graphql";
 import { EXPLORE_CREATORS_PAGE_SIZE } from "constants/PageSizes";
 import ExploreCreatorCardLoadingSkeleton from "components/pages/explore/ExploreCreatorCardLoadingSkeleton";
-import { range } from "formfn-shared/dist/utils/range";
+import { range } from "bullistic-shared/dist/utils/range";
 import logError from "utils/analytics/logError";
 import AnalyticsEvent from "types/enums/AnalyticsEvent";
 import useLoadNextOnBottomScroll from "hooks/useLoadNextOnBottomScroll";

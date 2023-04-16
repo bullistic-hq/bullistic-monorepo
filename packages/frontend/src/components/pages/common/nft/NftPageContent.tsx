@@ -28,7 +28,7 @@ import MaybeImgix from "components/images/MaybeImgix";
 import OverlayButton from "components/buttons/OverlayButton";
 import NftLeftInfo from "components/pages/common/nft/NftLeftInfo";
 import VideoQuality from "types/enums/VideoQuality";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import useDocumentBodyDimensions from "hooks/useDocumentBodyDimensions";
 import useIsBottomTabsWidth from "hooks/useIsBottomTabsWidth";
 import useWindowDimensions from "hooks/useWindowDimensions";
@@ -45,11 +45,11 @@ import { NftPageContent_MetadataAccount$key } from "components/pages/common/nft/
 import { NftPageContent_QueryRoot$key } from "components/pages/common/nft/__generated__/NftPageContent_QueryRoot.graphql";
 import getAssetDimensions from "utils/nft/getNftAssetDimensions";
 import shouldUseWideAssetLayout from "utils/nft/shouldUseWideAssetLayout";
-import getUserProfileLinkRelative from "formfn-shared/dist/utils/links/getUserProfileLinkRelative";
+import getUserProfileLinkRelative from "bullistic-shared/dist/utils/links/getUserProfileLinkRelative";
 import { useQueryLoaderHookType } from "react-relay/relay-hooks/useQueryLoader";
 import { useNftPageNftQuery } from "hooks/nft-page/__generated__/useNftPageNftQuery.graphql";
 import NftPageUnlockableSection from "components/pages/common/nft/NftPageUnlockableSection";
-import arePublicKeysEqual from "formfn-shared/dist/utils/compare/arePublicKeysEqual";
+import arePublicKeysEqual from "bullistic-shared/dist/utils/compare/arePublicKeysEqual";
 import OverlayContainer from "components/containers/OverlayContainer";
 import { UnlockableModalContextProvider } from "context/UnlockableModalContext";
 import IgnoreResponsivePageBodyPadding from "components/containers/IgnoreResponsivePageBodyPadding";
@@ -243,7 +243,7 @@ export default function NftPageContent({
         <MaybeImgix showShimmer src={assetSrc}>
           <Imgix
             className={classNameToUse}
-            // For some reason, https://formfunction.xyz/@joiceloo/MCPpB5uW67QJVDkgNNGicyD72PLcDb2kUVNgSEwo9os?width=1050&height=1050 has terrible perf without disabling this
+            // For some reason, https://bullistic.xyz/@joiceloo/MCPpB5uW67QJVDkgNNGicyD72PLcDb2kUVNgSEwo9os?width=1050&height=1050 has terrible perf without disabling this
             disableSrcSet={contentType.includes("gif")}
             src={assetImgixSrc}
             width={isWideAsset && windowWidth >= 600 ? 1440 : 800}

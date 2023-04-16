@@ -7,18 +7,18 @@ import {
   useReducer,
   useState,
 } from "react";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import arraySum from "formfn-shared/dist/utils/array/arraySum";
-import { MAXIMUM_NFT_ATTRIBUTES_COUNT } from "formfn-shared/dist/constants/NftAttributesValidationConstants";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import arraySum from "bullistic-shared/dist/utils/array/arraySum";
+import { MAXIMUM_NFT_ATTRIBUTES_COUNT } from "bullistic-shared/dist/constants/NftAttributesValidationConstants";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
 import { notify } from "components/toast/notifications";
 import { nanoid } from "nanoid";
-import isValidTraitType from "formfn-shared/dist/utils/validation/isValidTraitType";
-import isValidTraitValue from "formfn-shared/dist/utils/validation/isValidTraitValue";
+import isValidTraitType from "bullistic-shared/dist/utils/validation/isValidTraitType";
+import isValidTraitValue from "bullistic-shared/dist/utils/validation/isValidTraitValue";
 import useUserContext from "hooks/useUserContext";
-import removeDuplicatesWithSet from "formfn-shared/dist/utils/array/removeDuplicatesWithSet";
-import isPublicKey from "formfn-shared/dist/utils/solana/isPublicKey";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import removeDuplicatesWithSet from "bullistic-shared/dist/utils/array/removeDuplicatesWithSet";
+import isPublicKey from "bullistic-shared/dist/utils/solana/isPublicKey";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import { NftAttributeInput } from "hooks/__generated__/useMintNftMutation.graphql";
 import CreateEditionType from "types/enums/CreateEditionType";
 import isValidEditionSupply from "utils/validation/isValidEditionSupply";

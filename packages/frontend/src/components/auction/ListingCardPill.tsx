@@ -1,6 +1,6 @@
 import Body2Medium from "components/text/Body2Medium";
 import styles from "css/auction/ListingCardPill.module.css";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import GlobalClass from "types/enums/GlobalClass";
 import joinClasses from "utils/joinClasses";
 

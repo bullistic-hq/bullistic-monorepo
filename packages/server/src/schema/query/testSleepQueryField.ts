@@ -1,5 +1,5 @@
 import { GraphQLFieldConfig, GraphQLInt } from "graphql";
-import sleep from "formfn-shared/dist/utils/sleep";
+import sleep from "bullistic-shared/dist/utils/sleep";
 import dayjs from "src/utils/dates/dayjsex";
 import gqlNonNull from "src/utils/graphql/gqlNonNull";
 

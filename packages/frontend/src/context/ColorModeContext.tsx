@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { Context, createContext, useEffect, useState } from "react";
 import ColorMode from "types/enums/ColorMode";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
 import getLocalStorage from "utils/local-storage/getLocalStorage";
 import LocalStorageKey from "types/enums/LocalStorageKey";
 import setLocalStorage from "utils/local-storage/setLocalStorage";

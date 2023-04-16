@@ -1,5 +1,5 @@
 import NftTransactionWithUsers from "src/types/NftTransactionWithUsers";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { NftTransactionTypeExpress_Enum } from "src/__generated__/generated";
 
 export default function getHighestBidFromTransactions(

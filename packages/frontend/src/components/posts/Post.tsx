@@ -4,8 +4,8 @@ import PostEngagementSection from "components/posts/PostEngagementSection";
 import PostLayout from "components/posts/PostLayout";
 import { PostReactionInfo } from "components/posts/PostReactions";
 import ArtName from "components/text/ArtName";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import isEmptyString from "formfn-shared/dist/utils/string/isEmptyString";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import isEmptyString from "bullistic-shared/dist/utils/string/isEmptyString";
 import ColorClass from "types/enums/ColorClass";
 
 type Props = {

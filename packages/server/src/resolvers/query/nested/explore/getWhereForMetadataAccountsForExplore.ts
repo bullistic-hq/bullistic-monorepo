@@ -1,7 +1,7 @@
 import { Prisma } from "@prisma/client";
-import { MaybeUndef, Undef } from "formfn-shared/dist/types/UtilityTypes";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
+import { MaybeUndef, Undef } from "bullistic-shared/dist/types/UtilityTypes";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
 import {
   CurrencyNameExpress_Enum,
   ExploreAvailabilityV2,
@@ -13,7 +13,7 @@ import {
   NftTransactionTypeExpress_Enum,
 } from "src/__generated__/generated";
 import dayjs from "src/utils/dates/dayjsex";
-import groupBy from "formfn-shared/dist/utils/array/groupBy";
+import groupBy from "bullistic-shared/dist/utils/array/groupBy";
 
 function isOneOfOneTab(nftKinds: MaybeUndef<Array<NftKind>>) {
   return nftKinds?.includes(NftKind.OneOfOne) ?? false;

@@ -1,5 +1,5 @@
 import graphql from "babel-plugin-relay/macro";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import ExploreTab from "types/enums/ExploreTab";
 import { NftKind } from "utils/explore/__generated__/getNftKindQueryValuesForTabQuery.graphql";
 

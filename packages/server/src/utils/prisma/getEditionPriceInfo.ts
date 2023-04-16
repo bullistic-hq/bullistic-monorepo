@@ -1,5 +1,5 @@
 import { NftListing } from "@prisma/client";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import Typename from "src/types/enums/Typename";
 import bigintToNumber from "src/utils/bigintToNumber";
 import {

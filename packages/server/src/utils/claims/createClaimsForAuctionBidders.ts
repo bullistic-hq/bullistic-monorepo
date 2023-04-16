@@ -1,4 +1,4 @@
-import removeDuplicatesWithComparison from "formfn-shared/dist/utils/array/removeDuplicatesWithComparison";
+import removeDuplicatesWithComparison from "bullistic-shared/dist/utils/array/removeDuplicatesWithComparison";
 import PNFT_CLAIMANT_LIMIT from "src/constants/pnftClaimantLimit";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 import logError from "src/utils/analytics/logError";
@@ -40,7 +40,7 @@ export default async function createClaimsForAuctionBidders(
 
   const dedupedClaimsUpToMaxLimit = dedupedClaims.slice(0, PNFT_CLAIMANT_LIMIT);
 
-  // If this ever happens see more info here: https://github.com/formfunction-hq/formfn-monorepo/pull/2042
+  // If this ever happens see more info here: https://github.com/bullistic-hq/bullistic-monorepo/pull/2042
   if (dedupedClaimsUpToMaxLimit.length === PNFT_CLAIMANT_LIMIT) {
     logError(
       AnalyticsEvent.PnftClaimantLimitReached,

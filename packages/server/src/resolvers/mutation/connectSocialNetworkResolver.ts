@@ -7,7 +7,7 @@ import {
   SocialNetwork,
   RedirectLocation_Enum,
 } from "src/__generated__/generated";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import DISCORD_AUTH_CONFIG from "src/constants/DiscordAuthConfig";
 import createDiscordAuthorizationNonce from "src/utils/discord/createDiscordAuthorizationNonce";
 import MyContext from "src/types/MyContext";

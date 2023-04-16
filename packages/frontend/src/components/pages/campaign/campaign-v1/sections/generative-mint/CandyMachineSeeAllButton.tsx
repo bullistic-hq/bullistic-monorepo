@@ -8,7 +8,7 @@ import ColorValue from "types/enums/ColorValue";
 import ButtonTheme from "types/enums/ButtonTheme";
 import FontClass from "types/enums/FontClass";
 import useSeriesLinkRelativeForSeriesExpress from "hooks/useSeriesLinkRelativeForSeriesExpress";
-import { CandyMachineMintPhase } from "@formfunction-hq/formfunction-candy-machine";
+import { CandyMachineMintPhase } from "@bullistic-hq/bullistic-candy-machine";
 import useCandyMachineIsSoldOut from "hooks/candy-machine/useCandyMachineIsSoldOut";
 
 const candyMachineFragment = graphql`

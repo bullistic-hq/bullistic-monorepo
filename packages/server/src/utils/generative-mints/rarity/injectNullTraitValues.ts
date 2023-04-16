@@ -1,5 +1,5 @@
-import deepCopySerializable from "formfn-shared/dist/utils/deepCopySerializable";
-import { range } from "formfn-shared/dist/utils/range";
+import deepCopySerializable from "bullistic-shared/dist/utils/deepCopySerializable";
+import { range } from "bullistic-shared/dist/utils/range";
 import NftAttributes from "src/types/NftAttributes";
 
 /**

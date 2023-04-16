@@ -1,10 +1,10 @@
 import { Connection, Keypair, PublicKey, Transaction } from "@solana/web3.js";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import logIfNotProd from "utils/logIfNotProd";
 import sendTransactionWithWallet from "utils/solana/misc/sendTransactionWithWallet";
 import { NftMetadataV1Input } from "hooks/__generated__/useUploadNftToArweaveMutation.graphql";
 import commitRawTxMutation from "utils/relay/commitRawTxMutation";
-import CommitRawTxType from "formfn-shared/dist/types/enums/CommitRawTxType";
+import CommitRawTxType from "bullistic-shared/dist/types/enums/CommitRawTxType";
 import AnchorWallet from "types/AnchorWallet";
 
 type MintMasterEditionArgs = {

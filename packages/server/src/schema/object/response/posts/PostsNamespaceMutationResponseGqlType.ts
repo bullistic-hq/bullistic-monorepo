@@ -1,4 +1,4 @@
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { GraphQLObjectType } from "graphql";
 import logErrorsForResolver from "src/middleware/logErrorsForResolver";
 import createPostBaseForCampaignResolver from "src/resolvers/mutation/posts/createPostBaseForCampaignResolver";

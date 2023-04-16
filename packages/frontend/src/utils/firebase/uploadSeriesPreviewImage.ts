@@ -1,4 +1,4 @@
-import getSeriesPreviewImageStoragePath from "formfn-shared/dist/utils/series/getSeriesPreviewImageStoragePath";
+import getSeriesPreviewImageStoragePath from "bullistic-shared/dist/utils/series/getSeriesPreviewImageStoragePath";
 import uploadFile from "utils/firebase/uploadFile";
 import getFileExt from "utils/getFileExt";
 

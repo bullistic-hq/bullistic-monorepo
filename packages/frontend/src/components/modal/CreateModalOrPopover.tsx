@@ -10,8 +10,8 @@ import ColorValue from "types/enums/ColorValue";
 import FontClass from "types/enums/FontClass";
 import styles from "css/modal/CreateModalOrPopover.module.css";
 import useFlagsTyped from "hooks/useFlagsTyped";
-import getUserProfileLinkRelative from "formfn-shared/dist/utils/links/getUserProfileLinkRelative";
-import ProfileUrlParamKey from "formfn-shared/dist/types/enums/ProfileUrlParamKey";
+import getUserProfileLinkRelative from "bullistic-shared/dist/utils/links/getUserProfileLinkRelative";
+import ProfileUrlParamKey from "bullistic-shared/dist/types/enums/ProfileUrlParamKey";
 import ProfileTabType from "types/enums/ProfileTabType";
 import GiftIcon from "components/icons/GiftIcon";
 import { useNavigate } from "react-router-dom";
@@ -19,7 +19,7 @@ import useBreakpoint from "hooks/useBreakpoint";
 import BottomDrawer from "components/drawers/BottomDrawer";
 import { TooltipPlacement } from "antd/lib/tooltip";
 import isMobile from "utils/isMobile";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 function Button({
   children,

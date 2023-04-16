@@ -11,15 +11,15 @@ import GenericSuccessModalContent from "components/modal/GenericSuccessModalCont
 import useSolanaContext from "hooks/useSolanaContext";
 import invariant from "tiny-invariant";
 import { PublicKey } from "@solana/web3.js";
-import findAta from "formfn-shared/dist/utils/solana/pdas/findAta";
-import getCreatorsForExecuteSale from "formfn-shared/dist/utils/sale/getCreatorsForExecuteSale";
+import findAta from "bullistic-shared/dist/utils/solana/pdas/findAta";
+import getCreatorsForExecuteSale from "bullistic-shared/dist/utils/sale/getCreatorsForExecuteSale";
 import sendTransactionWithWallet from "utils/solana/misc/sendTransactionWithWallet";
 import commitRawTxMutation from "utils/relay/commitRawTxMutation";
 import useSettleSale from "hooks/useSettleSale";
 import logIfNotProd from "utils/logIfNotProd";
 import SaleType from "types/enums/SaleType";
 import deleteOfferTransactionNodes from "utils/relay/deleteOfferTransactionNodes";
-import CommitRawTxType from "formfn-shared/dist/types/enums/CommitRawTxType";
+import CommitRawTxType from "bullistic-shared/dist/types/enums/CommitRawTxType";
 import isListedForSale from "utils/nft/isListedForSale";
 import useConfetti from "hooks/useConfetti";
 import useFormattedNftPrice from "hooks/useFormattedNftPrice";

@@ -1,5 +1,5 @@
 // https://explorer.solana.com/tx/BpqFoo3rNFQiv1TamNzJRHUW24wYZdo7jqruhTWeJKqxRLAke4R19Fc8PRerBdSHamiaHfA5T3LTXocRQyjnzoi?cluster=devnet
-// https://dev.formfunction.xyz/@soursop/AB4Ez6SKNy6n8uPAjGFtLhRvsaidwbPiCsr2kFAkC5kC?width=100&height=101
+// https://dev.bullistic.xyz/@soursop/AB4Ez6SKNy6n8uPAjGFtLhRvsaidwbPiCsr2kFAkC5kC?width=100&height=101
 const CREATE_EDITION_DISTRIBUTOR_WITH_TREASURY_MINT_TX_USDC = {
   blockTime: 1662576603,
   meta: {

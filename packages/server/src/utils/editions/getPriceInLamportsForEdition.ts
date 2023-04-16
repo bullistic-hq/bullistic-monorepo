@@ -1,7 +1,7 @@
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import { PriceFunctionTypeExpress_Enum } from "src/__generated__/generated";
-import parseEditionPriceParams from "formfn-shared/dist/utils/price/parseEditionPriceParams";
-import { PriceFunctionType } from "@formfunction-hq/formfunction-auction-house";
+import parseEditionPriceParams from "bullistic-shared/dist/utils/price/parseEditionPriceParams";
+import { PriceFunctionType } from "@bullistic-hq/bullistic-auction-house";
 
 /**
  * IMPORTANT: keep in sync with get_price_for_edition in auction house program

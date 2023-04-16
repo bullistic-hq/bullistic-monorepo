@@ -17,7 +17,7 @@ import TextButton from "components/buttons/TextButton";
 import ArrowRightIcon from "components/icons/ArrowRightIcon";
 import ColorValue from "types/enums/ColorValue";
 import FontClass from "types/enums/FontClass";
-import getCampaignLinkRelative from "formfn-shared/dist/utils/links/getCampaignLinkRelative";
+import getCampaignLinkRelative from "bullistic-shared/dist/utils/links/getCampaignLinkRelative";
 import { CampaignCommunityTabContent_CampaignV2$key } from "components/pages/campaign/campaign-v2/__generated__/CampaignCommunityTabContent_CampaignV2.graphql";
 import useIsViewerCampaignCreatorOrTeamMember from "hooks/campaign/useIsViewerCampaignCreatorOrTeamMember";
 

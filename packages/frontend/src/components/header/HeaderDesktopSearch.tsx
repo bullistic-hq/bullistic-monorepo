@@ -18,8 +18,8 @@ import TextButtonTheme from "types/enums/TextButtonTheme";
 import { useDebounce } from "use-debounce";
 import formatUsername from "utils/formatUsername";
 import joinClasses from "utils/joinClasses";
-import getUserProfileLinkRelative from "formfn-shared/dist/utils/links/getUserProfileLinkRelative";
-import getSeriesLinkRelative from "formfn-shared/dist/utils/links/getSeriesLinkRelative";
+import getUserProfileLinkRelative from "bullistic-shared/dist/utils/links/getUserProfileLinkRelative";
+import getSeriesLinkRelative from "bullistic-shared/dist/utils/links/getSeriesLinkRelative";
 import useBreakpoint from "hooks/useBreakpoint";
 
 const THEME_TO_CLASS = {
@@ -281,7 +281,7 @@ export default function HeaderDesktopSearch({
             THEME_TO_CLASS[headerTheme]
           )}
           onChange={(e) => setSearchText(e.target.value)}
-          placeholder={isDesktopBreakpoint ? "Search" : "Search Formfunction"}
+          placeholder={isDesktopBreakpoint ? "Search" : "Search Bullistic"}
           value={searchText}
         />
       </div>

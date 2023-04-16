@@ -4,10 +4,10 @@ import CONVERT_NFT_TO_METADATA_INCLUDE from "src/constants/include/ConvertNftToM
 import convertNft from "src/utils/convert/convertNft";
 import getPrisma from "src/utils/prisma/getPrisma";
 import isNftSynced from "src/utils/solana/isNftSynced";
-import toObject from "formfn-shared/dist/utils/toObject";
+import toObject from "bullistic-shared/dist/utils/toObject";
 import getAuctionHouseSdk from "src/utils/solana/getAuctionHouseSdk";
 import { CurrencyNameExpress_Enum } from "src/__generated__/generated";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 /**
  * Checks if an NFT's state in our DB is in sync with the actual on-chain state.

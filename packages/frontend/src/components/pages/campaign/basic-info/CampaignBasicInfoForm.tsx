@@ -27,15 +27,15 @@ import CampaignCategorySelect from "components/pages/campaign/basic-info/Campaig
 import CampaignGoalInput from "components/pages/campaign/basic-info/CampaignGoalInput";
 import CampaignCategoryExpress_enum from "types/relay/CampaignCategoryExpress_enum";
 import CampaignColorSchemeExpress_enum from "types/relay/CampaignColorSchemeExpress_enum";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import EmojiInput from "components/pages/campaign/basic-info/EmojiInput";
 import UploadMediaInput from "components/input/UploadMediaInput";
 import CAMPAIGN_COLOR_SCHEMES from "constants/CampaignColorSchemes";
 import UserSearchBar from "components/user/UserSearchBar";
 import CurrencyConfig from "types/CurrencyConfig";
-import getCampaignLinkRelative from "formfn-shared/dist/utils/links/getCampaignLinkRelative";
+import getCampaignLinkRelative from "bullistic-shared/dist/utils/links/getCampaignLinkRelative";
 import useUserContext from "hooks/useUserContext";
-import getDashCasedString from "formfn-shared/dist/utils/string/getDashCasedString";
+import getDashCasedString from "bullistic-shared/dist/utils/string/getDashCasedString";
 import { useState } from "react";
 import MediaType from "types/enums/MediaType";
 
@@ -175,7 +175,7 @@ export default function CampaignBasicInfoForm({
             />
             <Body2
               colorClass={ColorClass.Primary}
-            >{`The URL for this campaign will be: formfunction.xyz${getCampaignLinkRelative(
+            >{`The URL for this campaign will be: bullistic.xyz${getCampaignLinkRelative(
               user!.username,
               getDashCasedString(watch("campaignName"))
             )}`}</Body2>

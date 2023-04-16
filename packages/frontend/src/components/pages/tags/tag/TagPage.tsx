@@ -8,7 +8,7 @@ import Header2 from "components/text/Header2";
 import Subheader from "components/text/Subheader";
 import { ExploreContextProvider } from "context/ExploreContext";
 import styles from "css/pages/tags/tag/TagPage.module.css";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import useLogPageView from "hooks/useLogPageView";
 import useSetPageTitle from "hooks/useSetPageTitle";
 import { Suspense } from "react";

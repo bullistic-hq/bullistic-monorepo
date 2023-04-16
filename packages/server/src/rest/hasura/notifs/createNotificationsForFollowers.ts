@@ -7,12 +7,12 @@ import {
   Price,
 } from "src/__generated__/generated";
 import dayjs from "src/utils/dates/dayjsex";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import createFollowerNewEditionsListedNotifications from "src/utils/notifications/create/createFollowerNewEditionsListedNotifications";
 import createFollowerNewPieceListedNotifications from "src/utils/notifications/create/createFollowerNewPieceListedNotifications";
 import createFollowerNewPieceListedSecondaryNotifications from "src/utils/notifications/create/createFollowerNewPieceListedSecondaryNotifications";
 import createFollowerNewPieceScheduledNotifications from "src/utils/notifications/create/createFollowerNewPieceScheduledNotifications";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 export default async function createNotificationsForFollowers(
   req: Request,

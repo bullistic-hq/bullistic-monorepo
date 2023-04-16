@@ -4,7 +4,7 @@ import CameraIcon from "components/icons/CameraIcon";
 import ColorValue from "types/enums/ColorValue";
 import Body2 from "components/text/Body2";
 import ColorClass from "types/enums/ColorClass";
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import MediaType from "types/enums/MediaType";
 
 const FIVE_MB = 5e6;

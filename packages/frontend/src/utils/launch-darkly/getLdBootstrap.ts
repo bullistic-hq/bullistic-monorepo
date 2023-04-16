@@ -1,4 +1,4 @@
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import { Flags } from "hooks/useFlagsTyped";
 
 let memoize: MaybeUndef<Flags>;

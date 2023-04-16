@@ -1,4 +1,4 @@
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { GraphQLObjectType, GraphQLString } from "graphql";
 import logErrorsForResolver from "src/middleware/logErrorsForResolver";
 import metadataAccountsForCampaignSectionConnectionResolver from "src/resolvers/query/nested/campaign-section/metadataAccountsForCampaignSectionConnectionResolver";

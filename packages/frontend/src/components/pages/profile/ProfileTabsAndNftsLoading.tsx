@@ -4,7 +4,7 @@ import loadingStyles from "css/pages/profile/ProfileLoadingPage.module.css";
 import ProfileTabType from "types/enums/ProfileTabType";
 import TabButton from "components/buttons/TabButton";
 import NftGridFullWidthLoading from "components/grids/nft/NftGridFullWidthLoading";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
 import useIsBottomTabsWidth from "hooks/useIsBottomTabsWidth";
 import IconTabButton from "components/buttons/IconTabButton";
 import ColorValue from "types/enums/ColorValue";

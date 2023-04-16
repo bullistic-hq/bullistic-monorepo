@@ -1,7 +1,7 @@
 import {
   PriceFunctionType,
   AuctionHouseSdk,
-} from "@formfunction-hq/formfunction-auction-house";
+} from "@bullistic-hq/bullistic-auction-house";
 import {
   Connection,
   PublicKey,
@@ -9,7 +9,7 @@ import {
   TransactionInstruction,
 } from "@solana/web3.js";
 import getNftMintTokenAccountAddressOrAta from "utils/solana/tokens/read/getNftMintTokenAccountAddressOrAta";
-import { Maybe, Undef } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe, Undef } from "bullistic-shared/dist/types/UtilityTypes";
 import { Dayjs } from "dayjs";
 
 /**

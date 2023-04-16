@@ -1,5 +1,5 @@
 import graphql from "babel-plugin-relay/macro";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import {
   useUserSearchBarUserExpress_UserExpress$data,
   useUserSearchBarUserExpress_UserExpress$key,

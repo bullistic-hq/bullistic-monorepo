@@ -5,7 +5,7 @@ import getUrlWithParam from "utils/getUrlWithParam";
 import getUrlParam from "utils/getUrlParam";
 import useListenForParamChange from "hooks/useListenForParamChange";
 import StatsDuration from "types/enums/StatsDuration";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 
 const URL_PARAM_KEY = "timeSpan";
 

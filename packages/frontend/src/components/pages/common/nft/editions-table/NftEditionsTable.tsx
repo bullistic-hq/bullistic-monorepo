@@ -1,7 +1,7 @@
 import graphql from "babel-plugin-relay/macro";
 import { EditionsForMasterEditionMintPaginationQuery } from "components/pages/common/nft/editions-table/__generated__/EditionsForMasterEditionMintPaginationQuery.graphql";
 import { NftEditionsTableEditionsForMasterEditionMint_Query$key } from "components/pages/common/nft/editions-table/__generated__/NftEditionsTableEditionsForMasterEditionMint_Query.graphql";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import {
   PreloadedQuery,
   usePaginationFragment,

@@ -1,9 +1,9 @@
 import { createTransferCheckedInstruction } from "@solana/spl-token";
 import { Connection, PublicKey } from "@solana/web3.js";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
-import findAta from "formfn-shared/dist/utils/solana/pdas/findAta";
-import createAtaIx from "formfn-shared/dist/utils/solana/instructions/createAtaIx";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
+import findAta from "bullistic-shared/dist/utils/solana/pdas/findAta";
+import createAtaIx from "bullistic-shared/dist/utils/solana/instructions/createAtaIx";
 import useSolanaContext from "hooks/useSolanaContext";
 import invariant from "tiny-invariant";
 import ixsToTx from "utils/solana/misc/ixsToTx";

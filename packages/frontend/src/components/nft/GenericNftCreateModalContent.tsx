@@ -9,7 +9,7 @@ import Body1 from "components/text/Body1";
 import styles from "css/nft/GenericNftCreateModalContent.module.css";
 import useCreateNftDetailsContext from "hooks/useCreateNftDetailsContext";
 import ColorClass from "types/enums/ColorClass";
-import isNumber from "formfn-shared/dist/utils/numbers/isNumber";
+import isNumber from "bullistic-shared/dist/utils/numbers/isNumber";
 import ListingInputs from "components/listing/ListingInputs";
 import { MAX_DESCRIPTION_LENGTH } from "constants/MaxLengths";
 import DEFAULT_ACCEPTED_MEDIA_TYPES from "constants/media-type/DefaultAcceptedMediaTypes";

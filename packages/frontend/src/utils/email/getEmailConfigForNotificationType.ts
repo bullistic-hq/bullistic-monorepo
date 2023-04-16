@@ -1,6 +1,6 @@
 import RELAY_FUTURE_ADDED_VALUE from "constants/RelayFutureAddedValue";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import EmailSection from "types/enums/EmailSection";
 import EmailToggle from "types/enums/EmailToggle";
 import NotificationType_enum from "types/relay/NotificationType_enum";

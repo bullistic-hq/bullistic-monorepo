@@ -1,4 +1,4 @@
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import { Flags } from "hooks/useFlagsTyped";
 import Network from "types/enums/Network";
 import getLdBootstrap from "utils/launch-darkly/getLdBootstrap";

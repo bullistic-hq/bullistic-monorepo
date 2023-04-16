@@ -1,24 +1,24 @@
 import { ParsedTransactionWithMeta, PublicKey } from "@solana/web3.js";
-import { Maybe, Resolved } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe, Resolved } from "bullistic-shared/dist/types/UtilityTypes";
 import NftTransactionOnchain from "src/types/NftTransactionOnchain";
 import dayjs from "src/utils/dates/dayjsex";
 import { NftTransactionTypeExpress_Enum } from "src/__generated__/generated";
-import isBotTaxedTransaction from "formfn-shared/dist/utils/solana/txs/parse/isBotTaxedTransaction";
+import isBotTaxedTransaction from "bullistic-shared/dist/utils/solana/txs/parse/isBotTaxedTransaction";
 import convertPrice from "src/utils/convert/convertPrice";
 import loadCandyMachineSdk from "src/utils/solana/loadCandyMachineSdk";
-import FormfnCandyMachineSdk, {
-  DecodedFormfnCandyMachineTransactionResult,
-} from "@formfunction-hq/formfunction-candy-machine";
+import BullisticCandyMachineSdk, {
+  DecodedBullisticCandyMachineTransactionResult,
+} from "@bullistic-hq/bullistic-candy-machine";
 import getCurrencyInfoForTreasuryMint from "src/utils/solana/txs/parse/getCurrencyInfoForTreasuryMint";
-import { WRAPPED_SOL_MINT } from "formfn-shared/dist/constants/SolanaConstants";
-import maybeNumber from "formfn-shared/dist/utils/numbers/maybeNumber";
+import { WRAPPED_SOL_MINT } from "bullistic-shared/dist/constants/SolanaConstants";
+import maybeNumber from "bullistic-shared/dist/utils/numbers/maybeNumber";
 
 type CandyMachineInfo = {
   candyMachine: Resolved<
-    ReturnType<FormfnCandyMachineSdk["fetchCandyMachine"]>
+    ReturnType<BullisticCandyMachineSdk["fetchCandyMachine"]>
   >;
   seriesInfo: Resolved<
-    ReturnType<FormfnCandyMachineSdk["fetchCandyMachineCollectionPda"]>
+    ReturnType<BullisticCandyMachineSdk["fetchCandyMachineCollectionPda"]>
   >;
 };
 
@@ -41,7 +41,7 @@ async function getCandyMachineInfo(address: PublicKey) {
 
 export default async function parseSoldGenerativeMintTx(
   tx: ParsedTransactionWithMeta,
-  decodedTransaction: Maybe<DecodedFormfnCandyMachineTransactionResult>
+  decodedTransaction: Maybe<DecodedBullisticCandyMachineTransactionResult>
 ): Promise<
   Maybe<{
     candyMachineInfo: Maybe<CandyMachineInfo>;
@@ -72,7 +72,7 @@ export default async function parseSoldGenerativeMintTx(
     treasuryMint ?? WRAPPED_SOL_MINT
   );
 
-  const price = maybeNumber(mintNftIx.data.expectedPrice);
+  const price = maybeNumber(mintNftIx.data.expectedPrice as Maybe<string>);
 
   const txid = tx.transaction.signatures[0];
   return {

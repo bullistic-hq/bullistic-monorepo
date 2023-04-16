@@ -1,6 +1,6 @@
 import styles from "css/pages/common/nft/ProfileLinkLayout.module.css";
 import { Link } from "react-router-dom";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 export default function ProfileLinkLayout({
   linkTo,

@@ -5,7 +5,7 @@ import AcceptInviteAccountSetupModal from "components/modal/AcceptInviteAccountS
 import getImgixUrl from "utils/getImgixUrl";
 import GenericPageBodyWithGraphic from "components/misc/GenericPageBodyWithGraphic";
 import dayjs from "utils/dates/dayjsex";
-import { DEFAULT_INVITE_LINK_EXPIRY_DURATION } from "formfn-shared/dist/constants/InvitesConstants";
+import { DEFAULT_INVITE_LINK_EXPIRY_DURATION } from "bullistic-shared/dist/constants/InvitesConstants";
 import DisconnectWalletButton from "components/buttons/DisconnectWalletButton";
 import useUserContext from "hooks/useUserContext";
 import Page404Content from "components/pages/errors/Page404Content";
@@ -56,7 +56,7 @@ function UserAlreadyConnectedToAccount() {
       imgSrc={img}
       primaryText={
         "To accept your creator invite, please sign in with a" +
-        " wallet that is not connected to an existing Formfunction account!"
+        " wallet that is not connected to an existing Bullistic account!"
       }
       button={<DisconnectWalletButton buttonStyle="ButtonWithText" />}
     />

@@ -1,7 +1,7 @@
 import styles from "css/pages/campaign/campaign-v1/CampaignActivity.module.css";
 import CampaignActivityItemForNftTransaction from "components/pages/campaign/campaign-generic/activity/CampaignActivityItemForNftTransaction";
 import NftTransactions from "components/pages/common/nft/NftTransactions";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { campaignActivityQuery } from "hooks/campaign-page/v1/useCampaignPageActivity";
 import { useCampaignPageActivityQuery } from "hooks/campaign-page/v1/__generated__/useCampaignPageActivityQuery.graphql";
 import { PreloadedQuery, usePreloadedQuery } from "react-relay";

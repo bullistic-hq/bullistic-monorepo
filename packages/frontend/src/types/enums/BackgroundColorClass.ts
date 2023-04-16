@@ -45,8 +45,6 @@ enum BackgroundColorClass {
   PhantomPurple = "backgroundColorPhantomPurple",
   Pink = "backgroundColorPink",
   PinkVerticalGradient = "backgroundColorPinkVerticalGradient",
-  PopheadzDarkGray = "backgroundColorPopheadzDarkGray",
-  PopheadzLightGray = "backgroundColorPopheadzLightGray",
   Primary = "backgroundColorPrimary",
   ProgressBar = "backgroundColorProgressBar",
   Purple = "backgroundColorPurple",

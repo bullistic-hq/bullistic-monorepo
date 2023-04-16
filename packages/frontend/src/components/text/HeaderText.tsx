@@ -3,7 +3,7 @@ import FontClass from "types/enums/FontClass";
 import joinClasses from "utils/joinClasses";
 import styles from "css/text/HeaderText.module.css";
 import { CSSProperties } from "react";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 export type Props = {
   children: any;

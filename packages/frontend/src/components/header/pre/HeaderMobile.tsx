@@ -17,7 +17,7 @@ export default function HeaderMobile(): JSX.Element {
             <HamburgerButton colorValue={ColorValue.Primary} isShown={false} />
             <a className={styles.logo} href="/">
               <img className={styles.logoImage} src="/images/logo-black.svg" />
-              <h3 className={styles.logoText}>formfunction</h3>
+              <h3 className={styles.logoText}>bullistic</h3>
             </a>
             <HamburgerButton
               colorValue={ColorValue.Secondary}

@@ -10,7 +10,7 @@ import getBuyerEscrowBalance from "src/utils/solana/getBuyerEscrowBalance";
 import parseBuyTx from "src/utils/solana/txs/parse/parseBuyTx";
 import getMostRecentCancelOfferTxForBuyerEscrowAccount from "src/utils/solana/getMostRecentCancelOfferTxForBuyerEscrowAccount";
 import arePricesEqual from "src/utils/price/arePricesEqual";
-import { decodeAuctionHouseTransaction } from "@formfunction-hq/formfunction-auction-house";
+import { decodeAuctionHouseTransaction } from "@bullistic-hq/bullistic-auction-house";
 import getAuctionHouseConstants from "src/utils/solana/getAuctionHouseConstants";
 
 export default async function maybeBackfillRefundTxidForOffer(

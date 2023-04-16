@@ -1,4 +1,4 @@
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import styles from "css/pages/campaign/campaign-generic/about/CampaignAboutCard.module.css";
 import Body1Bold from "components/text/Body1Bold";
 import ColorClass from "types/enums/ColorClass";

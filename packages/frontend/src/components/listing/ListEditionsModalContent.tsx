@@ -1,8 +1,8 @@
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import graphql from "babel-plugin-relay/macro";
 import { useFragment } from "react-relay";
-import { PriceFunctionType } from "@formfunction-hq/formfunction-auction-house";
+import { PriceFunctionType } from "@bullistic-hq/bullistic-auction-house";
 import EditionsChoosePriceFunctionType from "components/listing/EditionsChoosePriceFunctionType";
 import { ListEditionsModalContent_MetadataAccount$key } from "components/listing/__generated__/ListEditionsModalContent_MetadataAccount.graphql";
 import ListEditionsConstantOrMinimumPrice from "components/listing/ListEditionsConstantOrMinimumPrice";

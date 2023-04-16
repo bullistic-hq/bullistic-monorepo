@@ -1,5 +1,5 @@
 import { PublicKey } from "@solana/web3.js";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import getTokenAccountOwner from "src/utils/solana/accounts/getTokenAccountOwner";
 import getNftMintTokenAccountAddress from "src/utils/solana/getNftMintTokenAccountAddress";
 

@@ -5,7 +5,7 @@ import { Suspense } from "react";
 import { useLazyLoadQuery } from "react-relay";
 import SeriesCard from "components/series/SeriesCard";
 import useFlagsTyped from "hooks/useFlagsTyped";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import LandingSectionHeader from "components/pages/landing/LandingSectionHeader";
 import LandingSeriesGrid from "components/pages/landing/LandingSeriesGrid";
 import LandingSeriesGridItem from "components/pages/landing/LandingSeriesGridItem";

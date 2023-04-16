@@ -1,5 +1,5 @@
 import { Prisma } from "@prisma/client";
-import { CampaignConfig } from "formfn-shared/dist/types/CampaignsConfig";
+import { CampaignConfig } from "bullistic-shared/dist/types/CampaignsConfig";
 import { NftTransactionTypeExpress_Enum } from "src/__generated__/generated";
 
 export default function getCampaignSoldTransactionsWhereClause(

@@ -9,7 +9,7 @@ import TextButton from "components/buttons/TextButton";
 import TextButtonTheme from "types/enums/TextButtonTheme";
 import Body1 from "components/text/Body1";
 import { useState } from "react";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import FontClass from "types/enums/FontClass";
 import LoadingSpinner from "components/loading/LoadingSpinner";
 import ColorValue from "types/enums/ColorValue";
@@ -20,9 +20,9 @@ import ButtonTheme from "types/enums/ButtonTheme";
 import signAuthMessage from "utils/solana/misc/signAuthMessage";
 import logEvent from "utils/analytics/logEvent";
 import AnalyticsEvent from "types/enums/AnalyticsEvent";
-import { FormfunctionWallet } from "context/SolanaContext";
+import { BullisticWallet } from "context/SolanaContext";
 import { PublicKey, Transaction, VersionedTransaction } from "@solana/web3.js";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import getWalletWindowObject, {
   WalletWindowObject,
 } from "utils/solana/wallet/getWalletWindowObject";
@@ -80,7 +80,7 @@ function WalletButton({
 }: {
   colorClass?: ColorClass;
   onClick: () => void;
-  wallet: FormfunctionWallet;
+  wallet: BullisticWallet;
 }): JSX.Element {
   return (
     <PlainButton
@@ -105,7 +105,7 @@ function ConnectWalletBody({
       <TextButton
         buttonThemeOrColorClass={TextButtonTheme.BrightPurple}
         display="inline"
-        href="https://help.formfunction.xyz/en/articles/6474245-using-formfunction-with-a-ledger"
+        href="https://help.bullistic.xyz/en/articles/6474245-using-bullistic-with-a-ledger"
         type="link_external"
       >
         Ledger does not support signing messages
@@ -129,8 +129,8 @@ function ConnectWalletBody({
         colorClass={ColorClass.Secondary}
         textAlign="center"
       >
-        Formfunction uses your wallet as your account—just follow these steps to
-        start using Formfunction:
+        Bullistic uses your wallet as your account—just follow these steps to
+        start using Bullistic:
         <ol className={styles.ol}>
           <li>
             Press &ldquo;Connect&rdquo; on your browser&apos;s wallet extension.
@@ -177,7 +177,7 @@ function NeedToInstall({
         textAlign="center"
       >
         You need to install {nameLong ?? name} before using it to connect to
-        Formfunction. Go{" "}
+        Bullistic. Go{" "}
         <TextButton
           buttonThemeOrColorClass={TextButtonTheme.Secondary}
           display="inline"
@@ -207,7 +207,7 @@ function NeedToInstallWallet({
   wallet,
 }: {
   onBack: () => void;
-  wallet: FormfunctionWallet;
+  wallet: BullisticWallet;
 }): JSX.Element {
   return (
     <NeedToInstall
@@ -229,7 +229,7 @@ export default function ConnectWalletModal({
 }: Props): JSX.Element {
   const [step, setStep] = useState(ConnectWalletStep.ChooseWalletStep);
   const [isInstallNeeded, setIsInstallNeeded] =
-    useState<Maybe<FormfunctionWallet>>(null);
+    useState<Maybe<BullisticWallet>>(null);
   const { connection, setAnchorWallet, wallets } = useSolanaContext();
   const [selectedWalletType, setSelectedWalletType] = useState<WalletType>(
     WalletType.HotWallet
@@ -241,7 +241,7 @@ export default function ConnectWalletModal({
     onHide();
   };
 
-  const onSelectWallet = async (wallet: FormfunctionWallet) => {
+  const onSelectWallet = async (wallet: BullisticWallet) => {
     const windowObject = getWalletWindowObject(wallet.name);
     if (windowObject == null) {
       setIsInstallNeeded(wallet);
@@ -338,7 +338,7 @@ export default function ConnectWalletModal({
           label={
             <>
               Are you using a{" "}
-              <PlainExternalLink href="https://help.formfunction.xyz/en/articles/6474268-why-should-i-use-a-hardware-wallet">
+              <PlainExternalLink href="https://help.bullistic.xyz/en/articles/6474268-why-should-i-use-a-hardware-wallet">
                 hardware wallet
               </PlainExternalLink>
               ? (e.g. Ledger)
@@ -367,7 +367,7 @@ export default function ConnectWalletModal({
         buttonThemeOrColorClass={TextButtonTheme.Secondary}
         className={styles.firstTimeButton}
         display="block"
-        href="https://help.formfunction.xyz/en/articles/5870325-setting-up-your-phantom-wallet"
+        href="https://help.bullistic.xyz/en/articles/5870325-setting-up-your-phantom-wallet"
         textDecoration="underline"
         type="link_external"
       >

@@ -1,6 +1,6 @@
 import { Connection, ConnectionConfig } from "@solana/web3.js";
 import Network from "src/types/enums/Network";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import getRpcHostFromNetwork, {
   syncRpcHostFromNetwork,
 } from "src/utils/solana/getRpcHostFromNetwork";

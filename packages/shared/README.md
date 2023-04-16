@@ -1,6 +1,6 @@
-# formfn-shared
+# bullistic-shared
 
-Shared modules for the `formfn-monorepo`.
+Shared modules for the `bullistic-monorepo`.
 
 ## Development
 

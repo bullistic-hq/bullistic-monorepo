@@ -1,4 +1,4 @@
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import { PostVisibilityExpress_Enum } from "src/__generated__/generated";
 import { CampaignToHolder, Prisma } from "@prisma/client";
 import getCampaignWhereForCampaignForSlugInput from "src/utils/campaigns/getCampaignWhereForCampaignForSlugInput";
@@ -6,9 +6,9 @@ import getCampaignWithHolderAndTeamMemberStatus from "src/utils/campaigns/getCam
 import getCampaignFundingTierIdsForUser from "src/utils/campaigns/getCampaignFundingTierIdsForUser";
 import ConvertCampaignType from "src/types/convert/ConvertCampaignType";
 import getCampaignForCampaignForSlugInput from "src/utils/campaigns/getCampaignForCampaignForSlugInput";
-import canUserSeeCampaignGatedCommunity from "formfn-shared/dist/utils/campaigns/canUserSeeCampaignGatedCommunity";
+import canUserSeeCampaignGatedCommunity from "bullistic-shared/dist/utils/campaigns/canUserSeeCampaignGatedCommunity";
 import invariant from "tiny-invariant";
-import isUserCampaignCommunityOmniViewer from "formfn-shared/dist/utils/campaigns/isUserCampaignCommunityOmniViewer";
+import isUserCampaignCommunityOmniViewer from "bullistic-shared/dist/utils/campaigns/isUserCampaignCommunityOmniViewer";
 
 // Keep logic in sync with canViewerSeePost.ts
 export default async function getPostsForCampaignWhereClause(

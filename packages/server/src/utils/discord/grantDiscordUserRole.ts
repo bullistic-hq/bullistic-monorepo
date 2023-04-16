@@ -1,5 +1,5 @@
 import { Prisma, DiscordAuth } from "@prisma/client";
-import DiscordRoleId from "formfn-shared/dist/types/enums/DiscordRoleId";
+import DiscordRoleId from "bullistic-shared/dist/types/enums/DiscordRoleId";
 import {
   addRoleToDiscordUser,
   DiscordUserDetail,

@@ -1,8 +1,8 @@
 import CampaignFundingTiersContainer from "components/pages/campaign/campaign-generic/funding-tiers/CampaignFundingTiersContainer";
 import CampaignSectionForCampaignSectionWithGenerativeMint from "components/pages/campaign/campaign-v1/sections/CampaignSectionForCampaignSectionWithGenerativeMint";
 import CampaignSectionForCampaignSectionWithNfts from "components/pages/campaign/campaign-v1/sections/CampaignSectionForCampaignSectionWithNfts";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
 import { campaignSectionsQuery } from "hooks/campaign-page/v1/useCampaignPageSections";
 import { useCampaignPageSectionsQuery } from "hooks/campaign-page/v1/__generated__/useCampaignPageSectionsQuery.graphql";
 import { PreloadedQuery, usePreloadedQuery } from "react-relay";

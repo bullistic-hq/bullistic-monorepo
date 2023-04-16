@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from "express";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 import logEvent from "src/utils/analytics/logEvent";
 import getFilteredRecipients from "src/utils/notifications/getFilteredRecipients";

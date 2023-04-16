@@ -1,4 +1,4 @@
-import { WRAPPED_SOL_MINT } from "formfn-shared/dist/constants/SolanaConstants";
+import { WRAPPED_SOL_MINT } from "bullistic-shared/dist/constants/SolanaConstants";
 import CurrencyConfig from "types/CurrencyConfig";
 import TextSymbol from "types/enums/TextSymbol";
 

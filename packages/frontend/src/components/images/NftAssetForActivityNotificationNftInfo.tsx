@@ -2,7 +2,7 @@ import NftAssetSize from "types/enums/NftAssetSize";
 import graphql from "babel-plugin-relay/macro";
 import { useFragment } from "react-relay";
 import NftAsset from "components/images/NftAsset";
-import getNftLinkRelative from "formfn-shared/dist/utils/links/getNftLinkRelative";
+import getNftLinkRelative from "bullistic-shared/dist/utils/links/getNftLinkRelative";
 import { NftAssetForActivityNotificationNftInfo_ActivityNotificationNftInfo$key } from "components/images/__generated__/NftAssetForActivityNotificationNftInfo_ActivityNotificationNftInfo.graphql";
 
 const fragment = graphql`

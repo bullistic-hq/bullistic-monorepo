@@ -1,7 +1,7 @@
 /* eslint-disable no-restricted-syntax */
 import { Event, Severity } from "@sentry/react";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import targetIncludesAny from "formfn-shared/dist/utils/array/targetIncludesAny";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import targetIncludesAny from "bullistic-shared/dist/utils/array/targetIncludesAny";
 
 // Shorthand constants
 const error = Severity.Error;

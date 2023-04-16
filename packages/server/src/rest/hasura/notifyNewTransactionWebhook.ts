@@ -16,8 +16,8 @@ import {
 } from "@prisma/client";
 import DiscordWebhook from "src/types/enums/DiscordWebhook";
 import sendDiscordNotification from "src/utils/tooling/sendDiscordNotification";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import formatDecimals from "formfn-shared/dist/utils/formatDecimals";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import formatDecimals from "bullistic-shared/dist/utils/formatDecimals";
 
 function getName(user: User) {
   if (user.displayName != null && user.displayName !== "") {
@@ -50,7 +50,7 @@ async function sendBidAlerts(
     prismaNft.Creator
   )} for ${formatDecimals(Number(prismaTx.price!), decimals)} ${
     shortSymbol ?? symbol
-  }! This auction ends in ${timeLeftStr}—go check it out at https://formfunction.xyz/@${
+  }! This auction ends in ${timeLeftStr}—go check it out at https://bullistic.xyz/@${
     prismaNft.Creator.username
   }/${mint}`;
 
@@ -75,7 +75,7 @@ async function sendOfferAlerts(
     prismaTx.From
   )} for ${formatDecimals(Number(prismaTx.price!), decimals)} ${
     shortSymbol ?? symbol
-  }! Go check it out at https://formfunction.xyz/@${
+  }! Go check it out at https://bullistic.xyz/@${
     prismaNft.Owner.username
   }/${mint}`;
 
@@ -100,7 +100,7 @@ async function sendOfferAcceptedAlerts(
   } *accepted* by ${getName(prismaTx.From)} for ${formatDecimals(
     Number(prismaTx.price!),
     decimals
-  )} ${shortSymbol ?? symbol}! Go check it out at https://formfunction.xyz/@${
+  )} ${shortSymbol ?? symbol}! Go check it out at https://bullistic.xyz/@${
     prismaNft.Owner.username
   }/${mint}`;
 
@@ -126,7 +126,7 @@ async function sendInstantSaleAlerts(
     prismaTx.From
   )} for ${formatDecimals(Number(prismaTx.price!), decimals)} ${
     shortSymbol ?? symbol
-  }! Go check it out at https://formfunction.xyz/@${
+  }! Go check it out at https://bullistic.xyz/@${
     prismaNft.Owner.username
   }/${mint}`;
 
@@ -155,7 +155,7 @@ async function sendListedAlerts(
     prismaNft.Owner
   )} for ${formatDecimals(Number(prismaTx.price!), decimals)} ${
     shortSymbol ?? symbol
-  }! Go check it out at https://formfunction.xyz/@${
+  }! Go check it out at https://bullistic.xyz/@${
     prismaNft.Owner.username
   }/${mint}`;
 
@@ -179,7 +179,7 @@ async function sendListedEditionsAlerts(
     decimals
   )} ${shortSymbol ?? symbol}! The price function type is ${
     prismaNft.NftListing!.editionPriceFunctionType
-  }. Go check it out at https://formfunction.xyz/@${prismaNft.Owner.username}/${
+  }. Go check it out at https://bullistic.xyz/@${prismaNft.Owner.username}/${
     prismaNft.mint
   }`;
 
@@ -200,7 +200,7 @@ async function sendMintedAlerts(
       prismaNft.NftMetadata.name
     } was minted as a new participation NFT by ${getName(
       prismaNft.Owner
-    )}! Go check it out at https://formfunction.xyz/@${
+    )}! Go check it out at https://bullistic.xyz/@${
       prismaNft.Owner.username
     }/${mint}`;
 
@@ -215,7 +215,7 @@ async function sendMintedAlerts(
     prismaNft.NftMetadata.name
   }${maxSupply} was minted by ${getName(
     prismaNft.Owner
-  )}! Go check it out at https://formfunction.xyz/@${
+  )}! Go check it out at https://bullistic.xyz/@${
     prismaNft.Owner.username
   }/${mint}`;
 
@@ -233,7 +233,7 @@ async function sendClaimedPnftAlerts(
     prismaNft.NftMetadata.name
   } was claimed by ${getName(
     prismaNft.Owner
-  )}! Go check it out at https://formfunction.xyz/@${
+  )}! Go check it out at https://bullistic.xyz/@${
     prismaNft.Owner.username
   }/${mint}`;
 
@@ -253,7 +253,7 @@ async function sendSoldEditionPrimaryAlerts(
   } was bought by ${getName(prismaNft.Owner)} for ${formatDecimals(
     Number(prismaTx.price!),
     decimals
-  )} ${shortSymbol ?? symbol}! Go check it out at https://formfunction.xyz/@${
+  )} ${shortSymbol ?? symbol}! Go check it out at https://bullistic.xyz/@${
     prismaNft.Owner.username
   }/${prismaNft.mint}`;
 
@@ -276,7 +276,7 @@ async function sendStoppedMintingForEditionsAlerts(
   const content =
     `Minting of editions was stopped for ${prismaNft.NftMetadata.name}. ` +
     `${numStandardEditionsMinted} / ${prismaNft.maxSupply} editions were minted. ` +
-    `See the NFT at https://formfunction.xyz/@${prismaNft.Owner.username}/${prismaNft.mint}`;
+    `See the NFT at https://bullistic.xyz/@${prismaNft.Owner.username}/${prismaNft.mint}`;
 
   await sendSlackNotification(
     SlackWebhook.StoppedMintingForEditionsAlertChannel,

@@ -1,7 +1,7 @@
 import graphql from "babel-plugin-relay/macro";
 import NftLabelAndContent from "components/pages/common/nft/NftLabelAndContent";
 import { useFragment } from "react-relay";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import styles from "css/pages/common/nft/NftTags.module.css";
 import { NftTags_MetadataAccount$key } from "components/pages/common/nft/__generated__/NftTags_MetadataAccount.graphql";
 import TextButton from "components/buttons/TextButton";

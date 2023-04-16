@@ -1,7 +1,7 @@
 import { PublicKey } from "@solana/web3.js";
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
 import NftTransactionOnchain from "src/types/NftTransactionOnchain";
-import PublicKeyOrString from "formfn-shared/dist/types/PublicKeyOrString";
+import PublicKeyOrString from "bullistic-shared/dist/types/PublicKeyOrString";
 import ConnectionWrapper from "src/utils/solana/rpc/ConnectionWrapper";
 import parseHolaplexTx from "src/utils/solana/txs/parse/holaplex/parseHolaplexTx";
 

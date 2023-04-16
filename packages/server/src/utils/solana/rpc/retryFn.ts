@@ -1,6 +1,6 @@
 import { SeverityLevel } from "@sentry/node";
 import { Connection } from "@solana/web3.js";
-import jsonStringify from "formfn-shared/dist/utils/jsonStringify";
+import jsonStringify from "bullistic-shared/dist/utils/jsonStringify";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 import LaunchDarklyFlag from "src/types/enums/LaunchDarklyFlag";
 import logError from "src/utils/analytics/logError";
@@ -9,7 +9,7 @@ import getTimeElapsed from "src/utils/dates/getTimeElapsed";
 import getLdFlag from "src/utils/launch-darkly/getLdFlag";
 import getRpcRetryUrls from "src/utils/launch-darkly/getRpcRetryUrls";
 import getConnection from "src/utils/solana/getConnection";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import CONNECTION_CONFIG from "src/constants/ConnectionConfig";
 import logEvent from "src/utils/analytics/logEvent";
 

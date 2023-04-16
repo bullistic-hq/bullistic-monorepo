@@ -1,9 +1,9 @@
 import axios from "axios";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
-import { MaybeUndef, Undef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef, Undef } from "bullistic-shared/dist/types/UtilityTypes";
 import { Request } from "express";
 import getEnvironment from "src/utils/getEnvironment";
-import jsonStringify from "formfn-shared/dist/utils/jsonStringify";
+import jsonStringify from "bullistic-shared/dist/utils/jsonStringify";
 import getDefaultLogProperties from "src/utils/analytics/getDefaultLogProperties";
 import { lookup } from "geoip-lite";
 import logSentryError from "src/utils/analytics/logSentryError";

@@ -9,9 +9,9 @@ import {
 } from "react";
 
 import ImportStep from "types/enums/ImportStep";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
-import isPublicKey from "formfn-shared/dist/utils/solana/isPublicKey";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
+import isPublicKey from "bullistic-shared/dist/utils/solana/isPublicKey";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { ImportPreviewImportNftsMutation$data } from "components/pages/import/__generated__/ImportPreviewImportNftsMutation.graphql";
 
 export type ImportContextData = {

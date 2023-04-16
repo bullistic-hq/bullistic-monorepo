@@ -1,5 +1,5 @@
-import groupBy from "formfn-shared/dist/utils/array/groupBy";
-import objectEntries from "formfn-shared/dist/utils/object/objectEntries";
+import groupBy from "bullistic-shared/dist/utils/array/groupBy";
+import objectEntries from "bullistic-shared/dist/utils/object/objectEntries";
 import NftAttributes from "src/types/NftAttributes";
 
 /**

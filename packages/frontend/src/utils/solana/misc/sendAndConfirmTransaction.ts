@@ -6,7 +6,7 @@ import {
   TransactionSignature,
 } from "@solana/web3.js";
 import { notify } from "components/toast/notifications";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import logIfNotProd from "utils/logIfNotProd";
 import parseErrorMessage from "utils/solana/errors/parseErrorMessage";
 

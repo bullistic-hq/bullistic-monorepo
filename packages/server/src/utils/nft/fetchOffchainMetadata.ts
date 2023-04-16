@@ -1,5 +1,5 @@
 import axios from "axios";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 // From https://docs.metaplex.com/programs/token-metadata/changelog/v1.0
 type OffchainMetadata = {

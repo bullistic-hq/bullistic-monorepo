@@ -1,6 +1,6 @@
 import graphql from "babel-plugin-relay/macro";
 import { useFragment } from "react-relay";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import useFormattedNftPrice from "hooks/useFormattedNftPrice";
 import useNftPriceSymbol from "hooks/useNftPriceSymbol";
 import { PriceWithSymbolText_Price$key } from "components/price/__generated__/PriceWithSymbolText_Price.graphql";

@@ -1,10 +1,10 @@
 import { Connection } from "@solana/web3.js";
 import AnchorWallet from "types/AnchorWallet";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { NftMetadataV1Input } from "hooks/__generated__/useUploadNftToArweaveMutation.graphql";
-import getMintMasterEditionTx from "formfn-shared/dist/utils/solana/metaplex/getMintMasterEditionTx";
+import getMintMasterEditionTx from "bullistic-shared/dist/utils/solana/metaplex/getMintMasterEditionTx";
 import sendMintMasterEditionTx from "utils/solana/metaplex/sendMintMasterEditionTx";
-import { AuctionHouseSdk } from "@formfunction-hq/formfunction-auction-house";
+import { AuctionHouseSdk } from "@bullistic-hq/bullistic-auction-house";
 
 type Args = {
   assetFileName: string;

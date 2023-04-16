@@ -14,12 +14,12 @@ import Body2 from "components/text/Body2";
 import ColorClass from "types/enums/ColorClass";
 import useNftPageContext from "hooks/useNftPageContext";
 import dayjs from "utils/dates/dayjsex";
-import formatScheduledAuctionTime from "formfn-shared/dist/utils/dates/formatScheduledAuctionTime";
+import formatScheduledAuctionTime from "bullistic-shared/dist/utils/dates/formatScheduledAuctionTime";
 import { useNftPageEditionBuyerInfoQuery } from "hooks/nft-page/__generated__/useNftPageEditionBuyerInfoQuery.graphql";
 import { editionBuyerInfoQuery } from "hooks/nft-page/useNftPageEditionBuyerInfo";
 import { NftAllowlistInfo_EditionBuyerInfoResponse$key } from "components/pages/common/nft/__generated__/NftAllowlistInfo_EditionBuyerInfoResponse.graphql";
 import useViewerId from "hooks/useViewerId";
-import pluralize from "formfn-shared/dist/utils/pluralize";
+import pluralize from "bullistic-shared/dist/utils/pluralize";
 
 const ALLOWLIST_ONLY = "This edition is allowlist-only.";
 const ALREADY_MINTED = "You have already minted.";

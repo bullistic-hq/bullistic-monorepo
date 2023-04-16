@@ -2,7 +2,7 @@ import TabButton from "components/buttons/TabButton";
 import FiltersBottomDrawer from "components/drawers/FiltersBottomDrawer";
 import MobileSearchBar from "components/pages/search/MobileSearchBar";
 import styles from "css/pages/explore/ExploreControlBar.module.css";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
 import useBreakpoint from "hooks/useBreakpoint";
 import useExploreContext from "hooks/useExploreContext";
 import { useState } from "react";

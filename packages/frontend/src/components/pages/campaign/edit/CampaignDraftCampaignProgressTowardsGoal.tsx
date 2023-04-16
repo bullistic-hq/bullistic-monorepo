@@ -2,7 +2,7 @@ import graphql from "babel-plugin-relay/macro";
 import { useFragment } from "react-relay";
 import CampaignProgressForCampaignMonetaryGoal from "components/pages/campaign/campaign-v2/hero/goals/CampaignProgressForCampaignMonetaryGoal";
 import RELAY_FUTURE_UNION_VALUE from "constants/RelayFutureUnionValue";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import CampaignProgressForCampaignSaleCountGoal from "components/pages/campaign/campaign-v2/hero/goals/CampaignProgressForCampaignSaleCountGoal";
 import { CampaignDraftCampaignProgressTowardsGoal_CampaignV2$key } from "components/pages/campaign/edit/__generated__/CampaignDraftCampaignProgressTowardsGoal_CampaignV2.graphql";
 

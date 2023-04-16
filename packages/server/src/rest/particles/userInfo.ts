@@ -26,7 +26,7 @@ export default async function userInfo(
   const usersFormatted = users.map((user) => ({
     displayName: user.displayName,
     id: user.id,
-    profileLink: `https://formfunction.xyz/@${user.username}`,
+    profileLink: `https://bullistic.xyz/@${user.username}`,
     profilePhotoUrl: user.Photo_PhotoToUser_profilePhotoId?.photoUrl,
     sales: user.NftTransaction_NftTransaction_creatorIdToUser.filter(
       (tx) => tx.type === NftTransactionTypeExpress_Enum.Sold

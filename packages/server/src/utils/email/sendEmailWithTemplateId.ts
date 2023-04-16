@@ -5,7 +5,7 @@ import is200StatusCode from "src/utils/is200StatusCode";
 import logEvent from "src/utils/analytics/logEvent";
 import sendgridMail from "src/utils/email/sendgridMail";
 import logError from "src/utils/analytics/logError";
-import sleep from "formfn-shared/dist/utils/sleep";
+import sleep from "bullistic-shared/dist/utils/sleep";
 import dayjs from "src/utils/dates/dayjsex";
 
 const NUM_RETRIES = 5;

@@ -1,5 +1,5 @@
 import { NftDisclosure, NftMetadata } from "@prisma/client";
-import getAssetCdnUrl from "formfn-shared/dist/utils/getAssetCdnUrl";
+import getAssetCdnUrl from "bullistic-shared/dist/utils/getAssetCdnUrl";
 import getImgixUrl from "src/utils/getImgixUrl";
 import isValidHttpUrl from "src/utils/isValidHttpUrl";
 import { NftDisclosureTypeExpress_Enum } from "src/__generated__/generated";

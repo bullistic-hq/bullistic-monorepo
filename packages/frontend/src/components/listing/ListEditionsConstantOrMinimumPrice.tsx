@@ -1,4 +1,4 @@
-import { PriceFunctionType } from "@formfunction-hq/formfunction-auction-house";
+import { PriceFunctionType } from "@bullistic-hq/bullistic-auction-house";
 import graphql from "babel-plugin-relay/macro";
 import ListButton from "components/listing/ListButton";
 import ListEditionsAdvancedOptions from "components/listing/ListEditionsAdvancedOptions";
@@ -13,7 +13,7 @@ import {
   BUY_NOW_LABEL,
   BUY_NOW_SUB_LABEL,
 } from "constants/EditionsCopyConstants";
-import convertToFullDecimals from "formfn-shared/dist/utils/convertToFullDecimals";
+import convertToFullDecimals from "bullistic-shared/dist/utils/convertToFullDecimals";
 import useListEditionsForSale from "hooks/useListEditionsForSale";
 import useListingContext from "hooks/useListingContext";
 import { useState } from "react";

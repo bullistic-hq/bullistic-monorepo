@@ -1,5 +1,5 @@
 import { CampaignFundingTierStandard } from "src/__generated__/generated";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import CONVERT_CAMPAIGN_FUNDING_TIER_INCLUDE from "src/constants/include/ConvertCampaignFundingTierInclude";
 import getPrisma from "src/utils/prisma/getPrisma";
 import convertCampaignFundingTier from "src/utils/convert/convertCampaignFundingTier";

@@ -4,7 +4,7 @@ import { CampaignHolders_Query$key } from "components/pages/campaign/campaign-ge
 import ProfileLinkSkeleton from "components/pages/common/nft/skeleton/ProfileLinkSkeleton";
 import ProfileLinkForUserExpress from "components/user/ProfileLinkForUserExpress";
 import { CAMPAIGN_HOLDERS_PAGE_SIZE } from "constants/PageSizes";
-import { range } from "formfn-shared/dist/utils/range";
+import { range } from "bullistic-shared/dist/utils/range";
 import { campaignHoldersQuery } from "hooks/campaign/useCampaignHoldersForSlug";
 import { useCampaignHoldersForSlugQuery } from "hooks/campaign/__generated__/useCampaignHoldersForSlugQuery.graphql";
 import useLoadNextOnBottomScroll from "hooks/useLoadNextOnBottomScroll";

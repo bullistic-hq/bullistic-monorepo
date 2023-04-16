@@ -1,4 +1,4 @@
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import ConvertSeriesType from "src/types/convert/ConvertSeriesType";
 import Typename from "src/types/enums/Typename";
 import convertPhoto from "src/utils/convert/convertPhoto";

@@ -24,27 +24,27 @@ import {
 } from "components/pages/profile/ProfilePageForUser";
 import ProfileSeries from "components/pages/profile/ProfileSeries";
 import ProfileCreatedSection from "components/pages/profile/ProfileCreatedSection";
-import groupBy from "formfn-shared/dist/utils/array/groupBy";
-import objectSwapKeysAndValues from "formfn-shared/dist/utils/object/objectSwapKeysAndValues";
+import groupBy from "bullistic-shared/dist/utils/array/groupBy";
+import objectSwapKeysAndValues from "bullistic-shared/dist/utils/object/objectSwapKeysAndValues";
 import invariant from "tiny-invariant";
 import { ProfilePageForUserMetadataAccountsCollected_Query$key } from "components/pages/profile/__generated__/ProfilePageForUserMetadataAccountsCollected_Query.graphql";
 import Body2 from "components/text/Body2";
 import ColorClass from "types/enums/ColorClass";
-import flat from "formfn-shared/dist/utils/array/flat";
-import objectFromEntries from "formfn-shared/dist/utils/object/objectFromEntries";
-import objectEntries from "formfn-shared/dist/utils/object/objectEntries";
+import flat from "bullistic-shared/dist/utils/array/flat";
+import objectFromEntries from "bullistic-shared/dist/utils/object/objectFromEntries";
+import objectEntries from "bullistic-shared/dist/utils/object/objectEntries";
 import { ProfileSeriesSeries_Query$key } from "components/pages/profile/__generated__/ProfileSeriesSeries_Query.graphql";
-import isEmptyString from "formfn-shared/dist/utils/string/isEmptyString";
+import isEmptyString from "bullistic-shared/dist/utils/string/isEmptyString";
 import Header3 from "components/text/Header3";
 import GiftIcon from "components/icons/GiftIcon";
 import ColorValue from "types/enums/ColorValue";
 import Body1 from "components/text/Body1";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
-import getSeriesLinkRelative from "formfn-shared/dist/utils/links/getSeriesLinkRelative";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
+import getSeriesLinkRelative from "bullistic-shared/dist/utils/links/getSeriesLinkRelative";
 import { useProfilePageMetadataAccountsQuery } from "hooks/profile-page/__generated__/useProfilePageMetadataAccountsQuery.graphql";
 import { profilePageMetadataAccountsQuery } from "hooks/profile-page/useProfilePageMetadataAccounts";
 import { COLLECTED_TAB_PAGE_SIZE } from "constants/PageSizes";
-import { range } from "formfn-shared/dist/utils/range";
+import { range } from "bullistic-shared/dist/utils/range";
 import ListingCardLoadingSkeleton from "components/auction/ListingCardLoadingSkeleton";
 import {
   NftsForAddress_MetadataAccount$data,
@@ -497,7 +497,7 @@ function Inner({
           {!isEmptyString(userData.displayName)
             ? userData.displayName!
             : userData.username}{" "}
-          has collected on Formfunction, including pieces that were later
+          has collected on Bullistic, including pieces that were later
           transferred or sold.
         </Body2>
       </>

@@ -8,8 +8,8 @@ import PnftStandardEditionKindLabel from "components/pages/common/nft/kind-label
 import StandardEditionPrintNonzeroSupplyKindLabel from "components/pages/common/nft/kind-label/StandardEditionPrintNonzeroSupplyKindLabel";
 import StandardEditionPrintUnlimitedSupplyKindLabel from "components/pages/common/nft/kind-label/StandardEditionPrintUnlimitedSupplyKindLabel";
 import { NftKindLabel_MetadataAccount$key } from "components/pages/common/nft/kind-label/__generated__/NftKindLabel_MetadataAccount.graphql";
-import NftKind from "formfn-shared/dist/types/enums/NftKind";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import NftKind from "bullistic-shared/dist/types/enums/NftKind";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import { useNftPagePnftAuctionNftsQuery } from "hooks/nft-page/__generated__/useNftPagePnftAuctionNftsQuery.graphql";
 import useNftKind from "hooks/useNftKind";
 import { PreloadedQuery, useFragment } from "react-relay";

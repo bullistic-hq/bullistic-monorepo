@@ -36,7 +36,7 @@ export default function StandardEditionPrintUnlimitedSupplyKindLabel({
   const supply = useEditionSupply(metadataAccountData);
 
   if (nft.isImported) {
-    // To handle cases like https://formfunction.xyz/@EWtFrhK15VKxRD4i2Aafd7QWVh5JHpzvT1HSqVwv7VrH/3zBBvyjdjvv2zm6LzLAbFtvetufG8WeKtB6tt7KbUgSA,
+    // To handle cases like https://bullistic.xyz/@EWtFrhK15VKxRD4i2Aafd7QWVh5JHpzvT1HSqVwv7VrH/3zBBvyjdjvv2zm6LzLAbFtvetufG8WeKtB6tt7KbUgSA,
     // i.e. an imported edition that is meant to be a 1/1
     return null;
   }

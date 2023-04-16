@@ -8,7 +8,7 @@ import RotationGradientIcon from "components/icons/RotationGradientIcon";
 import StarIcon from "components/icons/StarIcon";
 import { useFragment } from "react-relay";
 import ColorValue from "types/enums/ColorValue";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import GlobalClass from "types/enums/GlobalClass";
 
 const STATUS_DESCRIPTIONS = {

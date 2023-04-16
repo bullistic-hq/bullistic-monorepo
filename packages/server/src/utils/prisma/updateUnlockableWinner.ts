@@ -8,7 +8,7 @@ import {
   UnlockableWinner,
   User,
 } from "@prisma/client";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import CONVERT_USER_INCLUDE from "src/constants/include/ConvertUserInclude";
 import ConvertUserType from "src/types/convert/ConvertUserType";
 import getPrisma from "src/utils/prisma/getPrisma";

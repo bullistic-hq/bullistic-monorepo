@@ -6,7 +6,7 @@ import Typename from "src/types/enums/Typename";
 import MyContext from "src/types/MyContext";
 import getPrisma from "src/utils/prisma/getPrisma";
 import { Photo, Prisma, User } from "@prisma/client";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import convertUser from "src/utils/convert/convertUser";
 import ConvertUserType from "src/types/convert/ConvertUserType";
 

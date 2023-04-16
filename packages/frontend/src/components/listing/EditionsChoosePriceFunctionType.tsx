@@ -1,7 +1,7 @@
 import styles from "css/listing/ListNftChooseListingType.module.css";
 import ColorValue from "types/enums/ColorValue";
 import ListingOption from "components/listing/ListingOption";
-import { PriceFunctionType } from "@formfunction-hq/formfunction-auction-house";
+import { PriceFunctionType } from "@bullistic-hq/bullistic-auction-house";
 import DollarSignIcon from "components/icons/DollarSignIcon";
 import TrendingUpIcon from "components/icons/TrendingUpIcon";
 import Divider from "components/misc/Divider";

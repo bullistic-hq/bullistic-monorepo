@@ -1,12 +1,12 @@
 /* eslint-disable react/jsx-no-constructed-context-values */
 import { Context, createContext, useState } from "react";
 
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
-import { Maybe, Undef } from "formfn-shared/dist/types/UtilityTypes";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
+import { Maybe, Undef } from "bullistic-shared/dist/types/UtilityTypes";
 import graphql from "babel-plugin-relay/macro";
 import { useFragment } from "react-relay";
 import { SeriesMetadataContext_Series$key } from "context/__generated__/SeriesMetadataContext_Series.graphql";
-import getDashCasedString from "formfn-shared/dist/utils/string/getDashCasedString";
+import getDashCasedString from "bullistic-shared/dist/utils/string/getDashCasedString";
 
 const seriesFragment = graphql`
   fragment SeriesMetadataContext_Series on Series {

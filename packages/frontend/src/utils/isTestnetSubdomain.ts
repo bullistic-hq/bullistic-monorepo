@@ -4,5 +4,5 @@ export default function isTestnetSubdomain() {
   }
 
   const { href } = window.location;
-  return href.includes("test.formfunction");
+  return href.includes("test.bullistic");
 }

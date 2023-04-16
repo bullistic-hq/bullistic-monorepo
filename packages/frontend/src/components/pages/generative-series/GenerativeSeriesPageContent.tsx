@@ -31,7 +31,7 @@ import ColorClass from "types/enums/ColorClass";
 import Header2 from "components/text/Header2";
 import AssetForAsset from "components/assets/AssetForAsset";
 import useLoadNextOnBottomScroll from "hooks/useLoadNextOnBottomScroll";
-import { range } from "formfn-shared/dist/utils/range";
+import { range } from "bullistic-shared/dist/utils/range";
 import ListingCardLoadingSkeleton from "components/auction/ListingCardLoadingSkeleton";
 import ReactMarkdownLazy from "components/markdown/ReactMarkdownLazy";
 

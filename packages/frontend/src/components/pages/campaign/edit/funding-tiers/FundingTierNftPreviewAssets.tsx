@@ -5,8 +5,8 @@ import NftAssetForMetadataAccount from "components/images/NftAssetForMetadataAcc
 import styles from "css/pages/campaign/edit/funding-tiers/FundingTierNftPreviewAssets.module.css";
 import useCampaignColorScheme from "hooks/useCampaignColorScheme";
 import { FundingTierNftPreviewAssets_MetadataAccount$key } from "components/pages/campaign/edit/funding-tiers/__generated__/FundingTierNftPreviewAssets_MetadataAccount.graphql";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import { range } from "formfn-shared/dist/utils/range";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import { range } from "bullistic-shared/dist/utils/range";
 import SquareContainer from "components/containers/SquareContainer";
 
 const fragment = graphql`

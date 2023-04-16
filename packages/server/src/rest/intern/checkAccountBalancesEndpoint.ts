@@ -2,7 +2,7 @@ import { NextFunction, Request, Response } from "express";
 import getConnection from "src/utils/solana/getConnection";
 import { CurrencyNameExpress_Enum } from "src/__generated__/generated";
 import loadAuctionHouseSdk from "src/utils/solana/loadAuctionHouseSdk";
-import getAccountBalance from "formfn-shared/dist/utils/solana/getAccountBalance";
+import getAccountBalance from "bullistic-shared/dist/utils/solana/getAccountBalance";
 import { LAMPORTS_PER_SOL, PublicKey } from "@solana/web3.js";
 import nullthrows from "nullthrows";
 import convertBase58PrivateKeyToKeypair from "src/utils/solana/convertBase58PrivateKeyToKeypair";

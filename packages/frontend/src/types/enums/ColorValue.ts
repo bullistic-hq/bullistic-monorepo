@@ -39,8 +39,6 @@ enum ColorValue {
   OverlayButton = "var(--color-overlayButton)",
   PhantomPurple = "var(--color-phantomPurple)",
   Pink = "var(--color-pink)",
-  PopheadzDarkGray = "var(--color-popheadzDarkGray)",
-  PopheadzLightGray = "var(--color-popheadzLightGray)",
   Primary = "var(--color-primary)",
   ProgressBar = "var(--color-progressBar)",
   Purple = "var(--color-purple)",

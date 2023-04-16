@@ -1,7 +1,7 @@
 import { NextFunction, Request, Response } from "express";
 import LAMPORTS_PER_SOL from "src/utils/lamportsPerSol";
 import getBundlrClient from "src/utils/arweave/bundlr/getBundlrClient";
-import { Undef } from "formfn-shared/dist/types/UtilityTypes";
+import { Undef } from "bullistic-shared/dist/types/UtilityTypes";
 
 export default async function getBundlrNodeBalance(
   req: Request,

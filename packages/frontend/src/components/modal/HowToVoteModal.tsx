@@ -25,7 +25,7 @@ export default function HowToVoteModal({
   const body = (
     <div className={styles.sections}>
       <Body1 colorClass={ColorClass.Secondary} textAlign="center">
-        Formfunction is community-governed, and our verified artists and
+        Bullistic is community-governed, and our verified artists and
         collectors help us decide which new artists to onboard next.
       </Body1>
       <Section title="How to vote">
@@ -35,9 +35,9 @@ export default function HowToVoteModal({
         <br /> When reviewing applications, please consider all aspects—the art,
         the provided social media links, and the artist statement.
       </Section>
-      <Section title="How do artists hear back from Formfunction?">
+      <Section title="How do artists hear back from Bullistic?">
         Accepted artists will receive an email letting them know that they can
-        now mint pieces on Formfunction. Artists who are not accepted will
+        now mint pieces on Bullistic. Artists who are not accepted will
         receive an email encouraging to apply again in the future, with new
         work.
         <br />

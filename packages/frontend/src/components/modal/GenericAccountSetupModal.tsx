@@ -10,12 +10,12 @@ import ButtonTheme from "types/enums/ButtonTheme";
 import ColorClass from "types/enums/ColorClass";
 import FontClass from "types/enums/FontClass";
 import { useState } from "react";
-import isValidUsername from "formfn-shared/dist/utils/validation/isValidUsername";
+import isValidUsername from "bullistic-shared/dist/utils/validation/isValidUsername";
 import WEBSITE_URL from "constants/WebsiteUrl";
 import ErrorMessage from "components/text/ErrorMessage";
 import useErrorMessage from "hooks/useErrorMessage";
 import ErrorMessageMsg from "types/enums/ErrorMessageMsg";
-import isValidEmail from "formfn-shared/dist/utils/validation/isValidEmail";
+import isValidEmail from "bullistic-shared/dist/utils/validation/isValidEmail";
 import { MAX_EMAIL_LENGTH, MAX_USERNAME_LENGTH } from "constants/MaxLengths";
 import { EMAIL_SUB_LABEL, USERNAME_SUB_LABEL } from "constants/InputSubLabels";
 import CheckboxButton from "components/buttons/CheckboxButton";
@@ -23,7 +23,7 @@ import Body2 from "components/text/Body2";
 import TextButton from "components/buttons/TextButton";
 import TextButtonTheme from "types/enums/TextButtonTheme";
 import isUsernameTaken from "utils/isUsernameTaken";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 type Props = {
   // If set, this value will be locked and cannot be changed
@@ -80,7 +80,7 @@ export default function GenericAccountSetupModal({
     <GenericModal hideCloseButton isShown={isShown} onHide={onHide}>
       <div className={styles.body}>
         <Header2 colorClass={ColorClass.Primary} textAlign="center">
-          Welcome to Formfunction!
+          Welcome to Bullistic!
         </Header2>
         <Body1
           className={styles.description}
@@ -176,7 +176,7 @@ export default function GenericAccountSetupModal({
           isLoading={isLoading}
           onClick={createAccount}
         >
-          Start exploring Formfunction
+          Start exploring Bullistic
         </ButtonWithText>
         {errorMessage && (
           <ErrorMessage fontClass={FontClass.Body1}>

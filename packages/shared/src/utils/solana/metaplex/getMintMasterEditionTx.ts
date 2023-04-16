@@ -16,7 +16,7 @@ import findAta from "utils/solana/pdas/findAta";
 import NftMetadataV1Input from "types/NftMetadataV1Input";
 import combineTransactions from "utils/solana/txs/combineTransactions";
 import ixToTx from "utils/solana/ix/ixToTx";
-import { AuctionHouseSdk } from "@formfunction-hq/formfunction-auction-house";
+import { AuctionHouseSdk } from "@bullistic-hq/bullistic-auction-house";
 import filterNulls from "utils/filterNulls";
 import findTokenMetadata from "utils/solana/pdas/findTokenMetadata";
 import findEditionPda from "utils/solana/pdas/findEditionPda";

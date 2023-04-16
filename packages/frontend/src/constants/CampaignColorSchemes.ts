@@ -1,4 +1,4 @@
-import exhaustiveStringArray from "formfn-shared/dist/utils/array/exhaustiveStringArray";
+import exhaustiveStringArray from "bullistic-shared/dist/utils/array/exhaustiveStringArray";
 import { ExcludeFutureAddedValue } from "types/ExcludeFutureAddedValue";
 import CampaignColorSchemeExpress_enum from "types/relay/CampaignColorSchemeExpress_enum";
 import ColorScheme from "types/ColorScheme";

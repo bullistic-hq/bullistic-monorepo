@@ -3,7 +3,7 @@ import {
   NftStatusExpress_Enum,
   OpenBidStatus,
 } from "src/__generated__/generated";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import getPrisma from "src/utils/prisma/getPrisma";
 import NFT_TRANSACTION_ORDER_BY from "src/constants/orderBy/NftTransactionOrderBy";
 import CONVERT_USER_INCLUDE from "src/constants/include/ConvertUserInclude";

@@ -1,6 +1,6 @@
 import graphql from "babel-plugin-relay/macro";
 import styles from "css/pages/profile/ProfileJoinDiscordCard.module.css";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import Price from "components/text/Price";
 import { useFragment } from "react-relay";
 import Body1 from "components/text/Body1";
@@ -11,7 +11,7 @@ import FontClass from "types/enums/FontClass";
 import TextButtonTheme from "types/enums/TextButtonTheme";
 import { ProfileJoinDiscordCard_User$key } from "components/pages/profile/__generated__/ProfileJoinDiscordCard_User.graphql";
 import useUpdateUserByPk from "hooks/useUpdateUserByPk";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
 import useDiscordAuthContext from "hooks/useDiscordAuthContext";
 import ColorClass from "types/enums/ColorClass";
 import notifyUnexpectedError from "components/toast/notifyUnexpectedError";

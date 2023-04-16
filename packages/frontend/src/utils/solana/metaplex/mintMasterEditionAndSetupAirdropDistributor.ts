@@ -1,15 +1,15 @@
 import { Connection, TransactionInstruction } from "@solana/web3.js";
 import { NftMetadataV1Input } from "hooks/__generated__/useUploadNftToArweaveMutation.graphql";
 import AnchorWallet from "types/AnchorWallet";
-import getMintMasterEditionTx from "formfn-shared/dist/utils/solana/metaplex/getMintMasterEditionTx";
+import getMintMasterEditionTx from "bullistic-shared/dist/utils/solana/metaplex/getMintMasterEditionTx";
 import sendMintMasterEditionTx from "utils/solana/metaplex/sendMintMasterEditionTx";
-import combineTransactions from "formfn-shared/dist/utils/solana/txs/combineTransactions";
+import combineTransactions from "bullistic-shared/dist/utils/solana/txs/combineTransactions";
 import {
   AuctionHouseSdk,
   PriceFunctionType,
-} from "@formfunction-hq/formfunction-auction-house";
+} from "@bullistic-hq/bullistic-auction-house";
 import getCreateEditionDistributorTx from "utils/editions/getCreateEditionDistributorTx";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 type Args = {
   additionalIxs?: Array<TransactionInstruction>;

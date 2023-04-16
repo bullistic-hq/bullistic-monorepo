@@ -1,5 +1,5 @@
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import ExploreAvailabilityV2 from "types/enums/ExploreAvailabilityV2";
 import ExploreTab from "types/enums/ExploreTab";
 

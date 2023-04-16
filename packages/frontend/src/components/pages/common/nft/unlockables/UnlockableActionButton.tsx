@@ -2,7 +2,7 @@ import ButtonWithText from "components/buttons/ButtonWithText";
 import ButtonTheme from "types/enums/ButtonTheme";
 import FontClass from "types/enums/FontClass";
 import UnlockableCta from "types/enums/UnlockableCta";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import useUnlockableModalContext from "hooks/useUnlockableModalContext";
 import UnlockableModalType from "types/enums/UnlockableModalType";
 

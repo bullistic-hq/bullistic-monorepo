@@ -9,7 +9,7 @@ import Body1 from "components/text/Body1";
 import { useFragment, useMutation } from "react-relay";
 import { DiscordAuthDisconnectModalDisconnectMutation } from "components/modal/__generated__/DiscordAuthDisconnectModalDisconnectMutation.graphql";
 import { DiscordAuthDisconnectModal_User$key } from "components/modal/__generated__/DiscordAuthDisconnectModal_User.graphql";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { useState } from "react";
 import useDiscordAuthContext from "hooks/useDiscordAuthContext";
 import notifyUnexpectedError from "components/toast/notifyUnexpectedError";

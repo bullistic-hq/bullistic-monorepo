@@ -5,14 +5,14 @@ import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 import logError from "src/utils/analytics/logError";
 import getLatestOutbidUserWebhook from "src/utils/auction/getLatestOutbidUserWebhook";
 import getPrisma from "src/utils/prisma/getPrisma";
-import sleep from "formfn-shared/dist/utils/sleep";
+import sleep from "bullistic-shared/dist/utils/sleep";
 import {
   NftTransactionTypeExpress_Enum,
   Price,
 } from "src/__generated__/generated";
 import dayjs from "src/utils/dates/dayjsex";
 import createBidderOutbidNotification from "src/utils/notifications/create/createBidderOutbidNotification";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 export default async function createBidderOutbidNotificationForWebhook(
   req: Request,

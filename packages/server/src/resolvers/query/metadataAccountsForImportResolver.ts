@@ -1,6 +1,6 @@
 import MyContext from "src/types/MyContext";
 import convertMetadataAccount from "src/utils/convert/convertMetadataAccount";
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
 import getOnPlatformMetadataAccounts from "src/utils/prisma/getOnPlatformMetadataAccounts";
 import {
   MetadataAccountsForImportInput,

@@ -13,9 +13,9 @@ import { RecordProxy } from "relay-runtime";
 import useUserContext from "hooks/useUserContext";
 import { FollowButtonControlledFollowMutation } from "components/buttons/__generated__/FollowButtonControlledFollowMutation.graphql";
 import { FollowButtonControlledUnfollowMutation } from "components/buttons/__generated__/FollowButtonControlledUnfollowMutation.graphql";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
 import CheckmarkSquareIcon from "components/icons/CheckmarkSquareIcon";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import notifyUnexpectedError from "components/toast/notifyUnexpectedError";
 import NotifyErrorDescription from "types/enums/NotifyErrorDescription";
 

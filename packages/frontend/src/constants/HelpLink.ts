@@ -1,3 +1,3 @@
-const HELP_LINK = "https://help.formfunction.xyz/";
+const HELP_LINK = "https://help.bullistic.xyz/";
 
 export default HELP_LINK;

@@ -2,7 +2,7 @@ import styles from "css/pages/campaign/edit/CampaignDraftBiddingInfo.module.css"
 import ColorClass from "types/enums/ColorClass";
 import Body2 from "components/text/Body2";
 import graphql from "babel-plugin-relay/macro";
-import { range } from "formfn-shared/dist/utils/range";
+import { range } from "bullistic-shared/dist/utils/range";
 import { useFragment } from "react-relay";
 import CampaignDraftCampaignProgressTowardsGoal from "components/pages/campaign/edit/CampaignDraftCampaignProgressTowardsGoal";
 import { CampaignDraftBiddingInfo_CampaignV2$key } from "components/pages/campaign/edit/__generated__/CampaignDraftBiddingInfo_CampaignV2.graphql";

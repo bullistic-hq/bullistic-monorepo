@@ -1,5 +1,5 @@
 // https://explorer.solana.com/tx/3LVi52M9c8vMC2L37rSWHSv62eWLhRSo8e98FcUjF5qaLJrpAp5MxhT73Dp928ht2rpEuwZwn4MdrUSPzxeKAEwM?cluster=devnet
-// For this pnft on dev: https://dev.formfunction.xyz/@bonham000/4wLMYvVhCXzaX1PQfNZEyA3S7g21S8dN4GwDk97ZU5a7
+// For this pnft on dev: https://dev.bullistic.xyz/@bonham000/4wLMYvVhCXzaX1PQfNZEyA3S7g21S8dN4GwDk97ZU5a7
 const CLAIMED_PNFT_TX = {
   blockTime: 1652734687,
   meta: {

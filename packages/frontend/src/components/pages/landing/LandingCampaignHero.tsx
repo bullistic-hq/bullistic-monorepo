@@ -21,7 +21,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import CircleArrowButton from "components/buttons/CircleArrowButton";
 import useFlagsTyped from "hooks/useFlagsTyped";
-import { range } from "formfn-shared/dist/utils/range";
+import { range } from "bullistic-shared/dist/utils/range";
 import ExploreCampaignCardSkeleton from "components/pages/explore/skeletons/ExploreCampaignCardSkeleton";
 import useDocumentBodyDimensions from "hooks/useDocumentBodyDimensions";
 import ExploreCampaignCard from "components/pages/explore/ExploreCampaignCard";
@@ -262,7 +262,7 @@ export default function LandingCampaignHero() {
           <ButtonWithText
             buttonTheme={ButtonTheme.WhiteOutline}
             fontClass={FontClass.NavLink}
-            href="https://www.blog.formfunction.xyz/blog/introducing-campaigns"
+            href="https://www.blog.bullistic.xyz/blog/introducing-campaigns"
             type="link_external"
           >
             Learn More

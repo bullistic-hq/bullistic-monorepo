@@ -193,7 +193,7 @@ export default function VotePage() {
               colorClass={ColorClass.Secondary}
               textAlign="center"
             >
-              Formfunction is community-governed, and every week our community
+              Bullistic is community-governed, and every week our community
               of artists and collectors helps us decide which applications to
               accept. Please consider all aspects of the application when
               deciding whether to upvote.

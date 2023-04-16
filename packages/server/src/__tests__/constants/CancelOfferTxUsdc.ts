@@ -1,5 +1,5 @@
 // https://explorer.solana.com/tx/29R4RYjdkkB3HiDGYYrAE3oUgFDVqwHc7jYU5nWhqMKi2BADkGtdLSSUEtkz59vuTt9sHg33tZZAvUKFTNNid6Mw?cluster=devnett
-// For this nft on dev: https://dev.formfunction.xyz/@soursop/334GmGs16q3adKg8JGHuskAnFvmMmmTinyLt4YZQCVCH?width=190&height=213
+// For this nft on dev: https://dev.bullistic.xyz/@soursop/334GmGs16q3adKg8JGHuskAnFvmMmmTinyLt4YZQCVCH?width=190&height=213
 const CANCEL_OFFER_TX_USDC = {
   blockTime: 1662134483,
   meta: {

@@ -20,7 +20,7 @@ import FetchGraphqlVariablesDenylist from "types/enums/FetchGraphqlVariablesDeny
 import TickSizeType from "types/enums/TickSizeType";
 import logIfNotProd from "utils/logIfNotProd";
 import useCreateUnlockableContext from "hooks/useCreateUnlockableContext";
-import convertToFullDecimals from "formfn-shared/dist/utils/convertToFullDecimals";
+import convertToFullDecimals from "bullistic-shared/dist/utils/convertToFullDecimals";
 import notifyUnexpectedError from "components/toast/notifyUnexpectedError";
 import useViewerId from "hooks/useViewerId";
 

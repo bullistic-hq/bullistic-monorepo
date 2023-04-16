@@ -3,7 +3,7 @@ import ArtName from "components/text/ArtName";
 import styles from "css/auction/ListingCardGeneric.module.css";
 import ColorClass from "types/enums/ColorClass";
 import GlobalClass from "types/enums/GlobalClass";
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import joinClasses from "utils/joinClasses";
 import LISTING_CARD_MAX_WIDTH from "constants/ListingCardMaxWidth";
 

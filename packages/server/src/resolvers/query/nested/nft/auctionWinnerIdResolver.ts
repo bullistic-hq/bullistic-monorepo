@@ -1,5 +1,5 @@
 import { NftExpress, NftStatusExpress_Enum } from "src/__generated__/generated";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import getWinningBidForNft from "src/utils/prisma/getWinningBidForNft";
 
 export default async function auctionWinnerIdResolver(

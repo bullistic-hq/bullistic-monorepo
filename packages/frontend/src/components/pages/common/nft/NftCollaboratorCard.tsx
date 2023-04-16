@@ -7,7 +7,7 @@ import { NftCollaboratorCard_MetadataAccount$key } from "components/pages/common
 import Body1 from "components/text/Body1";
 import Body2 from "components/text/Body2";
 import styles from "css/pages/common/nft/NftCollaboratorCard.module.css";
-import getUserProfileLinkRelative from "formfn-shared/dist/utils/links/getUserProfileLinkRelative";
+import getUserProfileLinkRelative from "bullistic-shared/dist/utils/links/getUserProfileLinkRelative";
 import useUserContext from "hooks/useUserContext";
 import { useState } from "react";
 import { useFragment } from "react-relay";

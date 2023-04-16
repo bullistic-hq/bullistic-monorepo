@@ -1,4 +1,4 @@
-import { range } from "formfn-shared/dist/utils/range";
+import { range } from "bullistic-shared/dist/utils/range";
 import SpotlightsGridFullWidth from "components/spotlights/SpotlightsGridFullWidth";
 import SpotlightCardLoadingSkeleton from "components/spotlights/skeletons/SpotlightCardLoadingSkeleton";
 import useSpotlightsGridFullWidthColumnCount from "hooks/grids/useSpotlightsGridFullWidthColumnCount";

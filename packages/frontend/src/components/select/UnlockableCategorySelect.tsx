@@ -1,6 +1,6 @@
 import CustomSelect from "components/select/CustomSelect";
 import UNLOCKABLE_CATEGORY_OPTIONS from "constants/UnlockableCategoryOptions";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import { UnlockableCategoryOption } from "types/UnlockableCategoryOption";
 import { UnlockableCategoryType } from "types/UnlockableCategoryType";
 

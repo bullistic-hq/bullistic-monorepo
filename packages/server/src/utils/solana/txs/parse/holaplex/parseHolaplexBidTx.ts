@@ -4,16 +4,16 @@ import {
   ParsedTransactionWithMeta,
   PartiallyDecodedInstruction,
 } from "@solana/web3.js";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import {
   NftTransactionSourceExpress_Enum,
   NftTransactionTypeExpress_Enum,
 } from "src/__generated__/generated";
 import dayjs from "src/utils/dates/dayjsex";
-import PublicKeyOrString from "formfn-shared/dist/types/PublicKeyOrString";
+import PublicKeyOrString from "bullistic-shared/dist/types/PublicKeyOrString";
 import base58ToHex from "src/utils/base58ToHex";
 import NftTransactionOnchain from "src/types/NftTransactionOnchain";
-import arePublicKeysEqual from "formfn-shared/dist/utils/compare/arePublicKeysEqual";
+import arePublicKeysEqual from "bullistic-shared/dist/utils/compare/arePublicKeysEqual";
 
 function isBidIx(ix: ParsedInstruction | PartiallyDecodedInstruction): boolean {
   // @ts-ignore

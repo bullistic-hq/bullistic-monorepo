@@ -1,7 +1,7 @@
 import * as Sentry from "@sentry/react";
 import { Severity } from "@sentry/react";
 import AnalyticsEvent from "types/enums/AnalyticsEvent";
-import getErrorPropertiesToLog from "formfn-shared/dist/utils/analytics/getErrorPropertiesToLog";
+import getErrorPropertiesToLog from "bullistic-shared/dist/utils/analytics/getErrorPropertiesToLog";
 
 function getFingerprint(
   event: AnalyticsEvent,

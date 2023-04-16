@@ -1,14 +1,14 @@
 import { ParsedTransactionWithMeta, PublicKey } from "@solana/web3.js";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import maybeNumber from "formfn-shared/dist/utils/numbers/maybeNumber";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import maybeNumber from "bullistic-shared/dist/utils/numbers/maybeNumber";
 import NftTransactionOnchain from "src/types/NftTransactionOnchain";
 import getNftCreatorFromMint from "src/utils/prisma/getNftCreatorFromMint";
 import dayjs from "src/utils/dates/dayjsex";
 import { NftTransactionTypeExpress_Enum } from "src/__generated__/generated";
-import isBotTaxedTransaction from "formfn-shared/dist/utils/solana/txs/parse/isBotTaxedTransaction";
+import isBotTaxedTransaction from "bullistic-shared/dist/utils/solana/txs/parse/isBotTaxedTransaction";
 import getCurrencyInfoForAuctionHouse from "src/utils/solana/txs/parse/getCurrencyInfoForAuctionHouse";
 import convertPrice from "src/utils/convert/convertPrice";
-import { DecodedAuctionHouseTransactionResult } from "@formfunction-hq/formfunction-auction-house";
+import { DecodedAuctionHouseTransactionResult } from "@bullistic-hq/bullistic-auction-house";
 
 // Handles v1 and v2 buy edition transactions.
 export default async function parseBuyEditionTx(

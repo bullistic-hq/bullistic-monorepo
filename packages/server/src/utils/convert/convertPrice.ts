@@ -1,5 +1,5 @@
 import { Currency } from "@prisma/client";
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import Typename from "src/types/enums/Typename";
 import convertCurrency from "src/utils/convert/convertCurrency";
 import { Price } from "src/__generated__/generated";

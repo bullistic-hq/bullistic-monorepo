@@ -1,7 +1,7 @@
 import graphql from "babel-plugin-relay/macro";
 import { useLazyLoadQuery } from "react-relay";
 import { ActivityAuctionsQuery } from "components/pages/activity/__generated__/ActivityAuctionsQuery.graphql";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import ActivitySections from "components/pages/activity/ActivitySections";
 import ActivitySection from "components/pages/activity/ActivitySection";
 import ActivityAuctionsYourAuctions from "components/pages/activity/ActivityAuctionsYourAuctions";

@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { CAMPAIGN_COLOR_SCHEMES_TO_COLORS } from "constants/CampaignColorSchemes";
 import RELAY_FUTURE_ADDED_VALUE from "constants/RelayFutureAddedValue";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
 import useColorModeContext from "hooks/useColorModeContext";
 import { Context, createContext, useState } from "react";
 import ColorScheme from "types/ColorScheme";

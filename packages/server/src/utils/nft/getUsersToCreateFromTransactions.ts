@@ -1,5 +1,5 @@
-import removeDuplicatesWithSet from "formfn-shared/dist/utils/array/removeDuplicatesWithSet";
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
+import removeDuplicatesWithSet from "bullistic-shared/dist/utils/array/removeDuplicatesWithSet";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
 import NftTransactionOnchain from "src/types/NftTransactionOnchain";
 import getPrisma from "src/utils/prisma/getPrisma";
 

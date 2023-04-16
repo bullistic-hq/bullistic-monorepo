@@ -2,7 +2,7 @@ import PlainButton from "components/buttons/PlainButton";
 import CopyIcon from "components/icons/CopyIcon";
 import NavLink from "components/text/NavLink";
 import styles from "css/buttons/WalletAndAddressButton.module.css";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import useSolanaContext from "hooks/useSolanaContext";
 import ColorClass from "types/enums/ColorClass";
 import ColorValue from "types/enums/ColorValue";

@@ -367,7 +367,7 @@
         "../../../node_modules/react-loading-skeleton/dist/index.mjs": {
           "size": 809
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/bs58/index.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/bs58/index.js": {
           "size": 106
         },
         "../../../node_modules/@babel/runtime/helpers/createSuper.js": {
@@ -478,7 +478,7 @@
         "../../../node_modules/@babel/runtime/helpers/createForOfIteratorHelper.js": {
           "size": 434
         },
-        "../../../node_modules/@formfunction-hq/formfunction-gumdrop/node_modules/@metaplex/js/node_modules/bs58/index.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-gumdrop/node_modules/@metaplex/js/node_modules/bs58/index.js": {
           "size": 106
         },
         "../../../node_modules/@babel/runtime/helpers/typeof.js": {
@@ -658,7 +658,7 @@
         "../../../node_modules/@ctrl/tinycolor/dist/module/index.js": {
           "size": 1832
         },
-        "webpack:///Users/mlim/Documents/software/crypto/solana/formfn/formfn-monorepo/node_modules/tslib/tslib.es6.js?5da9": {
+        "webpack:///Users/mlim/Documents/software/crypto/solana/bullistic/bullistic-monorepo/node_modules/tslib/tslib.es6.js?5da9": {
           "size": 1025
         },
         "../../src/common.js": {
@@ -712,22 +712,22 @@
         "../../../node_modules/rc-util/es/raf.js": {
           "size": 298
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/@metaplex/js/node_modules/borsh/lib/index.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/@metaplex/js/node_modules/borsh/lib/index.js": {
           "size": 4780
         },
-        "../../../node_modules/@formfunction-hq/formfunction-gumdrop/node_modules/@metaplex/js/node_modules/borsh/lib/index.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-gumdrop/node_modules/@metaplex/js/node_modules/borsh/lib/index.js": {
           "size": 4781
         },
         "../../../node_modules/@solana/web3.js/node_modules/bs58/index.js": {
           "size": 106
         },
-        "../../../node_modules/@formfunction-hq/formfunction-gumdrop/node_modules/@solana/web3.js/node_modules/bs58/index.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-gumdrop/node_modules/@solana/web3.js/node_modules/bs58/index.js": {
           "size": 106
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/axios/lib/utils.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/axios/lib/utils.js": {
           "size": 820
         },
-        "../../../node_modules/@formfunction-hq/formfunction-gumdrop/node_modules/axios/lib/utils.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-gumdrop/node_modules/axios/lib/utils.js": {
           "size": 820
         },
         "../../../node_modules/axios/lib/utils.js": {
@@ -1966,10 +1966,10 @@
         "../../../node_modules/antd/es/_util/type.js": {
           "size": 124
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/axios/index.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/axios/index.js": {
           "size": 37
         },
-        "../../../node_modules/@formfunction-hq/formfunction-gumdrop/node_modules/axios/index.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-gumdrop/node_modules/axios/index.js": {
           "size": 37
         },
         "../../src/time.ts": {
@@ -2032,7 +2032,7 @@
         "../../../node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js": {
           "size": 131
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/@metaplex-foundation/mpl-core/node_modules/borsh/lib/index.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/@metaplex-foundation/mpl-core/node_modules/borsh/lib/index.js": {
           "size": 4780
         },
         "../../../node_modules/antd/es/locale-provider/context.js": {
@@ -2308,7 +2308,7 @@
         "../../../node_modules/@solana/spl-token/node_modules/borsh/lib/index.js": {
           "size": 4782
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/@metaplex-foundation/mpl-token-metadata/node_modules/borsh/lib/index.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/@metaplex-foundation/mpl-token-metadata/node_modules/borsh/lib/index.js": {
           "size": 4780
         },
         "../../../node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js": {
@@ -2347,7 +2347,7 @@
         "../../../../src/solana/utils/arePublicKeysEqual.ts": {
           "size": 70
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/axios/lib/defaults.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/axios/lib/defaults.js": {
           "size": 816
         },
         "../../../../src/types/enum/PriceFunctionType.ts": {
@@ -2356,7 +2356,7 @@
         "../../../../src/solana/utils/getMasterEditionSupply.ts": {
           "size": 255
         },
-        "../../../node_modules/@formfunction-hq/formfunction-gumdrop/node_modules/axios/lib/defaults.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-gumdrop/node_modules/axios/lib/defaults.js": {
           "size": 816
         },
         "../../../node_modules/relay-runtime/lib/util/getRelayHandleKey.js": {
@@ -2896,7 +2896,7 @@
         "../../../node_modules/webpack/buildin/amd-options.js": {
           "size": 43
         },
-        "webpack:///Users/mlim/Documents/software/crypto/solana/formfn/formfn-monorepo/node_modules/buffer-layout/lib/Layout.js?3942": {
+        "webpack:///Users/mlim/Documents/software/crypto/solana/bullistic/bullistic-monorepo/node_modules/buffer-layout/lib/Layout.js?3942": {
           "size": 15746
         },
         "../../../../src/solana/auction-house/getSolAuctionHouseAccountByProgramId.ts": {
@@ -2905,28 +2905,28 @@
         "../../../../src/solana/utils/isNative.ts": {
           "size": 104
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/axios/lib/helpers/bind.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/axios/lib/helpers/bind.js": {
           "size": 125
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/axios/lib/helpers/buildURL.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/axios/lib/helpers/buildURL.js": {
           "size": 392
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/axios/lib/core/enhanceError.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/axios/lib/core/enhanceError.js": {
           "size": 210
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/axios/lib/adapters/xhr.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/axios/lib/adapters/xhr.js": {
           "size": 993
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/axios/lib/core/createError.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/axios/lib/core/createError.js": {
           "size": 94
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/axios/lib/cancel/isCancel.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/axios/lib/cancel/isCancel.js": {
           "size": 69
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/axios/lib/core/mergeConfig.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/axios/lib/core/mergeConfig.js": {
           "size": 567
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/axios/lib/cancel/Cancel.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/axios/lib/cancel/Cancel.js": {
           "size": 134
         },
         "../../../../src/accounts/index.ts": {
@@ -2959,7 +2959,7 @@
         "../../../../src/solana/programs/loadAuctionHouseProgramWithWallet.ts": {
           "size": 195
         },
-        "../../../src/generated/FormfnGumdrop.ts": {
+        "../../../src/generated/BullisticGumdrop.ts": {
           "size": 867
         },
         "../../../../src/sdk/merkle-tree/constructMerkleLeafNode.ts": {
@@ -2968,28 +2968,28 @@
         "../../../../src/sdk/merkle-tree/merkleTree.ts": {
           "size": 1173
         },
-        "../../../node_modules/@formfunction-hq/formfunction-gumdrop/node_modules/axios/lib/helpers/bind.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-gumdrop/node_modules/axios/lib/helpers/bind.js": {
           "size": 125
         },
-        "../../../node_modules/@formfunction-hq/formfunction-gumdrop/node_modules/axios/lib/helpers/buildURL.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-gumdrop/node_modules/axios/lib/helpers/buildURL.js": {
           "size": 393
         },
-        "../../../node_modules/@formfunction-hq/formfunction-gumdrop/node_modules/axios/lib/core/enhanceError.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-gumdrop/node_modules/axios/lib/core/enhanceError.js": {
           "size": 210
         },
-        "../../../node_modules/@formfunction-hq/formfunction-gumdrop/node_modules/axios/lib/adapters/xhr.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-gumdrop/node_modules/axios/lib/adapters/xhr.js": {
           "size": 994
         },
-        "../../../node_modules/@formfunction-hq/formfunction-gumdrop/node_modules/axios/lib/core/createError.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-gumdrop/node_modules/axios/lib/core/createError.js": {
           "size": 94
         },
-        "../../../node_modules/@formfunction-hq/formfunction-gumdrop/node_modules/axios/lib/cancel/isCancel.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-gumdrop/node_modules/axios/lib/cancel/isCancel.js": {
           "size": 69
         },
-        "../../../node_modules/@formfunction-hq/formfunction-gumdrop/node_modules/axios/lib/core/mergeConfig.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-gumdrop/node_modules/axios/lib/core/mergeConfig.js": {
           "size": 568
         },
-        "../../../node_modules/@formfunction-hq/formfunction-gumdrop/node_modules/axios/lib/cancel/Cancel.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-gumdrop/node_modules/axios/lib/cancel/Cancel.js": {
           "size": 134
         },
         "../../../../src/sdk/utils/getProgramIdsFromEnvironment.ts": {
@@ -3244,16 +3244,16 @@
         "../../../node_modules/@solana/spl-token/node_modules/rpc-websockets/dist/index.browser.js": {
           "size": 549
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/@metaplex/js/node_modules/rpc-websockets/dist/index.browser.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/@metaplex/js/node_modules/rpc-websockets/dist/index.browser.js": {
           "size": 546
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/@metaplex-foundation/mpl-core/node_modules/rpc-websockets/dist/index.browser.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/@metaplex-foundation/mpl-core/node_modules/rpc-websockets/dist/index.browser.js": {
           "size": 549
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/@metaplex-foundation/mpl-token-metadata/node_modules/rpc-websockets/dist/index.browser.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/@metaplex-foundation/mpl-token-metadata/node_modules/rpc-websockets/dist/index.browser.js": {
           "size": 549
         },
-        "../../../node_modules/@formfunction-hq/formfunction-gumdrop/node_modules/@metaplex/js/node_modules/rpc-websockets/dist/index.browser.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-gumdrop/node_modules/@metaplex/js/node_modules/rpc-websockets/dist/index.browser.js": {
           "size": 548
         },
         "../../../node_modules/rc-util/es/Children/toArray.js": {
@@ -4237,67 +4237,67 @@
         "../../../../src/solana/instructions/auctionHouseCancelV2Ix.ts": {
           "size": 871
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/axios/lib/axios.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/axios/lib/axios.js": {
           "size": 248
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/axios/lib/core/Axios.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/axios/lib/core/Axios.js": {
           "size": 751
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/axios/lib/core/InterceptorManager.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/axios/lib/core/InterceptorManager.js": {
           "size": 223
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/axios/lib/core/dispatchRequest.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/axios/lib/core/dispatchRequest.js": {
           "size": 325
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/axios/lib/core/transformData.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/axios/lib/core/transformData.js": {
           "size": 116
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/axios/lib/helpers/normalizeHeaderName.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/axios/lib/helpers/normalizeHeaderName.js": {
           "size": 126
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/axios/lib/core/settle.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/axios/lib/core/settle.js": {
           "size": 153
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/axios/lib/helpers/cookies.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/axios/lib/helpers/cookies.js": {
           "size": 346
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/axios/lib/core/buildFullPath.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/axios/lib/core/buildFullPath.js": {
           "size": 85
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/axios/lib/helpers/isAbsoluteURL.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/axios/lib/helpers/isAbsoluteURL.js": {
           "size": 84
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/axios/lib/helpers/combineURLs.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/axios/lib/helpers/combineURLs.js": {
           "size": 88
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/axios/lib/helpers/parseHeaders.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/axios/lib/helpers/parseHeaders.js": {
           "size": 335
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/axios/lib/helpers/isURLSameOrigin.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/axios/lib/helpers/isURLSameOrigin.js": {
           "size": 356
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/axios/lib/helpers/validator.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/axios/lib/helpers/validator.js": {
           "size": 578
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/axios/lib/cancel/CancelToken.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/axios/lib/cancel/CancelToken.js": {
           "size": 243
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/axios/lib/helpers/spread.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/axios/lib/helpers/spread.js": {
           "size": 70
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/axios/lib/helpers/isAxiosError.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/axios/lib/helpers/isAxiosError.js": {
           "size": 87
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/@metaplex/js/node_modules/rpc-websockets/dist/lib/client/websocket.browser.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/@metaplex/js/node_modules/rpc-websockets/dist/lib/client/websocket.browser.js": {
           "size": 579
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/@metaplex/js/node_modules/rpc-websockets/dist/lib/client.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/@metaplex/js/node_modules/rpc-websockets/dist/lib/client.js": {
           "size": 2050
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/@metaplex-foundation/mpl-core/node_modules/rpc-websockets/dist/lib/client/websocket.browser.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/@metaplex-foundation/mpl-core/node_modules/rpc-websockets/dist/lib/client/websocket.browser.js": {
           "size": 579
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/@metaplex-foundation/mpl-core/node_modules/rpc-websockets/dist/lib/client.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/@metaplex-foundation/mpl-core/node_modules/rpc-websockets/dist/lib/client.js": {
           "size": 2050
         },
         "../../../../src/accounts/TokenAccount.ts": {
@@ -4321,10 +4321,10 @@
         "../../../../src/utils/tupleNumeric.ts": {
           "size": 444
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/@metaplex-foundation/mpl-token-metadata/node_modules/rpc-websockets/dist/lib/client/websocket.browser.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/@metaplex-foundation/mpl-token-metadata/node_modules/rpc-websockets/dist/lib/client/websocket.browser.js": {
           "size": 579
         },
-        "../../../node_modules/@formfunction-hq/formfunction-auction-house/node_modules/@metaplex-foundation/mpl-token-metadata/node_modules/rpc-websockets/dist/lib/client.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-auction-house/node_modules/@metaplex-foundation/mpl-token-metadata/node_modules/rpc-websockets/dist/lib/client.js": {
           "size": 2050
         },
         "../../../../src/accounts/EditionMarker.ts": {
@@ -4507,7 +4507,7 @@
         "../../../src/utils/uppercaseFirstLetter.ts": {
           "size": 86
         },
-        "../../../src/sdk/FormfnGumdropSdk.ts": {
+        "../../../src/sdk/BullisticGumdropSdk.ts": {
           "size": 4992
         },
         "../../../src/generated/index.ts": {
@@ -4576,61 +4576,61 @@
         "../../../../src/sdk/utils/getEditionNumber.ts": {
           "size": 256
         },
-        "../../../node_modules/@formfunction-hq/formfunction-gumdrop/node_modules/axios/lib/axios.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-gumdrop/node_modules/axios/lib/axios.js": {
           "size": 249
         },
-        "../../../node_modules/@formfunction-hq/formfunction-gumdrop/node_modules/axios/lib/core/Axios.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-gumdrop/node_modules/axios/lib/core/Axios.js": {
           "size": 751
         },
-        "../../../node_modules/@formfunction-hq/formfunction-gumdrop/node_modules/axios/lib/core/InterceptorManager.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-gumdrop/node_modules/axios/lib/core/InterceptorManager.js": {
           "size": 223
         },
-        "../../../node_modules/@formfunction-hq/formfunction-gumdrop/node_modules/axios/lib/core/dispatchRequest.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-gumdrop/node_modules/axios/lib/core/dispatchRequest.js": {
           "size": 326
         },
-        "../../../node_modules/@formfunction-hq/formfunction-gumdrop/node_modules/axios/lib/core/transformData.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-gumdrop/node_modules/axios/lib/core/transformData.js": {
           "size": 116
         },
-        "../../../node_modules/@formfunction-hq/formfunction-gumdrop/node_modules/axios/lib/helpers/normalizeHeaderName.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-gumdrop/node_modules/axios/lib/helpers/normalizeHeaderName.js": {
           "size": 126
         },
-        "../../../node_modules/@formfunction-hq/formfunction-gumdrop/node_modules/axios/lib/core/settle.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-gumdrop/node_modules/axios/lib/core/settle.js": {
           "size": 153
         },
-        "../../../node_modules/@formfunction-hq/formfunction-gumdrop/node_modules/axios/lib/helpers/cookies.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-gumdrop/node_modules/axios/lib/helpers/cookies.js": {
           "size": 346
         },
-        "../../../node_modules/@formfunction-hq/formfunction-gumdrop/node_modules/axios/lib/core/buildFullPath.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-gumdrop/node_modules/axios/lib/core/buildFullPath.js": {
           "size": 85
         },
-        "../../../node_modules/@formfunction-hq/formfunction-gumdrop/node_modules/axios/lib/helpers/isAbsoluteURL.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-gumdrop/node_modules/axios/lib/helpers/isAbsoluteURL.js": {
           "size": 84
         },
-        "../../../node_modules/@formfunction-hq/formfunction-gumdrop/node_modules/axios/lib/helpers/combineURLs.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-gumdrop/node_modules/axios/lib/helpers/combineURLs.js": {
           "size": 88
         },
-        "../../../node_modules/@formfunction-hq/formfunction-gumdrop/node_modules/axios/lib/helpers/parseHeaders.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-gumdrop/node_modules/axios/lib/helpers/parseHeaders.js": {
           "size": 336
         },
-        "../../../node_modules/@formfunction-hq/formfunction-gumdrop/node_modules/axios/lib/helpers/isURLSameOrigin.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-gumdrop/node_modules/axios/lib/helpers/isURLSameOrigin.js": {
           "size": 356
         },
-        "../../../node_modules/@formfunction-hq/formfunction-gumdrop/node_modules/axios/lib/helpers/validator.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-gumdrop/node_modules/axios/lib/helpers/validator.js": {
           "size": 581
         },
-        "../../../node_modules/@formfunction-hq/formfunction-gumdrop/node_modules/axios/lib/cancel/CancelToken.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-gumdrop/node_modules/axios/lib/cancel/CancelToken.js": {
           "size": 244
         },
-        "../../../node_modules/@formfunction-hq/formfunction-gumdrop/node_modules/axios/lib/helpers/spread.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-gumdrop/node_modules/axios/lib/helpers/spread.js": {
           "size": 70
         },
-        "../../../node_modules/@formfunction-hq/formfunction-gumdrop/node_modules/axios/lib/helpers/isAxiosError.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-gumdrop/node_modules/axios/lib/helpers/isAxiosError.js": {
           "size": 87
         },
-        "../../../node_modules/@formfunction-hq/formfunction-gumdrop/node_modules/@metaplex/js/node_modules/rpc-websockets/dist/lib/client/websocket.browser.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-gumdrop/node_modules/@metaplex/js/node_modules/rpc-websockets/dist/lib/client/websocket.browser.js": {
           "size": 579
         },
-        "../../../node_modules/@formfunction-hq/formfunction-gumdrop/node_modules/@metaplex/js/node_modules/rpc-websockets/dist/lib/client.js": {
+        "../../../node_modules/@bullistic-hq/bullistic-gumdrop/node_modules/@metaplex/js/node_modules/rpc-websockets/dist/lib/client.js": {
           "size": 2050
         },
         "../../../../src/sdk/utils/getMinRentExemptionBalance.ts": {

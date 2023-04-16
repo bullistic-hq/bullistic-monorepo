@@ -14,7 +14,7 @@ export default function StatsHeader() {
         colorClass={ColorClass.Secondary}
         textAlign="center"
       >
-        See the top ranking creators and collectors on Formfunction.
+        See the top ranking creators and collectors on Bullistic.
       </Body1>
     </div>
   );

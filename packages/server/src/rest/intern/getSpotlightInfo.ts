@@ -2,7 +2,7 @@ import { NextFunction, Request, Response } from "express";
 import SpotlightType from "src/types/enums/SpotlightType";
 import getSpotlightInfoForSpotlightType from "src/utils/spotlights/getSpotlightInfoForSpotlightType";
 import invariant from "tiny-invariant";
-import toObject from "formfn-shared/dist/utils/toObject";
+import toObject from "bullistic-shared/dist/utils/toObject";
 import getPrisma from "src/utils/prisma/getPrisma";
 
 export default async function getSpotlightInfo(

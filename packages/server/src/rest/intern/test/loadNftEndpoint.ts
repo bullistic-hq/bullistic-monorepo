@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from "express";
-import isNumber from "formfn-shared/dist/utils/numbers/isNumber";
-import toObject from "formfn-shared/dist/utils/toObject";
+import isNumber from "bullistic-shared/dist/utils/numbers/isNumber";
+import toObject from "bullistic-shared/dist/utils/toObject";
 import CONVERT_NFT_TO_METADATA_INCLUDE from "src/constants/include/ConvertNftToMetadataInclude";
 import CONVERT_SERIES_INCLUDE from "src/constants/include/ConvertSeriesInclude";
 import CONVERT_USER_INCLUDE from "src/constants/include/ConvertUserInclude";

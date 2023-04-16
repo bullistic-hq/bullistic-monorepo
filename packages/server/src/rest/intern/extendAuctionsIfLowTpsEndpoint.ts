@@ -1,8 +1,8 @@
 import { NextFunction, Request, Response } from "express";
-import getSolanaNetworkHealth from "formfn-shared/dist/utils/solana/health/getSolanaNetworkHealth";
+import getSolanaNetworkHealth from "bullistic-shared/dist/utils/solana/health/getSolanaNetworkHealth";
 import getLdFlag from "src/utils/launch-darkly/getLdFlag";
 import LaunchDarklyFlag from "src/types/enums/LaunchDarklyFlag";
-import SolanaNetworkHealth from "formfn-shared/dist/types/enums/SolanaNetworkHealth";
+import SolanaNetworkHealth from "bullistic-shared/dist/types/enums/SolanaNetworkHealth";
 import getPrisma from "src/utils/prisma/getPrisma";
 import dayjs from "src/utils/dates/dayjsex";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";

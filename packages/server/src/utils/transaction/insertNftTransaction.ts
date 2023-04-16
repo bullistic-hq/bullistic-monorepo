@@ -8,7 +8,7 @@ import {
 } from "src/__generated__/generated";
 import dayjs from "src/utils/dates/dayjsex";
 import { Prisma } from "@prisma/client";
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import CONVERT_NFT_TO_METADATA_INCLUDE from "src/constants/include/ConvertNftToMetadataInclude";
 import { Dayjs } from "dayjs";
 import { Request } from "express";
@@ -23,8 +23,8 @@ import getLdFlag from "src/utils/launch-darkly/getLdFlag";
 import LaunchDarklyFlag from "src/types/enums/LaunchDarklyFlag";
 import convertNftTransaction from "src/utils/convert/convertNftTransaction";
 import CONVERT_NFT_TRANSACTION_INCLUDE from "src/constants/include/ConvertNftTransactionInclude";
-import toObject from "formfn-shared/dist/utils/toObject";
-import { AuctionHouseSdk } from "@formfunction-hq/formfunction-auction-house";
+import toObject from "bullistic-shared/dist/utils/toObject";
+import { AuctionHouseSdk } from "@bullistic-hq/bullistic-auction-house";
 import PrismaTransactionClient from "src/types/PrismaTransactionClient";
 import updateNftForTransaction from "src/utils/transaction/updateNftForTransaction";
 import updateMasterEditionNftForTransaction from "src/utils/transaction/updateMasterEditionNftForTransaction";
@@ -33,7 +33,7 @@ import insertNftForTransaction from "src/utils/transaction/insertNftForTransacti
 import getTimeElapsed from "src/utils/dates/getTimeElapsed";
 import getCurrencyNameForTxType from "src/utils/nft/getCurrencyForTxType";
 import ConvertNftTransactionType from "src/types/convert/ConvertNftTransactionType";
-import isBotTaxedTransaction from "formfn-shared/dist/utils/solana/txs/parse/isBotTaxedTransaction";
+import isBotTaxedTransaction from "bullistic-shared/dist/utils/solana/txs/parse/isBotTaxedTransaction";
 import convertEditionsMerkleAllowlistInfo from "src/utils/convert/convertEditionsMerkleAllowlistInfo";
 import CONVERT_EDITIONS_MERKLE_ALLOWLIST_INFO_INCLUDE from "src/constants/include/ConvertEditionsMerkleAllowlistInfoInclude";
 

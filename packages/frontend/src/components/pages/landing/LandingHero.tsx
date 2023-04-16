@@ -22,7 +22,7 @@ import "swiper/css/effect-fade";
 import { Autoplay, EffectFade } from "swiper";
 
 import getImgixUrl from "utils/getImgixUrl";
-import getAssetCdnUrl from "formfn-shared/dist/utils/getAssetCdnUrl";
+import getAssetCdnUrl from "bullistic-shared/dist/utils/getAssetCdnUrl";
 import shuffleArray from "utils/shuffleArray";
 import useFlagsTyped from "hooks/useFlagsTyped";
 import LandingHeroSlideshowErrorBoundary from "components/pages/landing/LandingHeroSlideshowErrorBoundary";

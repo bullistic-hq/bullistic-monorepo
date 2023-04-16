@@ -1,5 +1,5 @@
 import styles from "css/pages/campaign/campaign-v1/CampaignProgressBar.module.css";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import useCampaignColorScheme from "hooks/useCampaignColorScheme";
 import BackgroundColorClass from "types/enums/BackgroundColorClass";
 import joinClasses from "utils/joinClasses";

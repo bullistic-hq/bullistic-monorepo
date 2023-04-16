@@ -23,7 +23,6 @@ import deleteNftMutationField from "src/schema/mutation/deleteNftMutationField";
 import airdropMutationsMutationField from "src/schema/mutation/airdropMutationsMutationField";
 import safetyCheckMutationsMutationField from "src/schema/mutation/safetyCheckMutationsMutationField";
 import editionsMutationsMutationField from "src/schema/mutation/editionsMutationsMutationField";
-import shareInfoAndSwapForTooniesMutationField from "src/schema/mutation/shareInfoAndSwapForTooniesMutationField";
 
 const MutationGqlType = new GraphQLObjectType({
   fields: {
@@ -48,7 +47,6 @@ const MutationGqlType = new GraphQLObjectType({
     insertPnft: insertPnftMutationField,
     refreshMetadata: refreshMetadataMutationField,
     sendCreatorInvites: sendCreatorInvitesMutationField,
-    shareInfoAndSwapForToonies: shareInfoAndSwapForTooniesMutationField,
     updateDiscordRolesForUser: updateDiscordRolesForUserMutationField,
     updateSeriesIdForNfts: updateSeriesIdForNftsMutationField,
     updateUnlockableWinnerBuyerInfo:

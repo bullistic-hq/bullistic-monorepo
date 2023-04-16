@@ -1,4 +1,4 @@
-import { decodeAuctionHouseTransaction } from "@formfunction-hq/formfunction-auction-house";
+import { decodeAuctionHouseTransaction } from "@bullistic-hq/bullistic-auction-house";
 import { ParsedTransactionWithMeta } from "@solana/web3.js";
 import getAuctionHouseConstants from "src/utils/solana/getAuctionHouseConstants";
 import parseCancelOfferTx from "src/utils/solana/txs/parse/parseCancelOfferTx";

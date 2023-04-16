@@ -1,4 +1,4 @@
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import getExplorerTxLink from "utils/solana/explorer/getExplorerTxLink";
 import styles from "css/pages/common/nft/TxLink.module.css";
 

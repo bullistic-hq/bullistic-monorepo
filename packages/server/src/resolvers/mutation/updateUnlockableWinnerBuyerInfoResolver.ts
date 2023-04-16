@@ -9,7 +9,7 @@ import assertUserSignedRequest from "src/utils/auth/assertUserSignedRequest";
 import convertUnlockableWinner from "src/utils/convert/convertUnlockableWinner";
 import updateUnlockableWinner from "src/utils/prisma/updateUnlockableWinner";
 import createNotificationForUnlockableCreator from "src/utils/unlockables/createNotificationForUnlockableCreator";
-import isValidEmail from "formfn-shared/dist/utils/validation/isValidEmail";
+import isValidEmail from "bullistic-shared/dist/utils/validation/isValidEmail";
 
 export default async function updateUnlockableWinnerBuyerInfoResolver(
   context: MyContext,

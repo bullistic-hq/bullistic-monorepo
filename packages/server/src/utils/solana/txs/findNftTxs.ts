@@ -1,6 +1,6 @@
 import { ParsedTransactionWithMeta, PublicKey } from "@solana/web3.js";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
 import parseNftTx from "src/utils/solana/txs/parse/parseNftTx";
 
 export default async function findNftTxs(

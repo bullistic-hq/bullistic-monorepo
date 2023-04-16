@@ -1,5 +1,5 @@
 import { PublicKey } from "@solana/web3.js";
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
 import ConvertCampaignFundingTierType from "src/types/convert/ConvertCampaignFundingTierType";
 import CampaignAction from "src/types/enums/CampaignAction";
 import assertCanUpdateCampaign from "src/utils/campaigns/assertCanUpdateCampaign";

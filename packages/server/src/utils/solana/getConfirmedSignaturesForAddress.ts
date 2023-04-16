@@ -4,8 +4,8 @@ import {
   Maybe,
   MaybeUndef,
   Undef,
-} from "formfn-shared/dist/types/UtilityTypes";
-import arrayLast from "formfn-shared/dist/utils/array/arrayLast";
+} from "bullistic-shared/dist/types/UtilityTypes";
+import arrayLast from "bullistic-shared/dist/utils/array/arrayLast";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 import logError from "src/utils/analytics/logError";
 import ConnectionWrapper from "src/utils/solana/rpc/ConnectionWrapper";

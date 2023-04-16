@@ -1,5 +1,5 @@
 import { PublicKey } from "@solana/web3.js";
-import { AUCTION_HOUSE } from "formfn-shared/dist/constants/SolanaConstants";
+import { AUCTION_HOUSE } from "bullistic-shared/dist/constants/SolanaConstants";
 
 export default async function findAuctionHouse(
   creator: PublicKey,

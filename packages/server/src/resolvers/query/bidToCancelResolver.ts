@@ -5,7 +5,7 @@ import {
   NftTransactionTypeExpress_Enum,
 } from "src/__generated__/generated";
 import dayjs from "src/utils/dates/dayjsex";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import convertNftTransaction from "src/utils/convert/convertNftTransaction";
 import NFT_TRANSACTION_ORDER_BY from "src/constants/orderBy/NftTransactionOrderBy";
 import CONVERT_NFT_TRANSACTION_INCLUDE from "src/constants/include/ConvertNftTransactionInclude";

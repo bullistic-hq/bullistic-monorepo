@@ -1,5 +1,5 @@
-import Environment from "formfn-shared/dist/types/Environment";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import Environment from "bullistic-shared/dist/types/Environment";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import getEnvironment from "src/utils/getEnvironment";
 
 export default function getLinkForEnvironment(relativeLink: string) {
@@ -8,11 +8,11 @@ export default function getLinkForEnvironment(relativeLink: string) {
     case Environment.Local:
       return `http://localhost:3000${relativeLink}`;
     case Environment.Development:
-      return `https://dev.formfunction.xyz${relativeLink}`;
+      return `https://dev.bullistic.xyz${relativeLink}`;
     case Environment.Testnet:
-      return `https://test.formfunction.xyz${relativeLink}`;
+      return `https://test.bullistic.xyz${relativeLink}`;
     case Environment.Production:
-      return `https://formfunction.xyz${relativeLink}`;
+      return `https://bullistic.xyz${relativeLink}`;
     default:
       return assertUnreachable(env);
   }

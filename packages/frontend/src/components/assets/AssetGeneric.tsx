@@ -12,13 +12,13 @@ import ImageModal from "components/modal/ImageModal";
 import VolumeOffIcon from "components/icons/VolumeOffIcon";
 import VolumeOnIcon from "components/icons/VolumeOnIcon";
 import joinClasses from "utils/joinClasses";
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import MediaType from "types/enums/MediaType";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import stringToMediaType from "utils/content-types/stringToMediaType";
 import ModelViewerLazy from "components/model-viewer/ModelViewerLazy";
-import isNumber from "formfn-shared/dist/utils/numbers/isNumber";
-import emptyFunction from "formfn-shared/dist/utils/emptyFunction";
+import isNumber from "bullistic-shared/dist/utils/numbers/isNumber";
+import emptyFunction from "bullistic-shared/dist/utils/emptyFunction";
 import KeyboardEventKey from "types/enums/KeyboardEventKey";
 
 function getImgixWidth(imgixWidth: MaybeUndef<number>, width: string | number) {

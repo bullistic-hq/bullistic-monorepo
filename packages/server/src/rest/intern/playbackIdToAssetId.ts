@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from "express";
-import Environment from "formfn-shared/dist/types/Environment";
+import Environment from "bullistic-shared/dist/types/Environment";
 import getMuxClient from "src/utils/mux/getMuxClient";
 
 export default async function playbackIdToAssetId(

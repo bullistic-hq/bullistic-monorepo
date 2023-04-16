@@ -14,7 +14,7 @@ import { useState } from "react";
 import { fetchQuery, useFragment, useMutation } from "react-relay";
 import ButtonTheme from "types/enums/ButtonTheme";
 import FontClass from "types/enums/FontClass";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import RelayEnvironment from "utils/relay/RelayEnvironment";
 import notifyUnexpectedError from "components/toast/notifyUnexpectedError";
 

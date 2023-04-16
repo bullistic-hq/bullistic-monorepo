@@ -3,10 +3,10 @@ import {
   ParsedTransactionWithMeta,
   PartiallyDecodedInstruction,
 } from "@solana/web3.js";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import { TOKEN_METADATA_PROGRAM_ID } from "formfn-shared/dist/constants/SolanaConstants";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import { TOKEN_METADATA_PROGRAM_ID } from "bullistic-shared/dist/constants/SolanaConstants";
 import base58ToHex from "src/utils/base58ToHex";
-import arePublicKeysEqual from "formfn-shared/dist/utils/compare/arePublicKeysEqual";
+import arePublicKeysEqual from "bullistic-shared/dist/utils/compare/arePublicKeysEqual";
 
 const MINT_INDEX = 1;
 

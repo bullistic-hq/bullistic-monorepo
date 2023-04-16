@@ -1,9 +1,9 @@
 import { Request } from "express";
-import { APPEND_MERKLE_ROOTS_LIMIT_PER_TX } from "@formfunction-hq/formfunction-auction-house";
-import MerkleAllowlistBuyersList from "@formfunction-hq/formfunction-auction-house/dist/types/merkle-tree/MerkleAllowlistBuyersList";
+import { APPEND_MERKLE_ROOTS_LIMIT_PER_TX } from "@bullistic-hq/bullistic-auction-house";
+import MerkleAllowlistBuyersList from "@bullistic-hq/bullistic-auction-house/dist/types/merkle-tree/MerkleAllowlistBuyersList";
 import { PublicKey } from "@solana/web3.js";
-import batchArray from "formfn-shared/dist/utils/array/batchArray";
-import forEachAsync from "formfn-shared/dist/utils/array/forEachAsync";
+import batchArray from "bullistic-shared/dist/utils/array/batchArray";
+import forEachAsync from "bullistic-shared/dist/utils/array/forEachAsync";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 import logError from "src/utils/analytics/logError";
 import getAuthorityKeypair from "src/utils/keypairs/getAuthorityKeypair";

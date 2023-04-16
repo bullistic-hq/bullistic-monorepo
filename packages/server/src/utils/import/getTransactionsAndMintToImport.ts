@@ -1,7 +1,7 @@
 import { PublicKey } from "@solana/web3.js";
-import SortOrder from "formfn-shared/dist/types/enums/SortOrder";
-import removeDuplicatesWithComparison from "formfn-shared/dist/utils/array/removeDuplicatesWithComparison";
-import { getCompareByProperty } from "formfn-shared/dist/utils/getCompareByProperty";
+import SortOrder from "bullistic-shared/dist/types/enums/SortOrder";
+import removeDuplicatesWithComparison from "bullistic-shared/dist/utils/array/removeDuplicatesWithComparison";
+import { getCompareByProperty } from "bullistic-shared/dist/utils/getCompareByProperty";
 import { nanoid } from "nanoid";
 import DEFAULT_AUCTION_COUNT from "src/constants/DefaultAuctionCount";
 import CONVERT_USER_INCLUDE from "src/constants/include/ConvertUserInclude";

@@ -1,5 +1,5 @@
 import RELAY_FUTURE_ADDED_VALUE from "constants/RelayFutureAddedValue";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import NftStatusExpress_enum from "types/relay/NftStatusExpress_enum";
 
 export default function shouldShowTransferOption(

@@ -19,7 +19,7 @@ export default function ProfileFlashbackCard(): JSX.Element {
       />
       <div>
         <Header3 colorClass={ColorClass.Primary}>
-          Your Formfunction Flashback
+          Your Bullistic Flashback
         </Header3>
         <Body1 className={styles.description} colorClass={ColorClass.Primary}>
           Thanks for spending an amazing year with us! Take a look back at some

@@ -14,13 +14,12 @@ import CampaignFundingTiersForCampaignsNamespace from "components/pages/campaign
 import useSolanaContext from "hooks/useSolanaContext";
 import { Suspense } from "react";
 import { useParams } from "react-router-dom";
-import CampaignTab from "formfn-shared/dist/types/enums/CampaignTab";
-import PopheadzCampaignTab from "types/enums/PopheadzCampaignTab";
+import CampaignTab from "bullistic-shared/dist/types/enums/CampaignTab";
 import { CampaignV2ContextProvider } from "context/CampaignV2Context";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import { useCampaignPageCampaignV2Query } from "hooks/campaign-page/v2/__generated__/useCampaignPageCampaignV2Query.graphql";
 import { PreloadedQuery, useFragment } from "react-relay";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import { usePostsForCampaignQuery } from "hooks/campaign/__generated__/usePostsForCampaignQuery.graphql";
 import CampaignPosts from "components/pages/campaign/campaign-generic/posts/CampaignPosts";
 import { useCampaignHoldersForSlugQuery } from "hooks/campaign/__generated__/useCampaignHoldersForSlugQuery.graphql";
@@ -36,7 +35,6 @@ import { useCampaignPageCampaignV2GoalQuery } from "hooks/campaign-page/v2/__gen
 import CampaignCommunityTabContent from "components/pages/campaign/campaign-v2/CampaignCommunityTabContent";
 import CampaignHeaderGoToDashboardBanner from "components/pages/campaign/campaign-generic/CampaignHeaderGoToDashboardBanner";
 import { useCampaignPageFundingTiersQuery } from "hooks/campaign-page/v2/__generated__/useCampaignPageFundingTiersQuery.graphql";
-import TooniesCampaignTab from "types/enums/TooniesCampaignTab";
 import CampaignTabType from "types/CampaignTabType";
 
 const fragment = graphql`
@@ -109,9 +107,6 @@ function CampaignTabContent({
           postsForCampaignQueryRef={postsForCampaignQueryRef}
         />
       ) : null;
-    case PopheadzCampaignTab.Team:
-    case TooniesCampaignTab.TooniesSwap:
-      return null;
     default:
       return assertUnreachable(campaignTab);
   }
@@ -166,17 +161,16 @@ export default function CampaignPageContent({
     </Suspense>
   );
 
-  const campaignFundingTierPreviews = campaignQueryRef != null &&
+  const campaignFundingTierPreviews = campaignQueryRef != null && (
     // TODO[@arcticmatt][campaigns]: better solution for hiding this for popheadz
-    campaignSlug?.includes("popheadz") === false && (
-      <Suspense fallback={<CampaignFundingTierPreviewsSkeleton />}>
-        <CampaignFundingTierPreviewsForCampaignsNamespace
-          campaignQueryRef={campaignQueryRef}
-          campaignFundingTiersQueryRef={campaignFundingTiersQueryRef}
-          setCampaignTab={setCampaignTab}
-        />
-      </Suspense>
-    );
+    <Suspense fallback={<CampaignFundingTierPreviewsSkeleton />}>
+      <CampaignFundingTierPreviewsForCampaignsNamespace
+        campaignQueryRef={campaignQueryRef}
+        campaignFundingTiersQueryRef={campaignFundingTiersQueryRef}
+        setCampaignTab={setCampaignTab}
+      />
+    </Suspense>
+  );
 
   return (
     <CampaignV2ContextProvider defaultColorScheme={colorScheme}>

@@ -36,10 +36,10 @@ export default function InvitesHeader() {
             colorClass={ColorClass.Secondary}
             textAlign="center"
           >
-            Formfunction&apos;s community decides how it grows—in addition to
+            Bullistic&apos;s community decides how it grows—in addition to
             our voting system, we are piloting an invite model that lets our
             most active artists and collectors invite new creators to mint on
-            Formfunction.
+            Bullistic.
           </Body1>
           <Body1
             className={styles.description}
@@ -47,7 +47,7 @@ export default function InvitesHeader() {
             textAlign="center"
           >
             Enter the email of the person you want to invite, and they&apos;ll
-            receive an invite to join Formfunction as an artist.
+            receive an invite to join Bullistic as an artist.
           </Body1>
         </div>
       </div>

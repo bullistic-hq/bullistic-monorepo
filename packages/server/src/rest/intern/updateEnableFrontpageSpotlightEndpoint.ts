@@ -2,11 +2,11 @@ import { NextFunction, Request, Response } from "express";
 import LaunchDarklyFlag from "src/types/enums/LaunchDarklyFlag";
 import getLdFlag from "src/utils/launch-darkly/getLdFlag";
 import getPrisma from "src/utils/prisma/getPrisma";
-import dayjs from "formfn-shared/dist/utils/dates/dayjsex";
+import dayjs from "bullistic-shared/dist/utils/dates/dayjsex";
 import axios from "axios";
 import getEnvironment from "src/utils/getEnvironment";
-import Environment from "formfn-shared/dist/types/Environment";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import Environment from "bullistic-shared/dist/types/Environment";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 
 function getLdEnvironmentKey() {
   const environment = getEnvironment();

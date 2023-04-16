@@ -1,5 +1,5 @@
-import NftKind from "formfn-shared/dist/types/enums/NftKind";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import NftKind from "bullistic-shared/dist/types/enums/NftKind";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 
 export default function shouldShowOffersForNftKind(nftKind: NftKind): boolean {
   switch (nftKind) {

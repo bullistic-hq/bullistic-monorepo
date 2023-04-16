@@ -22,7 +22,7 @@ import ButtonTheme from "types/enums/ButtonTheme";
 import FontClass from "types/enums/FontClass";
 import Body1 from "components/text/Body1";
 import ColorClass from "types/enums/ColorClass";
-import { Maybe, MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe, MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import LandingFooter from "components/pages/landing/LandingFooter";
 import ProfileNfts from "components/pages/profile/ProfileNfts";
 import useSolanaContext from "hooks/useSolanaContext";
@@ -64,13 +64,13 @@ import MobileProfileTabs from "components/pages/profile/MobileProfileTabs";
 import IgnoreResponsiveContainerPadding from "components/containers/IgnoreResponsiveContainerPadding";
 import useProfileTab from "hooks/useProfileTab";
 import { ProfilePageForUserMetadataAccountsCollected_Query$key } from "components/pages/profile/__generated__/ProfilePageForUserMetadataAccountsCollected_Query.graphql";
-import isEmptyString from "formfn-shared/dist/utils/string/isEmptyString";
+import isEmptyString from "bullistic-shared/dist/utils/string/isEmptyString";
 import ProfileJoinDiscordCard from "components/pages/profile/ProfileJoinDiscordCard";
 import { profilePageMetadataAccountsQuery } from "hooks/profile-page/useProfilePageMetadataAccounts";
 import { useProfilePageMetadataAccountsQuery } from "hooks/profile-page/__generated__/useProfilePageMetadataAccountsQuery.graphql";
 import ManageSeriesModal from "components/modal/ManageSeriesModal";
 import DiscordAuthModals from "components/modal/DiscordAuthModals";
-import arePublicKeysEqual from "formfn-shared/dist/utils/compare/arePublicKeysEqual";
+import arePublicKeysEqual from "bullistic-shared/dist/utils/compare/arePublicKeysEqual";
 import useFlagsTyped from "hooks/useFlagsTyped";
 import ProfileCampaignCard from "components/pages/profile/ProfileCampaignCard";
 import useColorModeContext from "hooks/useColorModeContext";
@@ -81,7 +81,7 @@ import { useProfilePageCampaignsWhereUserIsActiveSupporterQuery } from "hooks/pr
 import ProfileCampaignCardV2 from "components/pages/profile/ProfileCampaignV2Card";
 import CreateAirdropsModal from "components/modal/CreateAirdropsModal";
 import getUrlWithoutParam from "utils/getUrlWithoutParam";
-import ProfileUrlParamKey from "formfn-shared/dist/types/enums/ProfileUrlParamKey";
+import ProfileUrlParamKey from "bullistic-shared/dist/types/enums/ProfileUrlParamKey";
 import { useNavigate } from "react-router-dom";
 
 // At this point, shadow buttons are moved up to cover photo area

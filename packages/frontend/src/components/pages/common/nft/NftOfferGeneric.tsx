@@ -4,12 +4,12 @@ import { useFragment } from "react-relay";
 import ColorClass from "types/enums/ColorClass";
 import Body2 from "components/text/Body2";
 import formatTransactionTimestamp from "utils/dates/formatTransactionTimestamp";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import FontClass from "types/enums/FontClass";
 import ProfileLink from "components/pages/common/nft/ProfileLink";
 import TxLink from "components/pages/common/nft/TxLink";
 import dayjs from "utils/dates/dayjsex";
-import pluralize from "formfn-shared/dist/utils/pluralize";
+import pluralize from "bullistic-shared/dist/utils/pluralize";
 import NftTransactionComment from "components/pages/common/nft/NftTransactionComment";
 import TextButton from "components/buttons/TextButton";
 import TextButtonTheme from "types/enums/TextButtonTheme";
@@ -143,7 +143,7 @@ export default function NftOfferGeneric({
           <TextButton
             buttonThemeOrColorClass={TextButtonTheme.Error}
             fontClass={FontClass.Body2}
-            href="https://help.formfunction.xyz/en/articles/6185509-how-offers-work"
+            href="https://help.bullistic.xyz/en/articles/6185509-how-offers-work"
             type="link_external"
           >
             (offer inactive)

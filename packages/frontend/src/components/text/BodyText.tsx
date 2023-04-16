@@ -3,7 +3,7 @@ import ColorClass from "types/enums/ColorClass";
 import FontClass from "types/enums/FontClass";
 import joinClasses from "utils/joinClasses";
 import styles from "css/text/BodyText.module.css";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 export type Props = {
   children:

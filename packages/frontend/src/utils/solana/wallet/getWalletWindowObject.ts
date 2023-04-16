@@ -1,6 +1,6 @@
 /* eslint-disable typescript-sort-keys/interface */
 import { PublicKey, Transaction, VersionedTransaction } from "@solana/web3.js";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import Network from "types/enums/Network";
 import WalletName from "types/enums/WalletName";
 

@@ -9,7 +9,7 @@ import Body1 from "components/text/Body1";
 import ArrowRightIcon from "components/icons/ArrowRightIcon";
 import { useNftPagePnftAuctionNftsQuery } from "hooks/nft-page/__generated__/useNftPagePnftAuctionNftsQuery.graphql";
 import { pnftAuctionNftsQuery } from "hooks/nft-page/useNftPagePnftAuctionNfts";
-import getNftLinkRelative from "formfn-shared/dist/utils/links/getNftLinkRelative";
+import getNftLinkRelative from "bullistic-shared/dist/utils/links/getNftLinkRelative";
 
 type Props = {
   pnftAuctionNftsQueryRef: PreloadedQuery<useNftPagePnftAuctionNftsQuery>;

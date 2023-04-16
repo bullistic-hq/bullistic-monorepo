@@ -5,8 +5,8 @@ import convertPost from "src/utils/convert/convertPost";
 import CONVERT_POST_INCLUDE from "src/constants/include/ConvertPostInclude";
 import PrismaTransactionClient from "src/types/PrismaTransactionClient";
 import maybeUpsertAsset from "src/utils/asset/maybeUpsertAsset";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
-import filterNulls from "formfn-shared/dist/utils/filterNulls";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
+import filterNulls from "bullistic-shared/dist/utils/filterNulls";
 
 export default async function createPost(
   input: CreatePostBaseInput,

@@ -1,5 +1,5 @@
 import { Series_order_by } from "components/pages/explore/__generated__/ExploreSeriesGridQuery.graphql";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import ExploreSortOrder from "types/enums/ExploreSortOrder";
 
 export default function getSeriesOrderByClauseForSortOrder(

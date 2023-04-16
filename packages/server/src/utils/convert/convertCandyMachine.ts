@@ -24,7 +24,7 @@ export default function convertCandyMachine(
   } = candyMachine;
 
   return {
-    Authority: convertUser(candyMachine.FormfnAuthority),
+    Authority: convertUser(candyMachine.BullisticAuthority),
     CreatorAuthority: convertUser(candyMachine.CreatorAuthority),
     Series: convertSeries(candyMachine.Series)!,
     __typename: Typename.CandyMachine,

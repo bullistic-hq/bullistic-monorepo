@@ -1,7 +1,7 @@
 import { CampaignToHolder, Prisma } from "@prisma/client";
 import ConvertUserType from "src/types/convert/ConvertUserType";
 import getCampaignHoldersForCampaignToHolderWhere from "src/utils/campaigns/getCampaignHoldersForCampaignToHolderWhere";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 export default async function getCampaignHoldersFromCampaignToHolderTable(
   campaignId: string,

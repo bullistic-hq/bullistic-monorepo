@@ -1,6 +1,6 @@
 import RELAY_FUTURE_ADDED_VALUE from "constants/RelayFutureAddedValue";
 import ALL_TRANSACTION_TYPES from "constants/transactions/AllTransactionTypes";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 import NftTransactionTypeExpress_enum from "types/relay/NftTransactionTypeExpress_enum";
 
 function isSoldTransactionType(txType: NftTransactionTypeExpress_enum) {

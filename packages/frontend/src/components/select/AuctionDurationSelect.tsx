@@ -1,5 +1,5 @@
 import CustomSelect from "components/select/CustomSelect";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import useFlagsTyped from "hooks/useFlagsTyped";
 
 type Props = {

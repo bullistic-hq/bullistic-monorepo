@@ -57,7 +57,7 @@ function ManualApprovalInfo() {
       >
         This is manual approval, available to the team only. Each submission
         needs to receive manual approval from the team before the submission is
-        accepted, in order to ensure that it meets Formfunction&apos;s community
+        accepted, in order to ensure that it meets Bullistic&apos;s community
         guidelines.
       </Body1>
     </div>

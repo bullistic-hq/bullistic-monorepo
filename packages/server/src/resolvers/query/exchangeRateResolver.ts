@@ -9,10 +9,10 @@ import logError from "src/utils/analytics/logError";
 import AnalyticsEvent from "src/types/enums/AnalyticsEvent";
 import MyContext from "src/types/MyContext";
 import { ExchangeRates, PrismaClient } from "@prisma/client";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import { Decimal } from "@prisma/client/runtime";
 import { __InputValue } from "graphql";
-import assertUnreachable from "formfn-shared/dist/utils/assertUnreachable";
+import assertUnreachable from "bullistic-shared/dist/utils/assertUnreachable";
 
 const NULL_RESPONSE: ExchangeRateResponse = {
   __typename: Typename.ExchangeRateResponse,

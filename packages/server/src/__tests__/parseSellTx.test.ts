@@ -1,5 +1,5 @@
-import { decodeAuctionHouseTransaction } from "@formfunction-hq/formfunction-auction-house";
-import SaleType from "@formfunction-hq/formfunction-auction-house/dist/types/enum/SaleType";
+import { decodeAuctionHouseTransaction } from "@bullistic-hq/bullistic-auction-house";
+import SaleType from "@bullistic-hq/bullistic-auction-house/dist/types/enum/SaleType";
 import { ParsedTransactionWithMeta } from "@solana/web3.js";
 import getAuctionHouseConstants from "src/utils/solana/getAuctionHouseConstants";
 import parseSellTx from "src/utils/solana/txs/parse/parseSellTx";

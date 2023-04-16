@@ -8,7 +8,7 @@ import FontClass from "types/enums/FontClass";
 import TextButtonTheme from "types/enums/TextButtonTheme";
 import VideoQuality from "types/enums/VideoQuality";
 import styles from "css/pages/profile/ProfileCreatedSection.module.css";
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import Header3 from "components/text/Header3";
 import ColorClass from "types/enums/ColorClass";
 import Body1Medium from "components/text/Body1Medium";

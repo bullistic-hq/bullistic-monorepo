@@ -5,7 +5,7 @@ import ChevronUpIcon from "components/icons/ChevronUpIcon";
 import NftFilterSection from "components/pages/common/nft-filters/NftFilterSection";
 import NavLink from "components/text/NavLink";
 import styles from "css/pages/generative-series/GenerativeSeriesAttributesFilter.module.css";
-import { getCompareByProperty } from "formfn-shared/dist/utils/getCompareByProperty";
+import { getCompareByProperty } from "bullistic-shared/dist/utils/getCompareByProperty";
 import useGenerativeSeriesContext from "hooks/useGenerativeSeriesContext";
 import { useState } from "react";
 import ColorClass from "types/enums/ColorClass";

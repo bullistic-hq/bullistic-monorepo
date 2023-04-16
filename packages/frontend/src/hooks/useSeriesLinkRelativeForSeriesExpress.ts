@@ -1,7 +1,7 @@
 import graphql from "babel-plugin-relay/macro";
 import { useFragment } from "react-relay";
 import { useSeriesLinkRelativeForSeriesExpress_SeriesExpress$key } from "hooks/__generated__/useSeriesLinkRelativeForSeriesExpress_SeriesExpress.graphql";
-import getSeriesLinkRelative from "formfn-shared/dist/utils/links/getSeriesLinkRelative";
+import getSeriesLinkRelative from "bullistic-shared/dist/utils/links/getSeriesLinkRelative";
 
 const fragment = graphql`
   fragment useSeriesLinkRelativeForSeriesExpress_SeriesExpress on SeriesExpress {

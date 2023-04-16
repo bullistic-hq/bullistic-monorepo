@@ -1,5 +1,5 @@
 import { ParsedInstruction, PublicKey } from "@solana/web3.js";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import getTokenAccountInfo from "src/utils/solana/getTokenAccountInfo";
 import getAllInnerIxs from "src/utils/solana/getAllInnerIxs";
 import isInitializeAccountIx from "src/utils/solana/txs/parse/ix/isInitializeAccountIx";

@@ -1,5 +1,5 @@
 import styles from "css/images/ImageWithArtistPillButton.module.css";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 
 type Props = {
   artistPillButton: Maybe<JSX.Element>;

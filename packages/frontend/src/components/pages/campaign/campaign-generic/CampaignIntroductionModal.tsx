@@ -1,4 +1,4 @@
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import GenericModal from "components/modal/GenericModal";
 import ButtonWithText from "components/buttons/ButtonWithText";
 import ButtonTheme from "types/enums/ButtonTheme";
@@ -74,7 +74,7 @@ export default function CampaignIntroductionModal({
     >
       <div className={styles.container}>
         <Body1 textAlign="center" colorClass={ColorClass.Secondary}>
-          Campaigns on Formfunction let you sell NFTs to fundraise for your
+          Campaigns on Bullistic let you sell NFTs to fundraise for your
           dream creative project—whether you want to make a short film, raise
           funds for a good cause, create your own line of merch, or open a
           coffee shop for local artists.

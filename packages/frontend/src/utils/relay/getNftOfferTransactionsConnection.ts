@@ -1,4 +1,4 @@
-import { MaybeUndef } from "formfn-shared/dist/types/UtilityTypes";
+import { MaybeUndef } from "bullistic-shared/dist/types/UtilityTypes";
 import { ConnectionHandler, RecordSourceSelectorProxy } from "relay-runtime";
 
 // Keep in sync with useNftPageOfferTxs

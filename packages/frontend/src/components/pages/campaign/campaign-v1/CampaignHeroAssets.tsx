@@ -1,7 +1,7 @@
 import graphql from "babel-plugin-relay/macro";
 import { CampaignHeroAssets_CampaignExpress$key } from "components/pages/campaign/campaign-v1/__generated__/CampaignHeroAssets_CampaignExpress.graphql";
 import { useFragment } from "react-relay";
-import { Maybe } from "formfn-shared/dist/types/UtilityTypes";
+import { Maybe } from "bullistic-shared/dist/types/UtilityTypes";
 import CampaignHeroAssetsGeneric from "components/pages/campaign/campaign-generic/hero/CampaignHeroAssets";
 
 const campaignFragment = graphql`

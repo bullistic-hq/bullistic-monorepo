@@ -41,7 +41,7 @@ model User {
   CampaignToCollaborator                             CampaignToCollaborator[]
   CampaignToHolder                                   CampaignToHolder[]
   CampaignToTeamMember                               CampaignToTeamMember[]
-  CandyMachine_CandyMachine_formfnAuthorityIdToUser  CandyMachine[]                    @relation("CandyMachine_formfnAuthorityIdToUser")
+  CandyMachine_CandyMachine_bullisticAuthorityIdToUser  CandyMachine[]                    @relation("CandyMachine_bullisticAuthorityIdToUser")
   CandyMachine_CandyMachine_creatorAuthorityIdToUser CandyMachine[]                    @relation("CandyMachine_creatorAuthorityIdToUser")
   CandyMachineMerkleAllowlistInfo                    CandyMachineMerkleAllowlistInfo[]
   Claim                                              Claim[]
@@ -761,7 +761,7 @@ model CurrencyName {
 
 model CandyMachine {
   id                              String                            @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
-  formfnAuthorityId               String
+  bullisticAuthorityId            String
   currencyId                      String                            @db.Uuid
   seriesId                        String                            @unique
   price                           BigInt
@@ -783,7 +783,7 @@ model CandyMachine {
   totalAmountMinted               Int                               @default(0)
   allowlistTokenMint              String?
   PremintPreviewAssets            Asset[]                           @relation("Asset_premintPreviewAssetCandyMachineIdToCandyMachine")
-  FormfnAuthority                 User                              @relation("CandyMachine_formfnAuthorityIdToUser", fields: [formfnAuthorityId], references: [id], onDelete: NoAction, onUpdate: Restrict, map: "CandyMachine_candyMachineAuthorityId_fkey")
+  BullisticAuthority              User                              @relation("CandyMachine_bullisticAuthorityIdToUser", fields: [bullisticAuthorityId], references: [id], onDelete: NoAction, onUpdate: Restrict, map: "CandyMachine_candyMachineAuthorityId_fkey")
   CreatorAuthority                User                              @relation("CandyMachine_creatorAuthorityIdToUser", fields: [creatorAuthorityId], references: [id], onDelete: NoAction, onUpdate: Restrict)
   Currency                        Currency                          @relation(fields: [currencyId], references: [id], onDelete: NoAction, onUpdate: Restrict)
   MintPreviewAsset                Asset?                            @relation("AssetToCandyMachine_mintPreviewAssetId", fields: [mintPreviewAssetId], references: [id], onDelete: NoAction, onUpdate: Restrict)
